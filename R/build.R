@@ -17,5 +17,8 @@ unlink("docs", recursive = TRUE, force = TRUE)
 # Fetch all images used in the site from the Google Drive folder and resize them to web resolution in static/img
 run_js("js/fetch-images-oauth.js")
 
+# Fetch taxonomic information from GBIF and write to tabular_data/GBIF-taxa.csv
+run_js("js/fetch-gbif.js")
+
 # Generate md pages for each taxon and Hugo partials
 run_js("js/generate-pages.js")
