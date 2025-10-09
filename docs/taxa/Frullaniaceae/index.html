@@ -31,7 +31,7 @@
 
 
 
-  <link href="../../css/custom.min.f80e02f578ca8d8c59a7663f3d2850d6c09d52ce60ba4c285866705fcba0d36a.css" rel="stylesheet" integrity="sha256-&#43;A4C9XjKjYxZp2Y/PShQ1sCdUs5gukwoWGZwX8ug02o=" />
+  <link href="../../css/custom.min.002049eacde564b44289514c0ac54378863b8616cd0fc8574b5ec6f902aea701.css" rel="stylesheet" integrity="sha256-ACBJ6s3lZLRCiVFMCsVDeIY7hhbND8hXS17G&#43;QKupwE=" />
 
 
   <script>
@@ -1014,8 +1014,15 @@
       <footer class="hextra-footer hx-bg-gray-100 hx-pb-[env(safe-area-inset-bottom)] dark:hx-bg-neutral-900 print:hx-bg-transparent"><div
       class="hextra-custom-footer hx-max-w-screen-xl hx-pl-[max(env(safe-area-inset-left),1.5rem)] hx-pr-[max(env(safe-area-inset-right),1.5rem)] hx-text-gray-600 dark:hx-text-gray-400"
     ></div><div class="imerss-copyright">
-        © 2025 <a href="https://imerss.org">IMERSS</a> — Page built at 2025-09-17 09:27:49
+        © 2025 <a href="https://imerss.org">IMERSS</a> — Page built at <span class="imerss-page-build">2006-01-02 15:04:05</span>
       </div></footer>
+<script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const siteRoot = document.getElementById("site-root-marker").getAttribute("href");
+    const data = await fetch(siteRoot + "info.json").then(res => res.json());
+    document.querySelector(".imerss-page-build").textContent = data.generated_at;
+  });
+</script>
     
     <script defer src="../../js/main.min.d1048f02f76d9018acd295a4df4c057510adf57b63a51446829eb33941ddbed6.js" integrity="sha256-0QSPAvdtkBis0pWk30wFdRCt9XtjpRRGgp6zOUHdvtY="></script>
 

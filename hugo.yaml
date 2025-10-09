@@ -22,6 +22,13 @@ outputs:
   page: [HTML]
   section: [HTML, RSS]
 
+outputFormats:
+  JSON:
+    mediaType: "application/json"
+    baseName: "info"
+    isPlainText: true
+    notAlternative: true
+
 defaultContentLanguage: en
 languages:
   en:

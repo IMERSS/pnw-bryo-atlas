@@ -30,7 +30,6 @@ taxa for which the content is relatively complete:
 This site is built with a radical and innovative design where the information content is sourced from a Google
 Sheets spreadsheet, with high resolution source images in Google Drive. This allows subject matter experts to take control
 over their content without gatekeeping by technologists and content management platforms. The site build can be run
-from within R studio using the [blogdown](https://bookdown.org/yihui/blogdown/) package, a wrapper for the [hugo](https://gohugo.io/) site generator. The source
-spreadsheet can be seen at [BC_Bryo_Database](https://docs.google.com/spreadsheets/d/1MG7C7GX1Tl2RO_vHuMwUo8quhzYZd_mElWRnPuNbpj8/edit?gid=0#gid=0)
-— if you have content to contribute, or would like to make corrections, please contact one of the project maintainers,
+from within R studio using the [blogdown](https://bookdown.org/yihui/blogdown/) package, a wrapper for the [hugo](https://gohugo.io/) site generator.
+If you have content to contribute, or would like to make corrections, please contact one of the project maintainers,
 Andrew Simon or Randal Mindell, for access.

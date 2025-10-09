@@ -33,10 +33,17 @@
     </div>
     {{- if $copyrightSectionVisible -}}
       <div class="imerss-copyright">
-        © {{ now | dateFormat "2006"}} <a href="https://imerss.org">IMERSS</a> — Page built at {{ now | dateFormat "2006-01-02 15:04:05" }}
+        © {{ now | dateFormat "2006"}} <a href="https://imerss.org">IMERSS</a> — Page built at <span class="imerss-page-build">2006-01-02 15:04:05</span>
       </div>
     {{- end -}}
 </footer>
+<script>
+  document.addEventListener("DOMContentLoaded", async () => {
+    const siteRoot = document.getElementById("site-root-marker").getAttribute("href");
+    const data = await fetch(siteRoot + "info.json").then(res => res.json());
+    document.querySelector(".imerss-page-build").textContent = data.generated_at;
+  });
+</script>
 
 {{- define "theme-credit" -}}
   <a class="hx-flex hx-text-sm hx-items-center hx-gap-1 hx-text-current" target="_blank" rel="noopener noreferrer" title="Hextra GitHub Homepage" href="https://github.com/imfing/hextra">
