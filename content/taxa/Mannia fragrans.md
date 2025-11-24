@@ -64,8 +64,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_fragrans&#x2F;macro_pics&#x2F;Mannia_fragrans_BMS_01.jpg)"
-       title="Brian Starzomski">
+       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_fragrans&#x2F;macro_pics&#x2F;Mannia_fragrans_BMS_01.jpg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -86,8 +85,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_fragrans&#x2F;macro_pics&#x2F;Mannia_fragrans_BJ_02.jpg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_fragrans&#x2F;macro_pics&#x2F;Mannia_fragrans_BJ_02.jpg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -108,8 +106,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_fragrans&#x2F;macro_pics&#x2F;Mannia_fragrans_BJ_03.jpg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_fragrans&#x2F;macro_pics&#x2F;Mannia_fragrans_BJ_03.jpg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -127,6 +124,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -189,4 +188,6 @@ categories:
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

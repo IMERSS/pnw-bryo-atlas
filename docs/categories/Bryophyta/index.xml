@@ -105,6 +105,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -205,6 +207,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -268,8 +272,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Aulacomniaceae&amp;#x2F;Aulacomnium_androgynum&amp;#x2F;macro_pics&amp;#x2F;AULAAND_bradenjudson_iNat_01_CC0.jpeg)&#34;
-       title=&#34;Braden Judson&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Aulacomniaceae&amp;#x2F;Aulacomnium_androgynum&amp;#x2F;macro_pics&amp;#x2F;AULAAND_bradenjudson_iNat_01_CC0.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Braden Judson&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -289,8 +292,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Aulacomniaceae&amp;#x2F;Aulacomnium_androgynum&amp;#x2F;macro_pics&amp;#x2F;AULAAND_BS_iNat_01.jpeg)&#34;
-       title=&#34;Brian Starzomski&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Aulacomniaceae&amp;#x2F;Aulacomnium_androgynum&amp;#x2F;macro_pics&amp;#x2F;AULAAND_BS_iNat_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Brian Starzomski&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -310,8 +312,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Aulacomniaceae&amp;#x2F;Aulacomnium_androgynum&amp;#x2F;macro_pics&amp;#x2F;Aulacomnium_androgynum_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Aulacomniaceae&amp;#x2F;Aulacomnium_androgynum&amp;#x2F;macro_pics&amp;#x2F;Aulacomnium_androgynum_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -369,6 +370,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -469,6 +472,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -532,8 +537,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramia_pomiformis&amp;#x2F;macro_pics&amp;#x2F;BARTPOM_eullstrom_iNat_01_CC0.jpeg)&#34;
-       title=&#34;Eva Ullstrom&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramia_pomiformis&amp;#x2F;macro_pics&amp;#x2F;BARTPOM_eullstrom_iNat_01_CC0.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Eva Ullstrom&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -553,8 +557,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramia_pomiformis&amp;#x2F;macro_pics&amp;#x2F;Bartramia_pomiformis_RM_01.jpeg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramia_pomiformis&amp;#x2F;macro_pics&amp;#x2F;Bartramia_pomiformis_RM_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -574,8 +577,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramia_pomiformis&amp;#x2F;macro_pics&amp;#x2F;Bartramia_pomiformis_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramia_pomiformis&amp;#x2F;macro_pics&amp;#x2F;Bartramia_pomiformis_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -633,6 +635,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -729,6 +733,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -829,6 +835,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -892,8 +900,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramiopsis_lescurii&amp;#x2F;macro_pics&amp;#x2F;Bartramiopsis_lescurii_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramiopsis_lescurii&amp;#x2F;macro_pics&amp;#x2F;Bartramiopsis_lescurii_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -913,8 +920,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramiopsis_lescurii&amp;#x2F;macro_pics&amp;#x2F;Bartramiopsis_lescurii_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramiopsis_lescurii&amp;#x2F;macro_pics&amp;#x2F;Bartramiopsis_lescurii_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -934,8 +940,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramiopsis_lescurii&amp;#x2F;macro_pics&amp;#x2F;Bartramiopsis_lescurii_BJ_01.jpg)&#34;
-       title=&#34;Braden Judson&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bartramiaceae&amp;#x2F;Bartramiopsis_lescurii&amp;#x2F;macro_pics&amp;#x2F;Bartramiopsis_lescurii_BJ_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Braden Judson&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -993,6 +998,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1091,6 +1098,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1187,6 +1196,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1287,6 +1298,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1350,8 +1363,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bryaceae&amp;#x2F;Bryum_argenteum&amp;#x2F;macro_pics&amp;#x2F;Bryum_argenteum_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bryaceae&amp;#x2F;Bryum_argenteum&amp;#x2F;macro_pics&amp;#x2F;Bryum_argenteum_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -1371,8 +1383,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bryaceae&amp;#x2F;Bryum_argenteum&amp;#x2F;macro_pics&amp;#x2F;Bryum_argenteum_BS_01.jpeg)&#34;
-       title=&#34;Brian Starzomski&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bryaceae&amp;#x2F;Bryum_argenteum&amp;#x2F;macro_pics&amp;#x2F;Bryum_argenteum_BS_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Brian Starzomski&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -1392,8 +1403,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bryaceae&amp;#x2F;Bryum_argenteum&amp;#x2F;macro_pics&amp;#x2F;Bryum_argenteum_RM_01.jpeg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Bryaceae&amp;#x2F;Bryum_argenteum&amp;#x2F;macro_pics&amp;#x2F;Bryum_argenteum_RM_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -1451,6 +1461,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1551,6 +1563,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1614,8 +1628,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Plagiotheciaceae&amp;#x2F;Buckiella_undulata&amp;#x2F;macro_pics&amp;#x2F;Buckiella_undulata_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Plagiotheciaceae&amp;#x2F;Buckiella_undulata&amp;#x2F;macro_pics&amp;#x2F;Buckiella_undulata_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -1635,8 +1648,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Plagiotheciaceae&amp;#x2F;Buckiella_undulata&amp;#x2F;macro_pics&amp;#x2F;Buckiella_undulata_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Plagiotheciaceae&amp;#x2F;Buckiella_undulata&amp;#x2F;macro_pics&amp;#x2F;Buckiella_undulata_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -1656,8 +1668,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Plagiotheciaceae&amp;#x2F;Buckiella_undulata&amp;#x2F;macro_pics&amp;#x2F;Buckiella_undulata_JR_03.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Plagiotheciaceae&amp;#x2F;Buckiella_undulata&amp;#x2F;macro_pics&amp;#x2F;Buckiella_undulata_JR_03.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -1715,6 +1726,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1816,6 +1829,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1877,32 +1892,11 @@
   &lt;a href=&#34;#relevant-literature&#34;&gt;Relevant Literature&lt;/a&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;image-gallery&#34;&gt;Image Gallery
-&lt;div class=&#34;tab-microscope&#34;&gt;
-    &lt;img alt=&#34;plate&#34;
-         data-micromodal-trigger=&#34;modal-plate-plate&#34;
-         src=&#34;../../images/bryo guide microscope.png&#34;/&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-plate&#34; aria-hidden=&#34;true&#34;&gt;
-    &lt;div class=&#34;modal__overlay&#34; tabindex=&#34;-1&#34; data-micromodal-close&gt;
-        &lt;div class=&#34;modal__container&#34; role=&#34;dialog&#34; aria-modal=&#34;true&#34; aria-labelledby=&#34;modal-plate-title-plate&#34;&gt;
-            &lt;header class=&#34;modal__header&#34;&gt;
-                &lt;div class=&#34;modal__title&#34; id=&#34;modal-plate-title-plate&#34;&gt;
-                    Claopodium bolanderi plate
-                &lt;/div&gt;
-                &lt;button class=&#34;modal__close&#34; aria-label=&#34;Close&#34; data-micromodal-close&gt;&lt;/button&gt;
-            &lt;/header&gt;
-            &lt;div class=&#34;modal__content&#34; id=&#34;modal-plate-content-plate&#34;&gt;
-                &lt;img src=&#34;https:&amp;#x2F;&amp;#x2F;lh3.googleusercontent.com&amp;#x2F;d&amp;#x2F;1be0rMJPWN7tnviF9CJBCe7elRbuXA1JV&#34; title=&#34;Andrew Simon&#34; referrerpolicy=&#34;no-referrer&#34;/&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
 &lt;/h2&gt;
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_bolanderi&amp;#x2F;macro_pics&amp;#x2F;CLAOBOL_AS_iNat_01.jpg)&#34;
-       title=&#34;Andrew Simon&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_bolanderi&amp;#x2F;macro_pics&amp;#x2F;CLAOBOL_AS_iNat_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Andrew Simon&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -1922,8 +1916,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_bolanderi&amp;#x2F;macro_pics&amp;#x2F;CLAOBOL_RM_iNat_01.jpg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_bolanderi&amp;#x2F;macro_pics&amp;#x2F;CLAOBOL_RM_iNat_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -1943,8 +1936,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_bolanderi&amp;#x2F;macro_pics&amp;#x2F;CLAOBOL_RM_iNat_02.jpg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_bolanderi&amp;#x2F;macro_pics&amp;#x2F;CLAOBOL_RM_iNat_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2006,6 +1998,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -2067,32 +2061,11 @@
   &lt;a href=&#34;#relevant-literature&#34;&gt;Relevant Literature&lt;/a&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;image-gallery&#34;&gt;Image Gallery
-&lt;div class=&#34;tab-microscope&#34;&gt;
-    &lt;img alt=&#34;plate&#34;
-         data-micromodal-trigger=&#34;modal-plate-plate&#34;
-         src=&#34;../../images/bryo guide microscope.png&#34;/&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-plate&#34; aria-hidden=&#34;true&#34;&gt;
-    &lt;div class=&#34;modal__overlay&#34; tabindex=&#34;-1&#34; data-micromodal-close&gt;
-        &lt;div class=&#34;modal__container&#34; role=&#34;dialog&#34; aria-modal=&#34;true&#34; aria-labelledby=&#34;modal-plate-title-plate&#34;&gt;
-            &lt;header class=&#34;modal__header&#34;&gt;
-                &lt;div class=&#34;modal__title&#34; id=&#34;modal-plate-title-plate&#34;&gt;
-                    Claopodium crispifolium plate
-                &lt;/div&gt;
-                &lt;button class=&#34;modal__close&#34; aria-label=&#34;Close&#34; data-micromodal-close&gt;&lt;/button&gt;
-            &lt;/header&gt;
-            &lt;div class=&#34;modal__content&#34; id=&#34;modal-plate-content-plate&#34;&gt;
-                &lt;img src=&#34;https:&amp;#x2F;&amp;#x2F;lh3.googleusercontent.com&amp;#x2F;d&amp;#x2F;1BotFzPX1GEmAqMCgE0n1afaLdUPAXtm2&#34; title=&#34;Andrew Simon&#34; referrerpolicy=&#34;no-referrer&#34;/&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
 &lt;/h2&gt;
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_crispifolium&amp;#x2F;macro_pics&amp;#x2F;CLAOCRI_DT_iNat_01.jpg)&#34;
-       title=&#34;Daniel Tucker&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_crispifolium&amp;#x2F;macro_pics&amp;#x2F;CLAOCRI_DT_iNat_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Daniel Tucker&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2112,8 +2085,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_crispifolium&amp;#x2F;macro_pics&amp;#x2F;CLAOCRI_AS_iNat_01.jpg)&#34;
-       title=&#34;Andrew Simon&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_crispifolium&amp;#x2F;macro_pics&amp;#x2F;CLAOCRI_AS_iNat_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Andrew Simon&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2133,8 +2105,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_crispifolium&amp;#x2F;macro_pics&amp;#x2F;CLAOCRI_JDR_iNat_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Leskiaceae&amp;#x2F;Claopodium_crispifolium&amp;#x2F;macro_pics&amp;#x2F;CLAOCRI_JDR_iNat_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2196,6 +2167,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -2296,6 +2269,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -2357,32 +2332,11 @@
   &lt;a href=&#34;#relevant-literature&#34;&gt;Relevant Literature&lt;/a&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;image-gallery&#34;&gt;Image Gallery
-&lt;div class=&#34;tab-microscope&#34;&gt;
-    &lt;img alt=&#34;plate&#34;
-         data-micromodal-trigger=&#34;modal-plate-plate&#34;
-         src=&#34;../../images/bryo guide microscope.png&#34;/&gt;
-  &lt;/div&gt;
-&lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-plate&#34; aria-hidden=&#34;true&#34;&gt;
-    &lt;div class=&#34;modal__overlay&#34; tabindex=&#34;-1&#34; data-micromodal-close&gt;
-        &lt;div class=&#34;modal__container&#34; role=&#34;dialog&#34; aria-modal=&#34;true&#34; aria-labelledby=&#34;modal-plate-title-plate&#34;&gt;
-            &lt;header class=&#34;modal__header&#34;&gt;
-                &lt;div class=&#34;modal__title&#34; id=&#34;modal-plate-title-plate&#34;&gt;
-                    Crumia latifolia plate
-                &lt;/div&gt;
-                &lt;button class=&#34;modal__close&#34; aria-label=&#34;Close&#34; data-micromodal-close&gt;&lt;/button&gt;
-            &lt;/header&gt;
-            &lt;div class=&#34;modal__content&#34; id=&#34;modal-plate-content-plate&#34;&gt;
-                &lt;img src=&#34;https:&amp;#x2F;&amp;#x2F;lh3.googleusercontent.com&amp;#x2F;d&amp;#x2F;1RFPpTIkbFBX0PaEehVwVDayb5EenOSuq&#34; title=&#34;Andrew Simon&#34; referrerpolicy=&#34;no-referrer&#34;/&gt;
-            &lt;/div&gt;
-        &lt;/div&gt;
-    &lt;/div&gt;
-&lt;/div&gt;
 &lt;/h2&gt;
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Pottiaceae&amp;#x2F;Crumia_latifolia&amp;#x2F;macro_pics&amp;#x2F;CRUMLAT_RM_iNat_01.jpg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Pottiaceae&amp;#x2F;Crumia_latifolia&amp;#x2F;macro_pics&amp;#x2F;CRUMLAT_RM_iNat_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2402,8 +2356,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Pottiaceae&amp;#x2F;Crumia_latifolia&amp;#x2F;macro_pics&amp;#x2F;CRUMLAT_RM_iNat_02.jpg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Pottiaceae&amp;#x2F;Crumia_latifolia&amp;#x2F;macro_pics&amp;#x2F;CRUMLAT_RM_iNat_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2423,8 +2376,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Pottiaceae&amp;#x2F;Crumia_latifolia&amp;#x2F;macro_pics&amp;#x2F;CRUMLAT_DT_iNat_01.jpg)&#34;
-       title=&#34;Daniel Tucker&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Pottiaceae&amp;#x2F;Crumia_latifolia&amp;#x2F;macro_pics&amp;#x2F;CRUMLAT_DT_iNat_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Daniel Tucker&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2486,6 +2438,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -2582,6 +2536,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -2682,6 +2638,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -2745,8 +2703,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Cryphaeaceae&amp;#x2F;Dendroalsia_abietina&amp;#x2F;macro_pics&amp;#x2F;Dendroalsia_albietina_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Cryphaeaceae&amp;#x2F;Dendroalsia_abietina&amp;#x2F;macro_pics&amp;#x2F;Dendroalsia_albietina_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2766,8 +2723,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Cryphaeaceae&amp;#x2F;Dendroalsia_abietina&amp;#x2F;macro_pics&amp;#x2F;Dendroalsia_abietina_RM_01.jpeg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Cryphaeaceae&amp;#x2F;Dendroalsia_abietina&amp;#x2F;macro_pics&amp;#x2F;Dendroalsia_abietina_RM_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2787,8 +2743,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Cryphaeaceae&amp;#x2F;Dendroalsia_abietina&amp;#x2F;macro_pics&amp;#x2F;Dendroalsia_abietina_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Cryphaeaceae&amp;#x2F;Dendroalsia_abietina&amp;#x2F;macro_pics&amp;#x2F;Dendroalsia_abietina_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -2846,6 +2801,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -2942,6 +2899,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -3042,6 +3001,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -3107,8 +3068,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Dicranaceae&amp;#x2F;Dicranum_tauricum&amp;#x2F;macro_photos&amp;#x2F;Dicranum_tauricuam_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Dicranaceae&amp;#x2F;Dicranum_tauricum&amp;#x2F;macro_photos&amp;#x2F;Dicranum_tauricuam_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3128,8 +3088,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Dicranaceae&amp;#x2F;Dicranum_tauricum&amp;#x2F;macro_photos&amp;#x2F;Dicranum_tauricum_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Dicranaceae&amp;#x2F;Dicranum_tauricum&amp;#x2F;macro_photos&amp;#x2F;Dicranum_tauricum_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3149,8 +3108,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Dicranaceae&amp;#x2F;Dicranum_tauricum&amp;#x2F;macro_photos&amp;#x2F;Dicranum_tauricum_SB_01.jpeg)&#34;
-       title=&#34;Shane Johnson&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Dicranaceae&amp;#x2F;Dicranum_tauricum&amp;#x2F;macro_photos&amp;#x2F;Dicranum_tauricum_SB_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Shane Johnson&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3211,6 +3169,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -3307,6 +3267,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -3407,6 +3369,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -3470,8 +3434,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Homalia_trichomanoides&amp;#x2F;macro_pics&amp;#x2F;Homalia_trichomanoides_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Homalia_trichomanoides&amp;#x2F;macro_pics&amp;#x2F;Homalia_trichomanoides_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3491,8 +3454,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Homalia_trichomanoides&amp;#x2F;macro_pics&amp;#x2F;Homalia_trichomanoides_JR_03.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Homalia_trichomanoides&amp;#x2F;macro_pics&amp;#x2F;Homalia_trichomanoides_JR_03.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3512,8 +3474,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Homalia_trichomanoides&amp;#x2F;macro_pics&amp;#x2F;Homalia_trochomanoides_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Homalia_trichomanoides&amp;#x2F;macro_pics&amp;#x2F;Homalia_trochomanoides_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3571,6 +3532,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -3668,6 +3631,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -3768,6 +3733,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -3833,8 +3800,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Hylocomiaceae&amp;#x2F;Hylocomium_splendens&amp;#x2F;macro_pics&amp;#x2F;Hylocomium_splendens_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Hylocomiaceae&amp;#x2F;Hylocomium_splendens&amp;#x2F;macro_pics&amp;#x2F;Hylocomium_splendens_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3854,8 +3820,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Hylocomiaceae&amp;#x2F;Hylocomium_splendens&amp;#x2F;macro_pics&amp;#x2F;Hylocomium_splendens_JR_02.jpeg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Hylocomiaceae&amp;#x2F;Hylocomium_splendens&amp;#x2F;macro_pics&amp;#x2F;Hylocomium_splendens_JR_02.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3875,8 +3840,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Hylocomiaceae&amp;#x2F;Hylocomium_splendens&amp;#x2F;macro_pics&amp;#x2F;Hylocomium_splendens_JR_03.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Hylocomiaceae&amp;#x2F;Hylocomium_splendens&amp;#x2F;macro_pics&amp;#x2F;Hylocomium_splendens_JR_03.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -3938,6 +3902,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -4038,6 +4004,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -4103,8 +4071,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Brachytheciaceae&amp;#x2F;Kindbergia_oregana&amp;#x2F;macro_pics&amp;#x2F;Kindbergia_oregana_JR_03.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Brachytheciaceae&amp;#x2F;Kindbergia_oregana&amp;#x2F;macro_pics&amp;#x2F;Kindbergia_oregana_JR_03.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4124,8 +4091,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Brachytheciaceae&amp;#x2F;Kindbergia_oregana&amp;#x2F;macro_pics&amp;#x2F;Kindbergia_oregana_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Brachytheciaceae&amp;#x2F;Kindbergia_oregana&amp;#x2F;macro_pics&amp;#x2F;Kindbergia_oregana_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4145,8 +4111,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Brachytheciaceae&amp;#x2F;Kindbergia_oregana&amp;#x2F;macro_pics&amp;#x2F;Kindbergia_oregana_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Brachytheciaceae&amp;#x2F;Kindbergia_oregana&amp;#x2F;macro_pics&amp;#x2F;Kindbergia_oregana_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4208,6 +4173,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -4305,6 +4272,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -4407,6 +4376,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -4470,8 +4441,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_douglasii&amp;#x2F;macro_pics&amp;#x2F;Neckera_douglasii_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_douglasii&amp;#x2F;macro_pics&amp;#x2F;Neckera_douglasii_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4491,8 +4461,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_douglasii&amp;#x2F;macro_pics&amp;#x2F;Neckera_douglasii_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_douglasii&amp;#x2F;macro_pics&amp;#x2F;Neckera_douglasii_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4512,8 +4481,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_douglasii&amp;#x2F;macro_pics&amp;#x2F;Neckera_douglasii_JR_03.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_douglasii&amp;#x2F;macro_pics&amp;#x2F;Neckera_douglasii_JR_03.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4571,6 +4539,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -4634,8 +4604,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_menziesii&amp;#x2F;macro_pics&amp;#x2F;Neckera_menziesii_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_menziesii&amp;#x2F;macro_pics&amp;#x2F;Neckera_menziesii_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4655,8 +4624,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_menziesii&amp;#x2F;macro_pics&amp;#x2F;Neckera_menziesii_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_menziesii&amp;#x2F;macro_pics&amp;#x2F;Neckera_menziesii_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4676,8 +4644,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_menziesii&amp;#x2F;macro_pics&amp;#x2F;Neckera_menziesii_RM_01.jpeg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_menziesii&amp;#x2F;macro_pics&amp;#x2F;Neckera_menziesii_RM_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4735,6 +4702,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -4798,8 +4767,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_pennata&amp;#x2F;Neckera_pennata_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_pennata&amp;#x2F;Neckera_pennata_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4819,8 +4787,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_pennata&amp;#x2F;Neckera_pennata_AS_01.jpeg)&#34;
-       title=&#34;Andrew Simon&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_pennata&amp;#x2F;Neckera_pennata_AS_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Andrew Simon&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4840,8 +4807,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_pennata&amp;#x2F;Neckera_pennata_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Neckeraceae&amp;#x2F;Neckera_pennata&amp;#x2F;Neckera_pennata_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -4899,6 +4865,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -4996,6 +4964,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5092,6 +5062,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5192,6 +5164,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5255,8 +5229,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Mniaceae&amp;#x2F;Plagiomnium_insigne&amp;#x2F;macro_pics&amp;#x2F;Plagiomnium_insigne_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Mniaceae&amp;#x2F;Plagiomnium_insigne&amp;#x2F;macro_pics&amp;#x2F;Plagiomnium_insigne_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -5276,8 +5249,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Mniaceae&amp;#x2F;Plagiomnium_insigne&amp;#x2F;macro_pics&amp;#x2F;Plagiomnium_insigne_RM_01.jpeg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Mniaceae&amp;#x2F;Plagiomnium_insigne&amp;#x2F;macro_pics&amp;#x2F;Plagiomnium_insigne_RM_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -5297,8 +5269,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Mniaceae&amp;#x2F;Plagiomnium_insigne&amp;#x2F;macro_pics&amp;#x2F;Plagiomnium_insigne_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Mniaceae&amp;#x2F;Plagiomnium_insigne&amp;#x2F;macro_pics&amp;#x2F;Plagiomnium_insigne_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -5356,6 +5327,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5453,6 +5426,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5551,6 +5526,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5651,6 +5628,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5714,8 +5693,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichastrum_alpinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichastrum_alpinum_JR_02.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichastrum_alpinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichastrum_alpinum_JR_02.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -5735,8 +5713,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichastrum_alpinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichastrum_alpinum_JR_03.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichastrum_alpinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichastrum_alpinum_JR_03.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -5756,8 +5733,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichastrum_alpinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichastrum_alpinum_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichastrum_alpinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichastrum_alpinum_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -5815,6 +5791,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5916,6 +5894,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -5979,8 +5959,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_juniperinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_juniperinum_RM_01.jpeg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_juniperinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_juniperinum_RM_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -6000,8 +5979,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_juniperinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_juniperinum_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_juniperinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_juniperinum_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -6021,8 +5999,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_juniperinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_juniperinum_RM_01.jpeg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_juniperinum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_juniperinum_RM_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -6080,6 +6057,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -6143,8 +6122,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_piliferum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_piliferum_JR_01.jpg)&#34;
-       title=&#34;John Reynolds&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_piliferum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_piliferum_JR_01.jpg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © John Reynolds&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -6164,8 +6142,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_piliferum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_piliferum_RM_01.jpeg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_piliferum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_piliferum_RM_01.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -6185,8 +6162,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_piliferum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_piliferum_RM_02.jpeg)&#34;
-       title=&#34;Randal Mindell&#34;&gt;
+       style=&#34;background-image: url(../../img/Mosses&amp;#x2F;Polytrichaceae&amp;#x2F;Polytrichum_piliferum&amp;#x2F;macro_pics&amp;#x2F;Polytrichum_piliferum_RM_02.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Randal Mindell&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -6244,6 +6220,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -6341,6 +6319,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>

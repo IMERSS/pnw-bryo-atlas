@@ -66,6 +66,8 @@ categories:
 
 
 
+
+
 </div>
 
 
@@ -127,4 +129,6 @@ Calcareous streams and slopes along drainage, occasionally bogs at low to modera
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

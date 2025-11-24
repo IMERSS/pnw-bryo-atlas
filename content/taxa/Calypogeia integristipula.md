@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Calypogeiaceae&#x2F;Calypogeia_integristipula&#x2F;macro_pics&#x2F;Calypogeia_integristipula_RM_01.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Calypogeiaceae&#x2F;Calypogeia_integristipula&#x2F;macro_pics&#x2F;Calypogeia_integristipula_RM_01.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Calypogeiaceae&#x2F;Calypogeia_integristipula&#x2F;macro_pics&#x2F;Calypogeia_integristipula_JF_02.jpg)"
-       title="Jamie Fenneman">
+       style="background-image: url(../../img/Liverworts&#x2F;Calypogeiaceae&#x2F;Calypogeia_integristipula&#x2F;macro_pics&#x2F;Calypogeia_integristipula_JF_02.jpg)">
     <div class="imerss-image-copy"> © Jamie Fenneman</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Calypogeiaceae&#x2F;Calypogeia_integristipula&#x2F;macro_pics&#x2F;Calypogeia_integristipula_RM_03.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Calypogeiaceae&#x2F;Calypogeia_integristipula&#x2F;macro_pics&#x2F;Calypogeia_integristipula_RM_03.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

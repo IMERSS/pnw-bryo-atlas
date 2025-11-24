@@ -1,7 +1,7 @@
 ---
 title: Fossombronia foveolata
 url: /taxa/Fossombronia foveolata
-image: "../img/XXXXX"
+image: "../img/Liverworts&#x2F;Fossombroniaceae&#x2F;Fossombronia_foveolata&#x2F;macro_pics&#x2F;Fossombronia_foveolata_BradenJ-01.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,6 +63,68 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Fossombroniaceae&#x2F;Fossombronia_foveolata&#x2F;macro_pics&#x2F;Fossombronia_foveolata_BradenJ-01.jpg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Fossombronia foveolata photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;14KxV58PpJqA-0vcyd-8RwHmneqPhMzgZ" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Fossombroniaceae&#x2F;Fossombronia_foveolata&#x2F;macro_pics&#x2F;Fossombronia_foveolata_BradenJ-02.jpg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Fossombronia foveolata photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1TXbx3RsrGDdgmIzUbvO2c9f1sqW3jvlq" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Fossombroniaceae&#x2F;Fossombronia_foveolata&#x2F;macro_pics&#x2F;Fossombronia_foveolata_BradenJ-03.jpg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Fossombronia foveolata photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1pOWSIQnv-IQm-iONruNFY5DJg7Jmsx4s" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 
@@ -127,4 +189,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

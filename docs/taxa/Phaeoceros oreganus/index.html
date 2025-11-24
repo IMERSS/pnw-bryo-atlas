@@ -1018,6 +1018,8 @@ Similar species Lacking the bulbils of Phymatoceros bulbiculosus and possessing 
 </div>
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>
 
         <div class="hx-mt-16"></div>

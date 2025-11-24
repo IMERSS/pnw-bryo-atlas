@@ -1,7 +1,7 @@
 ---
 title: Calypogeia neesiana
 url: /taxa/Calypogeia neesiana
-image: "../img/XXXXXX"
+image: "../img/Liverworts&#x2F;Calypogeiaceae&#x2F;Calypogeia_neesiana&#x2F;macro_pics&#x2F;Calypogeia_neesiana_GWARK_01.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,6 +63,28 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Calypogeiaceae&#x2F;Calypogeia_neesiana&#x2F;macro_pics&#x2F;Calypogeia_neesiana_GWARK_01.jpg)">
+    <div class="imerss-image-copy"> © Matt Goff</div>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Calypogeia neesiana photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1G4g8SfoBtUHsqyCNf2-xcuQOreuIjOuc" title="Matt Goff" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
 
 
 
@@ -127,4 +149,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

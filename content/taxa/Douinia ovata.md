@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Douinia_ovata&#x2F;macro_pics&#x2F;Doinia_ovata_CW_01.jpeg)"
-       title="Connor Wardrop">
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Douinia_ovata&#x2F;macro_pics&#x2F;Doinia_ovata_CW_01.jpeg)">
     <div class="imerss-image-copy"> © Connor Wardrop</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Douinia_ovata&#x2F;macro_pics&#x2F;Douinia_ovata_RM_01.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Douinia_ovata&#x2F;macro_pics&#x2F;Douinia_ovata_RM_01.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Douinia_ovata&#x2F;macro_pics&#x2F;Douinia_ovata_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Douinia_ovata&#x2F;macro_pics&#x2F;Douinia_ovata_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -129,12 +126,14 @@ categories:
       </div>
   </div>
 
+
+
 </div>
 
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-An occasional species that becomes increasingly prominent in moist microhabitats, this dull green liverwort with elongate leaves made up of unequal lobes forms scrambling stems over tree trunks and in rock crevices. Readily standing out on account of its matte texture, the pointed lobe tips and long triangular form of said lobes makes it unique among other unequally-lobed liverworts. 
+An occasional species that becomes increasingly prominent in moist microhabitats, this dull green liverwort with elongate leaves made up of unequal lobes forms scrambling stems over tree trunks and in rock crevices. It stands out on account of its matte texture, with the pointed lobe tips and long triangular form of said lobes making it unique among other unequally-lobed liverworts. 
 
 <h2 id="similar-species">Similar species</h2>
 
@@ -190,4 +189,6 @@ Tree trunks (both deciduous and coniferous), humus, rock outcrops, boulders, cli
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

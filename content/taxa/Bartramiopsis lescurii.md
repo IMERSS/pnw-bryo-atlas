@@ -63,8 +63,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramiopsis_lescurii&#x2F;macro_pics&#x2F;Bartramiopsis_lescurii_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramiopsis_lescurii&#x2F;macro_pics&#x2F;Bartramiopsis_lescurii_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -85,8 +84,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramiopsis_lescurii&#x2F;macro_pics&#x2F;Bartramiopsis_lescurii_JR_02.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramiopsis_lescurii&#x2F;macro_pics&#x2F;Bartramiopsis_lescurii_JR_02.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -107,8 +105,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramiopsis_lescurii&#x2F;macro_pics&#x2F;Bartramiopsis_lescurii_BJ_01.jpg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramiopsis_lescurii&#x2F;macro_pics&#x2F;Bartramiopsis_lescurii_BJ_01.jpg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -126,6 +123,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -188,4 +187,6 @@ categories:
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

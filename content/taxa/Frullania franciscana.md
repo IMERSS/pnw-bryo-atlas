@@ -66,6 +66,8 @@ categories:
 
 
 
+
+
 </div>
 
 
@@ -127,4 +129,6 @@ Tree trunks (esp. alder, spruce), branches, rock outcrops, and cliffs along the 
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

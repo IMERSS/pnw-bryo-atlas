@@ -972,8 +972,7 @@
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Anastrophyllaceae&#x2F;Anthelia_juratzkana&#x2F;macro_pics&#x2F;Anthelia_juratzkana_RM_01.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Anastrophyllaceae&#x2F;Anthelia_juratzkana&#x2F;macro_pics&#x2F;Anthelia_juratzkana_RM_01.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -993,8 +992,7 @@
   </div>
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Anastrophyllaceae&#x2F;Anthelia_juratzkana&#x2F;macro_pics&#x2F;Anthelia_juratzkana_RM_02.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Anastrophyllaceae&#x2F;Anthelia_juratzkana&#x2F;macro_pics&#x2F;Anthelia_juratzkana_RM_02.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -1014,8 +1012,7 @@
   </div>
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Anastrophyllaceae&#x2F;Anthelia_juratzkana&#x2F;macro_pics&#x2F;Anthelia_juratzkana_RM_03.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Anastrophyllaceae&#x2F;Anthelia_juratzkana&#x2F;macro_pics&#x2F;Anthelia_juratzkana_RM_03.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -1077,6 +1074,8 @@
 </div>
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>
 
         <div class="hx-mt-16"></div>

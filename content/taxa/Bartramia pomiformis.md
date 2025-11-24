@@ -63,8 +63,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramia_pomiformis&#x2F;macro_pics&#x2F;BARTPOM_eullstrom_iNat_01_CC0.jpeg)"
-       title="Eva Ullstrom">
+       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramia_pomiformis&#x2F;macro_pics&#x2F;BARTPOM_eullstrom_iNat_01_CC0.jpeg)">
     <div class="imerss-image-copy"> © Eva Ullstrom</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -85,8 +84,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramia_pomiformis&#x2F;macro_pics&#x2F;Bartramia_pomiformis_RM_01.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramia_pomiformis&#x2F;macro_pics&#x2F;Bartramia_pomiformis_RM_01.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -107,8 +105,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramia_pomiformis&#x2F;macro_pics&#x2F;Bartramia_pomiformis_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Mosses&#x2F;Bartramiaceae&#x2F;Bartramia_pomiformis&#x2F;macro_pics&#x2F;Bartramia_pomiformis_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -126,6 +123,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -188,4 +187,6 @@ categories:
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

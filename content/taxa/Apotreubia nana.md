@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Treubiaceae&#x2F;Apotreubia_nana&#x2F;macro_pics&#x2F;Apotreubia-DBLT.jpeg)"
-       title="Daniel Tucker">
+       style="background-image: url(../../img/Liverworts&#x2F;Treubiaceae&#x2F;Apotreubia_nana&#x2F;macro_pics&#x2F;Apotreubia-DBLT.jpeg)">
     <div class="imerss-image-copy"> © Daniel Tucker</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Treubiaceae&#x2F;Apotreubia_nana&#x2F;macro_pics&#x2F;Apotreubia-BJ.jpg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Liverworts&#x2F;Treubiaceae&#x2F;Apotreubia_nana&#x2F;macro_pics&#x2F;Apotreubia-BJ.jpg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Treubiaceae&#x2F;Apotreubia_nana&#x2F;macro_pics&#x2F;Apotreubia-BMS.jpeg)"
-       title="Brian Starzomski">
+       style="background-image: url(../../img/Liverworts&#x2F;Treubiaceae&#x2F;Apotreubia_nana&#x2F;macro_pics&#x2F;Apotreubia-BMS.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ Sphagnum sp., <a href="/taxa/Scapania uliginosa">Scapania uliginosa</a>, Mastigo
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

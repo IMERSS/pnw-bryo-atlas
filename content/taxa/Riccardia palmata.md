@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Aneuraceae&#x2F;Riccardia_palmata&#x2F;Riccardia_multifida_FM_01.jpeg)"
-       title="Finn McGhee">
+       style="background-image: url(../../img/Liverworts&#x2F;Aneuraceae&#x2F;Riccardia_palmata&#x2F;Riccardia_multifida_FM_01.jpeg)">
     <div class="imerss-image-copy"> © Finn McGhee</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Aneuraceae&#x2F;Riccardia_palmata&#x2F;Riccardia_palmata_RM_01.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Aneuraceae&#x2F;Riccardia_palmata&#x2F;Riccardia_palmata_RM_01.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Aneuraceae&#x2F;Riccardia_palmata&#x2F;Riccardia_palmata_RM_02.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Aneuraceae&#x2F;Riccardia_palmata&#x2F;Riccardia_palmata_RM_02.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ Moist to wet, shady decayed wood along streambanks, or occasionally peatlands, r
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

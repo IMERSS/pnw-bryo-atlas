@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_semidecurrens&#x2F;macro_pics&#x2F;Plagiochila_semidecurrens_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_semidecurrens&#x2F;macro_pics&#x2F;Plagiochila_semidecurrens_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_semidecurrens&#x2F;macro_pics&#x2F;Plagiochila_semidecurrens_DT_01.jpg)"
-       title="Daniel Tucker">
+       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_semidecurrens&#x2F;macro_pics&#x2F;Plagiochila_semidecurrens_DT_01.jpg)">
     <div class="imerss-image-copy"> © Daniel Tucker</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_semidecurrens&#x2F;macro_pics&#x2F;Plagiochila_semidecurrens_CW_01.jpeg)"
-       title="Connor Wardrop">
+       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_semidecurrens&#x2F;macro_pics&#x2F;Plagiochila_semidecurrens_CW_01.jpeg)">
     <div class="imerss-image-copy"> © Connor Wardrop</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -129,12 +126,14 @@ categories:
       </div>
   </div>
 
+
+
 </div>
 
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Plagiochila">Plagiochila</a> semidecurrens is an uncommon plant of very wet habitats, where its horizontal stems are laden with drooping, roundly folded and very toothy leaves that are shiny when dry. The spine-like teeth are unique for the genus on account of their number (many!) and length (up to 6 cells long). 
+<a href="/taxa/Plagiochila">Plagiochila</a> semidecurrens is an uncommon plant of very wet habitats, where its horizontal stems are laden with drooping, roundly folded and very toothy leaves that are shiny when dry. The spine-like teeth are unique for the genus in the region on account of their number (many!) and length (up to 6 cells long). 
 
 <h2 id="similar-species">Similar species</h2>
 
@@ -190,4 +189,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

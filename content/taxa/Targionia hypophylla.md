@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Targioniaceae&#x2F;Targionia_hypophylla&#x2F;macro_pics&#x2F;Targionia-BMS.jpeg)"
-       title="Brian Starzomski">
+       style="background-image: url(../../img/Liverworts&#x2F;Targioniaceae&#x2F;Targionia_hypophylla&#x2F;macro_pics&#x2F;Targionia-BMS.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Targioniaceae&#x2F;Targionia_hypophylla&#x2F;macro_pics&#x2F;Targionia-DBLT.jpeg)"
-       title="Daniel Tucker">
+       style="background-image: url(../../img/Liverworts&#x2F;Targioniaceae&#x2F;Targionia_hypophylla&#x2F;macro_pics&#x2F;Targionia-DBLT.jpeg)">
     <div class="imerss-image-copy"> © Daniel Tucker</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Targioniaceae&#x2F;Targionia_hypophylla&#x2F;macro_pics&#x2F;Targionia-BMS2.jpeg)"
-       title="Brian Starzomski">
+       style="background-image: url(../../img/Liverworts&#x2F;Targioniaceae&#x2F;Targionia_hypophylla&#x2F;macro_pics&#x2F;Targionia-BMS2.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ categories:
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

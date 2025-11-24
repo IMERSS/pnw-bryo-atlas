@@ -970,8 +970,7 @@
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Mosses&#x2F;Aulacomniaceae&#x2F;Aulacomnium_androgynum&#x2F;macro_pics&#x2F;AULAAND_bradenjudson_iNat_01_CC0.jpeg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Mosses&#x2F;Aulacomniaceae&#x2F;Aulacomnium_androgynum&#x2F;macro_pics&#x2F;AULAAND_bradenjudson_iNat_01_CC0.jpeg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -991,8 +990,7 @@
   </div>
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Mosses&#x2F;Aulacomniaceae&#x2F;Aulacomnium_androgynum&#x2F;macro_pics&#x2F;AULAAND_BS_iNat_01.jpeg)"
-       title="Brian Starzomski">
+       style="background-image: url(../../img/Mosses&#x2F;Aulacomniaceae&#x2F;Aulacomnium_androgynum&#x2F;macro_pics&#x2F;AULAAND_BS_iNat_01.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -1012,8 +1010,7 @@
   </div>
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Mosses&#x2F;Aulacomniaceae&#x2F;Aulacomnium_androgynum&#x2F;macro_pics&#x2F;Aulacomnium_androgynum_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Mosses&#x2F;Aulacomniaceae&#x2F;Aulacomnium_androgynum&#x2F;macro_pics&#x2F;Aulacomnium_androgynum_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -1071,6 +1068,8 @@
 </div>
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>
 
         <div class="hx-mt-16"></div>

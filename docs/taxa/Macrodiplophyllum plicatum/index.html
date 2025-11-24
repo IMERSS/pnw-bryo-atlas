@@ -1025,6 +1025,8 @@ Associated species Distribution Map Authors: Last updated: Feb 27, 2024 Relevant
 </div>
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>
 
         <div class="hx-mt-16"></div>

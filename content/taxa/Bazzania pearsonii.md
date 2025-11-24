@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Bazzania_pearsonii&#x2F;macro_pics&#x2F;Bazzania_pearsonii_CW_01.png)"
-       title="Connor Wardrop">
+       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Bazzania_pearsonii&#x2F;macro_pics&#x2F;Bazzania_pearsonii_CW_01.png)">
     <div class="imerss-image-copy"> © Connor Wardrop</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -84,6 +83,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 
 
@@ -148,4 +149,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

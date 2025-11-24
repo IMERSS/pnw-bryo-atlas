@@ -64,8 +64,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -86,8 +85,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorphia_JR_02.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorphia_JR_02.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -108,8 +106,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_JH_01.jpg)"
-       title="Jason Headley">
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_JH_01.jpg)">
     <div class="imerss-image-copy"> © Jason Headley</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -127,6 +124,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -189,4 +188,6 @@ Dem cups
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

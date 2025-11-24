@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_porelloides&#x2F;macro_pics&#x2F;Plagiochila_porelloides_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_porelloides&#x2F;macro_pics&#x2F;Plagiochila_porelloides_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_porelloides&#x2F;macro_pics&#x2F;Plagiochila_porelloides_BJ_01.jpeg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_porelloides&#x2F;macro_pics&#x2F;Plagiochila_porelloides_BJ_01.jpeg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_porelloides&#x2F;plates&#x2F;Plagiochila_porelloides_RM_01_plate.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Plagiochilaceae&#x2F;Plagiochila_porelloides&#x2F;plates&#x2F;Plagiochila_porelloides_RM_01_plate.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

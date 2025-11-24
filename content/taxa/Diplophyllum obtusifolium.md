@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Diplophyllum_obtusifolium&#x2F;macro_pics&#x2F;Diplophyllum_obtusifolium_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Diplophyllum_obtusifolium&#x2F;macro_pics&#x2F;Diplophyllum_obtusifolium_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Diplophyllum_obtusifolium&#x2F;macro_pics&#x2F;Diplophyllum_obtusifolium_CW_01.jpeg)"
-       title="Connor Wardrop">
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Diplophyllum_obtusifolium&#x2F;macro_pics&#x2F;Diplophyllum_obtusifolium_CW_01.jpeg)">
     <div class="imerss-image-copy"> © Connor Wardrop</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Diplophyllum_obtusifolium&#x2F;macro_pics&#x2F;Diplophyllum_obtusifolium_RM_01.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Diplophyllum_obtusifolium&#x2F;macro_pics&#x2F;Diplophyllum_obtusifolium_RM_01.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ Moist, shady rock outcrops, boulders, cliffs, and cutbanks in the lowland, monta
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

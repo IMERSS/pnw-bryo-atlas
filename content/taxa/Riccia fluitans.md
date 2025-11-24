@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_fluitans&#x2F;macro_pics&#x2F;Riccia_fluitans-BMS.jpeg)"
-       title="Brian Starzomski">
+       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_fluitans&#x2F;macro_pics&#x2F;Riccia_fluitans-BMS.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_fluitans&#x2F;macro_pics&#x2F;Riccia_fluitans-BJ.jpeg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_fluitans&#x2F;macro_pics&#x2F;Riccia_fluitans-BJ.jpeg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_fluitans&#x2F;macro_pics&#x2F;Riccia_fluitans-JDR.jpeg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_fluitans&#x2F;macro_pics&#x2F;Riccia_fluitans-JDR.jpeg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ Floating (subsurface) in nutrient- or mineral-rich, stagnant or slow-moving wate
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

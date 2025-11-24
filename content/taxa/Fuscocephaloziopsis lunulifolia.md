@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsia_lunulifolia&#x2F;macro_pics&#x2F;Fuscocephaloziopsis_lunuliforia_RM_02.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsia_lunulifolia&#x2F;macro_pics&#x2F;Fuscocephaloziopsis_lunuliforia_RM_02.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsia_lunulifolia&#x2F;macro_pics&#x2F;Fuscocephloziopsis_lunulifolia_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsia_lunulifolia&#x2F;macro_pics&#x2F;Fuscocephloziopsis_lunulifolia_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsia_lunulifolia&#x2F;plates&#x2F;Fuscocephaloziopsis_lunulifolia_RM_01_plate.jpg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsia_lunulifolia&#x2F;plates&#x2F;Fuscocephaloziopsis_lunulifolia_RM_01_plate.jpg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

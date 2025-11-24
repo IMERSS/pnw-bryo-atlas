@@ -5,7 +5,6 @@
 const fs = require("fs");
 const mustache = require("mustache");
 const {readCSV, writeCSV} = require("./utils.js");
-const path = require("path");
 
 const fluid = {};
 /**
@@ -291,8 +290,8 @@ async function main() {
     const allRendered = filtered.concat(genusPages, familyPages);
     const taxonLookup = makeTaxonLookup(allRendered);
 
-    const hoistImage = (key, src, drive, meta, label) =>
-        drive ? { key, src, drive, meta, label } : null;
+    const hoistImage = (key, src, drive, meta, iNat, label) =>
+        drive ? { key, src, drive, meta, iNat, label } : null;
 
     const renderPages = function (rows, decorate) {
         for (const row of rows) {
@@ -300,14 +299,20 @@ async function main() {
                 plateDrive: mapImage(row.plate, row.taxon, "plate", badImages),
                 insetPhoto1Drive: mapImage(row.insetPhoto1, row.taxon, "insetPhoto1", badImages),
                 insetPhoto2Drive: mapImage(row.insetPhoto2, row.taxon, "insetPhoto2", badImages),
-                insetPhoto3Drive: mapImage(row.insetPhoto3, row.taxon, "insetPhoto3", badImages)
+                insetPhoto3Drive: mapImage(row.insetPhoto3, row.taxon, "insetPhoto3", badImages),
+                insetPhoto4Drive: mapImage(row.insetPhoto4, row.taxon, "insetPhoto4", badImages),
+                insetPhoto5Drive: mapImage(row.insetPhoto5, row.taxon, "insetPhoto5", badImages),
+                insetPhoto6Drive: mapImage(row.insetPhoto6, row.taxon, "insetPhoto6", badImages)
             };
 
             const images = {
                 plate: hoistImage("plate", row.plate, driveLinks.plateDrive, row.plateMeta, "plate"),
-                photo1: hoistImage("photo1", row.insetPhoto1, driveLinks.insetPhoto1Drive, row.insetPhoto1meta, "photo 1"),
-                photo2: hoistImage("photo2", row.insetPhoto2, driveLinks.insetPhoto2Drive, row.insetPhoto2meta, "photo 2"),
-                photo3: hoistImage("photo3", row.insetPhoto3, driveLinks.insetPhoto3Drive, row.insetPhoto3meta, "photo 3")
+                photo1: hoistImage("photo1", row.insetPhoto1, driveLinks.insetPhoto1Drive, row.insetPhoto1meta, row.insetPhoto1iNat, "photo 1"),
+                photo2: hoistImage("photo2", row.insetPhoto2, driveLinks.insetPhoto2Drive, row.insetPhoto2meta, row.insetPhoto2iNat, "photo 2"),
+                photo3: hoistImage("photo3", row.insetPhoto3, driveLinks.insetPhoto3Drive, row.insetPhoto3meta, row.insetPhoto3iNat, "photo 3"),
+                photo4: hoistImage("photo4", row.insetPhoto4, driveLinks.insetPhoto4Drive, row.insetPhoto4meta, row.insetPhoto4iNat, "photo 4"),
+                photo5: hoistImage("photo5", row.insetPhoto5, driveLinks.insetPhoto5Drive, row.insetPhoto5meta, row.insetPhoto5iNat, "photo 5"),
+                photo6: hoistImage("photo6", row.insetPhoto6, driveLinks.insetPhoto6Drive, row.insetPhoto6meta, row.insetPhoto6iNat, "photo 6")
             };
 
             linkifyText(row, taxonLookup, ["distinguishingFeatures", "similarSpecies", "habitat", "associatedSpecies"]);

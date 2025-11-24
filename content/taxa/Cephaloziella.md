@@ -65,6 +65,8 @@ categories:
 
 
 
+
+
 </div>
 
 <h2 id="taxon-links">Species in this genus</h2>
@@ -128,4 +130,6 @@ categories:
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

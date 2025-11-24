@@ -972,8 +972,7 @@
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Radulaceae&#x2F;Radula_complanata&#x2F;macro_pics&#x2F;Radula_complanata_JR_02.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Radulaceae&#x2F;Radula_complanata&#x2F;macro_pics&#x2F;Radula_complanata_JR_02.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -993,8 +992,7 @@
   </div>
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Radulaceae&#x2F;Radula_complanata&#x2F;macro_pics&#x2F;Radula_complanata_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Radulaceae&#x2F;Radula_complanata&#x2F;macro_pics&#x2F;Radula_complanata_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -1014,8 +1012,7 @@
   </div>
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Radulaceae&#x2F;Radula_complanata&#x2F;macro_pics&#x2F;Radula_complanata_JR_03.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Radulaceae&#x2F;Radula_complanata&#x2F;macro_pics&#x2F;Radula_complanata_JR_03.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -1076,6 +1073,8 @@
 </div>
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>
 
         <div class="hx-mt-16"></div>

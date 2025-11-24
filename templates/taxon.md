@@ -93,9 +93,11 @@ categories:
   {{#photo1}}
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-{{key}}"
-       style="background-image: url(../../img/{{src}})"
-       title="{{meta}}">
+       style="background-image: url(../../img/{{src}})">
     <div class="imerss-image-copy"> © {{meta}}</div>
+    {{#iNat}}
+      <a href="{{iNat}}" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+    {{/iNat}}
   </div>
   {{> modal}}
   {{/photo1}}
@@ -103,9 +105,11 @@ categories:
   {{#photo2}}
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-{{key}}"
-       style="background-image: url(../../img/{{src}})"
-       title="{{meta}}">
+       style="background-image: url(../../img/{{src}})">
     <div class="imerss-image-copy"> © {{meta}}</div>
+    {{#iNat}}
+      <a href="{{iNat}}" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+    {{/iNat}}
   </div>
   {{> modal}}
   {{/photo2}}
@@ -113,13 +117,50 @@ categories:
   {{#photo3}}
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-{{key}}"
-       style="background-image: url(../../img/{{src}})"
-       title="{{meta}}">
+       style="background-image: url(../../img/{{src}})">
     <div class="imerss-image-copy"> © {{meta}}</div>
+    {{#iNat}}
+      <a href="{{iNat}}" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+    {{/iNat}}
   </div>
   {{> modal}}
   {{/photo3}}
 
+  {{#photo4}}
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-{{key}}"
+       style="background-image: url(../../img/{{src}})">
+    <div class="imerss-image-copy"> © {{meta}}</div>
+    {{#iNat}}
+      <a href="{{iNat}}" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+    {{/iNat}}
+  </div>
+  {{> modal}}
+  {{/photo4}}
+
+  {{#photo5}}
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-{{key}}"
+       style="background-image: url(../../img/{{src}})">
+    <div class="imerss-image-copy"> © {{meta}}</div>
+    {{#iNat}}
+      <a href="{{iNat}}" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+    {{/iNat}}
+  </div>
+  {{> modal}}
+  {{/photo5}}
+
+  {{#photo6}}
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-{{key}}"
+       style="background-image: url(../../img/{{src}})">
+    <div class="imerss-image-copy"> © {{meta}}</div>
+    {{#iNat}}
+      <a href="{{iNat}}" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+    {{/iNat}}
+  </div>
+  {{> modal}}
+  {{/photo6}}
 </div>
 
 {{#taxonLinks}}
@@ -189,4 +230,6 @@ categories:
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

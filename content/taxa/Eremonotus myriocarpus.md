@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Jungermanniaceae&#x2F;Eremonotus_myriocarpus_DBLT_01.jpg)"
-       title="Dan Tucker">
+       style="background-image: url(../../img/Liverworts&#x2F;Jungermanniaceae&#x2F;Eremonotus_myriocarpus_DBLT_01.jpg)">
     <div class="imerss-image-copy"> © Dan Tucker</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Jungermanniaceae&#x2F;Eremonotus_myriocarpus_DBLT_02.jpg)"
-       title="Dan Tucker">
+       style="background-image: url(../../img/Liverworts&#x2F;Jungermanniaceae&#x2F;Eremonotus_myriocarpus_DBLT_02.jpg)">
     <div class="imerss-image-copy"> © Dan Tucker</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Jungermanniaceae&#x2F;Eremonotus_myriocarpus_RM_03.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Jungermanniaceae&#x2F;Eremonotus_myriocarpus_RM_03.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

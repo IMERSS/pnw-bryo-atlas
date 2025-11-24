@@ -110,6 +110,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -175,8 +177,7 @@
 &lt;div class=&#34;imerss-image-header&#34;&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo1&#34;
-       style=&#34;background-image: url(../../img/Hornworts&amp;#x2F;Anthocerotaceae&amp;#x2F;Anthoceros_fusiformis&amp;#x2F;macro_pics&amp;#x2F;Anthoceros_fusiformis-BJJ1.jpeg)&#34;
-       title=&#34;Braden Judson&#34;&gt;
+       style=&#34;background-image: url(../../img/Hornworts&amp;#x2F;Anthocerotaceae&amp;#x2F;Anthoceros_fusiformis&amp;#x2F;macro_pics&amp;#x2F;Anthoceros_fusiformis-BJJ1.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Braden Judson&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo1&#34; aria-hidden=&#34;true&#34;&gt;
@@ -196,8 +197,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo2&#34;
-       style=&#34;background-image: url(../../img/Hornworts&amp;#x2F;Anthocerotaceae&amp;#x2F;Anthoceros_fusiformis&amp;#x2F;macro_pics&amp;#x2F;Anthoceros_fusiformis-BJJ.jpeg)&#34;
-       title=&#34;Braden Judson&#34;&gt;
+       style=&#34;background-image: url(../../img/Hornworts&amp;#x2F;Anthocerotaceae&amp;#x2F;Anthoceros_fusiformis&amp;#x2F;macro_pics&amp;#x2F;Anthoceros_fusiformis-BJJ.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Braden Judson&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo2&#34; aria-hidden=&#34;true&#34;&gt;
@@ -217,8 +217,7 @@
   &lt;/div&gt;
   &lt;div class=&#34;imerss-image-holder&#34;
        data-micromodal-trigger=&#34;modal-plate-photo3&#34;
-       style=&#34;background-image: url(../../img/Hornworts&amp;#x2F;Anthocerotaceae&amp;#x2F;Anthoceros_fusiformis&amp;#x2F;macro_pics&amp;#x2F;Anthoceros_fusiformis-BJJ2.jpeg)&#34;
-       title=&#34;Braden Judson&#34;&gt;
+       style=&#34;background-image: url(../../img/Hornworts&amp;#x2F;Anthocerotaceae&amp;#x2F;Anthoceros_fusiformis&amp;#x2F;macro_pics&amp;#x2F;Anthoceros_fusiformis-BJJ2.jpeg)&#34;&gt;
     &lt;div class=&#34;imerss-image-copy&#34;&gt; © Braden Judson&lt;/div&gt;
   &lt;/div&gt;
   &lt;div class=&#34;modal micromodal-slide&#34; id=&#34;modal-plate-photo3&#34; aria-hidden=&#34;true&#34;&gt;
@@ -280,6 +279,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -387,6 +388,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -483,6 +486,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -580,6 +585,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -680,6 +687,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -787,6 +796,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -887,6 +898,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -994,6 +1007,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1094,6 +1109,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1201,6 +1218,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>
@@ -1297,6 +1316,8 @@
 &lt;/div&gt;
 &lt;script type=&#34;module&#34;&gt;
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(&#34;.imerss-iNat-extern&#34;)];
+  iNatLinks.forEach(link =&gt; link.addEventListener(&#34;click&#34;, e =&gt; e.stopPropagation()));
 &lt;/script&gt;
 
       </description>

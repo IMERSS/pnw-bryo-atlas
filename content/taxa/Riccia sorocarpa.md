@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_sorocarpa&#x2F;macro_pics&#x2F;Riccia_soro-BMS.jpeg)"
-       title="Brian Starzomski">
+       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_sorocarpa&#x2F;macro_pics&#x2F;Riccia_soro-BMS.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_sorocarpa&#x2F;macro_pics&#x2F;Riccia_soro-RM.jpeg)"
-       title="Randal Mindell">
+       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_sorocarpa&#x2F;macro_pics&#x2F;Riccia_soro-RM.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_sorocarpa&#x2F;macro_pics&#x2F;Riccia_soro-BMS2.jpeg)"
-       title="Brian Starzomski">
+       style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_sorocarpa&#x2F;macro_pics&#x2F;Riccia_soro-BMS2.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ Gemmabryum barnesii, Pottia truncata, <a href="/taxa/Riccia beyrichiana">Riccia 
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

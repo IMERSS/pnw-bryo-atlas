@@ -60,34 +60,12 @@ categories:
 
 
 <h2 id="image-gallery">Image Gallery
-<div class="tab-microscope">
-    <img alt="plate"
-         data-micromodal-trigger="modal-plate-plate"
-         src="../../images/bryo guide microscope.png"/>
-  </div>
-
-<div class="modal micromodal-slide" id="modal-plate-plate" aria-hidden="true">
-    <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-        <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-plate">
-            <header class="modal__header">
-                <div class="modal__title" id="modal-plate-title-plate">
-                    Pseudotaxiphyllum elegans plate
-                </div>
-                <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-            </header>
-            <div class="modal__content" id="modal-plate-content-plate">
-                <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1GbxZo5VYW6QvSPaBVh7ilziGQeGyoqDP" title="Andrew Simon" referrerpolicy="no-referrer"/>
-            </div>
-        </div>
-    </div>
-</div>
 </h2>
 
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Mosses&#x2F;Plagiotheciaceae&#x2F;Pseudotaxiphyllum_elegans&#x2F;macro_pics&#x2F;PSEUELE_JDR_iNat_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Mosses&#x2F;Plagiotheciaceae&#x2F;Pseudotaxiphyllum_elegans&#x2F;macro_pics&#x2F;PSEUELE_JDR_iNat_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -108,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Mosses&#x2F;Plagiotheciaceae&#x2F;Pseudotaxiphyllum_elegans&#x2F;macro_pics&#x2F;PSEUELE_JF_iNat_01.jpg)"
-       title="Jamie Fenneman">
+       style="background-image: url(../../img/Mosses&#x2F;Plagiotheciaceae&#x2F;Pseudotaxiphyllum_elegans&#x2F;macro_pics&#x2F;PSEUELE_JF_iNat_01.jpg)">
     <div class="imerss-image-copy"> © Jamie Fenneman</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -130,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Mosses&#x2F;Plagiotheciaceae&#x2F;Pseudotaxiphyllum_elegans&#x2F;macro_pics&#x2F;PSEUELE_JDR_iNat_02.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Mosses&#x2F;Plagiotheciaceae&#x2F;Pseudotaxiphyllum_elegans&#x2F;macro_pics&#x2F;PSEUELE_JDR_iNat_02.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -149,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -211,4 +189,6 @@ XXXXXX
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

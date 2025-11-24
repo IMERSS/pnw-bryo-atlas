@@ -64,8 +64,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_JR_01.jpg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -86,8 +85,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_BS_01.jpeg)"
-       title="John Reynolds">
+       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_BS_01.jpeg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -108,8 +106,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_NE_01.jpg)"
-       title="Nathan Earley">
+       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_NE_01.jpg)">
     <div class="imerss-image-copy"> © Nathan Earley</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -127,6 +124,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -189,4 +188,6 @@ When gemmae cups are present, L. cruciata can only be mistaken for <a href="/tax
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

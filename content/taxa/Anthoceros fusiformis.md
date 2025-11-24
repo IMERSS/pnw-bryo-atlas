@@ -65,8 +65,7 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ1.jpeg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ1.jpeg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
@@ -87,8 +86,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ.jpeg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ.jpeg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
@@ -109,8 +107,7 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ2.jpeg)"
-       title="Braden Judson">
+       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ2.jpeg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
@@ -128,6 +125,8 @@ categories:
           </div>
       </div>
   </div>
+
+
 
 </div>
 
@@ -190,4 +189,6 @@ Fissidens crispus, Fissidens bryoides, Timmiella crassinervis, Rosulabryum canar
 
 <script type="module">
   MicroModal.init();
+  const iNatLinks = [...document.querySelectorAll(".imerss-iNat-extern")];
+  iNatLinks.forEach(link => link.addEventListener("click", e => e.stopPropagation()));
 </script>

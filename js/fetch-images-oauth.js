@@ -10,6 +10,7 @@ const pLimit = require("p-limit");
 
 // === CONFIG ===
 const SERVICE_ACCOUNT_KEY_FILE = "pnw-bryo-atlas-e1fb9a5765ea.json";
+// BC Bryophyte Guide > Pictures_&_Plates > Online at https://drive.google.com/drive/folders/1B1QBo3woWDlQ7L_wG9FEbQhkKfqye_U2
 const ROOT_FOLDER_ID = "1B1QBo3woWDlQ7L_wG9FEbQhkKfqye_U2";
 const TRAVERSE_CONCURRENCY = 5;
 const FETCH_CONCURRENCY = 32;
