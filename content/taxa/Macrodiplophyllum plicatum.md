@@ -73,11 +73,11 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-XXXXXX
+M. plicatum can form vigorous populations underneath stunted conifers in wet coastal bog slopes. The horizontal to ascending plants are shiny, yellow brown and show infrequent lateral branching along leaf shoots between 2-6 cm long and 2-5 mm wide. The upper lobe is significantly smaller than the lower lobe, though both have an elongate shape. Up close, the upper lobe is mostly smooth while the variably toothy lower lobe flexes out at around 75 degrees to the stem. If you have the patience or you catch it in an unlikely parched situation, the plant remains mostly uncontored when dry. 
 
 <h2 id="similar-species">Similar species</h2>
 
-XXXXXX
+While similar in size and leaf aspect to <a href="/taxa/Macrodiplophyllum rubrum">M. rubrum</a>, <a href="/taxa/Macrodiplophyllum flaccidum">M. flaccidum</a> lacks its red pigmentation. <a href="/taxa/Macrodiplophyllum imbricatum">M. imbricatum</a> is a higher elevation species with smooth leaf lobes that have a rounded aspect. <a href="/taxa/Macrodiplophyllum flaccidum">M. flaccidum</a> occurs in similar habitats, but in that species the lower lobes are held at 90 degrees to the stem, whereas in M. plicatum they are held closer to 75 degrees to the stem. 
 
 <h2 id="habitat">Habitat</h2>
 

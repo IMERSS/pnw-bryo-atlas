@@ -359,7 +359,10 @@ async function main() {
     fs.writeFileSync("static/imerss-search-data.json", JSON.stringify(searchData), "utf8");
     console.log("Written static/imerss-search-data.json");
 
-    console.log("badImages: ", badImages);
+    const bid = `There were ${badImages.length} images in the spreadsheet whose paths mismatched the Drive:\n` + JSON.stringify(badImages, null, 2);
+    fs.writeFileSync("docs/mismatchedImagePaths.txt", bid);
+
+    console.log(bid);
 }
 
 const task = main();

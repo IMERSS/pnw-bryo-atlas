@@ -73,15 +73,15 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-An easily overlooked species of hard to access polar and alpine tundra habitats, 
+An easily overlooked species of hard to access polar and alpine tundra habitats, M. microdontium is known from only a few records in the northern fringes of the Pacific Northwest. The golden-brown, ascending shoots are 3-7 cm long and roughly 4 mm wide. Like other members of its genus, the two unequal and elongate lobes of the leaf unite along a keel towards their base, with the upper lobe about one-half the size of the lower lobe. The upper lobe in this species crosses the entire length of the stem before wrapping around it tightly (see photo) and the tips of both lobes point 90 degrees away from the stem. Confident identification requires mounting of the leaf on a slide so that the presence large leaf papille (see photo) and teeth along the inner margin of the lower lobe can be confirmed. 
 
 <h2 id="similar-species">Similar species</h2>
 
-XXXXXX
+The elongate, round-tipped and unequal toothy leaf lobes could only be mistaken for species within its own genus or the closely related genera of <a href="/taxa/Scapania">Scapania</a> and <a href="/taxa/Diplophyllum">Diplophyllum</a>. Species of <a href="/taxa/Scapania">Scapania</a> have rounder lobes compared to the elongate lobes of M. microdontium. <a href="/taxa/Diplophyllum taxifolium">Diplophyllum taxifolium</a> can be found in arctic and alpine tundra, too, but that species lacks papillae on the leaf cells and has a upper lobe that does not cross the width of the stem. <a href="/taxa/Macrodiplophyllum rubrum">Macrodiplophyllum rubrum</a> is the only other taxon to show this character, but it is a species of wet coastal forests and it, too, lacks papillae on the leaf cells. 
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+
 
 <h2 id="associated-species">Associated species</h2>
 

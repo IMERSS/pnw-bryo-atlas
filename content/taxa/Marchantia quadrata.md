@@ -133,7 +133,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Dem mushrooms
+A frequent presence along the long the margins of running water, M. quadrata is a complex thalloid species most notable for its mushroom-shaped sporing structures (see photo). The thallus is an unremarkable green, but often fringed in brown or puce hues and grows tightly appressed to rock and soil with thallus segments about 1 cm wide and up to a few centimeters long. Absent reproductive structures, confident ID requires examination with a hand lens or a microscope to show cross-shaped openings on the air chambers and two rows of scales on the underside of the thallus, each scale bearing a single narrow and elongate appendage along its margin. 
 
 <h2 id="similar-species">Similar species</h2>
 

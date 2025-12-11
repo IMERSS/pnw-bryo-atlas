@@ -133,7 +133,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-
+Typical of thin soil over ledges and nooks around south-facing rock, <a href="/taxa/Mannia">Mannia</a> gracilis is a relatively small, frequently fertile complex thalloid liverwort with segments less than 10 mm wide and rarely more than 2 cm long. The antheridia are found in a purple pad in the middle of the thallus and are found just behind the developing, dome-shaped "carpocephalum" where fertilized archegonia develop into sporophytes. At maturity, this structure is rounded and dome-shaped, with black capsules facing down and fringed by lacy white segments of tissue ("pseudoperianth", see photo). When lacking reproductive structures, confident ID requires hand lens or microscope inspection of the thallus to show the opening of the air chamber surrounded by a single ring of cells (see photo) and the purple scales on the underside of the thallus with purple appendages (see photo) that run up just below the thallus margin.
 
 <h2 id="similar-species">Similar species</h2>
 

@@ -77,7 +77,7 @@ An infrequent species of higher elevation, M. imbricatum is a yellow or yellow b
 
 <h2 id="similar-species">Similar species</h2>
 
-In the montane to alpine habitat where this species thrives, it is unlikely to be mistaken for many other species on account of its girth and closely overlapping leaves. Some species of <a href="/taxa/Scapania">Scapania</a> (eg. <a href="/taxa/Scapania subalpina">Scapania subalpina</a>) occuring in the same habitats also have smooth, nearly equal lobes, but in M. imbricatum the lobes are elongate and lack the obvious "keel" that connect the upper and lober lobes at their base. 
+In the montane to alpine habitat where this species thrives, it is unlikely to be mistaken for many other species on account of its girth and closely overlapping leaves. Some species of <a href="/taxa/Scapania">Scapania</a> (eg. <a href="/taxa/Scapania subalpina">Scapania subalpina</a>) occuring in the same habitats also have smooth, nearly equal lobes, but in M. imbricatum the lobes are elongate and lack the obvious "keel" that connect the upper and lober lobes at their base. <a href="/taxa/Macrodiplophyllum">Macrodiplophyllum</a> microdontium could concievably occur in similair habitats, but that species has elongate, greatly unequal leaf lobes. 
 
 <h2 id="habitat">Habitat</h2>
 

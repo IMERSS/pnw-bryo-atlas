@@ -73,7 +73,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-An infrequent species of uncommonly moist low-elevation microhabitats (waterfalls, deep canyons), M. flaccidum is marked by elongate, toothed lobes and a glossy palour. The outermost half of the lower lobes are characteristically held at 90 degrees from the stem and are often parallel to the upper lobes. 
+An infrequent species of uncommonly moist low-elevation microhabitats (waterfalls, deep canyons), M. flaccidum is marked by elongate, toothed lobes and a glossy palour. The outermost half of the lower lobes are characteristically held at nearly 90 degrees from the stem and are often parallel to the upper lobes. Teeth are well developed along the lobe apices and the plant, when dried, is strongly contorted. 
 
 <h2 id="similar-species">Similar species</h2>
 

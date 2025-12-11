@@ -73,7 +73,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Dem alpine
+Limited to arctic and alpine soils and rocks, M. romanica has only a few records from the more remote regions of the Pacific Northwest. When fertile, stalked, mushroom-headed antheridiaphores and archegoniophores are present. 
 
 <h2 id="similar-species">Similar species</h2>
 

@@ -1,3 +1,5 @@
+source("R/utils.R")
+
 # Run this script to authenticate with the Google Cloud API 
 # and access taxon data from the shared Google Sheet,'BC_Bryo_Database'
 

@@ -133,7 +133,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-
+An interior species of seasonally-saturated fine soils, <a href="/taxa/Mannia">Mannia</a> fragrans 
 
 <h2 id="similar-species">Similar species</h2>
 

@@ -140,7 +140,7 @@ XXXXXX
 
 <h2 id="similar-species">Similar species</h2>
 
-XXXXXX
+With tiny dark shoots of sharply bilobed leaves, E. myriocarpus could be mistaken for species of <a href="/taxa/Cephaloziella">Cephaloziella</a> or <a href="/taxa/Hygrobiella">Hygrobiella</a>, genera which can occur in the same wet rock habitat. 
 
 <h2 id="habitat">Habitat</h2>
 

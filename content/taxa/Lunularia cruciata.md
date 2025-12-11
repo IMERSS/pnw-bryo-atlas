@@ -67,6 +67,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo1"
        style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;70644371" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -87,7 +88,8 @@ categories:
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
        style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_BS_01.jpeg)">
-    <div class="imerss-image-copy"> © John Reynolds</div>
+    <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;105953521" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -99,7 +101,7 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo2">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1QnU6_g8YGiFTPwLL7SGqVlaTWsuEBWgx" title="John Reynolds" referrerpolicy="no-referrer"/>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1QnU6_g8YGiFTPwLL7SGqVlaTWsuEBWgx" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
       </div>
@@ -109,6 +111,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo3"
        style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_NE_01.jpg)">
     <div class="imerss-image-copy"> © Nathan Earley</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;259799642" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>

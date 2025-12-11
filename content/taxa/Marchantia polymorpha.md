@@ -133,7 +133,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Dem cups
+Found in garden beds, subalpine drainage and everywhere in between, M. polymorpha is quick to colonize disturbed soils, where it grows in appressed mats that are yellow-green when young and age to a browning or purple green, with individual thallus segments up to 2 cm broad and 5+ cm long. The  dichotomizing thallus has pores on the upper surface and polygonal patterning that marks the boundaries of specialized air chambers into which the pores open. This species is frequently found with round gemmae cups (see photo) filled with asexual propagules. This species is particularly dramatic when fertile, with sunflower-shaped "antheridiaphores" (see photo) developing on long stalks on one plant and the archegonia developing on seperate plants with a similairly stalked structure with deeply dissected and radiating "fingers" (see photo). When lacking reproductive features, examination of the pores with a hands lens or microscope may be required: they show a characteristic cross-shape. (see photos). 
 
 <h2 id="similar-species">Similar species</h2>
 
