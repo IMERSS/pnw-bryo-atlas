@@ -1,7 +1,7 @@
 ---
 title: Lophocolea heterophylla
 url: /taxa/Lophocolea heterophylla
-image: "../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophocolea_heterophylla&#x2F;macro_pics&#x2F;Lophocolea_heterophylla_JR_01.jpg&#39;"
+image: "../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophocolea_heterophylla&#x2F;macro_pics&#x2F;Lophocolea_heterophylla_JR_01.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,7 +63,49 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophocolea_heterophylla&#x2F;macro_pics&#x2F;Lophocolea_heterophylla_JR_01.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;264462960" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Lophocolea heterophylla photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1BLwEVacysYuJnRY9culY1HXaN3IuPiPP" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophocolea_heterophylla&#x2F;macro_pics&#x2F;Lophocolea_heterophylla_JR_02.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;113696932" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Lophocolea heterophylla photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1BVzZW3LoC6BUgGI_d6QYV4LTVMbBKSRh" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"

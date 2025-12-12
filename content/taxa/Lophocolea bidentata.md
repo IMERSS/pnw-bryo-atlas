@@ -1,7 +1,7 @@
 ---
 title: Lophocolea bidentata
 url: /taxa/Lophocolea bidentata
-image: "../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophocolea_bidentata&#x2F;macro_pics&#x2F;Lophocolea_bidentata_JR_01.jpg&#39;"
+image: "../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophocolea_bidentata&#x2F;macro_pics&#x2F;Lophocolea_bidentata_JR_01.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,7 +63,49 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophocolea_bidentata&#x2F;macro_pics&#x2F;Lophocolea_bidentata_JR_01.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;266038538" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Lophocolea bidentata photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1B5MuvctSvKFtTbHgS6U2G24vctzGZJJd" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophocolea_bidentata&#x2F;macro_pics&#x2F;Lophocolea_bidentata_JR_02.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;215510869" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Lophocolea bidentata photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1B-1IyuKCQA6siNAqMP3EEQgB7X2rOio1" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"

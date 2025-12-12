@@ -1,7 +1,7 @@
 ---
 title: Blepharostoma arachnoideum
 url: /taxa/Blepharostoma arachnoideum
-image: "../img/Liverworts&#x2F;Blepharostomataceae&#x2F;Blepharostoma_arachnoideum&#x2F;macro_pics&#x2F;Blepharostomum_arachnoideum_CF_01.jpg&#39;"
+image: "../img/Liverworts&#x2F;Blepharostomataceae&#x2F;Blepharostoma_arachnoideum&#x2F;macro_pics&#x2F;Blepharostomum_arachnoideum_CF_01.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,7 +63,49 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Blepharostomataceae&#x2F;Blepharostoma_arachnoideum&#x2F;macro_pics&#x2F;Blepharostomum_arachnoideum_CF_01.jpg)">
+    <div class="imerss-image-copy"> © Chris Fluitt</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;314494080" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Blepharostoma arachnoideum photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1eMEaYWBbTxqne2aqiRtmmc1Ztsn4LoUJ" title="Chris Fluitt" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Blepharostomataceae&#x2F;Blepharostoma_arachnoideum&#x2F;macro_pics&#x2F;Blepharostoma_arachnoideum_IB_01.jpg)">
+    <div class="imerss-image-copy"> © Iris Bitterlich</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;306581306" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Blepharostoma arachnoideum photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1CGUmhqpgZU-GtIFS_WS2KQlnJHKu3UrJ" title="Iris Bitterlich" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
@@ -87,8 +129,71 @@ categories:
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Blepharostomataceae&#x2F;Blepharostoma_arachnoideum&#x2F;macro_pics&#x2F;Blepharostoma_arachnoideum_JF_02.jpg)">
+    <div class="imerss-image-copy"> © Jamie Fenneman</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;152159437" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Blepharostoma arachnoideum photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;19VAQwZUj4g3hyotDAhDIoZukvBsM65xX" title="Jamie Fenneman" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Blepharostomataceae&#x2F;Blepharostoma_arachnoideum&#x2F;macro_pics&#x2F;Blepharostoma_arachnoideum_JF_03.jpg)">
+    <div class="imerss-image-copy"> © Jamie Fenneman</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;152159437" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Blepharostoma arachnoideum photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1YSpK7Z_9QfPfkAan5UzH65BnIclLe4x8" title="Jamie Fenneman" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Blepharostomataceae&#x2F;Blepharostoma_arachnoideum&#x2F;macro_pics&#x2F;Blepharostoma_arachnoideum_CF_02.jpg)">
+    <div class="imerss-image-copy"> © Chris Fluitt</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;314494080" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Blepharostoma arachnoideum photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1pTE1jJbeQXXTuzV4yaWpFPkcdN50TZbw" title="Chris Fluitt" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 

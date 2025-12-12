@@ -1,7 +1,7 @@
 ---
 title: Lepidozia sandvicensis
 url: /taxa/Lepidozia sandvicensis
-image: "../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Lepidozia_sandvicensis&#x2F;macro_pics&#x2F;Lepidozia_sandvicensis_BJ_01.jpg&#39;"
+image: "../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Lepidozia_sandvicensis&#x2F;macro_pics&#x2F;Lepidozia_sandvicensis_BJ_01.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,6 +63,27 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Lepidozia_sandvicensis&#x2F;macro_pics&#x2F;Lepidozia_sandvicensis_BJ_01.jpg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242801560" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Lepidozia sandvicensis photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1kTDfYSqaXkMp8JTaAmgHuJpDK9C8WkfR" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
@@ -86,9 +107,93 @@ categories:
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Lepidozia_sandvicensis&#x2F;macro_pics&#x2F;Lepidozia_sandvicensis_BJ_02.jpg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242801560" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Lepidozia sandvicensis photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1qljbDNwX-aCvKn0-Y73VZKW8f1lPZKGc" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Lepidozia_sandvicensis&#x2F;macro_pics&#x2F;Lepidozia_sandvicensis_BJ_03.jpg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242801560" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Lepidozia sandvicensis photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1SNu51UPvsdP7Fu7_2_Q838V9ZlMIR3Dn" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Lepidozia_sandvicensis&#x2F;macro_pics&#x2F;Lepidozia_sandvicensis_RM_01.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242761578" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Lepidozia sandvicensis photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;17s4c7D2OnfKdzsClQLREqFzTffXMVUNC" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Lepidozia_sandvicensis&#x2F;macro_pics&#x2F;Lepidozia_sandvicensis_BJ_04.jpeg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242801560" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Lepidozia sandvicensis photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1gP5oXbCPokys4ybMlXkW1BEw2ZL4_vNj" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 

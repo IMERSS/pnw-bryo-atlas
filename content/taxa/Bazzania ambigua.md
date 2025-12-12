@@ -1,7 +1,7 @@
 ---
 title: Bazzania ambigua
 url: /taxa/Bazzania ambigua
-image: "../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Bazzania_ambigua&#x2F;macro_pics&#x2F;Bazzania_ambigua_DT_01.jpeg&#39;"
+image: "../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Bazzania_ambigua&#x2F;macro_pics&#x2F;Bazzania_ambigua_DT_01.jpeg"
 categories:
   - Marchantiophyta
 ---
@@ -63,6 +63,27 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Bazzania_ambigua&#x2F;macro_pics&#x2F;Bazzania_ambigua_DT_01.jpeg)">
+    <div class="imerss-image-copy"> © Daniel Tucker</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;216457356" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Bazzania ambigua photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;10srDHCTbOkvz4nKh6k1NgTC6IMdBluFy" title="Daniel Tucker" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
@@ -86,6 +107,27 @@ categories:
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Lepidoziaceae&#x2F;Bazzania_ambigua&#x2F;macro_pics&#x2F;Bazzania_ambigua_RM_02.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;279378101" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Bazzania ambigua photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1mjX8rNAmWZ2HkPDoAeV_A9hJBCc89uke" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 

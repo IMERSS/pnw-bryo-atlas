@@ -1,7 +1,7 @@
 ---
 title: Mannia gracilis
 url: /taxa/Mannia gracilis
-image: "../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_BS_02.jpeg"
+image: "../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_BS_04.jpeg"
 categories:
   - Marchantiophyta
 ---
@@ -65,8 +65,9 @@ categories:
 <div class="imerss-image-header">
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_BS_02.jpeg)">
+       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_BS_04.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;102059481" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -78,7 +79,7 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo1">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1AAq_jlfvz7yv-drmVCSwqBeZbBH-RQ84" title="Brian Starzomski" referrerpolicy="no-referrer"/>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1QRRuNtRtr_XyV8qCu6tQYD0vMuPLIKRG" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
       </div>
@@ -86,8 +87,9 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_BS_01.jpeg)">
+       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_BS_03.jpg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;271597847" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -99,7 +101,7 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo2">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1A58AFcLznB2gkd6GAA7TlxKQcMIdyFcD" title="Brian Starzomski" referrerpolicy="no-referrer"/>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1TjqOPjr4niSgkGW7OtAivdeYx5uulQKX" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
       </div>
@@ -109,6 +111,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo3"
        style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_BJ_01.jpg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;217615424" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -126,8 +129,71 @@ categories:
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_JR_01.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;119687036" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Mannia gracilis photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1eyBdRXBunH1he1_kfOZ6LL56oyqomkhP" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_RM_01.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;249346748" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Mannia gracilis photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;15_nmqJ2pKyQMaY8AqfX5u4hBBjiC-qrC" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Aytoniaceae&#x2F;Mannia_gracilis&#x2F;macro_pics&#x2F;Mannia_gracilis_BJ_01.jpeg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;130446639" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Mannia gracilis photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1T0TOawSSQGq57PRx8AF7lnMJwlsXZMUr" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 
