@@ -13,6 +13,7 @@ source("R/split_catalogue.R")
 
 unlink("content/taxa", recursive = TRUE, force = TRUE)
 unlink("docs", recursive = TRUE, force = TRUE)
+dir.create("docs")
 
 # Fetch all images used in the site from the Google Drive folder and resize them to web resolution in static/img
 run_js("js/fetch-images-oauth.js")

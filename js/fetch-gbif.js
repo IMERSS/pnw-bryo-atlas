@@ -16,7 +16,7 @@ async function main() {
     const limit = pLimit(FETCH_CONCURRENCY);
     const tasks = taxa.map(row => limit(async () => {
         const taxon = row["taxon"];
-        console.log("Querying:", taxon);
+        console.log("Querying GBIF for:", taxon);
         try {
             const result = await queryGbif(taxon, row.phylum, higherTaxa);
             return {taxon, ...result};
@@ -39,7 +39,7 @@ async function main() {
     console.log(`Dispatching ${higherEntries.length} classification names for GBIF lookup`);
 
     const classTasks = higherEntries.map(([name, phylum]) => limit(async () => {
-        console.log("Querying classification:", name);
+        console.log("Querying GBIF for classification:", name);
         try {
             const result = await queryGbif(name, phylum, higherTaxa);
             return {taxon: name, ...result};
