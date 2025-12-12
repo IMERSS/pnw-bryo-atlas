@@ -73,7 +73,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Dem alpine
+An alpine complex stallose liverwort with white scales emerging from underneath the thallus? What more could one want from life? This species is closely related to <a href="/taxa/Clevea">Clevea</a>
 
 <h2 id="similar-species">Similar species</h2>
 

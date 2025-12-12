@@ -133,7 +133,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-An interior species of seasonally-saturated fine soils, <a href="/taxa/Mannia">Mannia</a> fragrans 
+An interior species of seasonally-saturated fine soils, <a href="/taxa/Mannia">Mannia</a> fragrans has a matte green, narrow thallus (~2-3 mm wide) with pores on the upper surface that give it a polka-dotted pattern. When fertile, the dichotomously branched thallus births a carpocephalum (see photo) from the tips of its thallus. This structure is composed of a long stalk fringed by clusters of white scales both at its base and at the junction with the fruiting head. The carpocephalum lacks linear white scales surrounding the developing black capsule. When sterile, this species can be recognized by the scales on the underside of the thallus that are purple near their base before turning white as they approach the margin (see photo). 
 
 <h2 id="similar-species">Similar species</h2>
 

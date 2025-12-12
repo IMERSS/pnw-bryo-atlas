@@ -140,7 +140,7 @@ XXXXXX
 
 <h2 id="similar-species">Similar species</h2>
 
-With tiny dark shoots of sharply bilobed leaves, E. myriocarpus could be mistaken for species of <a href="/taxa/Cephaloziella">Cephaloziella</a> or <a href="/taxa/Hygrobiella">Hygrobiella</a>, genera which can occur in the same wet rock habitat. 
+With tiny dark shoots of sharply bilobed leaves, E. myriocarpus could be mistaken for species of <a href="/taxa/Cephaloziella">Cephaloziella</a> or <a href="/taxa/Hygrobiella">Hygrobiella</a>, genera which can occur in the same wet rock habitat. The slightly larger <a href="/taxa/Hygrobiella">Hygrobiella</a> laxa is identical in leaf shape and insertion, but its leaves are green and transluscent, not dark and opaque as in <a href="/taxa/Eremonotus">Eremonotus</a>. The rock-dwelling species of <a href="/taxa/Cephaloziella">Cephaloziella</a> are pale green and whitish, with the exception of some forms of <a href="/taxa/Cephaloziella divaricata">C. divaricata</a>, which has leaves that are narrow than the stem. In E. myriocarpus, the leaves are wide than the stem. 
 
 <h2 id="habitat">Habitat</h2>
 
@@ -148,7 +148,7 @@ Moist to wet mineral soil, rock outcrops, cliffs, ledges, crevices, boulders, st
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+<a href="/taxa/Blepharostoma trichophyllum">Blepharostoma trichophyllum</a>, Blindia acuta, <a href="/taxa/Anthelia">Anthelia</a> sp. 
 
 
  <h2 id="distribution-map">Distribution Map</h2>

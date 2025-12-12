@@ -140,7 +140,7 @@ Infrequent and easy to confuse with other two-lobed species, <a href="/taxa/Geoc
 
 <h2 id="similar-species">Similar species</h2>
 
-Most likely to be confused with species of Lophozia, Mesoptychia and <a href="/taxa/Lophocolea">Lophocolea</a>, all of which can show variations of shallowly but acutely two-lobed leaves inserted along the length of the stem. Species of Lophozia lack the underleaves of <a href="/taxa/Geocalyx">Geocalyx</a>. Underleaves are present but obscure in Mesoptychia and when visible are simple and narrow, not two-pronged and visible with a hand lens as in <a href="/taxa/Geocalyx">Geocalyx</a>. <a href="/taxa/Lophocolea bidentata">Lophocolea bidentata</a> has nearly identical underleaves, but in that species, the lobe apices are very fine and long, while those of <a href="/taxa/Geocalyx">Geocalyx</a> are triangular and truncate. 
+Most likely to be confused with species of Lophozia, <a href="/taxa/Mesoptychia">Mesoptychia</a> and <a href="/taxa/Lophocolea">Lophocolea</a>, all of which can show variations of shallowly but acutely two-lobed leaves inserted along the length of the stem. Species of Lophozia lack the underleaves of <a href="/taxa/Geocalyx">Geocalyx</a>. Underleaves are present but obscure in <a href="/taxa/Mesoptychia">Mesoptychia</a> and when visible are simple and narrow, not two-pronged and visible with a hand lens as in <a href="/taxa/Geocalyx">Geocalyx</a>. <a href="/taxa/Lophocolea bidentata">Lophocolea bidentata</a> has nearly identical underleaves, but in that species, the lobe apices are very fine and long, while those of <a href="/taxa/Geocalyx">Geocalyx</a> are triangular and truncate. 
 
 <h2 id="habitat">Habitat</h2>
 

@@ -70,6 +70,7 @@ categories:
 <a href="/taxa/Eremonotus">Eremonotus</a><br/>
 <a href="/taxa/Jungermannia">Jungermannia</a><br/>
 <a href="/taxa/Liochlaena">Liochlaena</a><br/>
+<a href="/taxa/Mesoptychia">Mesoptychia</a><br/>
 </div>
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
