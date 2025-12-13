@@ -207,7 +207,7 @@ XXXXXX
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+Moist to mesic humus, cliffs, and bogs in the lowland and montane zones; rare in coastal, southeast, and northern British Columbia.
 
 <h2 id="associated-species">Associated species</h2>
 

@@ -67,6 +67,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo1"
        style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_emarginata&#x2F;macro-pics&#x2F;Marsupella_emarginata_JR_02.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;207092976" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -88,6 +89,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo2"
        style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_emarginata&#x2F;macro-pics&#x2F;Marsupella_emarginata_JH_01.jpg)">
     <div class="imerss-image-copy"> © Jason Headley</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;82495043" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -109,6 +111,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo3"
        style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_emarginata&#x2F;macro-pics&#x2F;Marsupella_emarginata_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;256573882" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>

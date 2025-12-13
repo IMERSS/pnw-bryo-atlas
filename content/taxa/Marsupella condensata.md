@@ -1,7 +1,7 @@
 ---
 title: Marsupella condensata
 url: /taxa/Marsupella condensata
-image: "../img/XXXXXX"
+image: "../img/waiting for Randal"
 categories:
   - Marchantiophyta
 ---

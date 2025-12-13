@@ -81,7 +81,7 @@ Can only be distinguished from <a href="/taxa/Fossombronia foveolata">F. foveola
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+Seasonally moist mineral soil, rock outcrops, cliffs, crevices, and shorelines in the lowland zone; infrequent in southwest BC, rare elsewhere in coastal BC.
 
 <h2 id="associated-species">Associated species</h2>
 

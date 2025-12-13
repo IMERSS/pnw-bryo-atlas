@@ -1,7 +1,7 @@
 ---
 title: Scapania uliginosa
 url: /taxa/Scapania uliginosa
-image: "../img/XXXXXX"
+image: "../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_uliginosa&#x2F;ScapUligHabIan.jpeg"
 categories:
   - Marchantiophyta
 ---
@@ -63,9 +63,93 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_uliginosa&#x2F;ScapUligHabIan.jpeg)">
+    <div class="imerss-image-copy"> © Ian Cruickshank</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;225027553" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Scapania uliginosa photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1HVEp4fCFev4KvMAv1ZA9V8fCVdQxS1to" title="Ian Cruickshank" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_uliginosa&#x2F;ScapUligShootRM.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;179662605" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Scapania uliginosa photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;14-UYGaK53oM5qJFY1H9MTfifoTsVM-_y" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_uliginosa&#x2F;ScapUligArchMicro.jpg)">
+    <div class="imerss-image-copy"> © Matt Goff</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;306600295" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Scapania uliginosa photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1s9m2WKqLe7kj-dgRziYQ7Qc0TXg6A0NL" title="Matt Goff" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_uliginosa&#x2F;ScapUligDT.jpg)">
+    <div class="imerss-image-copy"> © Dan Tucker</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;313458340" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Scapania uliginosa photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1bLKyodj-OKRakyQqHXDsY4VRp6W_WiHe" title="Dan Tucker" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 </div>

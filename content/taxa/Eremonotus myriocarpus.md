@@ -136,7 +136,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-XXXXXX
+The scanty blackish mats of <a href="/taxa/Eremonotus">Eremonotus</a> myriocarpus are almost imperceptable on the wet and shaded rocks on which they occur. The leafy shoots are less than 1/4 of a millimeter wide and between 2 and 8 mm long. They bear sharply and symmetrically bilobed leaves with a sinus that descends down to about half of the leaf's length. Underleaves and gemmae are absent. Antheridia and archegonia, if present, are found on seperate plants ("dioicous"), with the perianth that surrounds the archegonia at the shoot tip greatly outsizing the surrounding leaves. 
 
 <h2 id="similar-species">Similar species</h2>
 

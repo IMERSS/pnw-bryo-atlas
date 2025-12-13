@@ -67,6 +67,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo1"
        style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;246557278" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -88,6 +89,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo2"
        style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorphia_JR_02.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;172076081" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -109,6 +111,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo3"
        style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_JH_01.jpg)">
     <div class="imerss-image-copy"> © Jason Headley</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;234450349" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -126,8 +129,71 @@ categories:
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_CW_01.jpeg)">
+    <div class="imerss-image-copy"> © Connow Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;229652645" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Marchantia polymorpha photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1fXUUNIfGCG6KDH2xNUCNV4qp5qfblIbK" title="Connow Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_IC_01.jpeg)">
+    <div class="imerss-image-copy"> © Ian Cruickshank</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;217313216" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Marchantia polymorpha photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1hCUaclQqtP_ZrksOaZj1aQ4RcOirLgLv" title="Ian Cruickshank" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_polymorpha&#x2F;macro_pics&#x2F;Marchantia_polymorpha_EU_01.jpeg)">
+    <div class="imerss-image-copy"> © Eva Ullström</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;184312702" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Marchantia polymorpha photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1hfI7KrCGyzghoWUA62s3On_FQijHrUZd" title="Eva Ullström" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 

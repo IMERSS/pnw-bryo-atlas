@@ -73,15 +73,15 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Known from only a few records south of Alaska, F. catenulata 
+Known from only a few disparate records south of Alaska, F. catenulata  is a golden to bright green log-dweller that forms small carpets of horizontal to ascending shoots up to 1 cm long and between 0.2 and 0.4 mm wide. Up close, the leaves are symmetrically bilobed with sharp apices and a sinus that descends between 1/3 and 1/2 leaf length and lobe tips that do not converge. At their base, the leaves are attached obliquely along the length of the stem. Underleaves and gemmae are absent. To confidently identify this species, microscopic examination is neccessary to see (1) the slightly decurrent leaf bases and (2) the small leaf cells  at the base of the lobes (around 20 um in maximum dimension).
 
 <h2 id="similar-species">Similar species</h2>
 
-
+The obliquely attached symmetrically bilobed leaves that are larger than the shoot puts it safely in league with other species of <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>. The barely decurrent leaf base make it most comparable to other species of <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a>. <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> and <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> have lobe tips that converge, cross or point towards one another unlike the lobe tips in F. catenulata which are mostly parallel. <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a> is similair but has leaves that are attached mostly along the length of the stem and not so clearly oblique as in F. catenulata. 
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+Decayed wood in the montane and subalpine zones; rare in southwest [Vancouver Island] and northwest [Boundary Ranges] British Columbia.
 
 <h2 id="associated-species">Associated species</h2>
 

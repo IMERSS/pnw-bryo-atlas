@@ -207,7 +207,7 @@ Likely to be confused only with <a href="/taxa/Fuscocephaloziopsis connivens">F.
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+Moist to mesic, often shady humus, decayed wood, shorelines, streambanks, bogs, and occasionally tree bases in the lowland, montane, and subalpine zones; locally frequent in southwest BC, infrequent elsewhere in coastal BC and in southeast BC, rare in north, central and north-central BC.
 
 <h2 id="associated-species">Associated species</h2>
 

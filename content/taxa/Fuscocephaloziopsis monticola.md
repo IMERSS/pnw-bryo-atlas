@@ -207,7 +207,7 @@ On account of its large size and very compressed shoots, it is unlikely to be mi
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+Moist to wet humus, seepage sites, streambanks, pool margins, snowbed sites, heath, and tundra in the subalpine and alpine zones; infrequent in southwest BC, rare elsewhere in coastal BC.
 
 <h2 id="associated-species">Associated species</h2>
 

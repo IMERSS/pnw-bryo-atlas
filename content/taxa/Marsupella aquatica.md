@@ -1,7 +1,7 @@
 ---
 title: Marsupella aquatica
 url: /taxa/Marsupella aquatica
-image: "../img/XXXXXX"
+image: "../img/waiting for Randal"
 categories:
   - Marchantiophyta
 ---

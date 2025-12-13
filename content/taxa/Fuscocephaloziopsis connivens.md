@@ -207,7 +207,7 @@ Likely to be confused only with <a href="/taxa/Fuscocephaloziopsis lunulifolia">
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+Moist to mesic humus, decayed wood, and bogs in the lowland and montane zones; rare in coastal and southeast British Columbia.
 
 <h2 id="associated-species">Associated species</h2>
 

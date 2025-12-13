@@ -1,7 +1,7 @@
 ---
 title: Scapania paludicola
 url: /taxa/Scapania paludicola
-image: "../img/XXXXXX"
+image: "../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_paludicola&#x2F;scapania_paludicola_stature_ventral_side.ome.jpeg"
 categories:
   - Marchantiophyta
 ---
@@ -63,8 +63,68 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_paludicola&#x2F;scapania_paludicola_stature_ventral_side.ome.jpeg)">
+    <div class="imerss-image-copy"> © Open Microscopy</div>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Scapania paludicola photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1iWbI_CUIGE-ik1WfXUqAkOeLLhmdsdQS" title="Open Microscopy" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_paludicola&#x2F;scapania_paludicola_stature_ober_dorsal_side.ome.jpeg)">
+    <div class="imerss-image-copy"> © Open Microscopy</div>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Scapania paludicola photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1pxhBqprgs9Dwg-LrXL8xtDOeNpYhHVuG" title="Open Microscopy" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_paludicola&#x2F;scapania_paludicola_leaf_lobes.ome.jpeg)">
+    <div class="imerss-image-copy"> © Open Microscopy</div>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Scapania paludicola photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1tFXCfHqPtaWBK-HHBgc-s4V6bZEkO_-s" title="Open Microscopy" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 
@@ -85,7 +145,7 @@ Wet humus, rock outcrops, bogs, peatlands, streambanks, and seepage areas in the
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+Uncertain
 
 
  <h2 id="distribution-map">Distribution Map</h2>

@@ -1,7 +1,7 @@
 ---
 title: Cephaloziella turneri
 url: /taxa/Cephaloziella turneri
-image: "../img/XXXXXX"
+image: "../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_turneri&#x2F;HabitCfCephturn.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,8 +63,71 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_turneri&#x2F;HabitCfCephturn.jpg)">
+    <div class="imerss-image-copy"> © Chris Fluit</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;318295411" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Cephaloziella turneri photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1vHgpT3af_fIlVcvG2cjVrZQRjakMfnkB" title="Chris Fluit" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_turneri&#x2F;ScaleShootsFMCephTurn.jpeg)">
+    <div class="imerss-image-copy"> © Finn McGhee</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;157917849" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Cephaloziella turneri photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1DXcKJgajqld8f2RIO5-gqLpOe0cpk559" title="Finn McGhee" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_turneri&#x2F;LeafMicroRmCephTurn.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;270116403" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Cephaloziella turneri photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1UBJKah8cjSrW0rJTjcRxE85OM9wkSfha" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 
@@ -85,7 +148,7 @@ Dry to wet mineral soil, rock outcrops, cliffs, humus, and rarely decayed wood i
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+<a href="/taxa/Racomitrium">Racomitrium</a> sp.
 
 
  <h2 id="distribution-map">Distribution Map</h2>

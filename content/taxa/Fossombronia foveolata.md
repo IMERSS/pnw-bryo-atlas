@@ -144,7 +144,7 @@ Can only be distinguished from <a href="/taxa/Fossombronia longiseta">F. longise
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+Open, muddy areas and shorelines in the lowland and montane zone; rare in coastal BC.
 
 <h2 id="associated-species">Associated species</h2>
 

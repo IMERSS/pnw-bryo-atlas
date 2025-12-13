@@ -145,7 +145,7 @@ Moist to wet mineral soil, rock outcrops, boulders, cliffs, streambanks, waterfa
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+<a href="/taxa/Pellia neesiana">Pellia neesiana</a>, <a href="/taxa/Racomitrium">Racomitrium</a> aciculare, <a href="/taxa/Marsupella emarginata">Marsupella emarginata</a>
 
 
  <h2 id="distribution-map">Distribution Map</h2>

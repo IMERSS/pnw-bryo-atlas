@@ -1,7 +1,7 @@
 ---
 title: Cephaloziella spinigera
 url: /taxa/Cephaloziella spinigera
-image: "../img/XXXXXX"
+image: "../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_spinigera&#x2F;HabitRMCephSpin.jpeg"
 categories:
   - Marchantiophyta
 ---
@@ -63,9 +63,93 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_spinigera&#x2F;HabitRMCephSpin.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;117416448" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Cephaloziella spinigera photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1RJuN492e1K-xdUz_B1E-b88n8Dtg-MYJ" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_spinigera&#x2F;CephSpinShootJB.jpeg)">
+    <div class="imerss-image-copy"> © Jack Bindernagel</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;245307108" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Cephaloziella spinigera photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1TlaGCHWJNpkZOK0pJuLKPaIUNw1Rvom_" title="Jack Bindernagel" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_spinigera&#x2F;LeavesMicroscopeCWCephSpin.png)">
+    <div class="imerss-image-copy"> © Connor Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;194718266" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Cephaloziella spinigera photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1givyVZzexK2nC2KxYDLmy0Bw9JGTQW64" title="Connor Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_spinigera&#x2F;GemSHootRmCephSpin.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;117416448" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Cephaloziella spinigera photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;16G4Ys62z8c2VUM2x6OlTve9VjVoMfjuF" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 </div>

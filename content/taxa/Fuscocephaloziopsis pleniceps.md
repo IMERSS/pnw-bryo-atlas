@@ -207,7 +207,7 @@ Species of <a href="/taxa/Cephaloziella">Cephaloziella</a> can occur in peaty ha
 
 <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+Moist to wet humus, streambanks, and bogs in the montane zone; infrequent in southeast BC, rare in coastal, south-central, and northeast [Kotcho Lake] BC.
 
 <h2 id="associated-species">Associated species</h2>
 

@@ -67,6 +67,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo1"
        style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_quadrata&#x2F;macro_pics&#x2F;Marchantia_quadrata_JR_01.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;28271347" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -88,6 +89,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo2"
        style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_quadrata&#x2F;macro_pics&#x2F;Marchantia_quadrata_BS_01.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;240654513" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -109,6 +111,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo3"
        style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_quadrata&#x2F;macro_pics&#x2F;Marchantia_quadrata_BC_02.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;185768893" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -126,8 +129,71 @@ categories:
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_quadrata&#x2F;macro_pics&#x2F;Marchantia_quadrata_BS_03.jpg)">
+    <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;288834365" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Marchantia quadrata photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Z2-t0V4m6C6ddNHFBDmKZKiv7k0suJni" title="Brian Starzomski" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_quadrata&#x2F;macro_pics&#x2F;Marchantia_quadrata_RM_01.jpg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;303309065" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Marchantia quadrata photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Qq61nJch60Yk86ZEEP5qMFGcIbafOCfh" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Marchantiaceae&#x2F;Marchantia_quadrata&#x2F;macro_pics&#x2F;Marchantia_quadrata_BS_04.jpeg)">
+    <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;185768907" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Marchantia quadrata photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;140Z-CzpGK6RBGi_x6jOwvqM_GSmd5ttN" title="Brian Starzomski" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 

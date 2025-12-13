@@ -1,7 +1,7 @@
 ---
 title: Scapania hians
 url: /taxa/Scapania hians
-image: "../img/XXXXXX"
+image: "../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_hians&#x2F;ScapHianOriginalIllustration.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,6 +63,27 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Scapania_hians&#x2F;ScapHianOriginalIllustration.jpg)">
+    <div class="imerss-image-copy"> © Karl Muller (1905)</div>
+      <a href="http:&#x2F;&#x2F;www.biodiversitylibrary.org&#x2F;openurl?pid&#x3D;title:12266&amp;volume&#x3D;83&amp;issue&#x3D;&amp;spage&#x3D;1&amp;date&#x3D;1905" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Scapania hians photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Kb8YeZt48fJGQcKet6G_F_uByvPnm_-9" title="Karl Muller (1905)" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 
@@ -85,7 +106,7 @@ Moist to wet rock outcrops, boulders, cliffs, humus, and streambanks, sometimes 
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+Uncertain
 
 
  <h2 id="distribution-map">Distribution Map</h2>
