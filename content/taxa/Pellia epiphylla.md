@@ -1,7 +1,7 @@
 ---
 title: Pellia epiphylla
 url: /taxa/Pellia epiphylla
-
+image: "../img/XXXXXX"
 categories:
   - Marchantiophyta
 ---

@@ -207,11 +207,11 @@ When asexual structures are present, this species in unmistakeable. Absent the b
 
 <h2 id="habitat">Habitat</h2>
 
-
+Moist mineral soils, often disturbed
 
 <h2 id="associated-species">Associated species</h2>
 
-
+<a href="/taxa/Anthoceros">Anthoceros</a>, Ephemerum, tiny mosses in the <a href="/taxa/Bryaceae">Bryaceae</a> and <a href="/taxa/Pottiaceae">Pottiaceae</a>
 
 
  <h2 id="distribution-map">Distribution Map</h2>
@@ -225,7 +225,7 @@ When asexual structures are present, this species in unmistakeable. Absent the b
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>Apr 2, 2025</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 14, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

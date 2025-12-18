@@ -183,7 +183,7 @@ Late snow bed areas, alpine meadows.
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>June 17, 2025</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>December 13, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

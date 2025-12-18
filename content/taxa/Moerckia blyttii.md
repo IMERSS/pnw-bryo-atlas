@@ -67,6 +67,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo1"
        style="background-image: url(../../img/Liverworts&#x2F;Moerckiaceae&#x2F;Pseudomoerckia_blyttii&#x2F;macro_pics&#x2F;Pseudomoerckia_blyttii_AH_01.jpg)">
     <div class="imerss-image-copy"> © Abby Hyde</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;287486624" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -88,6 +89,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo2"
        style="background-image: url(../../img/Liverworts&#x2F;Moerckiaceae&#x2F;Pseudomoerckia_blyttii&#x2F;macro_pics&#x2F;Pseudomoerckia_blyttii_RM_02.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;57002614" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -109,6 +111,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo3"
        style="background-image: url(../../img/Liverworts&#x2F;Moerckiaceae&#x2F;Pseudomoerckia_blyttii&#x2F;macro_pics&#x2F;Pseudomoerckia_blyttii_AH_03.jpg)">
     <div class="imerss-image-copy"> © Abby Hyde</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;287486624" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>

@@ -67,6 +67,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo1"
        style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_beyrichiana&#x2F;macro_pics&#x2F;Riccia_beyrich-BMS.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;253368615" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -88,6 +89,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo2"
        style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_beyrichiana&#x2F;macro_pics&#x2F;Riccia_beyrich-RM.jpeg)">
     <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;175954732" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -109,6 +111,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo3"
        style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_beyrichiana&#x2F;macro_pics&#x2F;Riccia_beyrich-BMS2.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;208653801" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>

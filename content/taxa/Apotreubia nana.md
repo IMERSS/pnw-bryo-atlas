@@ -42,7 +42,7 @@ categories:
 </div>
  <div class="info-right">
 <table>
-<tr><td class="info-label">Common Name</td><td class="info-value">None</td></tr>
+<tr><td class="info-label">Common Name</td><td class="info-value">None &quot;The Treubster&quot;</td></tr>
 <tr><td class="info-label">Frequency</td><td class="info-value">Rare</td></tr>
 </table>
  </div>
@@ -165,7 +165,7 @@ The leafy liverworts <a href="/taxa/Schistochilopsis incisa">Schistochilopsis in
 
 <h2 id="habitat">Habitat</h2>
 
-Moist to wet humus, rock outcrops, cliffs, bogs, and occasionally decayed wood in the lowland zone in hypermaritime regions along the open coast. 
+Moist to wet humus, rock outcrops, cliffs, bogs (among sedges in drainages), and occasionally decayed wood in the lowland zone in hypermaritime regions along the open coast. 
 
 <h2 id="associated-species">Associated species</h2>
 
@@ -183,7 +183,7 @@ Sphagnum sp., <a href="/taxa/Scapania uliginosa">Scapania uliginosa</a>, Mastigo
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>Dec 6, 2025</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 13, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

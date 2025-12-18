@@ -1,7 +1,7 @@
 ---
 title: Lunularia cruciata
 url: /taxa/Lunularia cruciata
-image: "../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_JR_01.jpg"
+image: "../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia_cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_JR_01.jpg"
 categories:
   - Marchantiophyta
 ---
@@ -63,137 +63,11 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_JR_01.jpg)">
-    <div class="imerss-image-copy"> © John Reynolds</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;70644371" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo1">
-                      Lunularia cruciata photo 1
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo1">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Qs4c00L8EcmMVituz44dD-5eQZ-Sr1jV" title="John Reynolds" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_BS_01.jpeg)">
-    <div class="imerss-image-copy"> © Brian Starzomski</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;105953521" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo2">
-                      Lunularia cruciata photo 2
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo2">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1QnU6_g8YGiFTPwLL7SGqVlaTWsuEBWgx" title="Brian Starzomski" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_NE_01.jpg)">
-    <div class="imerss-image-copy"> © Nathan Earley</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;259799642" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo3">
-                      Lunularia cruciata photo 3
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo3">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1QsT0U7s3bjI9ZiOoRwySUUoqEwcH0xSB" title="Nathan Earley" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo4"
-       style="background-image: url(../../img/Liverworts&#x2F;Lophocoleaceae&#x2F;Lophoziopsis_longidens&#x2F;macro_pics&#x2F;Lophoziopsis_longidens_JR_02.jpg)">
-    <div class="imerss-image-copy"> © John Reynolds</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;266041124" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo4">
-                      Lunularia cruciata photo 4
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo4">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;16eaVg6x0Vp7e5zq-6BU-OC8MlvcrynqT" title="John Reynolds" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo5"
-       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_NE_02.jpg)">
-    <div class="imerss-image-copy"> © Nathan Earley</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;254604085" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo5">
-                      Lunularia cruciata photo 5
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo5">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Qm8GKyAj4TJHo2pFBz2UUh6_r0bQJUJo" title="Nathan Earley" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo6"
-       style="background-image: url(../../img/Liverworts&#x2F;Lunulariaceae&#x2F;Lunularia cruciata&#x2F;macro_pics&#x2F;Lunularia_cruciata_PL_01.jpeg)">
-    <div class="imerss-image-copy"> © Pete Lypkie</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;151684970" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo6">
-                      Lunularia cruciata photo 6
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo6">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Ig0dQP35nXrwEbwYKpTw62yOzvopzG-e" title="Pete Lypkie" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 </div>
 
 

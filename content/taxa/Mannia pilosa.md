@@ -1,7 +1,7 @@
 ---
 title: Mannia pilosa
 url: /taxa/Mannia pilosa
-
+image: "../img/XXXXX"
 categories:
   - Marchantiophyta
 ---
@@ -73,7 +73,7 @@ categories:
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Brian Mulroney was Prime Minister the last time this plant was seen in BC. <a href="/taxa/Mannia">Mannia</a> pilosa is an interior species of damp mineral soil among rocks that has polka-dot-like pores over the surface of its green to purple-blotched thallus. When fertile, both the antheridia and the developing carpocephalum can be found at the tips seperate thallus segments. The carpocephalum presents as a hemispherical disk with developing capsule not enclosed in scales of any sort, but a dense ring of filamentous white scales can be found at the base and the tip of the stalk (see illustration). When lacking reproductive features, close inspection should show purple scales underneath that thallus
+Brian Mulroney was Prime Minister the last time this plant was seen in BC. <a href="/taxa/Mannia">Mannia</a> pilosa is an interior species of damp mineral soil among rocks that has polka-dot-like pores over the surface of its green to purple-blotched thallus. When fertile, both the antheridia and the developing carpocephalum can be found at the tips seperate thallus segments. The carpocephalum presents as a hemispherical disk with developing capsule not enclosed in scales of any sort, but a dense ring of filamentous white scales can be found at the base and the tip of the stalk (see illustration). When lacking reproductive features, close inspection should show purple scales underneath that thallus.
 
 <h2 id="similar-species">Similar species</h2>
 

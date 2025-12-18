@@ -148,7 +148,7 @@ Moist to mesic rock outcrops, cliffs, ledges, crevices, boulders, humus, decayed
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+Herbertus aduncus, Sphagnum spp., <a href="/taxa/Macrodiplophyllum rubrum">Macrodiplophyllum rubrum</a>, <a href="/taxa/Mylia taylorii">Mylia taylorii</a>, <a href="/taxa/Odontoschisma">Odontoschisma</a> denudata
 
 
  <h2 id="distribution-map">Distribution Map</h2>
@@ -162,7 +162,7 @@ XXXXXX
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>Nov 8, 2024</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 14, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

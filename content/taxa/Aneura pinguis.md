@@ -183,7 +183,7 @@ Sphagnum sp.
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>Nov 25, 2024</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 12, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

@@ -151,27 +151,6 @@ categories:
       </div>
   </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo5"
-       style="background-image: url(../../img/Liverworts&#x2F;Anastrophyllaceae&#x2F;Barbilophozia_barbata&#x2F;macro_pics&#x2F;Barbilophozia_barbata_RM_01.jpeg)">
-    <div class="imerss-image-copy"> © Randal Mindell</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;214588778" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo5">
-                      Barbilophozia barbata photo 5
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo5">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1bIAKGfjaKLGPrB4lWGt1HtZIxB89FvZY" title="Randal Mindell" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo6"

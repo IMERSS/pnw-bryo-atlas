@@ -1,7 +1,7 @@
 ---
 title: Pellia neesiana
 url: /taxa/Pellia neesiana
-image: "../img/Liverworts&#x2F;Pelliaceae&#x2F;Pellia_neesiana&#x2F;macro_pics&#x2F;Pellia_neesiana_JR_01.jpg"
+image: "../img/XXXXXX"
 categories:
   - Marchantiophyta
 ---
@@ -63,31 +63,12 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo1"
-       style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Pellia_neesiana&#x2F;macro_pics&#x2F;Pellia_neesiana_JR_01.jpg)">
-    <div class="imerss-image-copy"> © John Reynolds</div>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo1">
-                      Pellia neesiana photo 1
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo1">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1HPPFzUfZDmQHXqU9TBwoYcum_A3W3nhr" title="John Reynolds" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
        style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Pellia_neesiana&#x2F;macro_pics&#x2F;Pellia_neesiana_JR_02.jpg)">
     <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;233029240" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -109,6 +90,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo3"
        style="background-image: url(../../img/Liverworts&#x2F;Pelliaceae&#x2F;Pellia_neesiana&#x2F;macro_pics&#x2F;Pellia_neesiana_DT_01.jpeg)">
     <div class="imerss-image-copy"> © Daniel Tucker</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;184637875" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>

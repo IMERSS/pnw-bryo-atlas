@@ -1,7 +1,7 @@
 ---
 title: Conocephalum salebrosum
 url: /taxa/Conocephalum salebrosum
-
+image: "../img/XXXXXX"
 categories:
   - Marchantiophyta
 ---

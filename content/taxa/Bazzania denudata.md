@@ -148,7 +148,7 @@ Moist to wet, often shady rock outcrops, cliffs, ledges, boulders, humus, minera
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+<a href="/taxa/Lepidozia reptans">Lepidozia reptans</a>, <a href="/taxa/Scapania bolanderi">Scapania bolanderi</a>, <a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, and many others
 
 
  <h2 id="distribution-map">Distribution Map</h2>
@@ -162,7 +162,7 @@ XXXXXX
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>Nov 8, 2024</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 13, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

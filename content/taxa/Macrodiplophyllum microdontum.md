@@ -81,7 +81,7 @@ The elongate, round-tipped and unequal toothy leaf lobes could only be mistaken 
 
 <h2 id="habitat">Habitat</h2>
 
-
+Moist arctic and alpine tundra
 
 <h2 id="associated-species">Associated species</h2>
 

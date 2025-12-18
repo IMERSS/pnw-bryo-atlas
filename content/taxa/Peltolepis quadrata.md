@@ -1,7 +1,7 @@
 ---
 title: Peltolepis quadrata
 url: /taxa/Peltolepis quadrata
-
+image: "../img/XXXXXX"
 categories:
   - Marchantiophyta
 ---

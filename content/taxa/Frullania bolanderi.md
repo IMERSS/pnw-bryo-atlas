@@ -148,7 +148,7 @@ Tree trunks (esp. deciduous trees, Douglas-fir), branches, decayed wood, and occ
 
 <h2 id="associated-species">Associated species</h2>
 
-<a href="/taxa/Radula complanata">Radula complanata</a>, <a href="/taxa/Pulvigera">Pulvigera</a> sp., <a href="/taxa/Porella navicularis">Porella navicularis</a>, <a href="/taxa/Neckera">Neckera</a> sp.
+
 
 
  <h2 id="distribution-map">Distribution Map</h2>

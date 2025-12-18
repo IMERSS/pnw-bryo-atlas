@@ -1,7 +1,7 @@
 ---
 title: Moerckia flotoviana
 url: /taxa/Moerckia flotoviana
-
+image: "../img/XXXXXX"
 categories:
   - Marchantiophyta
 ---

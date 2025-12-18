@@ -1,4 +1,4 @@
-There were 14 images in the spreadsheet whose paths mismatched the Drive:
+There were 19 images in the spreadsheet whose paths mismatched the Drive:
 [
   {
     "file": "Liverworts/Scapaniaceae/Barbilophozia_lycopodioides/macro_pics/Barbilophozia_lycopodioides_CF_01.jpg",
@@ -44,6 +44,31 @@ There were 14 images in the spreadsheet whose paths mismatched the Drive:
     "file": "Liverworts/Lophocoleaceae/Lophocolea_minor/macro_pics/Lophocolea_minor_CW_01.png'",
     "taxon": "Lophocolea minor",
     "column": "insetPhoto3"
+  },
+  {
+    "file": "Liverworts/Lunulariaceae/Lunularia_cruciata/macro_pics/Lunularia_cruciata_JR_01.jpg",
+    "taxon": "Lunularia cruciata",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Liverworts/Lunulariaceae/Lunularia_cruciata/macro_pics/Lunularia_cruciata_BS_01.jpeg",
+    "taxon": "Lunularia cruciata",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Liverworts/Lunulariaceae/Lunularia_cruciata/macro_pics/Lunularia_cruciata_NE_01.jpg",
+    "taxon": "Lunularia cruciata",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Liverworts/Lunulariaceae/Lunularia_cruciata/macro_pics/Lunularia_cruciata_NE_02.jpg",
+    "taxon": "Lunularia cruciata",
+    "column": "insetPhoto5"
+  },
+  {
+    "file": "Liverworts/Lunulariaceae/Lunularia_cruciata/macro_pics/Lunularia_cruciata_PL_01.jpeg",
+    "taxon": "Lunularia cruciata",
+    "column": "insetPhoto6"
   },
   {
     "file": "Liverworts/Scapaniaceae/Macrodiplophyllum_plicatum/macro_pics/Macrodiplophyllum_plicatum_RM_01.jpg'",

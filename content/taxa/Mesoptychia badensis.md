@@ -1,7 +1,7 @@
 ---
 title: Mesoptychia badensis
 url: /taxa/Mesoptychia badensis
-
+image: "../img/XXXXXX"
 categories:
   - Marchantiophyta
 ---

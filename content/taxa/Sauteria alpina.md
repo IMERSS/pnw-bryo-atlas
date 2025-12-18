@@ -1,7 +1,7 @@
 ---
 title: Sauteria alpina
 url: /taxa/Sauteria alpina
-
+image: "../img/XXXXXX"
 categories:
   - Marchantiophyta
 ---

@@ -169,7 +169,7 @@ Moist to wet, acidic humus, cliffs, rock outcrops, boulders, fellfields, boggy a
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+<a href="/taxa/Marsupella emarginata">Marsupella emarginata</a>, Siphula ceratites (lichen), Sphagnum sp. 
 
 
  <h2 id="distribution-map">Distribution Map</h2>
@@ -183,7 +183,7 @@ XXXXXX
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>June 17, 2025</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>December 13, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

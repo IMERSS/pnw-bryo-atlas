@@ -1,7 +1,7 @@
 ---
 title: Pellia columbiana
 url: /taxa/Pellia columbiana
-
+image: "../img/XXXXXX"
 categories:
   - Marchantiophyta
 ---

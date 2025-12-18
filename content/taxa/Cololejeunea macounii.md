@@ -42,7 +42,7 @@ categories:
 </div>
  <div class="info-right">
 <table>
-<tr><td class="info-label">Common Name</td><td class="info-value">None</td></tr>
+<tr><td class="info-label">Common Name</td><td class="info-value">None &quot;Colo&quot;</td></tr>
 <tr><td class="info-label">Frequency</td><td class="info-value">Infrequent</td></tr>
 </table>
  </div>
@@ -85,27 +85,6 @@ categories:
       </div>
   </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Liverworts&#x2F;Lejeuneaceae&#x2F;Cololejenea_macounii&#x2F;macro_pics&#x2F;Cololejeunea_macounii_RM_01.jpeg)">
-    <div class="imerss-image-copy"> © Randal Mindell</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242794117" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo2">
-                      Cololejeunea macounii photo 2
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo2">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1WCIuQRSQlMiFoKt_6QUy_XU4MJk6LJmk" title="Randal Mindell" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
@@ -129,89 +108,26 @@ categories:
       </div>
   </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo4"
-       style="background-image: url(../../img/Liverworts&#x2F;Lejeuneaceae&#x2F;Cololejenea_macounii&#x2F;macro_pics&#x2F;Cololejeunea_macounii_CW_01.jpg)">
-    <div class="imerss-image-copy"> © Connor Wardrop</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;288781362" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo4">
-                      Cololejeunea macounii photo 4
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo4">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1hxTWrhZWrP858w8cPeUsZlC2nQJejE_3" title="Connor Wardrop" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo5"
-       style="background-image: url(../../img/Liverworts&#x2F;Lejeuneaceae&#x2F;Cololejenea_macounii&#x2F;macro_pics&#x2F;Cololejeunea_macounii_RM_02.jpeg)">
-    <div class="imerss-image-copy"> © Randal Mindell</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242794113" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo5">
-                      Cololejeunea macounii photo 5
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo5">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1fdzXvvjJlVdPaztE0TJlN7ZzUFzCncGM" title="Randal Mindell" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 
-  <div class="imerss-image-holder"
-       data-micromodal-trigger="modal-plate-photo6"
-       style="background-image: url(../../img/Liverworts&#x2F;Lejeuneaceae&#x2F;Cololejenea_macounii&#x2F;macro_pics&#x2F;Cololejeunea_macounii_BS_01.jpg)">
-    <div class="imerss-image-copy"> © Brian Starzomski</div>
-      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;288633621" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
-  </div>
-  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
-      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
-          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
-              <header class="modal__header">
-                  <div class="modal__title" id="modal-plate-title-photo6">
-                      Cololejeunea macounii photo 6
-                  </div>
-                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
-              </header>
-              <div class="modal__content" id="modal-plate-content-photo6">
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1nt6VQaKBdVmx_NSEg1QP5wYtsLAxxfg2" title="Brian Starzomski" referrerpolicy="no-referrer"/>
-              </div>
-          </div>
-      </div>
-  </div>
 </div>
 
 
 <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-
+C. macounii is a tiny <0.9mm wide, epiphytic leafy liverwort that grows exclusively in extremely humid coastal rainforests.  C. macounii can be recognized by its oblong leaf lobes, leaf cells with large papillae, and by its toothed lobule margin. Previously thought to be rare, before 2023 was only known from five or six locations. Since 2023 recent surveys uncovered new records of the species on the Central Coast and Vancouver Island. It is likely C. macounii is more common than previously thought but has remained elusive due to its extremely small size and specific habitat requirements.  
 
 <h2 id="similar-species">Similar species</h2>
 
-
+<a href="/taxa/Cololejeunea">Cololejeunea</a> macounii is most commonly confused with <a href="/taxa/Radula bolanderi">Radula bolanderi</a> or other species of <a href="/taxa/Radula">Radula</a> which are similar sized and also grow as epiphytes. Microscopically <a href="/taxa/Cololejeunea">Cololejeunea</a> can be easily disinguished by all species of <a href="/taxa/Radula">Radula</a> by its toothed apical lobule margin, and large leaf cell papillae. In the field, <a href="/taxa/Radula bolanderi">Radula bolanderi</a> is often found growing in the same habitat as <a href="/taxa/Cololejeunea">Cololejeunea</a>, but the latter can be recognized by the more oblong leaf lobes and pale yellowish green colour,  compared to the rounder leaves and fresher green colour of <a href="/taxa/Radula bolanderi">R. bolanderi</a>. As well, the leaf arrangment of C. macounii is more disorganized compared to <a href="/taxa/Radula bolanderi">R. bolanderi</a> which often has leaves cleanly alternating. 
 
 <h2 id="habitat">Habitat</h2>
 
-
+Consitently humid microsites in hypermaritime rainforests. Often found growing on Ribes sp. Rubus spectabilis, or Oplopanax horridus stems along streams or in spray zones. Ocasionally found as an epiphyll on Tsuga or Abies needles, or on Alnus rubra logs.  
 
 <h2 id="associated-species">Associated species</h2>
 
-
+<a href="/taxa/Radula bolanderi">Radula bolanderi</a>, <a href="/taxa/Metzgeria temperata">Metzgeria temperata</a>, Ulota spp. 
 
 
  <h2 id="distribution-map">Distribution Map</h2>
@@ -225,7 +141,7 @@ categories:
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>Dec 5, 2025</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 13, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

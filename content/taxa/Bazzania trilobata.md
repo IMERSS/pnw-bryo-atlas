@@ -211,7 +211,7 @@ Moist to mesic, usually shady humus, rock outcrops, cliffs, boulders, and bogs i
 
 <h2 id="associated-species">Associated species</h2>
 
-XXXXXX
+Sphagnum capillifolium, Sphagnum austinii, <a href="/taxa/Rhytidiadelphus loreus">Rhytidiadelphus loreus</a>
 
 
  <h2 id="distribution-map">Distribution Map</h2>
@@ -225,7 +225,7 @@ XXXXXX
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>Nov 8, 2024</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 14, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>
