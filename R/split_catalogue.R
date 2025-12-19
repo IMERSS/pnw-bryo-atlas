@@ -3,11 +3,13 @@ library(googledrive)
 
 source("R/utils.R")
 
+# BC Bryophyte Guide at https://drive.google.com/drive/folders/1vNK76M7G6FTB22KxV21eYycwySg-ZAb1
+
 # Fetch from BC Bryophyte Guide/Credentials/pnw-bryo-atlas-e1fb9a5765ea.json
 downloadGdrive("1eu0reFz6cBM3pkfOaqoEnd2lmKLWlGEd", "pnw-bryo-atlas-e1fb9a5765ea.json")
 
-# Fetch from BC Bryophyte Guide/Catalogues/GBIF-0014165-250827131500795.csv
-downloadGdrive("1HFDMBxvYIAr0V_yi8KpoVSmhbWBpVRb1", "tabular_data/GBIF-catalogue.csv")
+# Fetch from BC Bryophyte Guide/Catalogues/GBIF-0057102-251120083545085.csv
+downloadGdrive("1GEyp3QXI2ZUFfHWK6C0RCXVRowEuMLz4", "tabular_data/GBIF-catalogue.csv")
 
 # Fetch from BC Bryophyte Guide/BC_Bryo_Guide
 downloadGdrive("1MG7C7GX1Tl2RO_vHuMwUo8quhzYZd_mElWRnPuNbpj8", "tabular_data/BC_Bryo_Guide.csv", TRUE)
@@ -47,10 +49,10 @@ start_time <- Sys.time()
 # Iterate over each row in taxa
 for (i in seq_len(nrow(taxa))) {
   taxon_name <- taxa$taxon[i]
-  
+
   # Filter rawGbif for matching scientificName
   subset_df <- gbif %>% filter(species == taxon_name)
-  
+
   file_path <- file.path("static/taxa_records", paste0(taxon_name, ".csv"))
   # Write CSV
   write.csv(subset_df, file_path, row.names = FALSE, na = "")

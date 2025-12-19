@@ -32,18 +32,23 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Phymatoceros">Phymatoceros</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/">
+<a href="https://www.gbif.org/species/" target="_blank">
 <span class="scientific-name">Phymatoceros bulbiculosus (Brot.) Stotler, W.T.Doyle &amp; Crand.-Stotl.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
 </a>
- </div>
+<div class="external-taxa">
+<a href="XXXXX">Tropicos</a>
+<a href="XXXXX">BFNA</a>
+<a href="XXXXX">CBH</a>
+</div>
+</div>
 </div>
  <div class="info-right">
 <table>
 <tr><td class="info-label">Common Name</td><td class="info-value">None</td></tr>
-<tr><td class="info-label">Frequency</td><td class="info-value">Infrequent</td></tr>
+<tr><td class="info-label">Quick & Dirty ID</td><td class="info-value">Bulb-Bearing Hornwort</td></tr>
 </table>
  </div>
 </div>

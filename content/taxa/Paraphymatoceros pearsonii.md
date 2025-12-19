@@ -32,18 +32,23 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Paraphymatoceros">Paraphymatoceros</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/">
+<a href="https://www.gbif.org/species/" target="_blank">
 <span class="scientific-name">Paraphymatoceros pearsonii (M.Howe) J.C.Villarreal &amp; Cargill</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
 </a>
- </div>
+<div class="external-taxa">
+<a href="XXXXX">Tropicos</a>
+<a href="XXXXX">BFNA</a>
+<a href="XXXXX">CBH</a>
+</div>
+</div>
 </div>
  <div class="info-right">
 <table>
 <tr><td class="info-label">Common Name</td><td class="info-value">Pearson&#39;s Phaeoceros</td></tr>
-<tr><td class="info-label">Frequency</td><td class="info-value">Rare</td></tr>
+<tr><td class="info-label">Quick & Dirty ID</td><td class="info-value">Yellow spore long horn</td></tr>
 </table>
  </div>
 </div>

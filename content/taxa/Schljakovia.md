@@ -33,13 +33,15 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Schljakovia">Schljakovia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/4891040">
+<a href="https://www.gbif.org/species/4891040" target="_blank">
 <span class="scientific-name">Schljakovia </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
 </a>
- </div>
+<div class="external-taxa">
+</div>
+</div>
 </div>
  <div class="info-right">
 <table>

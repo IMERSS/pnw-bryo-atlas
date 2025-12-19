@@ -32,18 +32,23 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Claopodium">Claopodium</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/">
+<a href="https://www.gbif.org/species/" target="_blank">
 <span class="scientific-name">Claopodium crispifolium (Hooker) Renauld &amp; Cardot</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
 </a>
- </div>
+<div class="external-taxa">
+<a href="https:&#x2F;&#x2F;www.tropicos.org&#x2F;name&#x2F;35157725">Tropicos</a>
+<a href="http:&#x2F;&#x2F;floranorthamerica.org&#x2F;Claopodium_crispifolium">BFNA</a>
+<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Claopodium+crispifolium&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+</div>
+</div>
 </div>
  <div class="info-right">
 <table>
 <tr><td class="info-label">Common Name</td><td class="info-value">Crispleaf Roughmoss</td></tr>
-<tr><td class="info-label">Frequency</td><td class="info-value">XXXXXX</td></tr>
+<tr><td class="info-label">Quick & Dirty ID</td><td class="info-value">Crisp Maple Dweller</td></tr>
 </table>
  </div>
 </div>

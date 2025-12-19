@@ -13,7 +13,7 @@ const fluid = {};
  *
  * @param {Object} root - The root object to begin traversal from.
  * @param {String[]} segs - The path to the location where the value should be set
- * @param {any} newValue - The value to set at the specified path.
+ * @param {Any} newValue - The value to set at the specified path.
  */
 fluid.set = function (root, segs, newValue) {
     for (let i = 0; i < segs.length - 1; ++i) {
@@ -133,21 +133,22 @@ const abbreviate = taxon => {
     return parts[0][0] + ". " + parts[1];
 };
 
-const renderMenu = function (node) {
+const renderTaxonMenu = function (node) {
+    const entries = Object.entries(node).sort(([a], [b]) => a.localeCompare(b));
     let html = `<div class="dropdown-menu">`;
-    for (const key in node) {
-        if (typeof node[key] === "object") {
+    entries.forEach(([key, value]) => {
+        if (typeof value === "object") {
             html += `
         <div class="dropdown-item">
           <a href="${taxonLink(key)}">${key}</a>
           <svg width="12" height="12"><use href="#right-arrow"/></svg>
-          ${renderMenu(node[key])}
+          ${renderTaxonMenu(value)}
         </div>`;
         } else {
             // Assume that a leaf is a species and abbreviate it
             html += `<div class="dropdown-item"><a href="${taxonLink(key)}">${abbreviate(key)}</a></div>`;
         }
-    }
+    });
     html += "</div>";
     return html;
 };
@@ -157,7 +158,7 @@ const phylumButton = function (name, taxon, taxonomy) {
     <div class="dropdown-button">
       ${name}
       <svg width="16" height="16"><use href="#down-arrow"/></svg>
-      ${renderMenu(taxonomy[taxon])}
+      ${renderTaxonMenu(taxonomy[taxon])}
     </div>`;
 };
 

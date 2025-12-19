@@ -29,13 +29,15 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephaloziaceae">Cephaloziaceae</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/2288">
+<a href="https://www.gbif.org/species/2288" target="_blank">
 <span class="scientific-name">Cephaloziaceae </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
 </a>
- </div>
+<div class="external-taxa">
+</div>
+</div>
 </div>
  <div class="info-right">
 <table>

@@ -69,6 +69,9 @@ imerss.makeRecordsMap = function (container, recordFile) {
         zoom: 6
     });
 
+    // Add zoom controls
+    map.addControl(new maplibregl.NavigationControl(), "bottom-right");
+
     map.on("load", () => {
         fetch(recordFile)
             .then(response => response.text())
@@ -146,6 +149,48 @@ imerss.makeRecordsMap = function (container, recordFile) {
                 map.on("mouseleave", "records-layer", () => {
                     map.getCanvas().style.cursor = "";
                 });
+
+                // Add vertical legend with tick marks every 25 years
+                const legend = document.createElement("div");
+                legend.className = "legend";
+
+                // Calculate tick marks every 25 years
+                const yearRange = maxYear - minYear;
+                const tickMarksHTML = [];
+
+                // Vertical display: top = max year, bottom = min year
+                for (let year = Math.ceil(minYear / 25) * 25; year <= maxYear; year += 25) {
+                    const position = ((maxYear - year) / yearRange) * 100;
+                    tickMarksHTML.push(`
+                        <div class="legend-tick" style="top: ${position}%;">
+                            <div class="legend-tick-mark"></div>
+                            <div class="legend-tick-label">${year}</div>
+                        </div>
+                    `);
+                }
+
+                legend.innerHTML = `
+                    <div class="legend-title">Year</div>
+                    <div class="legend-gradient-container">
+                        <div class="legend-gradient"></div>
+                        <div class="legend-tick" style="top: 0;">
+                            <div class="legend-tick-mark"></div>
+                            <div class="legend-tick-label">${maxYear}</div>
+                        </div>
+                        ${tickMarksHTML.join("")}
+                        <div class="legend-tick" style="top: 100%;">
+                            <div class="legend-tick-mark"></div>
+                            <div class="legend-tick-label">${minYear}</div>
+                        </div>
+                    </div>
+                `;
+
+                // Get the actual container element (if passed as string ID)
+                const containerEl = typeof container === "string"
+                    ? document.getElementById(container)
+                    : container;
+                containerEl.style.position = "relative";
+                containerEl.appendChild(legend);
             });
     });
     return map;

@@ -32,18 +32,22 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccardia">Riccardia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/">
+<a href="https://www.gbif.org/species/" target="_blank">
 <span class="scientific-name">Riccardia chamedryfolia (With.) Grolle</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
 </a>
- </div>
+<div class="external-taxa">
+<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185926">Tropicos</a>
+<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
+</div>
+</div>
 </div>
  <div class="info-right">
 <table>
 <tr><td class="info-label">Common Name</td><td class="info-value">Jagged Germanderwort</td></tr>
-<tr><td class="info-label">Frequency</td><td class="info-value">Frequent</td></tr>
+<tr><td class="info-label">Quick & Dirty ID</td><td class="info-value">Green Bolt</td></tr>
 </table>
  </div>
 </div>
