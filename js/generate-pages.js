@@ -123,6 +123,7 @@ const familyList = function (genusPages, joined) {
 const search = fs.readFileSync("templates/search.html", "utf8");
 const svg = fs.readFileSync("templates/svg.html", "utf8");
 const modal = fs.readFileSync("templates/modal.html", "utf8");
+const extraNav = fs.readFileSync("templates/extra-nav.html", "utf8");
 
 const imageFiles = JSON.parse(fs.readFileSync("imagefiles.json", "utf8"));
 const imageMap = Object.fromEntries(imageFiles.map(item => [item.path.substring(1), item.id]));
@@ -166,7 +167,7 @@ const buildNavbar = function (taxonomy) {
     const mosses = phylumButton("Mosses", "Bryophyta", taxonomy);
     const liverworts = phylumButton("Liverworts", "Marchantiophyta", taxonomy);
     const hornworts = phylumButton("Hornworts", "Anthocerotophyta", taxonomy);
-    return `${svg}<div class="navbar-items">${mosses} ${liverworts} ${hornworts}</div> ${search}`;
+    return `${svg}<div class="navbar-items">${mosses} ${liverworts} ${hornworts} ${extraNav}</div> ${search}`;
 };
 
 const mapImage = function (file, taxon, column, badImages) {

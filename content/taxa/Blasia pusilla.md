@@ -2,17 +2,19 @@
 title: Blasia pusilla
 url: /taxa/Blasia pusilla
 image: "../img/Liverworts&#x2F;Blasiaceae&#x2F;Blasia_pusilla&#x2F;macro_pics&#x2F;Blasia_pusilla_JR_01.jpg"
+type: taxon
 categories:
   - Marchantiophyta
 ---
 
-<script defer src="../../js/micromodal.min.js"></script>
+<script defer src="../../js/micromodal.js" type="module"></script>
 <link href="../../css/micromodal.css" rel="stylesheet">
 
 <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
 <script defer src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
+<script defer src="../../js/image-nav.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -84,6 +86,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;12Sqmu5LfCl6adJyGbM6NgYuyVZ2UV5bQ" title="John Reynolds" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -106,6 +118,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;12hnRwY6djuEU6UXUKIdBTLMvtXJe7iyO" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -128,6 +150,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;12WSCJemacB_R8QeaPiF9AS4HfBa0cRLb" title="John Reynolds" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -150,6 +182,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1JniBNr-TjUbzsa7PEdByyzlbitJPsAQt" title="Randal Mindell" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -172,6 +214,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1XWxW7iqW25Aqkb5nAsFjEtZPcjiCygOQ" title="Randal Mindell" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -194,6 +246,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1qVq_rRKMxsJ9FFoHnPDjw6zAN2gRzScY" title="Andrew Simon" referrerpolicy="no-referrer"/>
               </div>
           </div>

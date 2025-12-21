@@ -2,17 +2,19 @@
 title: Fossombronia longiseta
 url: /taxa/Fossombronia longiseta
 image: "../img/Liverworts&#x2F;Fossombroniaceae&#x2F;Fossombronia_longiseta&#x2F;macro_pics&#x2F;Fossombronia_longiseta_BMS-01.jpg"
+type: taxon
 categories:
   - Marchantiophyta
 ---
 
-<script defer src="../../js/micromodal.min.js"></script>
+<script defer src="../../js/micromodal.js" type="module"></script>
 <link href="../../css/micromodal.css" rel="stylesheet">
 
 <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
 <script defer src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
+<script defer src="../../js/image-nav.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -84,6 +86,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;18cIpWL9o7sSNfBcfz21FLYD33NtYlZio" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -106,6 +118,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;13QXWdfepyJwm7Rqh6McSjVEmgrX5DbqO" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -128,6 +150,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1ud2wAYybRKmzEeiH5wRARxCmTCYkXL7S" title="Finn McGhee" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -150,6 +182,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;19EUVgSS2ermMw-wAKV5NGJipPCR1D2Mp" title="Finn McGhee" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -172,6 +214,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1aMpyEjVXhdZC_z9OQWr0FA22xg4AvVKf" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -194,6 +246,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Ec3zKfqrLEiZ_eWiGR9_TTcJtid849yT" title="Randal Mindell" referrerpolicy="no-referrer"/>
               </div>
           </div>

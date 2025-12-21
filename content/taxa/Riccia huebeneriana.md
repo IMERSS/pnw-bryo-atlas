@@ -2,17 +2,19 @@
 title: Riccia huebeneriana
 url: /taxa/Riccia huebeneriana
 image: "../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_huebeneriana&#x2F;macro_pics&#x2F;Riccia_hueb-BMS.jpeg"
+type: taxon
 categories:
   - Marchantiophyta
 ---
 
-<script defer src="../../js/micromodal.min.js"></script>
+<script defer src="../../js/micromodal.js" type="module"></script>
 <link href="../../css/micromodal.css" rel="stylesheet">
 
 <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
 <script defer src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
+<script defer src="../../js/image-nav.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -72,7 +74,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo1"
        style="background-image: url(../../img/Liverworts&#x2F;Ricciaceae&#x2F;Riccia_huebeneriana&#x2F;macro_pics&#x2F;Riccia_hueb-BMS.jpeg)">
     <div class="imerss-image-copy"> © Brian Starzomski</div>
-      <a href="https:&#x2F;&#x2F;inaturalist.org&#x2F;observations&#x2F;244423549" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;244423549" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -84,6 +86,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;11S1pUEempLjQk5oqPOoEvgrT6ZKUGbuz" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -106,6 +118,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;11PVGxwgjCSz4tjRLZUxBuu04ArycudRu" title="Randal Mindell" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -128,6 +150,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;11a6IU30ei1YIvx0pTjrHbNMdf5xO8reu" title="Randal Mindell" referrerpolicy="no-referrer"/>
               </div>
           </div>

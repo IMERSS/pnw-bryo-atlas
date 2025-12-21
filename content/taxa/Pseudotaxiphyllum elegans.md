@@ -2,17 +2,19 @@
 title: Pseudotaxiphyllum elegans
 url: /taxa/Pseudotaxiphyllum elegans
 image: "../img/Mosses&#x2F;Plagiotheciaceae&#x2F;Pseudotaxiphyllum_elegans&#x2F;macro_pics&#x2F;PSEUELE_JDR_iNat_01.jpg"
+type: taxon
 categories:
   - Bryophyta
 ---
 
-<script defer src="../../js/micromodal.min.js"></script>
+<script defer src="../../js/micromodal.js" type="module"></script>
 <link href="../../css/micromodal.css" rel="stylesheet">
 
 <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
 <script defer src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
+<script defer src="../../js/image-nav.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -83,6 +85,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;132FNTEvemKGMe2aDN1Bt-HDF7ken-cVe" title="John Reynolds" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -104,6 +116,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1FmxBSxB3rdYAT6le3rWM6STJ8O63yyOl" title="Jamie Fenneman" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -125,6 +147,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1AaGgokgiuAEsWoPEZJWUImheRryc6H1O" title="John Reynolds" referrerpolicy="no-referrer"/>
               </div>
           </div>

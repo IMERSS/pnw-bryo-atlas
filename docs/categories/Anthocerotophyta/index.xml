@@ -23,12 +23,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -128,12 +129,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -197,6 +199,16 @@
                   &lt;button class=&#34;modal__close&#34; aria-label=&#34;Close&#34; data-micromodal-close&gt;&lt;/button&gt;
               &lt;/header&gt;
               &lt;div class=&#34;modal__content&#34; id=&#34;modal-plate-content-photo1&#34;&gt;
+                  &lt;div class=&#34;imerss-image-nav imerss-image-left&#34;&gt;
+                      &lt;svg width=&#34;20&#34; height=&#34;20&#34; &gt;
+                          &lt;use href=&#34;#arrow-left&#34; /&gt;
+                      &lt;/svg&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;imerss-image-nav imerss-image-right&#34;&gt;
+                      &lt;svg width=&#34;20&#34; height=&#34;20&#34; &gt;
+                          &lt;use href=&#34;#arrow-right&#34; /&gt;
+                      &lt;/svg&gt;
+                  &lt;/div&gt;
                   &lt;img src=&#34;https:&amp;#x2F;&amp;#x2F;lh3.googleusercontent.com&amp;#x2F;d&amp;#x2F;150CjOoKypQMmuIJMW4hW06kpvHg9TRZq&#34; title=&#34;Braden Judson&#34; referrerpolicy=&#34;no-referrer&#34;/&gt;
               &lt;/div&gt;
           &lt;/div&gt;
@@ -217,6 +229,16 @@
                   &lt;button class=&#34;modal__close&#34; aria-label=&#34;Close&#34; data-micromodal-close&gt;&lt;/button&gt;
               &lt;/header&gt;
               &lt;div class=&#34;modal__content&#34; id=&#34;modal-plate-content-photo2&#34;&gt;
+                  &lt;div class=&#34;imerss-image-nav imerss-image-left&#34;&gt;
+                      &lt;svg width=&#34;20&#34; height=&#34;20&#34; &gt;
+                          &lt;use href=&#34;#arrow-left&#34; /&gt;
+                      &lt;/svg&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;imerss-image-nav imerss-image-right&#34;&gt;
+                      &lt;svg width=&#34;20&#34; height=&#34;20&#34; &gt;
+                          &lt;use href=&#34;#arrow-right&#34; /&gt;
+                      &lt;/svg&gt;
+                  &lt;/div&gt;
                   &lt;img src=&#34;https:&amp;#x2F;&amp;#x2F;lh3.googleusercontent.com&amp;#x2F;d&amp;#x2F;14rbKn5Z-DBXugeBNrPlTMLudvFyRyAIZ&#34; title=&#34;Braden Judson&#34; referrerpolicy=&#34;no-referrer&#34;/&gt;
               &lt;/div&gt;
           &lt;/div&gt;
@@ -237,6 +259,16 @@
                   &lt;button class=&#34;modal__close&#34; aria-label=&#34;Close&#34; data-micromodal-close&gt;&lt;/button&gt;
               &lt;/header&gt;
               &lt;div class=&#34;modal__content&#34; id=&#34;modal-plate-content-photo3&#34;&gt;
+                  &lt;div class=&#34;imerss-image-nav imerss-image-left&#34;&gt;
+                      &lt;svg width=&#34;20&#34; height=&#34;20&#34; &gt;
+                          &lt;use href=&#34;#arrow-left&#34; /&gt;
+                      &lt;/svg&gt;
+                  &lt;/div&gt;
+                  &lt;div class=&#34;imerss-image-nav imerss-image-right&#34;&gt;
+                      &lt;svg width=&#34;20&#34; height=&#34;20&#34; &gt;
+                          &lt;use href=&#34;#arrow-right&#34; /&gt;
+                      &lt;/svg&gt;
+                  &lt;/div&gt;
                   &lt;img src=&#34;https:&amp;#x2F;&amp;#x2F;lh3.googleusercontent.com&amp;#x2F;d&amp;#x2F;151DxeKB9bGv7L7xgDJlVvIBG_booubPC&#34; title=&#34;Braden Judson&#34; referrerpolicy=&#34;no-referrer&#34;/&gt;
               &lt;/div&gt;
           &lt;/div&gt;
@@ -302,12 +334,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -416,12 +449,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -516,12 +550,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -617,12 +652,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -721,12 +757,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -835,12 +872,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -939,12 +977,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -1053,12 +1092,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -1157,12 +1197,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;
@@ -1271,12 +1312,13 @@
       <description>
         
         
-        &lt;script defer src=&#34;../../js/micromodal.min.js&#34;&gt;&lt;/script&gt;
+        &lt;script defer src=&#34;../../js/micromodal.js&#34; type=&#34;module&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/micromodal.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;link href=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css&#34; rel=&#34;stylesheet&#34; /&gt;
 &lt;script defer src=&#34;https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;https://unpkg.com/papaparse@5.4.1/papaparse.min.js&#34;&gt;&lt;/script&gt;
 &lt;script defer src=&#34;../../js/records-map.js&#34;&gt;&lt;/script&gt;
+&lt;script defer src=&#34;../../js/image-nav.js&#34;&gt;&lt;/script&gt;
 &lt;link href=&#34;../../css/style-taxon.css&#34; rel=&#34;stylesheet&#34;&gt;
 &lt;div class=&#34;container&#34;&gt;
 &lt;div class=&#34;imerss-content hx-max-w-screen-xl&#34;&gt;

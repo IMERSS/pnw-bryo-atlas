@@ -4,6 +4,12 @@
   <url>
     <loc>/</loc>
   </url><url>
+    <loc>/about/</loc>
+  </url><url>
+    <loc>/habitats/</loc>
+  </url><url>
+    <loc>/resources/</loc>
+  </url><url>
     <loc>/taxa/Anastrepta/</loc>
   </url><url>
     <loc>/taxa/Anastrepta%20orcadensis/</loc>
@@ -658,6 +664,8 @@
   </url><url>
     <loc>/taxa/Riccia%20beyrichiana/</loc>
   </url><url>
+    <loc>/taxa/Riccia%20campbelliana/</loc>
+  </url><url>
     <loc>/taxa/Riccia%20cavernosa/</loc>
   </url><url>
     <loc>/taxa/Riccia%20crinita%20%28trichocarpa%29/</loc>
@@ -671,6 +679,8 @@
     <loc>/taxa/Riccia%20huebeneriana/</loc>
   </url><url>
     <loc>/taxa/Riccia%20lamellosa/</loc>
+  </url><url>
+    <loc>/taxa/Riccia%20nigrella/</loc>
   </url><url>
     <loc>/taxa/Riccia%20sorocarpa/</loc>
   </url><url>

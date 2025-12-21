@@ -2,17 +2,19 @@
 title: Cephaloziella divaricata
 url: /taxa/Cephaloziella divaricata
 image: "../img/Liverworts&#x2F;Cephaloziellaceae&#x2F;Cephaloziella_divaricata&#x2F;macro_pics&#x2F;Cephaloziella_divaricata_JR_01.jpg"
+type: taxon
 categories:
   - Marchantiophyta
 ---
 
-<script defer src="../../js/micromodal.min.js"></script>
+<script defer src="../../js/micromodal.js" type="module"></script>
 <link href="../../css/micromodal.css" rel="stylesheet">
 
 <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
 <script defer src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
+<script defer src="../../js/image-nav.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -84,6 +86,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;14togZ91bsZ2mUc6UE46s1VYsZ74QJjkv" title="John Reynolds" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -106,6 +118,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;156fyxMlcZZX3PRDyRqhweLGnwOwlOqQ-" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -128,6 +150,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1cSNMlUcVYc5jm9QIdlFsFNx8iQNRevwR" title="Dan Tucker" referrerpolicy="no-referrer"/>
               </div>
           </div>
@@ -149,6 +181,16 @@ categories:
                   <button class="modal__close" aria-label="Close" data-micromodal-close></button>
               </header>
               <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
                   <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;14v_80bzZqVxanfB962J_-XaAXeJhvuHU" title="Connor Wardrop" referrerpolicy="no-referrer"/>
               </div>
           </div>

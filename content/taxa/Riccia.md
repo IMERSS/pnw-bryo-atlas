@@ -2,17 +2,19 @@
 title: Riccia
 url: /taxa/Riccia
 
+type: taxon
 categories:
   - Marchantiophyta
 ---
 
-<script defer src="../../js/micromodal.min.js"></script>
+<script defer src="../../js/micromodal.js" type="module"></script>
 <link href="../../css/micromodal.css" rel="stylesheet">
 
 <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
 <script defer src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
+<script defer src="../../js/image-nav.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -74,6 +76,7 @@ categories:
 <h2 id="taxon-links">Species in this genus</h2>
 <div class="taxon-links">
 <a href="/taxa/Riccia beyrichiana">Riccia beyrichiana</a><br/>
+<a href="/taxa/Riccia campbelliana">Riccia campbelliana</a><br/>
 <a href="/taxa/Riccia cavernosa">Riccia cavernosa</a><br/>
 <a href="/taxa/Riccia crinita (trichocarpa)">Riccia crinita (trichocarpa)</a><br/>
 <a href="/taxa/Riccia fluitans">Riccia fluitans</a><br/>
@@ -81,6 +84,7 @@ categories:
 <a href="/taxa/Riccia glauca">Riccia glauca</a><br/>
 <a href="/taxa/Riccia huebeneriana">Riccia huebeneriana</a><br/>
 <a href="/taxa/Riccia lamellosa">Riccia lamellosa</a><br/>
+<a href="/taxa/Riccia nigrella">Riccia nigrella</a><br/>
 <a href="/taxa/Riccia sorocarpa">Riccia sorocarpa</a><br/>
 </div>
 

@@ -117,6 +117,29 @@
     line-height: 2;
 }
 
+/** Lightbox images **/
+
+.imerss-image-nav {
+    position: absolute;
+    top: 50%;
+    cursor: pointer;
+    background: #0006;
+    padding: 0.7rem;
+    fill: white;
+}
+
+.imerss-image-nav:hover {
+    background: #000b;
+}
+
+.imerss-image-left {
+    left: 1rem;
+}
+
+.imerss-image-right {
+    right: 1rem;
+}
+
 .imerss-image-holder {
     background-size: cover;
     background-position: center center;
@@ -173,6 +196,8 @@
 
 .modal__content {
     display: flex;
+    position: relative;
+    user-select: none;
 }
 
 .modal__content img {

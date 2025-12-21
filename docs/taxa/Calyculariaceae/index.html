@@ -31,7 +31,7 @@
 
 
 
-  <link href="../../css/custom.min.002049eacde564b44289514c0ac54378863b8616cd0fc8574b5ec6f902aea701.css" rel="stylesheet" integrity="sha256-ACBJ6s3lZLRCiVFMCsVDeIY7hhbND8hXS17G&#43;QKupwE=" />
+  <link href="../../css/custom.min.adba8a1a186e79641abefd7099c9f7d428a5ad3a291152ece3a9f2e6492ad329.css" rel="stylesheet" integrity="sha256-rbqKGhhueWQavv1wmcn31CilrTopEVLs46ny5kkq0yk=" />
 
 
   <script>
@@ -89,6 +89,12 @@
         </symbol>
         <symbol id="search" viewBox="0 0 24 24" stroke="currentColor" xmlns="http://www.w3.org/2000/svg" fill="none">
             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </symbol>
+        <symbol id="arrow-right" viewBox="0 0 20 20" fill="#23000">
+            <path d="M7 1 5.6 2.5 13 10l-7.4 7.5L7 19l9-9z"/>
+        </symbol>
+        <symbol id="arrow-left" viewBox="0 0 20 20" fill="#23000">
+            <path d="M13 1 14.4 2.5 7 10 14.4 17.5 13 19 4 10z"/>
         </symbol>
     </defs>
 </svg>
@@ -774,7 +780,7 @@
         <div class="dropdown-item">
           <a href="../../taxa/Riccia">Riccia</a>
           <svg width="12" height="12"><use href="#right-arrow"/></svg>
-          <div class="dropdown-menu"><div class="dropdown-item"><a href="../../taxa/Riccia beyrichiana">R. beyrichiana</a></div><div class="dropdown-item"><a href="../../taxa/Riccia cavernosa">R. cavernosa</a></div><div class="dropdown-item"><a href="../../taxa/Riccia crinita (trichocarpa)">R. crinita</a></div><div class="dropdown-item"><a href="../../taxa/Riccia fluitans">R. fluitans</a></div><div class="dropdown-item"><a href="../../taxa/Riccia frostii">R. frostii</a></div><div class="dropdown-item"><a href="../../taxa/Riccia glauca">R. glauca</a></div><div class="dropdown-item"><a href="../../taxa/Riccia huebeneriana">R. huebeneriana</a></div><div class="dropdown-item"><a href="../../taxa/Riccia lamellosa">R. lamellosa</a></div><div class="dropdown-item"><a href="../../taxa/Riccia sorocarpa">R. sorocarpa</a></div></div>
+          <div class="dropdown-menu"><div class="dropdown-item"><a href="../../taxa/Riccia beyrichiana">R. beyrichiana</a></div><div class="dropdown-item"><a href="../../taxa/Riccia campbelliana">R. campbelliana</a></div><div class="dropdown-item"><a href="../../taxa/Riccia cavernosa">R. cavernosa</a></div><div class="dropdown-item"><a href="../../taxa/Riccia crinita (trichocarpa)">R. crinita</a></div><div class="dropdown-item"><a href="../../taxa/Riccia fluitans">R. fluitans</a></div><div class="dropdown-item"><a href="../../taxa/Riccia frostii">R. frostii</a></div><div class="dropdown-item"><a href="../../taxa/Riccia glauca">R. glauca</a></div><div class="dropdown-item"><a href="../../taxa/Riccia huebeneriana">R. huebeneriana</a></div><div class="dropdown-item"><a href="../../taxa/Riccia lamellosa">R. lamellosa</a></div><div class="dropdown-item"><a href="../../taxa/Riccia nigrella">R. nigrella</a></div><div class="dropdown-item"><a href="../../taxa/Riccia sorocarpa">R. sorocarpa</a></div></div>
         </div>
         <div class="dropdown-item">
           <a href="../../taxa/Ricciocarpos">Ricciocarpos</a>
@@ -882,7 +888,10 @@
           <div class="dropdown-menu"><div class="dropdown-item"><a href="../../taxa/Phymatoceros bulbiculosus">P. bulbiculosus</a></div></div>
         </div></div>
         </div></div>
-    </div></div> <div class="search-wrapper hx-relative md:hx-w-64">
+    </div> <a class="dropdown-button" href="../../habitats">Habitats</a>
+<a class="dropdown-button" href="../../resources">Resources</a>
+<a class="dropdown-button" href="../../about">About this Project</a>
+</div> <div class="search-wrapper hx-relative md:hx-w-64">
     <div class="hx-relative hx-flex hx-items-center hx-text-gray-900 contrast-more:hx-text-gray-800 dark:hx-text-gray-300 contrast-more:dark:hx-text-gray-300">
         <input
                 placeholder="Search..."
@@ -936,12 +945,13 @@
     <article class="hx-w-full hx-break-words hx-flex hx-min-h-[calc(100vh-var(--navbar-height))] hx-min-w-0 hx-justify-center hx-pb-8 hx-pr-[calc(env(safe-area-inset-right)-1.5rem)]">
       <main class="hx-w-full">
         <h1 class="hx-text-center hx-mt-2 hx-text-4xl hx-font-bold hx-tracking-tight hx-text-slate-900 dark:hx-text-slate-100">Calyculariaceae</h1>
-        <script defer src="../../js/micromodal.min.js"></script>
+        <script defer src="../../js/micromodal.js" type="module"></script>
 <link href="../../css/micromodal.css" rel="stylesheet">
 <link href="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.css" rel="stylesheet" />
 <script defer src="https://unpkg.com/maplibre-gl@3.6.2/dist/maplibre-gl.js"></script>
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
+<script defer src="../../js/image-nav.js"></script>
 <link href="../../css/style-taxon.css" rel="stylesheet">
 <div class="container">
 <div class="imerss-content hx-max-w-screen-xl">
