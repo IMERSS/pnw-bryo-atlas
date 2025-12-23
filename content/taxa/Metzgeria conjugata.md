@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-A frequent and elongate simple thalloid liverwort in moist forests and shaded rock outcrops, the translucent green M. conjugata can occur as isolated shoots (1-2 mm wide and many centimeter long) worming their way through other bryophytes or as luxuriant and extensive layers cascading over the substrate. Like all members of the genus, it has a continuous, thin wing of photosynthetic tissue that run along a midrib, but close inspection of the underside reveals pairs of straight hairs along the margins as well as the midrib. You might well see spherical structures under there as well-- these are specialized structures that hold the reproductive organs. 
-
-<h2 id="similar-species">Similar species</h2>
-
-Amongst the thalloid bryophytes of the region, it is unlikely to be mistaken for any other genus on account of its small size and thin wings. Species of <a href="/taxa/Riccardia">Riccardia</a> and <a href="/taxa/Fossombronia">Fossombronia</a> are of similar size, but the former lacks a midrib and the latter has a ruffled, leafy appearance in contrast to the flattened thallus of M. conjugata. Most other species within the genus <a href="/taxa/Metzgeria">Metzgeria</a> can be seperated from it based on features of the hairs. <a href="/taxa/Metzgeria americana">M. americana</a> and <a href="/taxa/Metzgeria pubescens">M. pubescens</a> have hairs all over both surfaces, while in M. conjugata they are confined to the underside along the margins and midrib. <a href="/taxa/Metzgeria leptoneura">M. leptoneura</a> has a similair arrangement, but in that species, the hairs are curved into a C-shape, not straight. <a href="/taxa/Metzgeria temperata">M. temperata</a> can have identical hair arrangement to M. conjugata, but the shoots have tapering tips that are frequently fringed with asexual reproductive bodies ("gemmae"). <a href="/taxa/Metzgeria lindbergii">M. lindbergii</a> is impossible to distinguish without a microscope. 
-
-<h2 id="habitat">Habitat</h2>
-
-Mesic to wet, usually shady rock outcrops, cliffs, boulders, waterfall spray zones, and tree trunks in the lowland zone; frequent in coastal BC.
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ A frequent and elongate simple thalloid liverwort in moist forests and shaded rock outcrops, the translucent green M. conjugata can occur as isolated shoots (1-2 mm wide and many centimeter long) worming their way through other bryophytes or as luxuriant and extensive layers cascading over the substrate. Like all members of the genus, it has a continuous, thin wing of photosynthetic tissue that run along a midrib, but close inspection of the underside reveals pairs of straight hairs along the margins as well as the midrib. You might well see spherical structures under there as well-- these are specialized structures that hold the reproductive organs. 
+
+ <h2 id="similar-species">Similar species</h2>
+
+ Amongst the thalloid bryophytes of the region, it is unlikely to be mistaken for any other genus on account of its small size and thin wings. Species of <a href="/taxa/Riccardia">Riccardia</a> and <a href="/taxa/Fossombronia">Fossombronia</a> are of similar size, but the former lacks a midrib and the latter has a ruffled, leafy appearance in contrast to the flattened thallus of M. conjugata. Most other species within the genus <a href="/taxa/Metzgeria">Metzgeria</a> can be seperated from it based on features of the hairs. <a href="/taxa/Metzgeria americana">M. americana</a> and <a href="/taxa/Metzgeria pubescens">M. pubescens</a> have hairs all over both surfaces, while in M. conjugata they are confined to the underside along the margins and midrib. <a href="/taxa/Metzgeria leptoneura">M. leptoneura</a> has a similair arrangement, but in that species, the hairs are curved into a C-shape, not straight. <a href="/taxa/Metzgeria temperata">M. temperata</a> can have identical hair arrangement to M. conjugata, but the shoots have tapering tips that are frequently fringed with asexual reproductive bodies ("gemmae"). <a href="/taxa/Metzgeria lindbergii">M. lindbergii</a> is impossible to distinguish without a microscope. 
+
+ <h2 id="habitat">Habitat</h2>
+
+ Mesic to wet, usually shady rock outcrops, cliffs, boulders, waterfall spray zones, and tree trunks in the lowland zone; frequent in coastal BC.
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Mesic to wet, usually shady rock outcrops, cliffs, boulders, waterfall spray zon
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

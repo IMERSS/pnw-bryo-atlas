@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Scrambling over the forest floor or over stumps and trees, this species has a reddish stem, long but distantly-spaced branches and whispy, pointed leaves that are equally arranged around the stem. The sporophytes, when present, have a chestnut brown and round capsule that is inclined at 90 degrees from its stem (seta).
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Unlikely to be mistaken for many species with the exception of Antitrichia curtipendula, which grows predominantly on trees and rocks. When present on the forest floor or on lower tree trunks, A. curtipendula can be distinguished from the lanky R. loreus by its branches, which tend to be at 90 degrees to the main shoot, very irregular and swooping. Hylocomiadelphus triquetrus is also a forest floor scrambler, but in that species the leaves are much larger (>5mm) and arranged in a disorganized and shaggy manner.
+ Scrambling over the forest floor or over stumps and trees, this species has a reddish stem, long but distantly-spaced branches and whispy, pointed leaves that are equally arranged around the stem. The sporophytes, when present, have a chestnut brown and round capsule that is inclined at 90 degrees from its stem (seta).
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist, shady soil, humus, decayed wood, rock outcrops, ledges, tree bases, and branches, especially in coniferous forests, in the lowland, montane, and subalpine zones; common in coastal BC, frequent in se BC.
+ Unlikely to be mistaken for many species with the exception of Antitrichia curtipendula, which grows predominantly on trees and rocks. When present on the forest floor or on lower tree trunks, A. curtipendula can be distinguished from the lanky R. loreus by its branches, which tend to be at 90 degrees to the main shoot, very irregular and swooping. Hylocomiadelphus triquetrus is also a forest floor scrambler, but in that species the leaves are much larger (>5mm) and arranged in a disorganized and shaggy manner.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist, shady soil, humus, decayed wood, rock outcrops, ledges, tree bases, and branches, especially in coniferous forests, in the lowland, montane, and subalpine zones; common in coastal BC, frequent in se BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

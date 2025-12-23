@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -78,22 +81,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Forming tiny chestnut brown and wormy threads less than .5mm wide and up to 3 cm long, M. condensata is a rarely-noticed component of shallow drainage fed by continuous snow melt in the mountains and tundrascapes of the region. The leaves are hard to make out without a hand lens and microscopic examination may be required for confident identification. Close inspection shows closely overlapping, bilobed and concave leaves with a moon-shaped (“lunate”) sinus (see photo) that descends to about ¼ of the leaf’s length. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Other thread-like liverworts in its meltwater drainage habitat include species of <a href="/taxa/Anthelia">Anthelia</a> and <a href="/taxa/Cephaloziella">Cephaloziella</a>. The former differs in having silverish white, deeply dissected leaves, while the bilobed leaves of the latter are very distant and non-overlapping. <a href="/taxa/Marsupella">Marsupella</a> condensata is one of a number of tiny, thread-like species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a> and <a href="/taxa/Marsupella">Marsupella</a>. It is the only small, thread-like <a href="/taxa/Marsupella">Marsupella</a> with the moon-shaped (“lunate”) sinus. In all other species, the sinus descends to an acute point. Amongst the paler red-brown hued <a href="/taxa/Gymnomitrion">Gymnomitrion</a> species, the same lunate sinus character distinguishes it; in G. apiculatum and <a href="/taxa/Gymnomitrion concinnatum">G. concinnatum</a>, the sinus has an acute base. 
+ Forming tiny chestnut brown and wormy threads less than .5mm wide and up to 3 cm long, M. condensata is a rarely-noticed component of shallow drainage fed by continuous snow melt in the mountains and tundrascapes of the region. The leaves are hard to make out without a hand lens and microscopic examination may be required for confident identification. Close inspection shows closely overlapping, bilobed and concave leaves with a moon-shaped (“lunate”) sinus (see photo) that descends to about ¼ of the leaf’s length. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, often shady rock outcrops, cliffs, ledges, crevices, boulders, and occasionally humus in the montane and subalpine zones
+ Other thread-like liverworts in its meltwater drainage habitat include species of <a href="/taxa/Anthelia">Anthelia</a> and <a href="/taxa/Cephaloziella">Cephaloziella</a>. The former differs in having silverish white, deeply dissected leaves, while the bilobed leaves of the latter are very distant and non-overlapping. <a href="/taxa/Marsupella">Marsupella</a> condensata is one of a number of tiny, thread-like species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a> and <a href="/taxa/Marsupella">Marsupella</a>. It is the only small, thread-like <a href="/taxa/Marsupella">Marsupella</a> with the moon-shaped (“lunate”) sinus. In all other species, the sinus descends to an acute point. Amongst the paler red-brown hued <a href="/taxa/Gymnomitrion">Gymnomitrion</a> species, the same lunate sinus character distinguishes it; in G. apiculatum and <a href="/taxa/Gymnomitrion concinnatum">G. concinnatum</a>, the sinus has an acute base. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet, often shady rock outcrops, cliffs, ledges, crevices, boulders, and occasionally humus in the montane and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -132,6 +136,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

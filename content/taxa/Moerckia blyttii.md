@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -57,9 +58,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -170,22 +173,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Moerckia">Moerckia</a> blyttii can be found under heathers along moist, soily or peaty slopes in near the timberline, where it grows as a green, simple thalloid liverwort with undulating margins, the entire plant up to 3 cm long and less than 1 cm wide. The upper surface of male plants is laden with smooth scales (see photo) that surround the antheridia along the thickened midrib-like central region of the thallus and the undersurface is laden with brown hairs. Similar scales and hairs are seen on seperate female plants, while in sterile plants, the brown hairs of the underside are present, but scales are absent. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-In its timberline habitat, this species could be confused with <a href="/taxa/Pellia neesiana">Pellia neesiana</a>, <a href="/taxa/Apopellia alpicola">Apopellia alpicola</a> and <a href="/taxa/Calycularia laxa">Calycularia laxa</a>, all of which can occur in similair habitats. <a href="/taxa/Pellia">Pellia</a> and <a href="/taxa/Apopellia">Apopellia</a> never have the toothy scales on their upper upper surface as are found in M. blyttii. <a href="/taxa/Calycularia laxa">C. laxa</a> does have scales on the upper surface, but it also has diagnostic pink-purple scales on its underside that are lacking in M. blyttii. Other species of <a href="/taxa/Moerckia">Moerckia</a> (<a href="/taxa/Moerckia hibernica">M. hibernica</a>, <a href="/taxa/Moerckia flotoviana">M. flotoviana</a>) have pale hairs on the underside of the thallus and toothy scales on the upper surface, while the hairs on the underside of M. blyttii are brown and the scales on its upper surface are smooth. 
+ <a href="/taxa/Moerckia">Moerckia</a> blyttii can be found under heathers along moist, soily or peaty slopes in near the timberline, where it grows as a green, simple thalloid liverwort with undulating margins, the entire plant up to 3 cm long and less than 1 cm wide. The upper surface of male plants is laden with smooth scales (see photo) that surround the antheridia along the thickened midrib-like central region of the thallus and the undersurface is laden with brown hairs. Similar scales and hairs are seen on seperate female plants, while in sterile plants, the brown hairs of the underside are present, but scales are absent. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet humus, mineral soil, cliffs, streambanks, shorelines, bogs, seepage areas, snowbed sites, heath, and tundra in the upper montane, subalpine, and alpine zones
+ In its timberline habitat, this species could be confused with <a href="/taxa/Pellia neesiana">Pellia neesiana</a>, <a href="/taxa/Apopellia alpicola">Apopellia alpicola</a> and <a href="/taxa/Calycularia laxa">Calycularia laxa</a>, all of which can occur in similair habitats. <a href="/taxa/Pellia">Pellia</a> and <a href="/taxa/Apopellia">Apopellia</a> never have the toothy scales on their upper upper surface as are found in M. blyttii. <a href="/taxa/Calycularia laxa">C. laxa</a> does have scales on the upper surface, but it also has diagnostic pink-purple scales on its underside that are lacking in M. blyttii. Other species of <a href="/taxa/Moerckia">Moerckia</a> (<a href="/taxa/Moerckia hibernica">M. hibernica</a>, <a href="/taxa/Moerckia flotoviana">M. flotoviana</a>) have pale hairs on the underside of the thallus and toothy scales on the upper surface, while the hairs on the underside of M. blyttii are brown and the scales on its upper surface are smooth. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Sphagnum sp., <a href="/taxa/Neoorthocaulis floerkei">Neoorthocaulis floerkei</a>, <a href="/taxa/Diplophyllum taxifolium">Diplophyllum taxifolium</a>, <a href="/taxa/Calycularia laxa">Calycularia laxa</a>, <a href="/taxa/Nardia compressa">Nardia compressa</a>
+ Moist to wet humus, mineral soil, cliffs, streambanks, shorelines, bogs, seepage areas, snowbed sites, heath, and tundra in the upper montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Sphagnum sp., <a href="/taxa/Neoorthocaulis floerkei">Neoorthocaulis floerkei</a>, <a href="/taxa/Diplophyllum taxifolium">Diplophyllum taxifolium</a>, <a href="/taxa/Calycularia laxa">Calycularia laxa</a>, <a href="/taxa/Nardia compressa">Nardia compressa</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -224,6 +228,13 @@ Sphagnum sp., <a href="/taxa/Neoorthocaulis floerkei">Neoorthocaulis floerkei</a
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

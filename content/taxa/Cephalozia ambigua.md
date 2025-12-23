@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A rarely observed species unique in the genus on account of being XXX, C. ambigua forms small green-brown shoots (~ .5 mm wide) of diagonally-inserted bilobed leaves that are wider than the stem.  The leaves are attached diagonally and their bases converge near the midline of the upper stem face. Microscopic measurement of the leaf cells is required to distinguish this species from <a href="/taxa/Cephalozia bicuspidata">C. bicuspidata</a>. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The diagonally inserted leaves that converge near the midline of the stem seperate it from all species in <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a> except for <a href="/taxa/Cephalozia bicuspidata">Cephalozia bicuspidata</a>. While <a href="/taxa/Cephalozia bicuspidata">C. bicuspidata</a> is generally a larger species (shoots ~ 1 mm wide), confident determination requires microscopic examination of the leaves. Cells at the base of the leaf lobes in C. ambigua are < 24um wide, while those of <a href="/taxa/Cephalozia bicuspidata">C. bicuspidata</a> are > 24 um wide. Underleaves are occasionally present in C. ambigua and always absent in <a href="/taxa/Cephalozia bicuspidata">C. bicuspidata</a>. 
+ A rarely observed species unique in the genus on account of being XXX, C. ambigua forms small green-brown shoots (~ .5 mm wide) of diagonally-inserted bilobed leaves that are wider than the stem.  The leaves are attached diagonally and their bases converge near the midline of the upper stem face. Microscopic measurement of the leaf cells is required to distinguish this species from <a href="/taxa/Cephalozia bicuspidata">C. bicuspidata</a>. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-On rock and montane peat. 
+ The diagonally inserted leaves that converge near the midline of the stem seperate it from all species in <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a> except for <a href="/taxa/Cephalozia bicuspidata">Cephalozia bicuspidata</a>. While <a href="/taxa/Cephalozia bicuspidata">C. bicuspidata</a> is generally a larger species (shoots ~ 1 mm wide), confident determination requires microscopic examination of the leaves. Cells at the base of the leaf lobes in C. ambigua are < 24um wide, while those of <a href="/taxa/Cephalozia bicuspidata">C. bicuspidata</a> are > 24 um wide. Underleaves are occasionally present in C. ambigua and always absent in <a href="/taxa/Cephalozia bicuspidata">C. bicuspidata</a>. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ On rock and montane peat. 
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

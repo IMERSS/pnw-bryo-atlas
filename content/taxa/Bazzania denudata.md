@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The most common member of the genus, <a href="/taxa/Bazzania">Bazzania</a> denudata typically presents as emerald-green horizontal shoots (~2 mm wide) that fork evenly and, as the species name indicates, often drops its leaves along portions of the stem. The arched lateral leaves have three very shallow tooth-like lobes (<1/10th leaf length) at their tips, while the underleaves are wider than long with 3-4 lobes with rounded tips. The naked shoot sections stand out in particular, especially on plants found in extensive carpets on conifer trunks, stumps and logs. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The evenly-forked shoots and notch-like lobes at the tip of the lateral leaves make it unlike any species outside its own genus, though Calypogiea species are often found in the same habitat and can mimic the leaf form. <a href="/taxa/Bazzania">Bazzania</a> denudata has 3-4 lobes on its underleaf, however, while species of <a href="/taxa/Calypogeia">Calypogeia</a> have 2 at most. <a href="/taxa/Bazzania tricrenata">B. tricrenata</a> and <a href="/taxa/Bazzania griffithiana">B. griffithiana</a> are brown-to-yellow species with significantly longer shoots (>3 cm). <a href="/taxa/Bazzania trilobata">Bazzania trilobata</a> is emerald green like B. denudata, but the shoots are much wider (3-6 mm vs. 2 mm) and its underleaves have toothed crests, not rounded ones. <a href="/taxa/Bazzania pearsonii">B. pearsonii</a>, a species of similar size and colour to B. denudata, has unlobed underleaves. <a href="/taxa/Bazzania ambigua">Bazzania ambigua</a> typically shows 2-lobed lateral leaves and underleaves that are as long as wide, while B. denudata has (typically) 3-lobed lateral leaves and underleaves that are wider than long. If uncertain, check the lateral leaves with a microscope: oil bodies are 8-12 in B. denudata and 2-4 in <a href="/taxa/Bazzania ambigua">B. ambigua</a>. 
+ The most common member of the genus, <a href="/taxa/Bazzania">Bazzania</a> denudata typically presents as emerald-green horizontal shoots (~2 mm wide) that fork evenly and, as the species name indicates, often drops its leaves along portions of the stem. The arched lateral leaves have three very shallow tooth-like lobes (<1/10th leaf length) at their tips, while the underleaves are wider than long with 3-4 lobes with rounded tips. The naked shoot sections stand out in particular, especially on plants found in extensive carpets on conifer trunks, stumps and logs. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, often shady rock outcrops, cliffs, ledges, boulders, humus, mineral soil, and decayed wood in the lowland and montane zones
+ The evenly-forked shoots and notch-like lobes at the tip of the lateral leaves make it unlike any species outside its own genus, though Calypogiea species are often found in the same habitat and can mimic the leaf form. <a href="/taxa/Bazzania">Bazzania</a> denudata has 3-4 lobes on its underleaf, however, while species of <a href="/taxa/Calypogeia">Calypogeia</a> have 2 at most. <a href="/taxa/Bazzania tricrenata">B. tricrenata</a> and <a href="/taxa/Bazzania griffithiana">B. griffithiana</a> are brown-to-yellow species with significantly longer shoots (>3 cm). <a href="/taxa/Bazzania trilobata">Bazzania trilobata</a> is emerald green like B. denudata, but the shoots are much wider (3-6 mm vs. 2 mm) and its underleaves have toothed crests, not rounded ones. <a href="/taxa/Bazzania pearsonii">B. pearsonii</a>, a species of similar size and colour to B. denudata, has unlobed underleaves. <a href="/taxa/Bazzania ambigua">Bazzania ambigua</a> typically shows 2-lobed lateral leaves and underleaves that are as long as wide, while B. denudata has (typically) 3-lobed lateral leaves and underleaves that are wider than long. If uncertain, check the lateral leaves with a microscope: oil bodies are 8-12 in B. denudata and 2-4 in <a href="/taxa/Bazzania ambigua">B. ambigua</a>. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Lepidozia reptans">Lepidozia reptans</a>, <a href="/taxa/Scapania bolanderi">Scapania bolanderi</a>, <a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, and many others
+ Moist to wet, often shady rock outcrops, cliffs, ledges, boulders, humus, mineral soil, and decayed wood in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Lepidozia reptans">Lepidozia reptans</a>, <a href="/taxa/Scapania bolanderi">Scapania bolanderi</a>, <a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, and many others
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Moist to wet, often shady rock outcrops, cliffs, ledges, boulders, humus, minera
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

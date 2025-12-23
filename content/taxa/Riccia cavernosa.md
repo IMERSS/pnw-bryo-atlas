@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Another ephemeral and rare species of fine, seasonally saturated mineral-rich soils, R. cavernosa appears tiny (<<1cm) but with thallus segments that are very tall relative to their length. In surface view, you should be able to make out the porous and bubbly surface texture. The body of the plant tends to ruputure dramatically into an amorphous mass akin to green caviar or algae, revealing the black spore-bearing capsules within. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-In its early growth stages, it could be mistaken for <a href="/taxa/Riccia frostii">Riccia frostii</a>, which can grow in the same habitat on the seasonally receeding margins of lakes, ponds and rivers. <a href="/taxa/Riccia frostii">R. frostii</a>, however, is not nearly as tall and tends to show hints of red colouration. 
+ Another ephemeral and rare species of fine, seasonally saturated mineral-rich soils, R. cavernosa appears tiny (<<1cm) but with thallus segments that are very tall relative to their length. In surface view, you should be able to make out the porous and bubbly surface texture. The body of the plant tends to ruputure dramatically into an amorphous mass akin to green caviar or algae, revealing the black spore-bearing capsules within. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet mineral soil of seeps, shorelines and pond margins (or dried-out ponds) from low elevation to steppe and montane zones; infrequent in sw, sc and se BC, rare in ne BC [Peace River lowlands]. Can be exceptionally abundant over large areas if along linear river margins or in completely dried-out ponds.
+ In its early growth stages, it could be mistaken for <a href="/taxa/Riccia frostii">Riccia frostii</a>, which can grow in the same habitat on the seasonally receeding margins of lakes, ponds and rivers. <a href="/taxa/Riccia frostii">R. frostii</a>, however, is not nearly as tall and tends to show hints of red colouration. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Phascum cuspidatum, <a href="/taxa/Riccia frostii">Riccia frostii</a>, Ricciacarpos natans, Ephemerum serrulatum, Physcomitrella patens
+ Moist to wet mineral soil of seeps, shorelines and pond margins (or dried-out ponds) from low elevation to steppe and montane zones; infrequent in sw, sc and se BC, rare in ne BC [Peace River lowlands]. Can be exceptionally abundant over large areas if along linear river margins or in completely dried-out ponds.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Phascum cuspidatum, <a href="/taxa/Riccia frostii">Riccia frostii</a>, Ricciacarpos natans, Ephemerum serrulatum, Physcomitrella patens
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Phascum cuspidatum, <a href="/taxa/Riccia frostii">Riccia frostii</a>, Ricciacar
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

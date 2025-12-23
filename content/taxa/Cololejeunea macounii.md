@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -140,22 +143,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-C. macounii is a tiny <0.9mm wide, epiphytic leafy liverwort that grows exclusively in extremely humid coastal rainforests.  C. macounii can be recognized by its oblong leaf lobes, leaf cells with large papillae, and by its toothed lobule margin. Previously thought to be rare, before 2023 was only known from five or six locations. Since 2023 recent surveys uncovered new records of the species on the Central Coast and Vancouver Island. It is likely C. macounii is more common than previously thought but has remained elusive due to its extremely small size and specific habitat requirements.  
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Cololejeunea">Cololejeunea</a> macounii is most commonly confused with <a href="/taxa/Radula bolanderi">Radula bolanderi</a> or other species of <a href="/taxa/Radula">Radula</a> which are similar sized and also grow as epiphytes. Microscopically <a href="/taxa/Cololejeunea">Cololejeunea</a> can be easily disinguished by all species of <a href="/taxa/Radula">Radula</a> by its toothed apical lobule margin, and large leaf cell papillae. In the field, <a href="/taxa/Radula bolanderi">Radula bolanderi</a> is often found growing in the same habitat as <a href="/taxa/Cololejeunea">Cololejeunea</a>, but the latter can be recognized by the more oblong leaf lobes and pale yellowish green colour,  compared to the rounder leaves and fresher green colour of <a href="/taxa/Radula bolanderi">R. bolanderi</a>. As well, the leaf arrangment of C. macounii is more disorganized compared to <a href="/taxa/Radula bolanderi">R. bolanderi</a> which often has leaves cleanly alternating. 
+ C. macounii is a tiny <0.9mm wide, epiphytic leafy liverwort that grows exclusively in extremely humid coastal rainforests.  C. macounii can be recognized by its oblong leaf lobes, leaf cells with large papillae, and by its toothed lobule margin. Previously thought to be rare, before 2023 was only known from five or six locations. Since 2023 recent surveys uncovered new records of the species on the Central Coast and Vancouver Island. It is likely C. macounii is more common than previously thought but has remained elusive due to its extremely small size and specific habitat requirements.  
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Consitently humid microsites in hypermaritime rainforests. Often found growing on Ribes sp. Rubus spectabilis, or Oplopanax horridus stems along streams or in spray zones. Ocasionally found as an epiphyll on Tsuga or Abies needles, or on Alnus rubra logs.  
+ <a href="/taxa/Cololejeunea">Cololejeunea</a> macounii is most commonly confused with <a href="/taxa/Radula bolanderi">Radula bolanderi</a> or other species of <a href="/taxa/Radula">Radula</a> which are similar sized and also grow as epiphytes. Microscopically <a href="/taxa/Cololejeunea">Cololejeunea</a> can be easily disinguished by all species of <a href="/taxa/Radula">Radula</a> by its toothed apical lobule margin, and large leaf cell papillae. In the field, <a href="/taxa/Radula bolanderi">Radula bolanderi</a> is often found growing in the same habitat as <a href="/taxa/Cololejeunea">Cololejeunea</a>, but the latter can be recognized by the more oblong leaf lobes and pale yellowish green colour,  compared to the rounder leaves and fresher green colour of <a href="/taxa/Radula bolanderi">R. bolanderi</a>. As well, the leaf arrangment of C. macounii is more disorganized compared to <a href="/taxa/Radula bolanderi">R. bolanderi</a> which often has leaves cleanly alternating. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Radula bolanderi">Radula bolanderi</a>, <a href="/taxa/Metzgeria temperata">Metzgeria temperata</a>, Ulota spp. 
+ Consitently humid microsites in hypermaritime rainforests. Often found growing on Ribes sp. Rubus spectabilis, or Oplopanax horridus stems along streams or in spray zones. Ocasionally found as an epiphyll on Tsuga or Abies needles, or on Alnus rubra logs.  
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Radula bolanderi">Radula bolanderi</a>, <a href="/taxa/Metzgeria temperata">Metzgeria temperata</a>, Ulota spp. 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -194,6 +198,13 @@ Consitently humid microsites in hypermaritime rainforests. Often found growing o
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

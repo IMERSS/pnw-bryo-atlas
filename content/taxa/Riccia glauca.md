@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A rare <a href="/taxa/Riccia">Riccia</a> about 1cm in diameter found in seasonally exposed sediments, it forms isolated populations that are once-to-thrice branched with a characteristic white frosty appearance on an imperforate upper surface. Under the hand lens, a shallow groove should be visible towards the tips of the thallus. To be certain of this species, observation of spores under the microscope may be required. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Most likely to be mistaken for <a href="/taxa/Riccia sorocarpa">Riccia sorocarpa</a>, which has a deeper groove pervading most of the upper surface compared to the shallow and short grooves of R. glauca, which are only visible near the tips of the plant. Could likewise be mistaken for a young <a href="/taxa/Riccia huebeneriana">R. huebeneriana</a>, but that species has thallus segments that are 2x longer than wide, whereas in R. glauca the thallus verges on segments equal in length relative to width. 
+ A rare <a href="/taxa/Riccia">Riccia</a> about 1cm in diameter found in seasonally exposed sediments, it forms isolated populations that are once-to-thrice branched with a characteristic white frosty appearance on an imperforate upper surface. Under the hand lens, a shallow groove should be visible towards the tips of the thallus. To be certain of this species, observation of spores under the microscope may be required. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet mineral soil of shorelines and pond margins in montane zone; seemingly very rare in sw BC.
+ Most likely to be mistaken for <a href="/taxa/Riccia sorocarpa">Riccia sorocarpa</a>, which has a deeper groove pervading most of the upper surface compared to the shallow and short grooves of R. glauca, which are only visible near the tips of the plant. Could likewise be mistaken for a young <a href="/taxa/Riccia huebeneriana">R. huebeneriana</a>, but that species has thallus segments that are 2x longer than wide, whereas in R. glauca the thallus verges on segments equal in length relative to width. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Riccia beyrichiana">Riccia beyrichiana</a>, <a href="/taxa/Riccia">Riccia</a> crinita, <a href="/taxa/Fossombronia">Fossombronia</a> sp. 
+ Moist to wet mineral soil of shorelines and pond margins in montane zone; seemingly very rare in sw BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Riccia beyrichiana">Riccia beyrichiana</a>, <a href="/taxa/Riccia">Riccia</a> crinita, <a href="/taxa/Fossombronia">Fossombronia</a> sp. 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Moist to wet mineral soil of shorelines and pond margins in montane zone; seemin
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

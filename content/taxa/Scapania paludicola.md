@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The rare <a href="/taxa/Scapania">Scapania</a> paludicola is a large green-to brown species, with leafy shoots to 8 cm long and 4.5 mm wide. The unequal top and bottom leaf lobes have relatively smooth margins that may come to a point, the bottom lobe being longer than wide while the upper lobe is wider than long, often pointing upward, not outward. The keel where the two lobes converge is prominently arched, with the free base of the upper lobes attaching down along the length of the stem. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The prominently arched keel of S. paludicola otherwise only seen in <a href="/taxa/Scapania uliginosa">S. uliginosa</a>, a species of similair stature and habitats. That species has a prominently decurrent lower lobe and poorly developed decurrency on the upper lobe. In S. paludicola, it is the upper lobe with the well developed decurrent leaf base, while its lower lobe does not show prominent decurrency. 
+ The rare <a href="/taxa/Scapania">Scapania</a> paludicola is a large green-to brown species, with leafy shoots to 8 cm long and 4.5 mm wide. The unequal top and bottom leaf lobes have relatively smooth margins that may come to a point, the bottom lobe being longer than wide while the upper lobe is wider than long, often pointing upward, not outward. The keel where the two lobes converge is prominently arched, with the free base of the upper lobes attaching down along the length of the stem. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Wet humus, rock outcrops, bogs, peatlands, streambanks, and seepage areas in the montane zone
+ The prominently arched keel of S. paludicola otherwise only seen in <a href="/taxa/Scapania uliginosa">S. uliginosa</a>, a species of similair stature and habitats. That species has a prominently decurrent lower lobe and poorly developed decurrency on the upper lobe. In S. paludicola, it is the upper lobe with the well developed decurrent leaf base, while its lower lobe does not show prominent decurrency. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Uncertain
+ Wet humus, rock outcrops, bogs, peatlands, streambanks, and seepage areas in the montane zone
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Uncertain
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ Uncertain
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -74,6 +77,7 @@ categories:
        data-micromodal-trigger="modal-plate-photo1"
        style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ1.jpeg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;203055390" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -103,8 +107,9 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo2"
-       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ.jpeg)">
+       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ3.jpeg)">
     <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;207313779" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -126,7 +131,7 @@ categories:
                           <use href="#arrow-right" />
                       </svg>
                   </div>
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;14rbKn5Z-DBXugeBNrPlTMLudvFyRyAIZ" title="Braden Judson" referrerpolicy="no-referrer"/>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;16WA8ql15y7UARKUU2YR52j1n85E6SbPE" title="Braden Judson" referrerpolicy="no-referrer"/>
               </div>
           </div>
       </div>
@@ -134,8 +139,9 @@ categories:
 
   <div class="imerss-image-holder"
        data-micromodal-trigger="modal-plate-photo3"
-       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ2.jpeg)">
-    <div class="imerss-image-copy"> © Braden Judson</div>
+       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BMS1.jpeg)">
+    <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;106419388" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
   </div>
   <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
       <div class="modal__overlay" tabindex="-1" data-micromodal-close>
@@ -157,33 +163,127 @@ categories:
                           <use href="#arrow-right" />
                       </svg>
                   </div>
-                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;151DxeKB9bGv7L7xgDJlVvIBG_booubPC" title="Braden Judson" referrerpolicy="no-referrer"/>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1n5oHKv4Lp86hHJr1A2-anDJJwwXj0BnX" title="Brian Starzomski" referrerpolicy="no-referrer"/>
               </div>
           </div>
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ4.jpeg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;207313779" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Anthoceros fusiformis photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;11Z3Sj_vfnH4zOAcTvPuojV8fTeIW4ruR" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BMS2.jpeg)">
+    <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;268110088" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Anthoceros fusiformis photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;15Yx-_lrH-hTiBVk2ybN7BcDtzkLnyW37" title="Brian Starzomski" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Hornworts&#x2F;Anthocerotaceae&#x2F;Anthoceros_fusiformis&#x2F;macro_pics&#x2F;Anthoceros_fusiformis-BJJ2.jpeg)">
+    <div class="imerss-image-copy"> © Braden Judson</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;203055390" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Anthoceros fusiformis photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;151DxeKB9bGv7L7xgDJlVvIBG_booubPC" title="Braden Judson" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Ephemeral but frequent, this dark green <a href="/taxa/Anthoceros">Anthoceros</a> has a fluted and heavily dissected thallus that can range from dime-to-quarter-sized in the seasonally saturated fine sediments on which it thrives. When fertile, it has a towering (5-10cm) horn emerging from the thallus that produces black spores, giving the entire structure a dark palour.  The dark spores have characteristic spikes (echinate) seen under the microscope.
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-When fertile, the dark sporophytes and black spore mass separate A. fusiformis from <a href="/taxa/Phaeoceros oreganus">Phaeoceros oreganus</a> and <a href="/taxa/Paraphymatoceros pearsonii">Paraphymatoceros pearsonii</a>, species with yellow spores and sporophytes that have a less dissected thallus. A. fusiformis lacks the asexual bulbils present on the underside of <a href="/taxa/Phymatoceros bulbiculosus">Phymatoceros bulbiculosus</a>. <a href="/taxa/Anthoceros punctatus">A. punctatus</a> can not be distinguished from A. fusiformis without microscopic examination of the mature spores. 
+ Ephemeral but frequent, this dark green <a href="/taxa/Anthoceros">Anthoceros</a> has a fluted and heavily dissected thallus that can range from dime-to-quarter-sized in the seasonally saturated fine sediments on which it thrives. When fertile, it has a towering (5-10cm) horn emerging from the thallus that produces black spores, giving the entire structure a dark palour.  The dark spores have characteristic spikes (echinate) seen under the microscope.
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Fine sediment seeps, seasonally saturated banks, ditches, road cuts, and rock crevices. Locally frequent in SW BC. 
+ When fertile, the dark sporophytes and black spore mass separate A. fusiformis from <a href="/taxa/Phaeoceros oreganus">Phaeoceros oreganus</a> and <a href="/taxa/Paraphymatoceros pearsonii">Paraphymatoceros pearsonii</a>, species with yellow spores and sporophytes that have a less dissected thallus. A. fusiformis lacks the asexual bulbils present on the underside of <a href="/taxa/Phymatoceros bulbiculosus">Phymatoceros bulbiculosus</a>. <a href="/taxa/Anthoceros punctatus">A. punctatus</a> can not be distinguished from A. fusiformis without microscopic examination of the mature spores. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Fissidens crispus, Fissidens bryoides, Timmiella crassinervis, Rosulabryum canariense, <a href="/taxa/Kindbergia">Kindbergia</a> praelonga, Atrichum selwynii among others 
+ Fine sediment seeps, seasonally saturated banks, ditches, road cuts, and rock crevices. Locally frequent in SW BC. 
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Fissidens crispus, Fissidens bryoides, Timmiella crassinervis, Rosulabryum canariense, <a href="/taxa/Kindbergia">Kindbergia</a> praelonga, Atrichum selwynii among others 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +322,13 @@ Fissidens crispus, Fissidens bryoides, Timmiella crassinervis, Rosulabryum canar
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

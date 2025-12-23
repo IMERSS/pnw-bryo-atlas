@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -78,22 +81,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A rare species in highly restricted habitat, B. griffithiana forms large, loosely-branched scrambling yellow-to-brown shoots up to 8 cm long. Its triangular lateral leaves have three short, tooth-like lobes at their tip, while underleaves are squarish with bases that run down the stem and 3-4 very shallow round lobes at their tips. Unmistakeable on account of its size and palour, this is a species to be sought in very moist coastal regions of British Columbia and Alaska, though currently only known from Haida Gwaii. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-With the genus <a href="/taxa/Bazzania">Bazzania</a>, only <a href="/taxa/Bazzania trilobata">B. trilobata</a> and <a href="/taxa/Bazzania tricrenata">B. tricrenata</a> approach the scale of B. griffithiana. <a href="/taxa/Bazzania trilobata">B. trilobata</a> is a actually broader (leafy shoots 3-6 mm wide), but its translucent green colour also sets it apart from yellow-to-brown B. griffithiana. <a href="/taxa/Bazzania tricrenata">B. tricrenata</a> is also a yellow-to-brown species and its shoots can reach considerable lengths (up to 4cm), but it has prominent pale and relatively leafless branches arising from its underside, whereas in B. griffithiana, such branches are absent. Mastigophora woodsii and <a href="/taxa/Lepidozia filamentosa">Lepidozia filamentosa</a> are also large, wide-branching and scrambling liverwort species but their leaves are highly dissected, while in B. griffithiana the lateral leaves are very shallowly notched. 
+ A rare species in highly restricted habitat, B. griffithiana forms large, loosely-branched scrambling yellow-to-brown shoots up to 8 cm long. Its triangular lateral leaves have three short, tooth-like lobes at their tip, while underleaves are squarish with bases that run down the stem and 3-4 very shallow round lobes at their tips. Unmistakeable on account of its size and palour, this is a species to be sought in very moist coastal regions of British Columbia and Alaska, though currently only known from Haida Gwaii. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic, usually open rock outcrops, cliffs, ledges, boulders, and occasionally decayed wood in the lowland zone
+ With the genus <a href="/taxa/Bazzania">Bazzania</a>, only <a href="/taxa/Bazzania trilobata">B. trilobata</a> and <a href="/taxa/Bazzania tricrenata">B. tricrenata</a> approach the scale of B. griffithiana. <a href="/taxa/Bazzania trilobata">B. trilobata</a> is a actually broader (leafy shoots 3-6 mm wide), but its translucent green colour also sets it apart from yellow-to-brown B. griffithiana. <a href="/taxa/Bazzania tricrenata">B. tricrenata</a> is also a yellow-to-brown species and its shoots can reach considerable lengths (up to 4cm), but it has prominent pale and relatively leafless branches arising from its underside, whereas in B. griffithiana, such branches are absent. Mastigophora woodsii and <a href="/taxa/Lepidozia filamentosa">Lepidozia filamentosa</a> are also large, wide-branching and scrambling liverwort species but their leaves are highly dissected, while in B. griffithiana the lateral leaves are very shallowly notched. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to mesic, usually open rock outcrops, cliffs, ledges, boulders, and occasionally decayed wood in the lowland zone
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -132,6 +136,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

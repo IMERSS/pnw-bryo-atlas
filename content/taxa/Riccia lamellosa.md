@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A rare species thus far known only from sloping and seasonally saturated fine sediments over rock, R. lamellosa appears as small (~5mm) thalli with a smooth upper surface, v-shaped tips on a whitish-green plant. Close inspection reveals a series of thin pale flaps ("lamellae") that fringe the edges of the plant. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-No other species of <a href="/taxa/Riccia">Riccia</a> has the overlapping scales of pale tissue along the margin (though be sure to separate from the colourless flaps sometimes present in <a href="/taxa/Riccia sorocarpa">R. sorocarpa</a>), making this plant unmistakeable compared to others in the genus. 
+ A rare species thus far known only from sloping and seasonally saturated fine sediments over rock, R. lamellosa appears as small (~5mm) thalli with a smooth upper surface, v-shaped tips on a whitish-green plant. Close inspection reveals a series of thin pale flaps ("lamellae") that fringe the edges of the plant. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Fine, seasonally-saturated mineral soils over sloping rock at low elevation. 
+ No other species of <a href="/taxa/Riccia">Riccia</a> has the overlapping scales of pale tissue along the margin (though be sure to separate from the colourless flaps sometimes present in <a href="/taxa/Riccia sorocarpa">R. sorocarpa</a>), making this plant unmistakeable compared to others in the genus. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Riccia sorocarpa">Riccia sorocarpa</a>, <a href="/taxa/Fossombronia longiseta">Fossombronia longiseta</a>, <a href="/taxa/Anthoceros fusiformis">Anthoceros fusiformis</a>, Pleuridium acuminatum, <a href="/taxa/Cephaloziella divaricata">Cephaloziella divaricata</a>
+ Fine, seasonally-saturated mineral soils over sloping rock at low elevation. 
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Riccia sorocarpa">Riccia sorocarpa</a>, <a href="/taxa/Fossombronia longiseta">Fossombronia longiseta</a>, <a href="/taxa/Anthoceros fusiformis">Anthoceros fusiformis</a>, Pleuridium acuminatum, <a href="/taxa/Cephaloziella divaricata">Cephaloziella divaricata</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Fine, seasonally-saturated mineral soils over sloping rock at low elevation.
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-A massive and common leafy liverwort that often dominates deciduous forests, forming large carpets of creeping-to-swooping shiny green/yellow/brown shoots with closely overlapping leaves. The leaves are best interpretted from the underside, where a large upper lobe can be seen behind a smaller, triangular underlobe that is similar in size and shape to an overlapping underleaf. Male plants have small rattle-like shoots that bear antheridia, while the sporophytes develop from modified, archegonia-bearing leaves on the underside of the main stem of female plants. 
-
-<h2 id="similar-species">Similar species</h2>
-
-Sometimes this species can be confused for a large <a href="/taxa/Radula">Radula</a> on account of the tightly overlapping, rounded leaves. Looking at the underside of both plants with a hand lens, you will see that <a href="/taxa/Radula">Radula</a> lacks an underleaf. <a href="/taxa/Frullania">Frullania</a> species are smaller, but absent that, the genus has sphaeroidal, helmet shaped lobules as opposed to the triangular underlobes seen in P. navicularis. The glossy leaves in combination with underlobes that are similair in size and shape distinguish P. navicularis from matte <a href="/taxa/Porella cordaeana">P. cordaeana</a> and similarly-glossy <a href="/taxa/Porella roellii">P. roellii</a>, both species with underlobes that are narrower than the underleaves. 
-
-<h2 id="habitat">Habitat</h2>
-
-Moist to dry rock outcrops, boulders, cliffs, cutbanks, tree trunks (esp. deciduous trees), and decayed wood in the lowland and montane zones; common in coastal BC, rare in sc, se, and nw BC.
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ A massive and common leafy liverwort that often dominates deciduous forests, forming large carpets of creeping-to-swooping shiny green/yellow/brown shoots with closely overlapping leaves. The leaves are best interpretted from the underside, where a large upper lobe can be seen behind a smaller, triangular underlobe that is similar in size and shape to an overlapping underleaf. Male plants have small rattle-like shoots that bear antheridia, while the sporophytes develop from modified, archegonia-bearing leaves on the underside of the main stem of female plants. 
+
+ <h2 id="similar-species">Similar species</h2>
+
+ Sometimes this species can be confused for a large <a href="/taxa/Radula">Radula</a> on account of the tightly overlapping, rounded leaves. Looking at the underside of both plants with a hand lens, you will see that <a href="/taxa/Radula">Radula</a> lacks an underleaf. <a href="/taxa/Frullania">Frullania</a> species are smaller, but absent that, the genus has sphaeroidal, helmet shaped lobules as opposed to the triangular underlobes seen in P. navicularis. The glossy leaves in combination with underlobes that are similair in size and shape distinguish P. navicularis from matte <a href="/taxa/Porella cordaeana">P. cordaeana</a> and similarly-glossy <a href="/taxa/Porella roellii">P. roellii</a>, both species with underlobes that are narrower than the underleaves. 
+
+ <h2 id="habitat">Habitat</h2>
+
+ Moist to dry rock outcrops, boulders, cliffs, cutbanks, tree trunks (esp. deciduous trees), and decayed wood in the lowland and montane zones; common in coastal BC, rare in sc, se, and nw BC.
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ Moist to dry rock outcrops, boulders, cliffs, cutbanks, tree trunks (esp. decidu
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

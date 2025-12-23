@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -56,9 +57,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -169,22 +172,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-When fertile, this complex thallose liverwort is easy to recognize on account of the translucent white scales emerging from the undersides at the thallus margin in combination with the deeply divided, 2-4 armed, star-shaped carpocephalum (see photos). It thrives on fine mineral soils, especially along rock ledges or under overhangs. Antheridia and archegonia are borne on separate plants (dioicous) and the openings on the upper surface of the thallus are star-shaped.
-
-<h2 id="similar-species">Similar species</h2>
-
-White scales that protrude along the margins of a thallose liverwort are not seen in many species. Species in the genus <a href="/taxa/Riccia">Riccia</a> can have white scales along the margin, but plants of that genus have a prominent furrow down the middle of the thallus and sporophytes that are embedded in the thallus. In <a href="/taxa/Clevea">Clevea</a>, the thallus is not furrowed and the sporophytes are borne on a specialized carpocephalum that emerges from and sits well above the thallus. <a href="/taxa/Mannia fragrans">Mannia fragrans</a> can grow in similar habitats and the tips of its scales can be white, but they show purple pigmentation near their base. Furthermore, that species has a hemispherical carpocephalum, antheridia that are cloistered together on a differentiated pad and an upper surface with air chamber openings that are encircled by two rings of surface cells. In <a href="/taxa/Clevea">Clevea</a>, the openings of the air chambers on the upper surface are star-shaped and lack encircling rings of cells, antheridia are scattered along the thallus and the carpocephalum has distinct segments. The two other genera of <a href="/taxa/Cleveaceae">Cleveaceae</a> known to occur in the Pacific Northwest are both arctic-alpine in distribution and both can have white scales. <a href="/taxa/Sauteria alpina">Sauteria alpina</a> differs in having antheridia and archegonia present on the same plant (“monoicous”) and a rounded carpocephalum compared to the clearly lobed carpocephalum of <a href="/taxa/Clevea">Clevea</a> hyalina, a species that has its antheridia on separate plants from said carpocephalum. <a href="/taxa/Peltolepis quadrata">Peltolepis quadrata</a> has a carpocephalum that emerges from a notch at the edge of the thallus and bears 3-8 lobes, whereas the carpocephalum of C. hyalina emerges from the middle of the thallus and has 2-4 lobes. Antheridia, when present, are diffuse on the thallus of <a href="/taxa/Clevea">Clevea</a>, while in <a href="/taxa/Peltolepis quadrata">P. quadrata</a>, they are cloistered into a small pad.
-
-<h2 id="habitat">Habitat</h2>
-
-Moist, shady mineral soil, rock outcrops, and cliffs, often where calcareous, in the lowland, montane, and subalpine zones; infrequent in sw and n [east to the Rocky Mts.] BC, rare in sc, c, and se BC.
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ When fertile, this complex thallose liverwort is easy to recognize on account of the translucent white scales emerging from the undersides at the thallus margin in combination with the deeply divided, 2-4 armed, star-shaped carpocephalum (see photos). It thrives on fine mineral soils, especially along rock ledges or under overhangs. Antheridia and archegonia are borne on separate plants (dioicous) and the openings on the upper surface of the thallus are star-shaped.
+
+ <h2 id="similar-species">Similar species</h2>
+
+ White scales that protrude along the margins of a thallose liverwort are not seen in many species. Species in the genus <a href="/taxa/Riccia">Riccia</a> can have white scales along the margin, but plants of that genus have a prominent furrow down the middle of the thallus and sporophytes that are embedded in the thallus. In <a href="/taxa/Clevea">Clevea</a>, the thallus is not furrowed and the sporophytes are borne on a specialized carpocephalum that emerges from and sits well above the thallus. <a href="/taxa/Mannia fragrans">Mannia fragrans</a> can grow in similar habitats and the tips of its scales can be white, but they show purple pigmentation near their base. Furthermore, that species has a hemispherical carpocephalum, antheridia that are cloistered together on a differentiated pad and an upper surface with air chamber openings that are encircled by two rings of surface cells. In <a href="/taxa/Clevea">Clevea</a>, the openings of the air chambers on the upper surface are star-shaped and lack encircling rings of cells, antheridia are scattered along the thallus and the carpocephalum has distinct segments. The two other genera of <a href="/taxa/Cleveaceae">Cleveaceae</a> known to occur in the Pacific Northwest are both arctic-alpine in distribution and both can have white scales. <a href="/taxa/Sauteria alpina">Sauteria alpina</a> differs in having antheridia and archegonia present on the same plant (“monoicous”) and a rounded carpocephalum compared to the clearly lobed carpocephalum of <a href="/taxa/Clevea">Clevea</a> hyalina, a species that has its antheridia on separate plants from said carpocephalum. <a href="/taxa/Peltolepis quadrata">Peltolepis quadrata</a> has a carpocephalum that emerges from a notch at the edge of the thallus and bears 3-8 lobes, whereas the carpocephalum of C. hyalina emerges from the middle of the thallus and has 2-4 lobes. Antheridia, when present, are diffuse on the thallus of <a href="/taxa/Clevea">Clevea</a>, while in <a href="/taxa/Peltolepis quadrata">P. quadrata</a>, they are cloistered into a small pad.
+
+ <h2 id="habitat">Habitat</h2>
+
+ Moist, shady mineral soil, rock outcrops, and cliffs, often where calcareous, in the lowland, montane, and subalpine zones; infrequent in sw and n [east to the Rocky Mts.] BC, rare in sc, c, and se BC.
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -223,6 +227,13 @@ Moist, shady mineral soil, rock outcrops, and cliffs, often where calcareous, in
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

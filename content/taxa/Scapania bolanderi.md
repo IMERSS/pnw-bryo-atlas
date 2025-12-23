@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The dominant epiphytic <a href="/taxa/Scapania">Scapania</a> of our region, S. bolanderi is a handsome, tuft-forming yellow-green species of conifer trunks with wide (up to 3.5 mm) leafy shoots that can grow beyond 4 cm in length. The unequally bilobed leaves have ellipsoidal, toothy segments, though the teeth are more closely spaced on the bottom lobe than they are on the top lobe. The bottom lobe attaches to the stem such that is base runs down the length of the shoot ("decurrent"). To see this feature, pull away some leaves and use a hand lens while looking at the underside of the leaves that remain and are now exposed along the shoot. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Amongst the toothy species of <a href="/taxa/Scapania">Scapania</a>, it is most likely to be mistaken for <a href="/taxa/Scapania americana">S. americana</a>, a species that is more typical of rock and tends to show reddish hues. That species has the decurrent attachment of the lower lobe not seen in S. bolander, in addition to having more regularly toothed margins, especially on the upper lobe. On decaying wood an logs, S. bolanderi might grow alongside <a href="/taxa/Scapania umbrosa">S. umbrosa</a>. The latter is a smaller species (shoots <1cm long, <1.5 mm wide) with leaf lobes that, while toothy, have a triangular aspect and are often caked at the shoot tips with bright red asexual bodies ("gemmae). Gemmae are not so common or prominent in S.bolanderi, and its leave lobes are ellipsoidal. 
+ The dominant epiphytic <a href="/taxa/Scapania">Scapania</a> of our region, S. bolanderi is a handsome, tuft-forming yellow-green species of conifer trunks with wide (up to 3.5 mm) leafy shoots that can grow beyond 4 cm in length. The unequally bilobed leaves have ellipsoidal, toothy segments, though the teeth are more closely spaced on the bottom lobe than they are on the top lobe. The bottom lobe attaches to the stem such that is base runs down the length of the shoot ("decurrent"). To see this feature, pull away some leaves and use a hand lens while looking at the underside of the leaves that remain and are now exposed along the shoot. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist decayed wood, tree trunks (esp. conifers), humus, and occasionally rock outcrops, especially in forested areas, in the lowland and montane zones
+ Amongst the toothy species of <a href="/taxa/Scapania">Scapania</a>, it is most likely to be mistaken for <a href="/taxa/Scapania americana">S. americana</a>, a species that is more typical of rock and tends to show reddish hues. That species has the decurrent attachment of the lower lobe not seen in S. bolander, in addition to having more regularly toothed margins, especially on the upper lobe. On decaying wood an logs, S. bolanderi might grow alongside <a href="/taxa/Scapania umbrosa">S. umbrosa</a>. The latter is a smaller species (shoots <1cm long, <1.5 mm wide) with leaf lobes that, while toothy, have a triangular aspect and are often caked at the shoot tips with bright red asexual bodies ("gemmae). Gemmae are not so common or prominent in S.bolanderi, and its leave lobes are ellipsoidal. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Dicranum">Dicranum</a> fuscescens, Hypnum circinale, Isothecium stoloniferum, <a href="/taxa/Tetraphis pellucida">Tetraphis pellucida</a>, <a href="/taxa/Bazzania denudata">Bazzania denudata</a>, <a href="/taxa/Cephalozia bicuspidata">Cephalozia bicuspidata</a>, <a href="/taxa/Lepidozia reptans">Lepidozia reptans</a>
+ Moist decayed wood, tree trunks (esp. conifers), humus, and occasionally rock outcrops, especially in forested areas, in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Dicranum">Dicranum</a> fuscescens, Hypnum circinale, Isothecium stoloniferum, <a href="/taxa/Tetraphis pellucida">Tetraphis pellucida</a>, <a href="/taxa/Bazzania denudata">Bazzania denudata</a>, <a href="/taxa/Cephalozia bicuspidata">Cephalozia bicuspidata</a>, <a href="/taxa/Lepidozia reptans">Lepidozia reptans</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ Moist decayed wood, tree trunks (esp. conifers), humus, and occasionally rock ou
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

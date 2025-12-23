@@ -8,6 +8,9 @@ source("R/utils.R")
 # Fetch from BC Bryophyte Guide/BC_Bryo_Database at https://docs.google.com/spreadsheets/d/1MG7C7GX1Tl2RO_vHuMwUo8quhzYZd_mElWRnPuNbpj8/edit
 downloadGdrive("1MG7C7GX1Tl2RO_vHuMwUo8quhzYZd_mElWRnPuNbpj8", "tabular_data/BC_Bryo_Guide.csv", TRUE)
 
+# Fetch from Keys at https://drive.google.com/drive/folders/1bhfv1nTHFP69qpzaoa6W3NK1-gHcvniB
+downloadGdriveFolder("1bhfv1nTHFP69qpzaoa6W3NK1-gHcvniB", "tabular_data/Keys", skip_if_exists = FALSE)
+
 # Generate md pages for each taxon and Hugo partials
 run_js("js/generate-pages.js")
 

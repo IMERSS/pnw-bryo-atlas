@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -202,22 +205,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Easily overlooked in out of the way habitats, <a href="/taxa/Anthelia">Anthelia</a> julacea grows as tiny (<.5 mm wide) overlapping  shoots packed into silvery, horizontal turfs on bare rock in areas of late snow and seasonal flushes. With a hand lens, you should see three rows of tightly overlapping, sharply and evenly two-lobed leaves divided to about 1/2 their length and fringed with white edges against a darker inner leaf. This species is impossible to confirm without microscopic examination of fertile shoots. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Anthelia">Anthelia</a>'s small size, dense cushions, silvery palour, evenly bilobed leaves and affinity for bereft bedrock only overlaps with species in the genus <a href="/taxa/Gymnomitrion">Gymnomitrion</a>. Plants of that genus often bear acutely bilobed, white and tightly overlapping leaves, but they are typically wider (>>.5 mm) and are dissected to only 1/3rd their length. They also lack the prominent third row of leaves seen in <a href="/taxa/Anthelia">Anthelia</a>. Differentiation of the two regional species of <a href="/taxa/Anthelia">Anthelia</a> requires the presence of fertile plants in a population. When present, the androecia and gynoecia are on seperate plants in A. julaceae, while in <a href="/taxa/Anthelia juratzkana">A. juratzkana</a>, they are on seperate branches of the same shoot. If sporophytes are present, it should be noted that the spiral bands of the elaters in <a href="/taxa/Anthelia juratzkana">A. juratzkana</a> are <3 um wide, while those of A. julacea are >3 um wide. 
+ Easily overlooked in out of the way habitats, <a href="/taxa/Anthelia">Anthelia</a> julacea grows as tiny (<.5 mm wide) overlapping  shoots packed into silvery, horizontal turfs on bare rock in areas of late snow and seasonal flushes. With a hand lens, you should see three rows of tightly overlapping, sharply and evenly two-lobed leaves divided to about 1/2 their length and fringed with white edges against a darker inner leaf. This species is impossible to confirm without microscopic examination of fertile shoots. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, acidic humus, cliffs, rock outcrops, boulders, fellfields, boggy areas, streambanks, snowbeds, seepage areas, and tundra in the upper montane, subalpine, and alpine zones
+ <a href="/taxa/Anthelia">Anthelia</a>'s small size, dense cushions, silvery palour, evenly bilobed leaves and affinity for bereft bedrock only overlaps with species in the genus <a href="/taxa/Gymnomitrion">Gymnomitrion</a>. Plants of that genus often bear acutely bilobed, white and tightly overlapping leaves, but they are typically wider (>>.5 mm) and are dissected to only 1/3rd their length. They also lack the prominent third row of leaves seen in <a href="/taxa/Anthelia">Anthelia</a>. Differentiation of the two regional species of <a href="/taxa/Anthelia">Anthelia</a> requires the presence of fertile plants in a population. When present, the androecia and gynoecia are on seperate plants in A. julaceae, while in <a href="/taxa/Anthelia juratzkana">A. juratzkana</a>, they are on seperate branches of the same shoot. If sporophytes are present, it should be noted that the spiral bands of the elaters in <a href="/taxa/Anthelia juratzkana">A. juratzkana</a> are <3 um wide, while those of A. julacea are >3 um wide. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Marsupella emarginata">Marsupella emarginata</a>, Siphula ceratites (lichen), Sphagnum sp. 
+ Moist to wet, acidic humus, cliffs, rock outcrops, boulders, fellfields, boggy areas, streambanks, snowbeds, seepage areas, and tundra in the upper montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Marsupella emarginata">Marsupella emarginata</a>, Siphula ceratites (lichen), Sphagnum sp. 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -256,6 +260,13 @@ Moist to wet, acidic humus, cliffs, rock outcrops, boulders, fellfields, boggy a
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

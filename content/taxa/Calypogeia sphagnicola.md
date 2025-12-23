@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Tiny translucent green (~1mm wide) threads of <a href="/taxa/Calypogeia">Calypogeia</a> sphagnicola are a frequent but easily overlooked component of bogs and fens, where they grow in and amongst the Sphagnum. Upon inspection with a hand lens, you should see distantly arranged, somewhat elongate leaves that are frequently notched at their tip. Underleaves are divided to about half of their length and show somewhat narrow lobe tips.
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Quite a few small leafy liverworts make their home in Sphagnum, however species of Gymnocolea, <a href="/taxa/Cephalozia">Cephalozia</a> and <a href="/taxa/Cephaloziella">Cephaloziella</a> all have leaves that are deeply two-lobed, whereas those of C. sphagnicola are very shallowly-lobed if at all. Both <a href="/taxa/Mylia taylorii">Mylia taylorii</a> and <a href="/taxa/Mylia anomala">M. anomala</a> can grow between Sphagnum, but both species have large (>2mm) oval-shaped leaves that point upwards, whereas those of C. sphagnicola are small (<1mm), rounded-triangular and tend to point out at 90 degrees from the stem. In the genus <a href="/taxa/Calypogeia">Calypogeia</a>, only C. integrispula and C. fissa are likely to occur in the same habitat, but both of those species are larger (shoots ~2mm wide) and have distinct underleaves (unlobed in C. integrispula, deeply lobed in C. fissa) that differ from the halfway-lobed form of C. sphagnicola.
+ Tiny translucent green (~1mm wide) threads of <a href="/taxa/Calypogeia">Calypogeia</a> sphagnicola are a frequent but easily overlooked component of bogs and fens, where they grow in and amongst the Sphagnum. Upon inspection with a hand lens, you should see distantly arranged, somewhat elongate leaves that are frequently notched at their tip. Underleaves are divided to about half of their length and show somewhat narrow lobe tips.
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Sphagnum
+ Quite a few small leafy liverworts make their home in Sphagnum, however species of Gymnocolea, <a href="/taxa/Cephalozia">Cephalozia</a> and <a href="/taxa/Cephaloziella">Cephaloziella</a> all have leaves that are deeply two-lobed, whereas those of C. sphagnicola are very shallowly-lobed if at all. Both <a href="/taxa/Mylia taylorii">Mylia taylorii</a> and <a href="/taxa/Mylia anomala">M. anomala</a> can grow between Sphagnum, but both species have large (>2mm) oval-shaped leaves that point upwards, whereas those of C. sphagnicola are small (<1mm), rounded-triangular and tend to point out at 90 degrees from the stem. In the genus <a href="/taxa/Calypogeia">Calypogeia</a>, only C. integrispula and C. fissa are likely to occur in the same habitat, but both of those species are larger (shoots ~2mm wide) and have distinct underleaves (unlobed in C. integrispula, deeply lobed in C. fissa) that differ from the halfway-lobed form of C. sphagnicola.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Sphagnum
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

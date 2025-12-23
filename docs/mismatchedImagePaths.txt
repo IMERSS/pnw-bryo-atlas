@@ -1,4 +1,4 @@
-There were 75 images in the spreadsheet whose paths mismatched the Drive:
+There were 16 images in the spreadsheet whose paths mismatched the Drive:
 [
   {
     "file": "Liverworts/Scapaniaceae/Barbilophozia_lycopodioides/macro_pics/Barbilophozia_lycopodioides_CF_01.jpg",
@@ -16,98 +16,8 @@ There were 75 images in the spreadsheet whose paths mismatched the Drive:
     "column": "insetPhoto4"
   },
   {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_elachista/macro_pics/Cephaloziella_elachista-GOTH1.jpg",
-    "taxon": "Cephaloziella elachista",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_elachista/macro_pics/Cephaloziella_elachista-GOTH2.jpg",
-    "taxon": "Cephaloziella elachista",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_elachista/macro_pics/Cephaloziella_elachista-TAY1.jpg",
-    "taxon": "Cephaloziella elachista",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_elachista/macro_pics/Cephaloziella_elachista-RM1.jpg",
-    "taxon": "Cephaloziella elachista",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_hampeana/macro_pics/Cephaloziella_hampeana-KLH1.jpg",
-    "taxon": "Cephaloziella hampeana",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_hampeana/macro_pics/Cephaloziella_hampeana-KLH2.jpg",
-    "taxon": "Cephaloziella hampeana",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_hampeana/macro_pics/Cephaloziella_hampeana-KLH3.jpg",
-    "taxon": "Cephaloziella hampeana",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_hampeana/macro_pics/Cephaloziella_hampeana-BK1.jpg",
-    "taxon": "Cephaloziella hampeana",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_rubella/macro_pics/Cephaloziella_rubella-AS1.jpeg",
-    "taxon": "Cephaloziella rubella",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_rubella/macro_pics/Cephaloziella_rubella-AS2.jpeg",
-    "taxon": "Cephaloziella rubella",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_rubella/macro_pics/Cephaloziella_rubella-AS3.jpeg",
-    "taxon": "Cephaloziella rubella",
-    "column": "insetPhoto3"
-  },
-  {
     "file": "Liverworts/Cephaloziellaceae/Cephaloziella_turneri/FertileShootsCFCephTurn.jpg'",
     "taxon": "Cephaloziella turneri",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_varians/macro_pics/Cephaloziella_varians-MB1.jpeg",
-    "taxon": "Cephaloziella varians",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_varians/macro_pics/Cephaloziella_varians-MB2.jpeg",
-    "taxon": "Cephaloziella varians",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Cephaloziellaceae/Cephaloziella_varians/macro_pics/Cephaloziella_varians-MB3.jpeg",
-    "taxon": "Cephaloziella varians",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Lophocoleaceae/Chiloscyphus_pallescens/macro_pics/Chiloscyphus_pallescens-CF1.jpg",
-    "taxon": "Chiloscyphus pallescens",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Lophocoleaceae/Chiloscyphus_pallescens/macro_pics/Chiloscyphus_pallescens-CF2.jpg",
-    "taxon": "Chiloscyphus pallescens",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Lophocoleaceae/Chiloscyphus_pallescens/macro_pics/Chiloscyphus_pallescens-RM1.jpg",
-    "taxon": "Chiloscyphus pallescens",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Lophocoleaceae/Chiloscyphus_pallescens/macro_pics/Chiloscyphus_pallescens-KLH1.jpg",
-    "taxon": "Chiloscyphus pallescens",
     "column": "insetPhoto4"
   },
   {
@@ -116,84 +26,9 @@ There were 75 images in the spreadsheet whose paths mismatched the Drive:
     "column": "insetPhoto5"
   },
   {
-    "file": "Liverworts/Cephaloziaceae/Fuscocephaloziopsis_albescens/macro_pics/Fuscocephaloziopsis_albescens-RM1.jpg",
-    "taxon": "Fuscocephaloziopsis albescens",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Cephaloziaceae/Fuscocephaloziopsis_albescens/macro_pics/Fuscocephaloziopsis_albescens-CW1.jpg",
-    "taxon": "Fuscocephaloziopsis albescens",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Cephaloziaceae/Fuscocephaloziopsis_albescens/macro_pics/Fuscocephaloziopsis_albescens-MR1.jpg",
-    "taxon": "Fuscocephaloziopsis albescens",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Cephaloziaceae/Fuscocephaloziopsis_albescens/macro_pics/Fuscocephaloziopsis_albescens-MR2.jpg",
-    "taxon": "Fuscocephaloziopsis albescens",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Cephaloziaceae/Fuscocephaloziopsis_catenulata/macro_pics/Fuscocephaloziopsis_catenulata-SB1.jpg",
-    "taxon": "Fuscocephaloziopsis catenulata",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Cephaloziaceae/Fuscocephaloziopsis_catenulata/macro_pics/Fuscocephaloziopsis_catenulata-SB2.jpg",
-    "taxon": "Fuscocephaloziopsis catenulata",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Cephaloziaceae/Fuscocephaloziopsis_catenulata/macro_pics/Fuscocephaloziopsis_catenulata-SB3.jpg",
-    "taxon": "Fuscocephaloziopsis catenulata",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Cephaloziaceae/Fuscocephaloziopsis_catenulata/macro_pics/Fuscocephaloziopsis_catenulata-SB4.jpg",
-    "taxon": "Fuscocephaloziopsis catenulata",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Jungermanniaceae/Jungermannia_borealis/macro_pics/Jungermannia_borealis-PB1.jpeg",
-    "taxon": "Jungermannia borealis",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Jungermanniaceae/Jungermannia_borealis/macro_pics/Jungermannia_borealis-PB3.jpeg",
-    "taxon": "Jungermannia borealis",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Jungermanniaceae/Jungermannia_borealis/macro_pics/Jungermannia_borealis-PB2.jpeg",
-    "taxon": "Jungermannia borealis",
-    "column": "insetPhoto3"
-  },
-  {
     "file": "asking Braden to increase exposure",
     "taxon": "Jungermannia exsertifolia",
     "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Jungermanniaceae/Jungermannia_polaris/macro_pics/Jungermannia_polaris-FXT1.jpg",
-    "taxon": "Jungermannia polaris",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Jungermanniaceae/Jungermannia_polaris/macro_pics/Jungermannia_polaris-FXT2.jpg",
-    "taxon": "Jungermannia polaris",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Jungermanniaceae/Jungermannia_polaris/macro_pics/Jungermannia_polaris-FXT4.jpg",
-    "taxon": "Jungermannia polaris",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Jungermanniaceae/Jungermannia_polaris/macro_pics/Jungermannia_polaris-FXT3.jpg",
-    "taxon": "Jungermannia polaris",
-    "column": "insetPhoto4"
   },
   {
     "file": "Liverworts/Lepidoziaceae/Kurzia_makinoana/macro_pics/Kurzia_makinoana_RM_04.jpeg'",
@@ -211,26 +46,6 @@ There were 75 images in the spreadsheet whose paths mismatched the Drive:
     "column": "insetPhoto3"
   },
   {
-    "file": "Liverworts/Scapaniaceae/Macrodiplophyllum_microdontum/macro_pics/Macrodiplophyllum_microdontum-MR1.jpg",
-    "taxon": "Macrodiplophyllum microdontum",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Macrodiplophyllum_microdontum/macro_pics/Macrodiplophyllum_microdontum-MR2.jpg",
-    "taxon": "Macrodiplophyllum microdontum",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Macrodiplophyllum_microdontum/macro_pics/Macrodiplophyllum_microdontum-MR3.jpg",
-    "taxon": "Macrodiplophyllum microdontum",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Macrodiplophyllum_microdontum/macro_pics/Macrodiplophyllum_microdontum-MR4.jpg",
-    "taxon": "Macrodiplophyllum microdontum",
-    "column": "insetPhoto4"
-  },
-  {
     "file": "Liverworts/Scapaniaceae/Macrodiplophyllum_plicatum/macro_pics/Macrodiplophyllum_plicatum_RM_01.jpg'",
     "taxon": "Macrodiplophyllum plicatum",
     "column": "insetPhoto1"
@@ -239,21 +54,6 @@ There were 75 images in the spreadsheet whose paths mismatched the Drive:
     "file": "Liverworts/Aytoniaceae/Mannia_fragrans/macro_pics/Mannia_fragrans_DT_01.jpeg'",
     "taxon": "Mannia fragrans",
     "column": "insetPhoto5"
-  },
-  {
-    "file": "Liverworts/Aytoniaceae/Mannia_pilosa/macro_pics/Mannia_pilosa-IP1.jpeg",
-    "taxon": "Mannia pilosa",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Aytoniaceae/Mannia_pilosa/macro_pics/Mannia_pilosa-SG2.jpeg",
-    "taxon": "Mannia pilosa",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Aytoniaceae/Mannia_pilosa/macro_pics/Mannia_pilosa-SG3.jpeg",
-    "taxon": "Mannia pilosa",
-    "column": "insetPhoto3"
   },
   {
     "file": "waiting for Randal",
@@ -266,113 +66,18 @@ There were 75 images in the spreadsheet whose paths mismatched the Drive:
     "column": "insetPhoto1"
   },
   {
-    "file": "Liverworts/Ricciaceae/Riccia_campbelliana/macro_pics/Riccia_campbelliana-BMS1.jpeg",
-    "taxon": "Riccia campbelliana",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_campbelliana/macro_pics/Riccia_campbelliana-BMS2.jpeg",
-    "taxon": "Riccia campbelliana",
+    "file": "Liverworts/Gymnomitriaceae/Nardia_geoscyphus/macro_pics/Nardia_geoscyphus-RM2.jpeg",
+    "taxon": "Nardia geoscyphus",
     "column": "insetPhoto2"
   },
   {
-    "file": "Liverworts/Ricciaceae/Riccia_campbelliana/macro_pics/Riccia_campbelliana-BMS3.jpeg",
-    "taxon": "Riccia campbelliana",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_campbelliana/macro_pics/Riccia_campbelliana-BMS4.jpeg",
-    "taxon": "Riccia campbelliana",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_campbelliana/macro_pics/Riccia_campbelliana-RM1.jpeg",
-    "taxon": "Riccia campbelliana",
-    "column": "insetPhoto5"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_campbelliana/macro_pics/Riccia_campbelliana-BMS6.jpeg",
-    "taxon": "Riccia campbelliana",
-    "column": "insetPhoto6"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_nigrella/macro_pics/Riccia_nigrella-JB1.jpeg",
-    "taxon": "Riccia nigrella",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_nigrella/macro_pics/Riccia_nigrella-JB2.jpeg",
-    "taxon": "Riccia nigrella",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_nigrella/macro_pics/Riccia_nigrella-DT1.jpeg",
-    "taxon": "Riccia nigrella",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_nigrella/macro_pics/Riccia_nigrella-DT2.jpeg",
-    "taxon": "Riccia nigrella",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_nigrella/macro_pics/Riccia_nigrella-JB3.jpeg",
-    "taxon": "Riccia nigrella",
-    "column": "insetPhoto5"
-  },
-  {
-    "file": "Liverworts/Ricciaceae/Riccia_nigrella/macro_pics/Riccia_nigrella-BMS1.jpeg",
-    "taxon": "Riccia nigrella",
+    "file": "Liverworts/Pelliaceae/Pellia_epiphylla/macro_pics/Pellia_epiphylla-BMS6.jpeg",
+    "taxon": "Pellia epiphylla",
     "column": "insetPhoto6"
   },
   {
     "file": "Liverworts/Scapaniaceae/scapania_apiculata_stature_ventral_side.ome.jpeg",
     "taxon": "Scapania apiculata",
     "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Sphaerocarpaceae/Sphaerocarpos_texanus/macro_pics/Sphaerocarpos_texanus-TB1.jpeg",
-    "taxon": "Sphaerocarpos texanus",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Sphaerocarpaceae/Sphaerocarpos_texanus/macro_pics/Sphaerocarpos_texanus-BMS4.jpeg",
-    "taxon": "Sphaerocarpos texanus",
-    "column": "insetPhoto5"
-  },
-  {
-    "file": "Liverworts/Sphaerocarpaceae/Sphaerocarpos_texanus/macro_pics/Sphaerocarpos_texanus-BMS5.jpeg",
-    "taxon": "Sphaerocarpos texanus",
-    "column": "insetPhoto6"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Tetralophozia_filiformis/macro_pics/Tetralophozia_filiformis-DT1.jpeg",
-    "taxon": "Tetralophozia filiformis",
-    "column": "insetPhoto1"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Tetralophozia_filiformis/macro_pics/Tetralophozia_filiformis-DT4.jpeg",
-    "taxon": "Tetralophozia filiformis",
-    "column": "insetPhoto2"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Tetralophozia_filiformis/macro_pics/Tetralophozia_filiformis-RM1.jpeg",
-    "taxon": "Tetralophozia filiformis",
-    "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Tetralophozia_filiformis/macro_pics/Tetralophozia_filiformis-RM2.jpeg",
-    "taxon": "Tetralophozia filiformis",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Tetralophozia_filiformis/macro_pics/Tetralophozia_filiformis-DT3.jpeg",
-    "taxon": "Tetralophozia filiformis",
-    "column": "insetPhoto5"
-  },
-  {
-    "file": "Liverworts/Scapaniaceae/Tetralophozia_filiformis/macro_pics/Tetralophozia_filiformis-DT2.jpeg",
-    "taxon": "Tetralophozia filiformis",
-    "column": "insetPhoto6"
   }
 ]

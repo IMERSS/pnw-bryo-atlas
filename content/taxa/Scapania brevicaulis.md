@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Scapania">Scapania</a> brevicaulis is a rare and northern Arctic-alpine species, where it grows as green-to-brown leafy shoots to 5 cm long and 4 mm wide. While the upper lobe is wider than long and 1/2-to-3/4ths the size of the lower lobe, which is longer than wide, both have typically smooth margins and subtley-pointed lobe apices. The lobes converge along an acute and linear keel that is 1/3-to-2/3rds the length on the lower lobe. Brown asexual reproductive bodies ("gemmae") are typically present and abundant along the margins of leaves at the shoot tip. Confident identication of this species will require a microscope to see the very thick and bulging cell walls of the leaf as well as the football-like shape of the gemmae. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Scapania kaurinii">S. kaurinii</a> is very similair in size, shape, form, colour and habitat. Under the microscope however, its cell walls to not bulge convexly into the cell as they do in S. brevicaulis. 
+ <a href="/taxa/Scapania">Scapania</a> brevicaulis is a rare and northern Arctic-alpine species, where it grows as green-to-brown leafy shoots to 5 cm long and 4 mm wide. While the upper lobe is wider than long and 1/2-to-3/4ths the size of the lower lobe, which is longer than wide, both have typically smooth margins and subtley-pointed lobe apices. The lobes converge along an acute and linear keel that is 1/3-to-2/3rds the length on the lower lobe. Brown asexual reproductive bodies ("gemmae") are typically present and abundant along the margins of leaves at the shoot tip. Confident identication of this species will require a microscope to see the very thick and bulging cell walls of the leaf as well as the football-like shape of the gemmae. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-On calcareous soil in alpine and northern tundra
+ <a href="/taxa/Scapania kaurinii">S. kaurinii</a> is very similair in size, shape, form, colour and habitat. Under the microscope however, its cell walls to not bulge convexly into the cell as they do in S. brevicaulis. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Uncertain
+ On calcareous soil in alpine and northern tundra
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Uncertain
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ Uncertain
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

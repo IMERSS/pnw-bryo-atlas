@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-When present, this species of fine, disturbed soils can grow in large populations of overlapping rosettes up to 2cm wide and composed of bright green-to-purple bifurcating thalli. Closer inspection reveals a deep and pervasive furrow in the thallus, that, in combination with its unadorned and green underside, makes it relatively easy to recognize when mature. At later stages, the upper surface of the plant begins to degrade and rupture such that the black capsules embedded within the thallus reveal themselves and release their spores. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Ricciocarpos natans">Ricciocarpos natans</a>, a species of shallow water and its margins, can also exhibit deep furrows across a rosette-forming thallus, but that species has a dark underside marked by elongate black root-like structures. Other species within the genus <a href="/taxa/Riccia">Riccia</a> have porous upper surfaces (see: <a href="/taxa/Riccia cavernosa">R. cavernosa</a>, <a href="/taxa/Riccia frostii">R. frostii</a>), or are adorned by hairs and scales near the margin of the thallus (R. trichocarpa, <a href="/taxa/Riccia beyrichiana">R. beyrichiana</a>, <a href="/taxa/Riccia lamellosa">R. lamellosa</a>). The deep furrows of R. sorocarpa are likewise lacking in <a href="/taxa/Riccia glauca">R. glauca</a> and <a href="/taxa/Riccia huebeneriana">R. huebeneriana</a>.   
+ When present, this species of fine, disturbed soils can grow in large populations of overlapping rosettes up to 2cm wide and composed of bright green-to-purple bifurcating thalli. Closer inspection reveals a deep and pervasive furrow in the thallus, that, in combination with its unadorned and green underside, makes it relatively easy to recognize when mature. At later stages, the upper surface of the plant begins to degrade and rupture such that the black capsules embedded within the thallus reveal themselves and release their spores. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Seasonally moist humus over rock outcrops, mineral soil, seepage sites, ephemeral pools, shorelines, pond margins, and disturbed areas in the lowland and steppe zones; infrequent to abundant in its habitat in sw and sc BC.
+ <a href="/taxa/Ricciocarpos natans">Ricciocarpos natans</a>, a species of shallow water and its margins, can also exhibit deep furrows across a rosette-forming thallus, but that species has a dark underside marked by elongate black root-like structures. Other species within the genus <a href="/taxa/Riccia">Riccia</a> have porous upper surfaces (see: <a href="/taxa/Riccia cavernosa">R. cavernosa</a>, <a href="/taxa/Riccia frostii">R. frostii</a>), or are adorned by hairs and scales near the margin of the thallus (R. trichocarpa, <a href="/taxa/Riccia beyrichiana">R. beyrichiana</a>, <a href="/taxa/Riccia lamellosa">R. lamellosa</a>). The deep furrows of R. sorocarpa are likewise lacking in <a href="/taxa/Riccia glauca">R. glauca</a> and <a href="/taxa/Riccia huebeneriana">R. huebeneriana</a>.   
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Gemmabryum barnesii, Pottia truncata, <a href="/taxa/Riccia beyrichiana">Riccia beyrichiana</a>, <a href="/taxa/Riccia">Riccia</a> trichocarpa (<a href="/taxa/Riccia">Riccia</a> crinita), <a href="/taxa/Riccia cavernosa">Riccia cavernosa</a>, Pleuridium acuminatum, Philonotis fontana
+ Seasonally moist humus over rock outcrops, mineral soil, seepage sites, ephemeral pools, shorelines, pond margins, and disturbed areas in the lowland and steppe zones; infrequent to abundant in its habitat in sw and sc BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Gemmabryum barnesii, Pottia truncata, <a href="/taxa/Riccia beyrichiana">Riccia beyrichiana</a>, <a href="/taxa/Riccia">Riccia</a> trichocarpa (<a href="/taxa/Riccia">Riccia</a> crinita), <a href="/taxa/Riccia cavernosa">Riccia cavernosa</a>, Pleuridium acuminatum, Philonotis fontana
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Gemmabryum barnesii, Pottia truncata, <a href="/taxa/Riccia beyrichiana">Riccia 
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A rare species that forms small green-to-puple-tinged rosettes (<1cm) of narrow and porous thallus segments on moist, seasonally exposed fine sediments. Up close, the plants have a perforated upper surface at maturity with an obvious groove towards its tip and swollen margins.
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Riccia cavernosa">Riccia cavernosa</a> and <a href="/taxa/Riccia frostii">R. frostii</a> are the only other regional species with a porous or perforated upper surface, but neither of these species have the grooves of R. huebeneriana. Young plants may resemble <a href="/taxa/Riccia sorocarpa">R. sorocarpa</a>, but that species has a wider thallus segments and a deep groove that runs the entire length of the thallus, while thallus segments of <a href="/taxa/Riccia beyrichiana">R. beyrichiana</a> are narrow and the groove is only obvious near the apex. <a href="/taxa/Riccia beyrichiana">R. beyrichiana</a> has similar colouration, but features wider thallus segments fringed by fine, clear, conical appendages.  
+ A rare species that forms small green-to-puple-tinged rosettes (<1cm) of narrow and porous thallus segments on moist, seasonally exposed fine sediments. Up close, the plants have a perforated upper surface at maturity with an obvious groove towards its tip and swollen margins.
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet mineral soil of freshwater shorelines and pond margins at low elevation, rare in sw BC.
+ <a href="/taxa/Riccia cavernosa">Riccia cavernosa</a> and <a href="/taxa/Riccia frostii">R. frostii</a> are the only other regional species with a porous or perforated upper surface, but neither of these species have the grooves of R. huebeneriana. Young plants may resemble <a href="/taxa/Riccia sorocarpa">R. sorocarpa</a>, but that species has a wider thallus segments and a deep groove that runs the entire length of the thallus, while thallus segments of <a href="/taxa/Riccia beyrichiana">R. beyrichiana</a> are narrow and the groove is only obvious near the apex. <a href="/taxa/Riccia beyrichiana">R. beyrichiana</a> has similar colouration, but features wider thallus segments fringed by fine, clear, conical appendages.  
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Philonotis fontana, Gemmabryum barnesii
+ Moist to wet mineral soil of freshwater shorelines and pond margins at low elevation, rare in sw BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Philonotis fontana, Gemmabryum barnesii
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Philonotis fontana, Gemmabryum barnesii
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

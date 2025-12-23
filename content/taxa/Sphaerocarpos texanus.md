@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -166,27 +169,121 @@ categories:
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Sphaerocarpaceae&#x2F;Sphaerocarpos_texanus&#x2F;macro_pics&#x2F;Sphaerocarpos_texanus-TB1.jpeg)">
+    <div class="imerss-image-copy"> © Thomas Barbin</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;260678122" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Sphaerocarpos texanus photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;11JH0XhZE48nqyorneiZo5faIxoyh_jPT" title="Thomas Barbin" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Sphaerocarpaceae&#x2F;Sphaerocarpos_texanus&#x2F;macro_pics&#x2F;Sphaerocarpos_texanus-BMS4.jpeg)">
+    <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;267850979" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Sphaerocarpos texanus photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1f8pM4kRTkI86dVp_9G3F6lYx5k1ZxPcW" title="Brian Starzomski" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Sphaerocarpaceae&#x2F;Sphaerocarpos_texanus&#x2F;macro_pics&#x2F;Sphaerocarpos_texanus-BMS5.jpeg)">
+    <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;330680646" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Sphaerocarpos texanus photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1YghIi34PIR9NqokLjERvrN24EC3L6kwB" title="Brian Starzomski" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A rarely-noticed but seemingly weedy species of disturbed soils, <a href="/taxa/Sphaerocarpos">Sphaerocarpos</a> texanus is amongst the most charismatic of liverworts in the region on account of its abundant, submillimeter "balloons". These structures actually enclose the reproductive organs, with the underlying leaves of the plant even less distinct, even with a hand lens.  
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-No other bryophyte in the region resembles this species. 
+ A rarely-noticed but seemingly weedy species of disturbed soils, <a href="/taxa/Sphaerocarpos">Sphaerocarpos</a> texanus is amongst the most charismatic of liverworts in the region on account of its abundant, submillimeter "balloons". These structures actually enclose the reproductive organs, with the underlying leaves of the plant even less distinct, even with a hand lens.  
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Seasonally saturated and frequently disturbed fine soils in open areas (trail sides, parking lot edges, campsites, dirt tracks, sloughed-over moss mats) at low elevations.
+ No other bryophyte in the region resembles this species. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Gemmabryum barnesii, <a href="/taxa/Plagiomnium">Plagiomnium</a> cuspidatum, <a href="/taxa/Cephaloziella divaricata">Cephaloziella divaricata</a>, <a href="/taxa/Fossombronia">Fossombronia</a> spp. <a href="/taxa/Riccia">Riccia</a> spp.
+ Seasonally saturated and frequently disturbed fine soils in open areas (trail sides, parking lot edges, campsites, dirt tracks, sloughed-over moss mats) at low elevations.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Gemmabryum barnesii, <a href="/taxa/Plagiomnium">Plagiomnium</a> cuspidatum, <a href="/taxa/Cephaloziella divaricata">Cephaloziella divaricata</a>, <a href="/taxa/Fossombronia">Fossombronia</a> spp. <a href="/taxa/Riccia">Riccia</a> spp.
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +322,13 @@ Gemmabryum barnesii, <a href="/taxa/Plagiomnium">Plagiomnium</a> cuspidatum, <a 
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

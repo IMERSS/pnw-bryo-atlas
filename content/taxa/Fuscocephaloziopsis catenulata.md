@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -70,30 +73,155 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsis_catenulata&#x2F;macro_pics&#x2F;Fuscocephaloziopsis_catenulata-SB1.jpg)">
+    <div class="imerss-image-copy"> © Sophia BenJeddi</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;330151395" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Fuscocephaloziopsis catenulata photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;17uAIxqBV5unJDy-Z_g1ydD6LIkRLwEPW" title="Sophia BenJeddi" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsis_catenulata&#x2F;macro_pics&#x2F;Fuscocephaloziopsis_catenulata-SB2.jpg)">
+    <div class="imerss-image-copy"> © Sophia BenJeddi</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;330151395" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Fuscocephaloziopsis catenulata photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1TsfkvtJv__tpeP2YMzwBcYrFpwyZDLzu" title="Sophia BenJeddi" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsis_catenulata&#x2F;macro_pics&#x2F;Fuscocephaloziopsis_catenulata-SB3.jpg)">
+    <div class="imerss-image-copy"> © Sophia BenJeddi</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;330151395" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Fuscocephaloziopsis catenulata photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1ZsgrmWpCc4XXbLrFoH22cMS2JPKpNH2f" title="Sophia BenJeddi" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Cephaloziaceae&#x2F;Fuscocephaloziopsis_catenulata&#x2F;macro_pics&#x2F;Fuscocephaloziopsis_catenulata-SB4.jpg)">
+    <div class="imerss-image-copy"> © Sophia BenJeddi</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;330151395" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Fuscocephaloziopsis catenulata photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1p4BJB57tzVHp_dB2rF2_H6OjvInGUUOj" title="Sophia BenJeddi" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Known from only a few disparate records south of Alaska, F. catenulata  is a golden to bright green log-dweller that forms small carpets of horizontal to ascending shoots up to 1 cm long and between 0.2 and 0.4 mm wide. Up close, the leaves are symmetrically bilobed with sharp apices and a sinus that descends between 1/3 and 1/2 leaf length and lobe tips that do not converge. At their base, the leaves are attached obliquely along the length of the stem. Underleaves and gemmae are absent. To confidently identify this species, microscopic examination is neccessary to see (1) the slightly decurrent leaf bases and (2) the small leaf cells  at the base of the lobes (around 20 um in maximum dimension).
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The obliquely attached symmetrically bilobed leaves that are larger than the shoot puts it safely in league with other species of <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>. The barely decurrent leaf base make it most comparable to other species of <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a>. <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> and <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> have lobe tips that converge, cross or point towards one another unlike the lobe tips in F. catenulata which are mostly parallel. <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a> is similair but has leaves that are attached mostly along the length of the stem and not so clearly oblique as in F. catenulata. 
+ Known from only a few disparate records south of Alaska, F. catenulata  is a golden to bright green log-dweller that forms small carpets of horizontal to ascending shoots up to 1 cm long and between 0.2 and 0.4 mm wide. Up close, the leaves are symmetrically bilobed with sharp apices and a sinus that descends between 1/3 and 1/2 leaf length and lobe tips that do not converge. At their base, the leaves are attached obliquely along the length of the stem. Underleaves and gemmae are absent. To confidently identify this species, microscopic examination is neccessary to see (1) the slightly decurrent leaf bases and (2) the small leaf cells  at the base of the lobes (around 20 um in maximum dimension).
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Decayed wood in the montane and subalpine zones; rare in southwest [Vancouver Island] and northwest [Boundary Ranges] British Columbia.
+ The obliquely attached symmetrically bilobed leaves that are larger than the shoot puts it safely in league with other species of <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>. The barely decurrent leaf base make it most comparable to other species of <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a>. <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> and <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> have lobe tips that converge, cross or point towards one another unlike the lobe tips in F. catenulata which are mostly parallel. <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a> is similair but has leaves that are attached mostly along the length of the stem and not so clearly oblique as in F. catenulata. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Decayed wood in the montane and subalpine zones; rare in southwest [Vancouver Island] and northwest [Boundary Ranges] British Columbia.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -132,6 +260,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

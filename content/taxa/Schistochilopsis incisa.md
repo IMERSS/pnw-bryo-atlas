@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Schistochilopsis">Schistochilopsis</a> incisa is an ambient and unmistakeable species found across most elevations and habitats in our region, especially decaying wood and organic matter, where is presents as tightly-overlapping, waxy whitish-green shoots up to 2 cm long and 2.5 mm wide bearing very toothy and succulent leaves. Up close, the leaves have a maple-like shape with major lobes and teeth demarcated by minor lobes and teeth. The development, size and number of the teeth seems to vary depending on habitat, with nearly toothless forms occuring at high elevations and often treated as <a href="/taxa/Schistochilopsis">Schistochilopsis</a> opacifolia or S. incisa subsp. opacifolia. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-No other species of leafy liverwort is green, lobed, toothed and succulent. Species of <a href="/taxa/Barbilophozia">Barbilophozia</a> can be lobed with teeth on the lobe tips, but none in between as in <a href="/taxa/Schistochilopsis">Schistochilopsis</a> incisa, nor are the leaves in <a href="/taxa/Barbilophozia">Barbilophozia</a> succulent. <a href="/taxa/Fossombronia">Fossombronia</a> species have lettuce-like leaves but they are thin and lack the spines of S. incisa.
+ <a href="/taxa/Schistochilopsis">Schistochilopsis</a> incisa is an ambient and unmistakeable species found across most elevations and habitats in our region, especially decaying wood and organic matter, where is presents as tightly-overlapping, waxy whitish-green shoots up to 2 cm long and 2.5 mm wide bearing very toothy and succulent leaves. Up close, the leaves have a maple-like shape with major lobes and teeth demarcated by minor lobes and teeth. The development, size and number of the teeth seems to vary depending on habitat, with nearly toothless forms occuring at high elevations and often treated as <a href="/taxa/Schistochilopsis">Schistochilopsis</a> opacifolia or S. incisa subsp. opacifolia. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist, shady decayed wood, humus, rock outcrops, boulders, cliffs, cutbanks, seepage sites, bogs, snowbed sites, heath, and tundra in the lowland, montane, subalpine, and alpine zones
+ No other species of leafy liverwort is green, lobed, toothed and succulent. Species of <a href="/taxa/Barbilophozia">Barbilophozia</a> can be lobed with teeth on the lobe tips, but none in between as in <a href="/taxa/Schistochilopsis">Schistochilopsis</a> incisa, nor are the leaves in <a href="/taxa/Barbilophozia">Barbilophozia</a> succulent. <a href="/taxa/Fossombronia">Fossombronia</a> species have lettuce-like leaves but they are thin and lack the spines of S. incisa.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist, shady decayed wood, humus, rock outcrops, boulders, cliffs, cutbanks, seepage sites, bogs, snowbed sites, heath, and tundra in the lowland, montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-An infrequent species of uncommonly moist low-elevation microhabitats (waterfalls, deep canyons), M. flaccidum is marked by elongate, toothed lobes and a glossy palour. The outermost half of the lower lobes are characteristically held at nearly 90 degrees from the stem and are often parallel to the upper lobes. Teeth are well developed along the lobe apices and the plant, when dried, is strongly contorted. 
-
-<h2 id="similar-species">Similar species</h2>
-
-While similairly toothed to <a href="/taxa/Macrodiplophyllum rubrum">M. rubrum</a>, M. flaccidum lacks its red pigmentation. <a href="/taxa/Macrodiplophyllum imbricatum">M. imbricatum</a> is a higher elevation species with smooth leaf lobes that have a rounded aspect. <a href="/taxa/Macrodiplophyllum plicatum">M. plicatum</a> occurs in similar habitats, but in that species the lower lobes are held at 70 degrees to the stem, whereas in M. flaccidum they are held at 90 degrees to the stem. 
-
-<h2 id="habitat">Habitat</h2>
-
-Moist to wet mineral soil, rock outcrops, boulders, cliffs, and cutbanks in the lowland zone; frequent in coastal BC.
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ An infrequent species of uncommonly moist low-elevation microhabitats (waterfalls, deep canyons), M. flaccidum is marked by elongate, toothed lobes and a glossy palour. The outermost half of the lower lobes are characteristically held at nearly 90 degrees from the stem and are often parallel to the upper lobes. Teeth are well developed along the lobe apices and the plant, when dried, is strongly contorted. 
+
+ <h2 id="similar-species">Similar species</h2>
+
+ While similairly toothed to <a href="/taxa/Macrodiplophyllum rubrum">M. rubrum</a>, M. flaccidum lacks its red pigmentation. <a href="/taxa/Macrodiplophyllum imbricatum">M. imbricatum</a> is a higher elevation species with smooth leaf lobes that have a rounded aspect. <a href="/taxa/Macrodiplophyllum plicatum">M. plicatum</a> occurs in similar habitats, but in that species the lower lobes are held at 70 degrees to the stem, whereas in M. flaccidum they are held at 90 degrees to the stem. 
+
+ <h2 id="habitat">Habitat</h2>
+
+ Moist to wet mineral soil, rock outcrops, boulders, cliffs, and cutbanks in the lowland zone; frequent in coastal BC.
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ Moist to wet mineral soil, rock outcrops, boulders, cliffs, and cutbanks in the 
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Known from only one specimen in all of Western North America, S. kaurinii is a a rock dwelling tundra plant with green-to-brown leafy shoots up to 3 cm long and 3.5 mm wide. The upper lobe is about 3/4ths the size of the lower lobe, both are broadly elliptical and mostly smooth along their margins, the leaves as a whole having upturned and often incurled margins . The lobes meet at their base along a linear and acute keel, with the lower lobe attaching with a slight arch on the back of the stem and the upper lobe attaching across the length of the stem. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The lack of teeth and relatively large upper lobe in its habitat of high mountain exposed rocks and detritus could be mistaken for <a href="/taxa/Scapania subalpina">Scapania subalpina</a>, but in that species the upper lobe is up to 90% the size of the lower lobe and the keel is often indistinct. In S. kaurinii, the keel is acute and the upper lobe is around 3/4ths the size of the lower lobe. 
+ Known from only one specimen in all of Western North America, S. kaurinii is a a rock dwelling tundra plant with green-to-brown leafy shoots up to 3 cm long and 3.5 mm wide. The upper lobe is about 3/4ths the size of the lower lobe, both are broadly elliptical and mostly smooth along their margins, the leaves as a whole having upturned and often incurled margins . The lobes meet at their base along a linear and acute keel, with the lower lobe attaching with a slight arch on the back of the stem and the upper lobe attaching across the length of the stem. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet mineral soil, humus, rock outcrops, boulders, cliffs, and seepage areas in the subalpine zone
+ The lack of teeth and relatively large upper lobe in its habitat of high mountain exposed rocks and detritus could be mistaken for <a href="/taxa/Scapania subalpina">Scapania subalpina</a>, but in that species the upper lobe is up to 90% the size of the lower lobe and the keel is often indistinct. In S. kaurinii, the keel is acute and the upper lobe is around 3/4ths the size of the lower lobe. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Uncertain
+ Moist to wet mineral soil, humus, rock outcrops, boulders, cliffs, and seepage areas in the subalpine zone
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Uncertain
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ Uncertain
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

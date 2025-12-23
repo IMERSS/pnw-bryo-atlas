@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A common sight around wet rocks, the golden-green to red shoots of M. emarginata have leaves with the unmistakable shape of Mickey Mouse Ears when examined with a hand lens. The shoots don’t show much in the way of branching and can be quite variable in size, ranging from .5-2.5 mm wide and 1-5 cm long. The leaves are about as wide as they are long, bilobed (or shallowly notched, depending on your perspective) and have a sinus that descends to about one-quarter of the leaf’s length. The margins of the leaf are curled down (“recurved”) and the leaves as a whole diverge from the stem almost at 90 degree angles. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Species of <a href="/taxa/Anastrophyllum">Anastrophyllum</a> and <a href="/taxa/Sphenolobus">Sphenolobus</a> can have leaves of similar form and orientation, but in those genera, the leaves are slightly asymmetrical and tend to orient themselves towards one side of the stem, while in M. emarginata, the leaves are symmetrical and face upward. Among the species of <a href="/taxa/Marsupella">Marsupella</a> with wide spreading leaves, M. emarginata is likely to be mistaken only for <a href="/taxa/Marsupella aquatica">M. aquatica</a>, M. sphaecelata and <a href="/taxa/Marsupella sparsifolia">M. sparsifolia</a>. <a href="/taxa/Marsupella aquatica">M. aquatica</a> grows on rocks around fast flowing water and has been treated as a subspecies, differing in having a shallower sinus (less than 20% of leaf length) and leaves that are visibly wider than long. The predominantly subalpine <a href="/taxa/Marsupella sphacelata">M. sphacelata</a> and <a href="/taxa/Marsupella sparsifolia">M. sparsifolia</a> have diverging, non-overlapping leaves like M. emarginata, but they also have a burnt purple-blackish colour that immediately distinguishes them. 
+ A common sight around wet rocks, the golden-green to red shoots of M. emarginata have leaves with the unmistakable shape of Mickey Mouse Ears when examined with a hand lens. The shoots don’t show much in the way of branching and can be quite variable in size, ranging from .5-2.5 mm wide and 1-5 cm long. The leaves are about as wide as they are long, bilobed (or shallowly notched, depending on your perspective) and have a sinus that descends to about one-quarter of the leaf’s length. The margins of the leaf are curled down (“recurved”) and the leaves as a whole diverge from the stem almost at 90 degree angles. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet mineral soil, rock outcrops, cliffs, ledges, crevices, boulders, streambanks, and tundra, occasionally submerged in shallow water, in the lowland, montane, subalpine, and alpine zones
+ Species of <a href="/taxa/Anastrophyllum">Anastrophyllum</a> and <a href="/taxa/Sphenolobus">Sphenolobus</a> can have leaves of similar form and orientation, but in those genera, the leaves are slightly asymmetrical and tend to orient themselves towards one side of the stem, while in M. emarginata, the leaves are symmetrical and face upward. Among the species of <a href="/taxa/Marsupella">Marsupella</a> with wide spreading leaves, M. emarginata is likely to be mistaken only for <a href="/taxa/Marsupella aquatica">M. aquatica</a>, M. sphaecelata and <a href="/taxa/Marsupella sparsifolia">M. sparsifolia</a>. <a href="/taxa/Marsupella aquatica">M. aquatica</a> grows on rocks around fast flowing water and has been treated as a subspecies, differing in having a shallower sinus (less than 20% of leaf length) and leaves that are visibly wider than long. The predominantly subalpine <a href="/taxa/Marsupella sphacelata">M. sphacelata</a> and <a href="/taxa/Marsupella sparsifolia">M. sparsifolia</a> have diverging, non-overlapping leaves like M. emarginata, but they also have a burnt purple-blackish colour that immediately distinguishes them. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Scapania americana">Scapania americana</a>, <a href="/taxa/Nardia scalaris">Nardia scalaris</a>, Blindia acuta, <a href="/taxa/Racomitrium">Racomitrium</a> aciculare
+ Moist to wet mineral soil, rock outcrops, cliffs, ledges, crevices, boulders, streambanks, and tundra, occasionally submerged in shallow water, in the lowland, montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Scapania americana">Scapania americana</a>, <a href="/taxa/Nardia scalaris">Nardia scalaris</a>, Blindia acuta, <a href="/taxa/Racomitrium">Racomitrium</a> aciculare
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Moist to wet mineral soil, rock outcrops, cliffs, ledges, crevices, boulders, st
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

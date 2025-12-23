@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> connivens is a common species typical of wet wood and decaying organic matter, on which its small (~ 1 mm wide) translucent green shoots creep. The two lobe tips in this species point towards one another, often touching or crossing as they converge. Paired with leaf attachment along the length of the stem and a lower leaf base that runs down the stem, F. connivens is unmistakable. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Likely to be confused only with <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> and <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a>, both of which are species that also feature round, two-lobed leaves with acute tips that are attached along the length of the stem such that their lower bases run down the shoot. Neither of these species, however, have tips that converge with one another as they do in F. connivens. 
+ <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> connivens is a common species typical of wet wood and decaying organic matter, on which its small (~ 1 mm wide) translucent green shoots creep. The two lobe tips in this species point towards one another, often touching or crossing as they converge. Paired with leaf attachment along the length of the stem and a lower leaf base that runs down the stem, F. connivens is unmistakable. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic humus, decayed wood, and bogs in the lowland and montane zones; rare in coastal and southeast British Columbia.
+ Likely to be confused only with <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> and <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a>, both of which are species that also feature round, two-lobed leaves with acute tips that are attached along the length of the stem such that their lower bases run down the shoot. Neither of these species, however, have tips that converge with one another as they do in F. connivens. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to mesic humus, decayed wood, and bogs in the lowland and montane zones; rare in coastal and southeast British Columbia.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

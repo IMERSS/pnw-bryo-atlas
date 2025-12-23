@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-An occasional aquatic or semi-aquatic liverwort from stagnant waters, <a href="/taxa/Ricciocarpos">Ricciocarpos</a> natans forms tight and large (1cm or larger) rosettes that are grooved and green above and black below. When lifted from the water or surface sediments, the dark underside is laden with long, black, root-like tangles, and the upper surface is marked by faint polygons. As the margin of a water body recedes, this species can live out its days on wet mud, often growing upwards of 2-3 cm wide. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Unmistakeable while floating in open water, it is likely to cause a little confusion if found living on sediments or soils where water has stranded it. <a href="/taxa/Riccia sorocarpa">Riccia sorocarpa</a> is furrowed, too, but lacks the black bottoms and polygonal patterning of the upper surface that is found in <a href="/taxa/Ricciocarpos">Ricciocarpos</a>. Other thalloid liverworts found in similar habitats, such as <a href="/taxa/Marchantia polymorpha">Marchantia polymorpha</a> and <a href="/taxa/Conocephalum">Conocephalum</a> species have more clearly delimited polygons and lack the large black root-like structures on their undersides. 
+ An occasional aquatic or semi-aquatic liverwort from stagnant waters, <a href="/taxa/Ricciocarpos">Ricciocarpos</a> natans forms tight and large (1cm or larger) rosettes that are grooved and green above and black below. When lifted from the water or surface sediments, the dark underside is laden with long, black, root-like tangles, and the upper surface is marked by faint polygons. As the margin of a water body recedes, this species can live out its days on wet mud, often growing upwards of 2-3 cm wide. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Floating on the surface of nutrient- and mineral-rich water in marshes, ponds, ditches, lakeshores, and slow-moving streams, or stranded on shoreline mud, in the lowland, steppe, and montane zones; infrequent east of the Coast-Cascade Mts. and in sw BC.
+ Unmistakeable while floating in open water, it is likely to cause a little confusion if found living on sediments or soils where water has stranded it. <a href="/taxa/Riccia sorocarpa">Riccia sorocarpa</a> is furrowed, too, but lacks the black bottoms and polygonal patterning of the upper surface that is found in <a href="/taxa/Ricciocarpos">Ricciocarpos</a>. Other thalloid liverworts found in similar habitats, such as <a href="/taxa/Marchantia polymorpha">Marchantia polymorpha</a> and <a href="/taxa/Conocephalum">Conocephalum</a> species have more clearly delimited polygons and lack the large black root-like structures on their undersides. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Riccia frostii">Riccia frostii</a>, <a href="/taxa/Riccia cavernosa">Riccia cavernosa</a>, Physcomitrium patens, Ephemerum serrulatum
+ Floating on the surface of nutrient- and mineral-rich water in marshes, ponds, ditches, lakeshores, and slow-moving streams, or stranded on shoreline mud, in the lowland, steppe, and montane zones; infrequent east of the Coast-Cascade Mts. and in sw BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Riccia frostii">Riccia frostii</a>, <a href="/taxa/Riccia cavernosa">Riccia cavernosa</a>, Physcomitrium patens, Ephemerum serrulatum
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Floating on the surface of nutrient- and mineral-rich water in marshes, ponds, d
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

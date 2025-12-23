@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Delicate and filamentous plants of <a href="/taxa/Blepharostoma">Blepharostoma</a> are frequent but easy to overlook in their moist microhabitats, where they occur as transluscent yellow-to-green bristly shoots <1/4 mm wide that creep along the substrate. With a hand lends the leaves are composed of four equal and linear lobes that are seperated all the way to the very base of the leaf. Under the microscope, these lobes are only one cell wide. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Species of <a href="/taxa/Kurzia">Kurzia</a> are of similair size with 4-lobed leaves and can occur in similair habitats. The leave lobes in that genus, however, are 1-celled at their tip but broaden to 2 (or more) cells wide towards their base, which is found at about three-quarters down the leaf's length. In B. trichophylla, the leaf lobes are always 1 cell wide and are divided all the way to the very base of the left. Differences with <a href="/taxa/Blepharostoma arachnoideum">Blepharostoma arachnoideum</a> are subtle-- the latter tending to have 2-3 lobes that often branch further along their length, while in B. trichophyllum, there are typically 4 (sometimes 3) lobes that are never branched. B. trichophylla is often treated as a complex of closely related taxa with intergrading morphologies. 
+ Delicate and filamentous plants of <a href="/taxa/Blepharostoma">Blepharostoma</a> are frequent but easy to overlook in their moist microhabitats, where they occur as transluscent yellow-to-green bristly shoots <1/4 mm wide that creep along the substrate. With a hand lends the leaves are composed of four equal and linear lobes that are seperated all the way to the very base of the leaf. Under the microscope, these lobes are only one cell wide. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, usually shady humus, rock outcrops, boulders, cliffs, ledges, decayed wood, streambanks, and waterfall spray zones in the lowland, montane, and subalpine zones
+ Species of <a href="/taxa/Kurzia">Kurzia</a> are of similair size with 4-lobed leaves and can occur in similair habitats. The leave lobes in that genus, however, are 1-celled at their tip but broaden to 2 (or more) cells wide towards their base, which is found at about three-quarters down the leaf's length. In B. trichophylla, the leaf lobes are always 1 cell wide and are divided all the way to the very base of the left. Differences with <a href="/taxa/Blepharostoma arachnoideum">Blepharostoma arachnoideum</a> are subtle-- the latter tending to have 2-3 lobes that often branch further along their length, while in B. trichophyllum, there are typically 4 (sometimes 3) lobes that are never branched. B. trichophylla is often treated as a complex of closely related taxa with intergrading morphologies. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet, usually shady humus, rock outcrops, boulders, cliffs, ledges, decayed wood, streambanks, and waterfall spray zones in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

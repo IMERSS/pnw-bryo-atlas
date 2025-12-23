@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-This wide-spreading (shoots up to 4mm wide), unlobed leafy liverwort tends to flourish on moist decaying wood and logs in wet forests, with hues varying from light green to golden red. The lateral leaves are attached mostly along the length of the shoot and flipping the shoots over should reveal a narrow, linear underleaf upon close inspection with a hand lens. This species is commonly found with tubular perianths (modified leaves enclosing developing archegonia and sporophytes) that show a recessed beak at their tip (see photo). 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-There are a number of unlobed leafy liverworts that can occur on rotting wood and thus could easily be mistaken for L. lanceolata. Syzygiella autumnalis has similar colour, leaf size and orientation but lacks the underleaf and recessed beak of the perianth that is present in L. lanceolata. <a href="/taxa/Chiloscyphus">Chiloscyphus</a> species also can look similar, but their underleaves are forked, as opposed to the simple and linear underleaves of L. lanceolata. Species of <a href="/taxa/Jungermannia">Jungermannia</a>, Plectocolea and Solenostoma all have simple leaves and similar habits, but none have underleaves and most are not found on decaying wood. <a href="/taxa/Odontoschisma">Odontoschisma</a> denudata can be found on wet wood, but it has much smaller (shoots less than 2mm wide) and its underleaves are round, not linear. Species of <a href="/taxa/Mylia">Mylia</a> also have a linear underleaf and unlobed lateral leaves, but leaves at the shoot tip in <a href="/taxa/Mylia">Mylia</a> are densely crowded into an opposite arrangement while leaves at the shoot tips in L. lanceolata hardly overlap and show obvious staggered arrangement.
+ This wide-spreading (shoots up to 4mm wide), unlobed leafy liverwort tends to flourish on moist decaying wood and logs in wet forests, with hues varying from light green to golden red. The lateral leaves are attached mostly along the length of the shoot and flipping the shoots over should reveal a narrow, linear underleaf upon close inspection with a hand lens. This species is commonly found with tubular perianths (modified leaves enclosing developing archegonia and sporophytes) that show a recessed beak at their tip (see photo). 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic, shady humus, decayed wood, and streambanks, especially in coniferous forests, in the lowland and montane zones
+ There are a number of unlobed leafy liverworts that can occur on rotting wood and thus could easily be mistaken for L. lanceolata. Syzygiella autumnalis has similar colour, leaf size and orientation but lacks the underleaf and recessed beak of the perianth that is present in L. lanceolata. <a href="/taxa/Chiloscyphus">Chiloscyphus</a> species also can look similar, but their underleaves are forked, as opposed to the simple and linear underleaves of L. lanceolata. Species of <a href="/taxa/Jungermannia">Jungermannia</a>, Plectocolea and Solenostoma all have simple leaves and similar habits, but none have underleaves and most are not found on decaying wood. <a href="/taxa/Odontoschisma">Odontoschisma</a> denudata can be found on wet wood, but it has much smaller (shoots less than 2mm wide) and its underleaves are round, not linear. Species of <a href="/taxa/Mylia">Mylia</a> also have a linear underleaf and unlobed lateral leaves, but leaves at the shoot tip in <a href="/taxa/Mylia">Mylia</a> are densely crowded into an opposite arrangement while leaves at the shoot tips in L. lanceolata hardly overlap and show obvious staggered arrangement.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to mesic, shady humus, decayed wood, and streambanks, especially in coniferous forests, in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

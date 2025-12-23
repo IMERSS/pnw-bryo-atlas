@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The most common species of the genus <a href="/taxa/Calypogeia">Calypogeia</a> in our region, C. muelleriana is a dark green leafy liverwort with linear shoots (~2mm wide) composed of round leaves that tightly overlap like shingles on a roof ("incubous"). Typically tightly appressed to decaying conifers and organic-rich soils, this species can be confirmed by hand lens examination of the underleaf, which should show two lobes that are divided to about half of their length. Like many species in the genus, C. muelleriana frequently has gemmae-bearing shoots that have more distant leaves and erect shoot apices with light-green clusters of asexual spores.
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Calypogeia">Calypogeia</a> muelleriana is unlikely to be confused with any other genus of leafy liverworts with the exception of <a href="/taxa/Bazzania">Bazzania</a>, which can show similair shingle-like arrangement of leaves. That genus, however, has leaves that have tooth-like notches at the tips and underleaves with more than two lobes. The green, rounded leaves and evenly two-lobed underleaves of C. muelleriana are similair to many species in the genus <a href="/taxa/Calypogeia">Calypogeia</a>, but can be distinguished from other species with a hand lens. Plants of <a href="/taxa/Calypogeia azurea">C. azurea</a> have identical leaves and underleaves, but have a blue hue, while <a href="/taxa/Calypogeia sphagnicola">C. sphagnicola</a> has leaves that are triangular in shape and do not overlap, whereas leaves in C. muelleriana are round and tightly overlap. <a href="/taxa/Calypogeia integristipula">C. integristipula</a> and <a href="/taxa/Calypogeia neesiana">C. neesiana</a> have unlobed underleaves and C. fissa has an underleaf dissected almost all the way to its base, while the underleaf in C. muelleriana is only dissected to about half of its length. <a href="/taxa/Calypogeia suecica">C. suecica</a>, a rare species of wet wood, is very small (typically <1 mm wide) and has somewhat pointed underleaves relative to the rounded underleaves of C. muelleriana, which occur on shoots typically >2 mm wide.
+ The most common species of the genus <a href="/taxa/Calypogeia">Calypogeia</a> in our region, C. muelleriana is a dark green leafy liverwort with linear shoots (~2mm wide) composed of round leaves that tightly overlap like shingles on a roof ("incubous"). Typically tightly appressed to decaying conifers and organic-rich soils, this species can be confirmed by hand lens examination of the underleaf, which should show two lobes that are divided to about half of their length. Like many species in the genus, C. muelleriana frequently has gemmae-bearing shoots that have more distant leaves and erect shoot apices with light-green clusters of asexual spores.
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Decaying wood and organic rich soil banks in forests
+ <a href="/taxa/Calypogeia">Calypogeia</a> muelleriana is unlikely to be confused with any other genus of leafy liverworts with the exception of <a href="/taxa/Bazzania">Bazzania</a>, which can show similair shingle-like arrangement of leaves. That genus, however, has leaves that have tooth-like notches at the tips and underleaves with more than two lobes. The green, rounded leaves and evenly two-lobed underleaves of C. muelleriana are similair to many species in the genus <a href="/taxa/Calypogeia">Calypogeia</a>, but can be distinguished from other species with a hand lens. Plants of <a href="/taxa/Calypogeia azurea">C. azurea</a> have identical leaves and underleaves, but have a blue hue, while <a href="/taxa/Calypogeia sphagnicola">C. sphagnicola</a> has leaves that are triangular in shape and do not overlap, whereas leaves in C. muelleriana are round and tightly overlap. <a href="/taxa/Calypogeia integristipula">C. integristipula</a> and <a href="/taxa/Calypogeia neesiana">C. neesiana</a> have unlobed underleaves and C. fissa has an underleaf dissected almost all the way to its base, while the underleaf in C. muelleriana is only dissected to about half of its length. <a href="/taxa/Calypogeia suecica">C. suecica</a>, a rare species of wet wood, is very small (typically <1 mm wide) and has somewhat pointed underleaves relative to the rounded underleaves of C. muelleriana, which occur on shoots typically >2 mm wide.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Lepidozia reptans">Lepidozia reptans</a>, <a href="/taxa/Bazzania denudata">Bazzania denudata</a>, <a href="/taxa/Tetraphis">Tetraphis</a> pellucidam <a href="/taxa/Pseudotaxiphyllum elegans">Pseudotaxiphyllum elegans</a>
+ Decaying wood and organic rich soil banks in forests
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Lepidozia reptans">Lepidozia reptans</a>, <a href="/taxa/Bazzania denudata">Bazzania denudata</a>, <a href="/taxa/Tetraphis">Tetraphis</a> pellucidam <a href="/taxa/Pseudotaxiphyllum elegans">Pseudotaxiphyllum elegans</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Decaying wood and organic rich soil banks in forests
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

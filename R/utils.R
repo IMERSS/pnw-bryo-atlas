@@ -24,7 +24,7 @@ idToDrib <- function (id) {
 }
 
 # Adapted from https://stackoverflow.com/a/64687628
-downloadGdriveFolder <- function (id, file_path, skip_if_exists = TRUE) {
+downloadGdriveFolder <- function (id, file_path, skip_if_exists = TRUE, type = "csv") {
   exists <- file.exists(file_path)
   if (!exists || !skip_if_exists) {
     if (!exists) {
@@ -55,7 +55,7 @@ downloadGdriveFolder <- function (id, file_path, skip_if_exists = TRUE) {
           if (file.exists(target)) {
             wg("File {target} already exists, skipping download")
           } else {
-            drive_download(as_id(files$id[i]), path = target)
+            drive_download(as_id(files$id[i]), path = target, type = type, overwrite = !skip_if_exists)
           } 
         })
       }

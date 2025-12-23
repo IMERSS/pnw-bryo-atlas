@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -57,9 +58,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -232,22 +235,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-<a href="/taxa/Lunularia">Lunularia</a> cruciata is a weedy species typical of garden margins that reaches the limits of its tolerance in south coastal British Columbia. It is a complex thalloid liverwort with short, overlapping segments to about 1cm wide and 3 cm long that grow prostrate over fine soils and almost always have semicircular cups on the upper surface that house and disperse asexual spores ("gemmae cups", see photo). Sporophytes have not been observed in regional material, but in the event that the gemmae cups are absent, attention should be paid to the simple pores on the thallus and the brown colour of the scales on its underside. 
-
-<h2 id="similar-species">Similar species</h2>
-
-When gemmae cups are present, L. cruciata can only be mistaken for <a href="/taxa/Marchantia polymorpha">Marchantia polymorpha</a>, but in that species the cups are circular, not semicircular or crescent shaped as they are in <a href="/taxa/Lunularia">Lunularia</a>. The weedy habitat is a good clue for plants of L. cruciata that lack gemmae cups, but the simple pores are a good backup feature: the presence of simple pores distinguishes <a href="/taxa/Lunularia">Lunularia</a> from species of <a href="/taxa/Marchantia">Marchantia</a>, which have compound pores, while the presence of brown scales on the underside of L. cruciata seperate it from other complex thalloid genera with simple pores (<a href="/taxa/Mannia">Mannia</a>, <a href="/taxa/Reboulia">Reboulia</a>, <a href="/taxa/Clevea">Clevea</a>, <a href="/taxa/Targionia">Targionia</a>), where the scales are purple or white. 
-
-<h2 id="habitat">Habitat</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<h2 id="associated-species">Associated species</h2>
+ <a href="/taxa/Lunularia">Lunularia</a> cruciata is a weedy species typical of garden margins that reaches the limits of its tolerance in south coastal British Columbia. It is a complex thalloid liverwort with short, overlapping segments to about 1cm wide and 3 cm long that grow prostrate over fine soils and almost always have semicircular cups on the upper surface that house and disperse asexual spores ("gemmae cups", see photo). Sporophytes have not been observed in regional material, but in the event that the gemmae cups are absent, attention should be paid to the simple pores on the thallus and the brown colour of the scales on its underside. 
 
+ <h2 id="similar-species">Similar species</h2>
 
+ When gemmae cups are present, L. cruciata can only be mistaken for <a href="/taxa/Marchantia polymorpha">Marchantia polymorpha</a>, but in that species the cups are circular, not semicircular or crescent shaped as they are in <a href="/taxa/Lunularia">Lunularia</a>. The weedy habitat is a good clue for plants of L. cruciata that lack gemmae cups, but the simple pores are a good backup feature: the presence of simple pores distinguishes <a href="/taxa/Lunularia">Lunularia</a> from species of <a href="/taxa/Marchantia">Marchantia</a>, which have compound pores, while the presence of brown scales on the underside of L. cruciata seperate it from other complex thalloid genera with simple pores (<a href="/taxa/Mannia">Mannia</a>, <a href="/taxa/Reboulia">Reboulia</a>, <a href="/taxa/Clevea">Clevea</a>, <a href="/taxa/Targionia">Targionia</a>), where the scales are purple or white. 
 
+ <h2 id="habitat">Habitat</h2>
+
+ 
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -286,6 +290,13 @@ When gemmae cups are present, L. cruciata can only be mistaken for <a href="/tax
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

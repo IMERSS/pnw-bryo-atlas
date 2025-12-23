@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-An eye-catching plant of wet boggy ground, <a href="/taxa/Bazzania">Bazzania</a> trilobata has wide (3-6 mm) leafy green shoots that fork evenly at their tips. The leaves have have a rectangular shape and terminate in three shallow triangular points (see photo). The underleaves should have 3-4 sharp albeit lobes that should be visible with a hand lens. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Other large species of <a href="/taxa/Bazzania">Bazzania</a> (<a href="/taxa/Bazzania tricrenata">B. tricrenata</a>, <a href="/taxa/Bazzania griffithiana">B. griffithiana</a>) are yellow brown in colour in contrast to the emerald hues of B. trilobata. The other green species in the genus (<a href="/taxa/Bazzania denudata">B. denudata</a>, <a href="/taxa/Bazzania ambigua">B. ambigua</a>, <a href="/taxa/Bazzania pearsonii">B. pearsonii</a>) all have leafy shoots narrower than 2 mm. 
+ An eye-catching plant of wet boggy ground, <a href="/taxa/Bazzania">Bazzania</a> trilobata has wide (3-6 mm) leafy green shoots that fork evenly at their tips. The leaves have have a rectangular shape and terminate in three shallow triangular points (see photo). The underleaves should have 3-4 sharp albeit lobes that should be visible with a hand lens. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic, usually shady humus, rock outcrops, cliffs, boulders, and bogs in the lowland and montane zones
+ Other large species of <a href="/taxa/Bazzania">Bazzania</a> (<a href="/taxa/Bazzania tricrenata">B. tricrenata</a>, <a href="/taxa/Bazzania griffithiana">B. griffithiana</a>) are yellow brown in colour in contrast to the emerald hues of B. trilobata. The other green species in the genus (<a href="/taxa/Bazzania denudata">B. denudata</a>, <a href="/taxa/Bazzania ambigua">B. ambigua</a>, <a href="/taxa/Bazzania pearsonii">B. pearsonii</a>) all have leafy shoots narrower than 2 mm. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Sphagnum capillifolium, Sphagnum austinii, <a href="/taxa/Rhytidiadelphus loreus">Rhytidiadelphus loreus</a>
+ Moist to mesic, usually shady humus, rock outcrops, cliffs, boulders, and bogs in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Sphagnum capillifolium, Sphagnum austinii, <a href="/taxa/Rhytidiadelphus loreus">Rhytidiadelphus loreus</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ Sphagnum capillifolium, Sphagnum austinii, <a href="/taxa/Rhytidiadelphus loreus
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

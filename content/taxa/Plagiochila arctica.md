@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -78,22 +81,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Known from scant northern records, P. arctica has been variously synonymized with <a href="/taxa/Plagiochila porelloides">P. porelloides</a> and P. asplenioides
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-XXXXXX
+ Known from scant northern records, P. arctica has been variously synonymized with <a href="/taxa/Plagiochila porelloides">P. porelloides</a> and <a href="/taxa/Plagiochila asplenioides">P. asplenioides</a>.  It is found in arctic and alpine tundra, where its dull green leafy shoots are no more than 2 mm wide. The leaves themselves are closely overlapping and are wider than or as wide as long, generally lacking teeth or with a few poorly developed ones. Confident identification of this species requires measurement of leaf cells under the microscope. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic rock outcrops, boulders, crevices, cliffs, heath, and tundra in the montane, subalpine, and alpine zones
+ XXXXXX
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to mesic rock outcrops, boulders, crevices, cliffs, heath, and tundra in the montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -106,7 +110,7 @@ XXXXXX
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>Nov 11, 2024</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 22, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>
@@ -132,6 +136,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

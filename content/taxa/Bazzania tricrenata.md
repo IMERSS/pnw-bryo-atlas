@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Loping over peaty grounds, decaying organic matter, tree trunks and bedrock, B. tricrenata is a predominantly yellow-brown species with shoots up to 4 cm long found in a startling range of habitats. The lateral leaves have 3 small, tooth-like notches at their tip, whilst the underleaves have 3-5 short, knobby lobes at their tip. Inspection of the underside of the plant should reveal numerous pale-white or brown branchlets (up to 3 cm long!) emerging from the stem.  
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Only <a href="/taxa/Bazzania trilobata">Bazzania trilobata</a> has similair long pale branchlets emerging from its underside, but it is a bright green species with wide leafy shoots (3-6 mm), whereas B. tricrenata is yellow-to-brown and its shoots are <3 mm wide. The rare and similairly-coloured <a href="/taxa/Bazzania griffithiana">B. griffithiana</a> could occur in the same wet and peaty habitats, but it lacks does not bear the long pale branchlets seen on the underside of B. tricrenata. 
+ Loping over peaty grounds, decaying organic matter, tree trunks and bedrock, B. tricrenata is a predominantly yellow-brown species with shoots up to 4 cm long found in a startling range of habitats. The lateral leaves have 3 small, tooth-like notches at their tip, whilst the underleaves have 3-5 short, knobby lobes at their tip. Inspection of the underside of the plant should reveal numerous pale-white or brown branchlets (up to 3 cm long!) emerging from the stem.  
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic rock outcrops, cliffs, ledges, crevices, boulders, humus, decayed wood, tree trunks, branches, and bogs in the lowland, montane, and subalpine zones
+ Only <a href="/taxa/Bazzania trilobata">Bazzania trilobata</a> has similair long pale branchlets emerging from its underside, but it is a bright green species with wide leafy shoots (3-6 mm), whereas B. tricrenata is yellow-to-brown and its shoots are <3 mm wide. The rare and similairly-coloured <a href="/taxa/Bazzania griffithiana">B. griffithiana</a> could occur in the same wet and peaty habitats, but it lacks does not bear the long pale branchlets seen on the underside of B. tricrenata. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Herbertus aduncus, Sphagnum spp., <a href="/taxa/Macrodiplophyllum rubrum">Macrodiplophyllum rubrum</a>, <a href="/taxa/Mylia taylorii">Mylia taylorii</a>, <a href="/taxa/Odontoschisma">Odontoschisma</a> denudata
+ Moist to mesic rock outcrops, cliffs, ledges, crevices, boulders, humus, decayed wood, tree trunks, branches, and bogs in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Herbertus aduncus, Sphagnum spp., <a href="/taxa/Macrodiplophyllum rubrum">Macrodiplophyllum rubrum</a>, <a href="/taxa/Mylia taylorii">Mylia taylorii</a>, <a href="/taxa/Odontoschisma">Odontoschisma</a> denudata
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Herbertus aduncus, Sphagnum spp., <a href="/taxa/Macrodiplophyllum rubrum">Macro
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

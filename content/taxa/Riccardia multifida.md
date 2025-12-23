@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -57,9 +58,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -170,22 +173,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The infrequent R. multifida is a species that thrives in areas with constant moisture, such as clay river banks and seeping hillslopes, where it grows in deep green patches of regularly-branched thallus segments 1-3 cm long by 1 mm wide. The diagnostic feature for this species is the thin wing of tissue (1 cell wide by 2-3 cells thick) that surrounds the thallus. Under the microscope, oil bodies will be mostly absent in the surficial cells and the wing should be obvious in cross section.  
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-No other <a href="/taxa/Riccardia">Riccardia</a> has the thin wing of tissue surrounding the thallus. In order to see this, you will need a hand lens. Alternately, mounting the thallus on a slide should also show this feature. 
+ The infrequent R. multifida is a species that thrives in areas with constant moisture, such as clay river banks and seeping hillslopes, where it grows in deep green patches of regularly-branched thallus segments 1-3 cm long by 1 mm wide. The diagnostic feature for this species is the thin wing of tissue (1 cell wide by 2-3 cells thick) that surrounds the thallus. Under the microscope, oil bodies will be mostly absent in the surficial cells and the wing should be obvious in cross section.  
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, shady humus, rock outcrops, cliffs, boulders, swamps, seepage areas, streambanks, waterfall spray zones, and occasionally decayed wood in the lowland and montane zones
+ No other <a href="/taxa/Riccardia">Riccardia</a> has the thin wing of tissue surrounding the thallus. In order to see this, you will need a hand lens. Alternately, mounting the thallus on a slide should also show this feature. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Fissidens sp., <a href="/taxa/Pellia neesiana">Pellia neesiana</a>
+ Moist to wet, shady humus, rock outcrops, cliffs, boulders, swamps, seepage areas, streambanks, waterfall spray zones, and occasionally decayed wood in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Fissidens sp., <a href="/taxa/Pellia neesiana">Pellia neesiana</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -224,6 +228,13 @@ Fissidens sp., <a href="/taxa/Pellia neesiana">Pellia neesiana</a>
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

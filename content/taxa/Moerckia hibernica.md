@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -57,9 +58,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -170,22 +173,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-<a href="/taxa/Moerckia">Moerckia</a> hibernica presents as a large, frilly and pale green simple thalloid liverwort with segments up to 7 mm wide and 3 cm long creeping over other bryophytes in wet and boggy habitats. The upper surface of male plants is laden with toothy scales (see photo) that surround the antheridia along the thickened midrib-like central region of the thallus and the undersurface is laden with pale hairs. Similar scales and hairs are seen on seperate female plants, while in sterile plants, the pale hairs of the underside are present, but scales are absent. 
-
-<h2 id="similar-species">Similar species</h2>
-
-<a href="/taxa/Aneura">Aneura</a> can grow in similar habitats, but it has a thicker thallus (not transluscent and winged) and a greasy texture that is lacking in M. hibernica. Species of <a href="/taxa/Pellia">Pellia</a> do not lack the characteristic scales on the upper surface that are found in <a href="/taxa/Moerckia">Moerckia</a>. Scales on the upper surface of <a href="/taxa/Moerckia blyttii">M. blyttii</a> have smooth margins and hairs on its undersurface are brown; in M hibernica the scales are toothed and the hairs are pale. With its toothy scales and pale hairs, <a href="/taxa/Moerckia flotoviana">M. flotoviana</a> is almost indistinguishable without a microscope. In cross-section, the thallus of that species gradually thins from midrib to margin whereas in M. hibernica the transition is abrupt, with a circular midrib area immediately thinning to a 1-2 celled wing region. 
-
-<h2 id="habitat">Habitat</h2>
-
-Moist to wet humus, cliffs, streambanks, bogs, and waterfall spray zones in the lowland and montane zones
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ <a href="/taxa/Moerckia">Moerckia</a> hibernica presents as a large, frilly and pale green simple thalloid liverwort with segments up to 7 mm wide and 3 cm long creeping over other bryophytes in wet and boggy habitats. The upper surface of male plants is laden with toothy scales (see photo) that surround the antheridia along the thickened midrib-like central region of the thallus and the undersurface is laden with pale hairs. Similar scales and hairs are seen on seperate female plants, while in sterile plants, the pale hairs of the underside are present, but scales are absent. 
+
+ <h2 id="similar-species">Similar species</h2>
+
+ <a href="/taxa/Aneura">Aneura</a> can grow in similar habitats, but it has a thicker thallus (not transluscent and winged) and a greasy texture that is lacking in M. hibernica. Species of <a href="/taxa/Pellia">Pellia</a> do not lack the characteristic scales on the upper surface that are found in <a href="/taxa/Moerckia">Moerckia</a>. Scales on the upper surface of <a href="/taxa/Moerckia blyttii">M. blyttii</a> have smooth margins and hairs on its undersurface are brown; in M hibernica the scales are toothed and the hairs are pale. With its toothy scales and pale hairs, <a href="/taxa/Moerckia flotoviana">M. flotoviana</a> is almost indistinguishable without a microscope. In cross-section, the thallus of that species gradually thins from midrib to margin whereas in M. hibernica the transition is abrupt, with a circular midrib area immediately thinning to a 1-2 celled wing region. 
+
+ <h2 id="habitat">Habitat</h2>
+
+ Moist to wet humus, cliffs, streambanks, bogs, and waterfall spray zones in the lowland and montane zones
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -224,6 +228,13 @@ Moist to wet humus, cliffs, streambanks, bogs, and waterfall spray zones in the 
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

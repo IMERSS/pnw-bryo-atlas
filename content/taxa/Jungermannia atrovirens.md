@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Presenting on calcareous rocks along rivers and creeks, this inconspicuous dark green, simple leafy liverwort is loosely appressed to its substrate and spends significant portions of its year submerged in flowing water. The simple, spreading ovate leaves occur on irregularly-branched shoots up to 2mm wide undergirded by a tangle of dense, colourless rhizoids. Underleaves are lacking, but developing archegonia and antheridia are frequent and can be found on separate plants (“dioicous”). The modified leaves that surround the archegonia (“perianth”) form a characteristic ovoid sheath with a plicate or ribbed apex (see photo). 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-This is a very generic looking liverwort, but it can be distinguished from other similar species by its habitat, lack of underleaves, rhizoids and reproductive characters. Relatively few species of liverworts have unlobed, simple leaves AND live the semi-aquatic, rock-bound life that J. atrovirens partakes in. Of those, species of <a href="/taxa/Nardia">Nardia</a>, <a href="/taxa/Chiloscyphus">Chiloscyphus</a> and <a href="/taxa/Odontoschisma">Odontoschisma</a> have obvious underleaves that can be seen with a hand lens. The remaining lookalikes are all within the group of taxa that have at one time or another been part of the genus <a href="/taxa/Jungermannia">Jungermannia</a>. <a href="/taxa/Jungermannia exsertifolia">Jungermannia exsertifolia</a> is restricted to subalpine drainage banks and has equidimensional leaves on shoots that are 2.5 mm or wider, whereas shoots of J. atrovirens are less than 2 mm wide and bear leaves that are longer than they are wide. Plectocolea obovata and P. hattoriana are also found on siliceous rocks in streams, but both have bright red-purple rhizoids, whereas those of J. atrovirens are colourless. Solenostoma confertissimum is very similar in size and habitat, but its leaves are about as wide as they are long, whereas J. atrovirens has leaves that are longer than wide. <a href="/taxa/Jungermannia pumila">Jungermannia pumila</a> is identical in size, shape and semiaquatic lifestyle, but it grows on siliceous rocks and has antheridia and archegonia on the same individual plants. Jungermania borealis is almost identical in form but with leafy shoots closer to 1 mm (as opposed to 2 mm in J. atrovirens) and an arctic-alpine distribution. 
+ Presenting on calcareous rocks along rivers and creeks, this inconspicuous dark green, simple leafy liverwort is loosely appressed to its substrate and spends significant portions of its year submerged in flowing water. The simple, spreading ovate leaves occur on irregularly-branched shoots up to 2mm wide undergirded by a tangle of dense, colourless rhizoids. Underleaves are lacking, but developing archegonia and antheridia are frequent and can be found on separate plants (“dioicous”). The modified leaves that surround the archegonia (“perianth”) form a characteristic ovoid sheath with a plicate or ribbed apex (see photo). 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic, often calcareous rock outcrops, cliffs, ledges, crevices, boulders, humus, streambanks, heath, tundra, and occasionally decayed wood in the lowland, montane, and subalpine zones
+ This is a very generic looking liverwort, but it can be distinguished from other similar species by its habitat, lack of underleaves, rhizoids and reproductive characters. Relatively few species of liverworts have unlobed, simple leaves AND live the semi-aquatic, rock-bound life that J. atrovirens partakes in. Of those, species of <a href="/taxa/Nardia">Nardia</a>, <a href="/taxa/Chiloscyphus">Chiloscyphus</a> and <a href="/taxa/Odontoschisma">Odontoschisma</a> have obvious underleaves that can be seen with a hand lens. The remaining lookalikes are all within the group of taxa that have at one time or another been part of the genus <a href="/taxa/Jungermannia">Jungermannia</a>. <a href="/taxa/Jungermannia exsertifolia">Jungermannia exsertifolia</a> is restricted to subalpine drainage banks and has equidimensional leaves on shoots that are 2.5 mm or wider, whereas shoots of J. atrovirens are less than 2 mm wide and bear leaves that are longer than they are wide. Plectocolea obovata and P. hattoriana are also found on siliceous rocks in streams, but both have bright red-purple rhizoids, whereas those of J. atrovirens are colourless. Solenostoma confertissimum is very similar in size and habitat, but its leaves are about as wide as they are long, whereas J. atrovirens has leaves that are longer than wide. <a href="/taxa/Jungermannia pumila">Jungermannia pumila</a> is identical in size, shape and semiaquatic lifestyle, but it grows on siliceous rocks and has antheridia and archegonia on the same individual plants. Jungermania borealis is almost identical in form but with leafy shoots closer to 1 mm (as opposed to 2 mm in J. atrovirens) and an arctic-alpine distribution. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to mesic, often calcareous rock outcrops, cliffs, ledges, crevices, boulders, humus, streambanks, heath, tundra, and occasionally decayed wood in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

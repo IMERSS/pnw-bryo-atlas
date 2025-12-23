@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-The most common species of <a href="/taxa/Radula">Radula</a> in the region, R. complanata is predominantly epiphytic (especially at low elevations) and composed of closely-overlapping dull yellow-green leaf lobes on tightly-appressed, creeping shoots about 3-5mm wide. The margins are frequently populated by round gemmae (see photo) and the undersides lack underleaves but are marked by a small pocket at the base of the leaf. When fertile, you should see little envelope shaped structures that enclose the developing sporophyte. 
-
-<h2 id="similar-species">Similar species</h2>
-
-Could be confused with <a href="/taxa/Porella">Porella</a>, <a href="/taxa/Frullania">Frullania</a> or even <a href="/taxa/Chiloscyphus">Chiloscyphus</a>, but all those genera have underleaves, a feature missing in <a href="/taxa/Radula">Radula</a> species. R. complanata often grows alongside the much smaller <a href="/taxa/Radula bolanderi">R. bolanderi</a>, the latter of which has vegetative leaves that barely overlap and male shoots that have a distinctive strap-like appearance. <a href="/taxa/Radula obtusiloba">R. obtusiloba</a> and <a href="/taxa/Radula auriculata">R. auriculata</a> have similar leaf sizes and shapes, but tend to grow free from their substrate abd exhibit much more regular branching than the appressed R. complanata. 
-
-<h2 id="habitat">Habitat</h2>
-
-Tree trunks, branches, rock outcrops, boulders, cliffs, and occasionally humus in the lowland, montane, and subalpine zones; common in sw BC, frequent northward along the coast and in se BC, rare in sc, c, and n [east to the Rocky Mts.] BC.
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ The most common species of <a href="/taxa/Radula">Radula</a> in the region, R. complanata is predominantly epiphytic (especially at low elevations) and composed of closely-overlapping dull yellow-green leaf lobes on tightly-appressed, creeping shoots about 3-5mm wide. The margins are frequently populated by round gemmae (see photo) and the undersides lack underleaves but are marked by a small pocket at the base of the leaf. When fertile, you should see little envelope shaped structures that enclose the developing sporophyte. 
+
+ <h2 id="similar-species">Similar species</h2>
+
+ Could be confused with <a href="/taxa/Porella">Porella</a>, <a href="/taxa/Frullania">Frullania</a> or even <a href="/taxa/Chiloscyphus">Chiloscyphus</a>, but all those genera have underleaves, a feature missing in <a href="/taxa/Radula">Radula</a> species. R. complanata often grows alongside the much smaller <a href="/taxa/Radula bolanderi">R. bolanderi</a>, the latter of which has vegetative leaves that barely overlap and male shoots that have a distinctive strap-like appearance. <a href="/taxa/Radula obtusiloba">R. obtusiloba</a> and <a href="/taxa/Radula auriculata">R. auriculata</a> have similar leaf sizes and shapes, but tend to grow free from their substrate abd exhibit much more regular branching than the appressed R. complanata. 
+
+ <h2 id="habitat">Habitat</h2>
+
+ Tree trunks, branches, rock outcrops, boulders, cliffs, and occasionally humus in the lowland, montane, and subalpine zones; common in sw BC, frequent northward along the coast and in se BC, rare in sc, c, and n [east to the Rocky Mts.] BC.
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Tree trunks, branches, rock outcrops, boulders, cliffs, and occasionally humus i
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

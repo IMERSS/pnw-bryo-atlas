@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -233,22 +236,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-In its ideal world of permanently moist decaying organic matter, K. makinoana presents itself as an almost imperceptiple transluscent dark green fuzz that calls to mind only one word: tiny. With a hand lens, the 3-4-lobes of each leaf are sharply tipped, converging at a leaf base that diverges from the stem at 90 degrees. In order confidently identify this species, a microscope is neccessary to observe the underleaves, which are typically reduced to 1-2 lobes accompanied by 1-2 amorphous bumps ("slime papillae"-- see photograph). 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Sorting out species of <a href="/taxa/Kurzia">Kurzia</a> is always going to require high magnification on account of their small size. On account of its small size and tiny, almost filamentous leaf-lobes, K. makinoana can be mistaken for species of <a href="/taxa/Blepharostoma">Blepharostoma</a> or <a href="/taxa/Lepidozia">Lepidozia</a>, both of which can occur in the same habitats. <a href="/taxa/Blepharostoma">Blepharostoma</a> species have leaf lobes that are 1-cell wide and divided completely to the base of the leaf. In K. makinoana, the lobes are 1-celled at their tip but broaden to 2 (or more) cells towards their base, which is found at about three-quarters down the leaf's length. <a href="/taxa/Lepidozia">Lepidozia</a> species have 3-4 lobed lateral leaves, the leaf itself being divided only to about 1/2 its length into lobes that are 4+ cells wide at their base. <a href="/taxa/Kurzia pauciflora">Kurzia pauciflora</a> is a species exclusive to open bogs and has 4-lobed underleaves compared to the wider ecological range and 1-2 lobed underleaves of K. makinoana. Distinguishing <a href="/taxa/Kurzia trichoclados">K. trichoclados</a> requires microscopic examination of the ornamentation of the leaves surrounding the developing reproductive organs. 
+ In its ideal world of permanently moist decaying organic matter, K. makinoana presents itself as an almost imperceptiple transluscent dark green fuzz that calls to mind only one word: tiny. With a hand lens, the 3-4-lobes of each leaf are sharply tipped, converging at a leaf base that diverges from the stem at 90 degrees. In order confidently identify this species, a microscope is neccessary to observe the underleaves, which are typically reduced to 1-2 lobes accompanied by 1-2 amorphous bumps ("slime papillae"-- see photograph). 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet humus, rock outcrops, cliffs, ledges, decayed wood, seepage sites, streambanks, peatlands, bogs, and swamps in the lowland, montane, and subalpine zones
+ Sorting out species of <a href="/taxa/Kurzia">Kurzia</a> is always going to require high magnification on account of their small size. On account of its small size and tiny, almost filamentous leaf-lobes, K. makinoana can be mistaken for species of <a href="/taxa/Blepharostoma">Blepharostoma</a> or <a href="/taxa/Lepidozia">Lepidozia</a>, both of which can occur in the same habitats. <a href="/taxa/Blepharostoma">Blepharostoma</a> species have leaf lobes that are 1-cell wide and divided completely to the base of the leaf. In K. makinoana, the lobes are 1-celled at their tip but broaden to 2 (or more) cells towards their base, which is found at about three-quarters down the leaf's length. <a href="/taxa/Lepidozia">Lepidozia</a> species have 3-4 lobed lateral leaves, the leaf itself being divided only to about 1/2 its length into lobes that are 4+ cells wide at their base. <a href="/taxa/Kurzia pauciflora">Kurzia pauciflora</a> is a species exclusive to open bogs and has 4-lobed underleaves compared to the wider ecological range and 1-2 lobed underleaves of K. makinoana. Distinguishing <a href="/taxa/Kurzia trichoclados">K. trichoclados</a> requires microscopic examination of the ornamentation of the leaves surrounding the developing reproductive organs. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet humus, rock outcrops, cliffs, ledges, decayed wood, seepage sites, streambanks, peatlands, bogs, and swamps in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -287,6 +291,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

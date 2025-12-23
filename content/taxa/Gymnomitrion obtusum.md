@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Thriving on vertical rock faces, G. obtusum presents itself in dense tufts of downtrending white, wormy shoots up to 1 mm wide by centimeter(s) long. With a hand lens you should be able to make out individual bilobed leaves tightly overlapping one another on all sides ("imbricate"). The tips of the lobes in this species are rounded, the lobes themselves joining about 1/3 down the length of the leaf in a sinus that is sharply-angled. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The only other white-hued liverworts in the region belong to the genus <a href="/taxa/Anthelia">Anthelia</a>, which is an order of magnitude smaller. While <a href="/taxa/Anthelia julacea">A. julacea</a> and <a href="/taxa/Anthelia juratzkana">A. juratzkana</a> can occur in similair alpine environments and show tightly overlapping leaves, the leaves are deeply divided (more than 2/3rd their length) compare to species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a>, which are typically divided to about 1/3rd their length. See table for comparison to other regional species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a>. 
+ Thriving on vertical rock faces, G. obtusum presents itself in dense tufts of downtrending white, wormy shoots up to 1 mm wide by centimeter(s) long. With a hand lens you should be able to make out individual bilobed leaves tightly overlapping one another on all sides ("imbricate"). The tips of the lobes in this species are rounded, the lobes themselves joining about 1/3 down the length of the leaf in a sinus that is sharply-angled. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Dry to moist, usually sheltered cliffs, rock faces, ledges, crevices, boulders, and soil (rare) in the lowland, montane, and subalpine zones
+ The only other white-hued liverworts in the region belong to the genus <a href="/taxa/Anthelia">Anthelia</a>, which is an order of magnitude smaller. While <a href="/taxa/Anthelia julacea">A. julacea</a> and <a href="/taxa/Anthelia juratzkana">A. juratzkana</a> can occur in similair alpine environments and show tightly overlapping leaves, the leaves are deeply divided (more than 2/3rd their length) compare to species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a>, which are typically divided to about 1/3rd their length. See table for comparison to other regional species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a>. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Dry to moist, usually sheltered cliffs, rock faces, ledges, crevices, boulders, and soil (rare) in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

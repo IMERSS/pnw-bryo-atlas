@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Running the gamut of reds, browns, yellows and greens, the small (< 1 cm tall by ~ 1 mm wide), upright shoots of O. denudata are a constant companion of decaying organic matter in very wet forests and bogs. The erect shoots with two rows of round, concave and unlobed leaves converging towards a shoot tip typically bedazzled with bright yellow or red gemmae is unique amongst regional leafy liverworts. Up close, you should also be able to make out a simple, round underleaf similair in size and shape to the lateral leaves. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Unlobed leaves in nearly opposite arrangement are found in <a href="/taxa/Jungermannia">Jungermannia</a>, Solenostoma, Cryptocolea, <a href="/taxa/Nardia">Nardia</a> and <a href="/taxa/Mylia">Mylia</a>, all of which can occur in similar habitats. Of these genera, only <a href="/taxa/Nardia">Nardia</a> has an underleaf as in O. denudata, but if the former the underleaf is small and narrow, whilst in the latter it is large and round. <a href="/taxa/Odontoschisma elongatum">O. elongatum</a> has a similair leaf arrangement, but the plant is darkly pigmented and lacks gemmae atop its reclined shoots in contrast to the bright hues, erect shoots and apical gemmae of O. denudatum. O. sphagnicola is very similar but lacks gemmae and has pale thread like branches that emerge from the stem that are absent in O. denudatum. Arctic-alpine <a href="/taxa/Odontoschisma macounii">O. macounii</a> occurs in very different habitat and lacks the pigmentation of O. denudatum. 
+ Running the gamut of reds, browns, yellows and greens, the small (< 1 cm tall by ~ 1 mm wide), upright shoots of O. denudata are a constant companion of decaying organic matter in very wet forests and bogs. The erect shoots with two rows of round, concave and unlobed leaves converging towards a shoot tip typically bedazzled with bright yellow or red gemmae is unique amongst regional leafy liverworts. Up close, you should also be able to make out a simple, round underleaf similair in size and shape to the lateral leaves. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic humus, decayed wood, cliffs, crevices, ledges, peatlands, bogs, tundra, and occasionally tree bases in the lowland, montane, subalpine, and alpine zones
+ Unlobed leaves in nearly opposite arrangement are found in <a href="/taxa/Jungermannia">Jungermannia</a>, Solenostoma, Cryptocolea, <a href="/taxa/Nardia">Nardia</a> and <a href="/taxa/Mylia">Mylia</a>, all of which can occur in similar habitats. Of these genera, only <a href="/taxa/Nardia">Nardia</a> has an underleaf as in O. denudata, but if the former the underleaf is small and narrow, whilst in the latter it is large and round. <a href="/taxa/Odontoschisma elongatum">O. elongatum</a> has a similair leaf arrangement, but the plant is darkly pigmented and lacks gemmae atop its reclined shoots in contrast to the bright hues, erect shoots and apical gemmae of O. denudatum. O. sphagnicola is very similar but lacks gemmae and has pale thread like branches that emerge from the stem that are absent in O. denudatum. Arctic-alpine <a href="/taxa/Odontoschisma macounii">O. macounii</a> occurs in very different habitat and lacks the pigmentation of O. denudatum. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to mesic humus, decayed wood, cliffs, crevices, ledges, peatlands, bogs, tundra, and occasionally tree bases in the lowland, montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

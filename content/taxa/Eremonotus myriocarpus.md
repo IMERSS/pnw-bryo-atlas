@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The scanty blackish mats of <a href="/taxa/Eremonotus">Eremonotus</a> myriocarpus are almost imperceptable on the wet and shaded rocks on which they occur. The leafy shoots are less than 1/4 of a millimeter wide and between 2 and 8 mm long. They bear sharply and symmetrically bilobed leaves with a sinus that descends down to about half of the leaf's length. Underleaves and gemmae are absent. Antheridia and archegonia, if present, are found on seperate plants ("dioicous"), with the perianth that surrounds the archegonia at the shoot tip greatly outsizing the surrounding leaves. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-With tiny dark shoots of sharply bilobed leaves, E. myriocarpus could be mistaken for species of <a href="/taxa/Cephaloziella">Cephaloziella</a> or <a href="/taxa/Hygrobiella">Hygrobiella</a>, genera which can occur in the same wet rock habitat. The slightly larger <a href="/taxa/Hygrobiella">Hygrobiella</a> laxa is identical in leaf shape and insertion, but its leaves are green and transluscent, not dark and opaque as in <a href="/taxa/Eremonotus">Eremonotus</a>. The rock-dwelling species of <a href="/taxa/Cephaloziella">Cephaloziella</a> are pale green and whitish, with the exception of some forms of <a href="/taxa/Cephaloziella divaricata">C. divaricata</a>, which has leaves that are narrow than the stem. In E. myriocarpus, the leaves are wide than the stem. 
+ The scanty blackish mats of <a href="/taxa/Eremonotus">Eremonotus</a> myriocarpus are almost imperceptable on the wet and shaded rocks on which they occur. The leafy shoots are less than 1/4 of a millimeter wide and between 2 and 8 mm long. They bear sharply and symmetrically bilobed leaves with a sinus that descends down to about half of the leaf's length. Underleaves and gemmae are absent. Antheridia and archegonia, if present, are found on seperate plants ("dioicous"), with the perianth that surrounds the archegonia at the shoot tip greatly outsizing the surrounding leaves. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet mineral soil, rock outcrops, cliffs, ledges, crevices, boulders, streambanks, and tundra in the lowland (rare), montane, subalpine, and alpine zones
+ With tiny dark shoots of sharply bilobed leaves, E. myriocarpus could be mistaken for species of <a href="/taxa/Cephaloziella">Cephaloziella</a> or <a href="/taxa/Hygrobiella">Hygrobiella</a>, genera which can occur in the same wet rock habitat. The slightly larger <a href="/taxa/Hygrobiella">Hygrobiella</a> laxa is identical in leaf shape and insertion, but its leaves are green and transluscent, not dark and opaque as in <a href="/taxa/Eremonotus">Eremonotus</a>. The rock-dwelling species of <a href="/taxa/Cephaloziella">Cephaloziella</a> are pale green and whitish, with the exception of some forms of <a href="/taxa/Cephaloziella divaricata">C. divaricata</a>, which has leaves that are narrow than the stem. In E. myriocarpus, the leaves are wide than the stem. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Blepharostoma trichophyllum">Blepharostoma trichophyllum</a>, Blindia acuta, <a href="/taxa/Anthelia">Anthelia</a> sp. 
+ Moist to wet mineral soil, rock outcrops, cliffs, ledges, crevices, boulders, streambanks, and tundra in the lowland (rare), montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Blepharostoma trichophyllum">Blepharostoma trichophyllum</a>, Blindia acuta, <a href="/taxa/Anthelia">Anthelia</a> sp. 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Moist to wet mineral soil, rock outcrops, cliffs, ledges, crevices, boulders, st
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

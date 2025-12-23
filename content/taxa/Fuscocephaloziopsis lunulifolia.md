@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The small (~.5 mm wide) linear shoots of F. lunulifolia are an opaque green and easily overlooked on the decaying wood and peat that they grow over. Close inspection show a two-lobed leaf with sharp apices that is divided to about 1/3 its length and attached along the long axis of the stem such that its base runs down along the shoot ("decurrent"). The outward-pointing apices are an unreliable indication of this species, so microscopic examination is required to see the thickened outer wall of the cell at the lobe tip and the decreasing cell size in the leaf from base to sinus. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Likely to be confused only with <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> and <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a>, both of which are species that also feature round, two-lobed leaves with acute tips that are attached along the length of the stem such that their lower bases run down the shoot. F.connivens has lobe tips that tend to point towards if not touch or cross one another, while in F. lunulifolia, the lobe tips are not so convergent. F. lunulifolia is very similar to <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a>, but under the microscope it has outer walls of the terminal lobe cells much thicker than the inner wall, whilst in the latter the wall is evenly thickened all around. 
+ The small (~.5 mm wide) linear shoots of F. lunulifolia are an opaque green and easily overlooked on the decaying wood and peat that they grow over. Close inspection show a two-lobed leaf with sharp apices that is divided to about 1/3 its length and attached along the long axis of the stem such that its base runs down along the shoot ("decurrent"). The outward-pointing apices are an unreliable indication of this species, so microscopic examination is required to see the thickened outer wall of the cell at the lobe tip and the decreasing cell size in the leaf from base to sinus. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic, often shady humus, decayed wood, shorelines, streambanks, bogs, and occasionally tree bases in the lowland, montane, and subalpine zones; locally frequent in southwest BC, infrequent elsewhere in coastal BC and in southeast BC, rare in north, central and north-central BC.
+ Likely to be confused only with <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> and <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a>, both of which are species that also feature round, two-lobed leaves with acute tips that are attached along the length of the stem such that their lower bases run down the shoot. F.connivens has lobe tips that tend to point towards if not touch or cross one another, while in F. lunulifolia, the lobe tips are not so convergent. F. lunulifolia is very similar to <a href="/taxa/Fuscocephaloziopsis pleniceps">F. pleniceps</a>, but under the microscope it has outer walls of the terminal lobe cells much thicker than the inner wall, whilst in the latter the wall is evenly thickened all around. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to mesic, often shady humus, decayed wood, shorelines, streambanks, bogs, and occasionally tree bases in the lowland, montane, and subalpine zones; locally frequent in southwest BC, infrequent elsewhere in coastal BC and in southeast BC, rare in north, central and north-central BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

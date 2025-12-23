@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -198,22 +201,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-As suggested by its latin name, <a href="/taxa/Scapania">Scapania</a> irrigua is a cosmopolitan species of (seasonally) aquatic habitats, with horizontally scrambling light green-to-brown leafy shoots of intermediate size (1-4 cm long x 2-4 mm wide). The unequally bilobed leaves are typically smooth, with the lower lobe pointing outwards from the stem while the upper lobe points in the same direction of the stem axis. The bases of both lobes do not run down the stem, and while the lobes do converge along a sharp, linear keel, they are not appressed to one another. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Both <a href="/taxa/Scapania apiculata">S. apiculata</a> and <a href="/taxa/Scapania mucronata">S. mucronata</a> can have relatively smooth margins with pointed leaf apices as in S. irrigua, but both of those species have decurrent attachment of either the upper or lower leaf lobs, while in S. irrigua, neither lobe is decurrent. It its (seasonally) inundated habitat, it could be confused for <a href="/taxa/Scapania undulata">S. undulata</a> or <a href="/taxa/Scapania uliginosa">S. uliginosa</a>. Both of those species have tightly appressed leaf lobes. Furthermore, the lower lobe of <a href="/taxa/Scapania undulata">S. undulata</a> is decurrent and the keel of <a href="/taxa/Scapania uliginosa">S. uliginosa</a> is arched. In S. irrigua, the leaf lobes are not tightly appressed to one another, neither lobe has a decurrent base and the keel is linear. 
+ As suggested by its latin name, <a href="/taxa/Scapania">Scapania</a> irrigua is a cosmopolitan species of (seasonally) aquatic habitats, with horizontally scrambling light green-to-brown leafy shoots of intermediate size (1-4 cm long x 2-4 mm wide). The unequally bilobed leaves are typically smooth, with the lower lobe pointing outwards from the stem while the upper lobe points in the same direction of the stem axis. The bases of both lobes do not run down the stem, and while the lobes do converge along a sharp, linear keel, they are not appressed to one another. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet humus, decayed wood, bogs, and peatlands in the montane and subalpine zones
+ Both <a href="/taxa/Scapania apiculata">S. apiculata</a> and <a href="/taxa/Scapania mucronata">S. mucronata</a> can have relatively smooth margins with pointed leaf apices as in S. irrigua, but both of those species have decurrent attachment of either the upper or lower leaf lobs, while in S. irrigua, neither lobe is decurrent. It its (seasonally) inundated habitat, it could be confused for <a href="/taxa/Scapania undulata">S. undulata</a> or <a href="/taxa/Scapania uliginosa">S. uliginosa</a>. Both of those species have tightly appressed leaf lobes. Furthermore, the lower lobe of <a href="/taxa/Scapania undulata">S. undulata</a> is decurrent and the keel of <a href="/taxa/Scapania uliginosa">S. uliginosa</a> is arched. In S. irrigua, the leaf lobes are not tightly appressed to one another, neither lobe has a decurrent base and the keel is linear. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Uncertain
+ Moist to wet humus, decayed wood, bogs, and peatlands in the montane and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Uncertain
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -252,6 +256,13 @@ Uncertain
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

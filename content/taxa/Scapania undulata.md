@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Scapania">Scapania</a> undulata is the most common <a href="/taxa/Scapania">Scapania</a> in habitats that are at least seasonally inundated with water. The flaccid shoots are little-branched and elongate (to 4 mm wide, 3+ cm long) and vary from green to red to purple and almost black, with the uneven and ellipsoidal leaf lobes becoming tightly appressed to one another near the shoot tip. Leaf lobes can be toothed or untoothed and the upper lobe varies from about 1/3rd to 2/3rds the length of the lower lobe, the two lobes converging along a sharp fold ("keel") that is about 1/3 the length of the lower lobe.  
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Scapania uliginosa">Scapania uliginosa</a> and <a href="/taxa/Scapania paludicola">S. paludicola</a> can be found in similair wet habitats, but both of those species have an arched keel, while the keel in S. undulata lacks the dramatic arch. Because it is a highly variable species in terms of color and the presence and absence of teeth, care should be taken to note the attachment of the upper and lower lobes to the stem. The upper lobe attaches directly across the stem ("non-decurrent") while the lower lobe attachment runs down the length of the stem ("decurrent"). When teeth are present, these attachments help distinguish it from <a href="/taxa/Scapania americana">Scapania americana</a>, which has an upper lobe that is decurrent. <a href="/taxa/Scapania subalpina">S. subalpina</a> and <a href="/taxa/Scapania obscura">S. obscura</a> have similair lobe attachments and smooth margins, but their upper lobes are >>3/4 the size of their lower lobes, whilst in S. undulata, the upper lobe is < 2/3rds the size of the lower lobe. 
+ <a href="/taxa/Scapania">Scapania</a> undulata is the most common <a href="/taxa/Scapania">Scapania</a> in habitats that are at least seasonally inundated with water. The flaccid shoots are little-branched and elongate (to 4 mm wide, 3+ cm long) and vary from green to red to purple and almost black, with the uneven and ellipsoidal leaf lobes becoming tightly appressed to one another near the shoot tip. Leaf lobes can be toothed or untoothed and the upper lobe varies from about 1/3rd to 2/3rds the length of the lower lobe, the two lobes converging along a sharp fold ("keel") that is about 1/3 the length of the lower lobe.  
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet mineral soil, rock outcrops, boulders, cliffs, streambanks, waterfall spray zones, bogs, and seepage sites, often submerged in shallow water, in the lowland, montane, and subalpine zones
+ <a href="/taxa/Scapania uliginosa">Scapania uliginosa</a> and <a href="/taxa/Scapania paludicola">S. paludicola</a> can be found in similair wet habitats, but both of those species have an arched keel, while the keel in S. undulata lacks the dramatic arch. Because it is a highly variable species in terms of color and the presence and absence of teeth, care should be taken to note the attachment of the upper and lower lobes to the stem. The upper lobe attaches directly across the stem ("non-decurrent") while the lower lobe attachment runs down the length of the stem ("decurrent"). When teeth are present, these attachments help distinguish it from <a href="/taxa/Scapania americana">Scapania americana</a>, which has an upper lobe that is decurrent. <a href="/taxa/Scapania subalpina">S. subalpina</a> and <a href="/taxa/Scapania obscura">S. obscura</a> have similair lobe attachments and smooth margins, but their upper lobes are >>3/4 the size of their lower lobes, whilst in S. undulata, the upper lobe is < 2/3rds the size of the lower lobe. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Pellia neesiana">Pellia neesiana</a>, <a href="/taxa/Racomitrium">Racomitrium</a> aciculare, <a href="/taxa/Marsupella emarginata">Marsupella emarginata</a>
+ Moist to wet mineral soil, rock outcrops, boulders, cliffs, streambanks, waterfall spray zones, bogs, and seepage sites, often submerged in shallow water, in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Pellia neesiana">Pellia neesiana</a>, <a href="/taxa/Racomitrium">Racomitrium</a> aciculare, <a href="/taxa/Marsupella emarginata">Marsupella emarginata</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Moist to wet mineral soil, rock outcrops, boulders, cliffs, streambanks, waterfa
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

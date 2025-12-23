@@ -1,0 +1,15 @@
+Key,Character,Result,CharacterImage
+1a,Oil bodies distinctly deep blue,C. azurea,oilbodies.jpeg
+1b,Oil bodies colourless or hyaline to slightly greyish,2,greenoil.jpeg
+2a,Underleaves undivided or shallowly (< 1/4 leaf length) divided into 2 lobes,3,underleaf2.jpg
+2b,Underleaves deeply (> 1/2 leaf length) divided into 2 lobes,4,underleaf1.jpeg
+3a,"Underleaves broadly orbicular, ca. 1.2-1.5x as wide as long, 2-3x wider than the stem; shoots 1.5-3 mm wide; leaf cells 35-45 x 40-60 µm in middle of leaf; rhizoid-initial area distinct; border of elongate cells indistinct",C. integristipula,
+3b,"Underleaves orbicular, about as wide as long, 2-2.5x wider than the stem; shoots 0.7-1.8 mm wide; leaf cells 30-40 x 35-45 µm in middle of leaf; rhizoid-initial area indistinct; border of elongate cells very distinct",C. neesiana,
+4a,"Shoots usually < 1 mm wide; leaf cells small (< 30 µm in apices, 25-35 x 30-45 µm at mid-leaf); underleaves 2-3.5x wider than the stem",5,
+4b,"Shoots usually > 1 mm wide; leaf cells large (> 30 µm in apices, 35-50 x 45-75 µm at mid-leaf); underleaves 1-2x wider than the stem",6,
+5a,"Leaf cells 20-30 x 25-40 µm in mid-leaf, thin-walled; underleaves slightly longer than wide, ca. 1.2-2x wider than stem, bilobed to 0.6-0.8x leaf length; plants growing on Sphagnum",C. sphagnicola,
+5b,"Leaf cells 25-30 x 30-35 µm in mid-leaf, isodiametric, collenchymatous; underleaves ca. 1.5x longer than wide, ca. 2-3.5x wider than stem, bilobed to 0.4-0.6x leaf length; plants on decayed wood",C. suecica,
+6a,"Underleaves with lobe apices bidentate or sharply pointed, ca. 1.5-2x wider than long, ca. 1.5-2x wider than the stem",C. fissa,
+6b,"Underleaves with lobes narrowly rounded at apices, ca. 1-1.5x wider than long, ca. 2-2.5x wider than the stem",7,
+7a,Leaf cells ca. 40-50 x 40-70 µm in middle; lobes of underleaves obtuse-rounded; oil bodies colourless,C. muelleriana,
+7b,Leaf cells ca. 30-40 x 35-45 µm in middle; lobes of underleaves acute-subacute; oil bodies blue (in fresh material),C. azurea,

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Common in habitats that are at least seasonally inundated with water, this species has large, dark green, delicate and square leaves that spread out from their attachment roughly along the long axis of the stem. The tips of the lateral leaves are rounded or blunt, occasionally with a shallow and round notch, while the underleaves are very narrow but discernably two-lobed with a hand lens. When fertile, this species has archegonia and antheridia on seperate plants; species recognition here requires observation of the leaves surrounding the archegonium, which should be similair in form to the lateral leaves. Alternately, you can look to make sure that there are typically 2 oil bodies per leaf cell. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The longitudinal attachment of blunt, simple leaves in habitats that often host water winnows the list of liverworts for which this could be confused. Gyrothyra underwoodiana is a species of wet banks with similair leaves and leaf attchment, but its undersides have a characteristic set of discrete purple "pads" that are absent in <a href="/taxa/Chiloscyphus pallescens">Chiloscyphus pallescens</a>. Species of <a href="/taxa/Jungermannia">Jungermannia</a> and Solenostoma have simple leaves, but they are attached at a more oblique angle and both genera lack the underleaves of <a href="/taxa/Chiloscyphus">Chiloscyphus</a>. Species of <a href="/taxa/Plagiochila">Plagiochila</a> can have similair oblique-longitudinal attachment of unlobed leaves, but those leaves typically have teeth and the plants never have an underleaf. <a href="/taxa/Chiloscyphus pallescens">C. pallescens</a> has an underleaf and its leaves are unadorned. <a href="/taxa/Lophocolea heterophylla">Lophocolea heterophylla</a> typically has leaves showing variable degrees of lobing along the length of the stem, but when the leaves are unlobed, they can look like <a href="/taxa/Chiloscyphus">Chiloscyphus</a>, but <a href="/taxa/Chiloscyphus pallescens">C. pallescens</a> does not show much variation in leaf form along the stem. <a href="/taxa/Chiloscyphus">Chiloscyphus</a> polyanthos has leaves and stems that are morphologically indistinguishable from <a href="/taxa/Chiloscyphus pallescens">C. pallescens</a>. Close inspection of the leaves surrounding the archegonia in fertile material should show smooth leaf margins in the former and teeth on the latter, while microscopic examination will show most leaf cells of C. polyanthos have 2 oil bodies, while those of <a href="/taxa/Chiloscyphus pallescens">C. pallescens</a> mostly have more than 2 oil bodies. 
+ Common in habitats that are at least seasonally inundated with water, this species has large, dark green, delicate and square leaves that spread out from their attachment roughly along the long axis of the stem. The tips of the lateral leaves are rounded or blunt, occasionally with a shallow and round notch, while the underleaves are very narrow but discernably two-lobed with a hand lens. When fertile, this species has archegonia and antheridia on seperate plants; species recognition here requires observation of the leaves surrounding the archegonium, which should be similair in form to the lateral leaves. Alternately, you can look to make sure that there are typically 2 oil bodies per leaf cell. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet humus, mineral soil, rock outcrops, boulders, cliffs, decayed wood, streambanks, waterfall spray zones, and seepage sites, often submerged in shallow water, in the lowland, montane, and subalpine zones
+ The longitudinal attachment of blunt, simple leaves in habitats that often host water winnows the list of liverworts for which this could be confused. Gyrothyra underwoodiana is a species of wet banks with similair leaves and leaf attchment, but its undersides have a characteristic set of discrete purple "pads" that are absent in <a href="/taxa/Chiloscyphus pallescens">Chiloscyphus pallescens</a>. Species of <a href="/taxa/Jungermannia">Jungermannia</a> and Solenostoma have simple leaves, but they are attached at a more oblique angle and both genera lack the underleaves of <a href="/taxa/Chiloscyphus">Chiloscyphus</a>. Species of <a href="/taxa/Plagiochila">Plagiochila</a> can have similair oblique-longitudinal attachment of unlobed leaves, but those leaves typically have teeth and the plants never have an underleaf. <a href="/taxa/Chiloscyphus pallescens">C. pallescens</a> has an underleaf and its leaves are unadorned. <a href="/taxa/Lophocolea heterophylla">Lophocolea heterophylla</a> typically has leaves showing variable degrees of lobing along the length of the stem, but when the leaves are unlobed, they can look like <a href="/taxa/Chiloscyphus">Chiloscyphus</a>, but <a href="/taxa/Chiloscyphus pallescens">C. pallescens</a> does not show much variation in leaf form along the stem. <a href="/taxa/Chiloscyphus">Chiloscyphus</a> polyanthos has leaves and stems that are morphologically indistinguishable from <a href="/taxa/Chiloscyphus pallescens">C. pallescens</a>. Close inspection of the leaves surrounding the archegonia in fertile material should show smooth leaf margins in the former and teeth on the latter, while microscopic examination will show most leaf cells of C. polyanthos have 2 oil bodies, while those of <a href="/taxa/Chiloscyphus pallescens">C. pallescens</a> mostly have more than 2 oil bodies. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet humus, mineral soil, rock outcrops, boulders, cliffs, decayed wood, streambanks, waterfall spray zones, and seepage sites, often submerged in shallow water, in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

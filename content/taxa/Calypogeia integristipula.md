@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -57,9 +58,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -201,22 +204,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-An infrequent species of creek and drainage banks, C. integristipula forms linear shoots >2 mm wide composed of two rows of round, opaque green leaves overlapping in a shingle-like arrangement. The key distinguishing feature of this species is the underleaves, which are typically undivided, though sometimes with a very shallow sinus. While inspecting the underleaves with a hand lens, note the presence of transparent cells at the margins of the lateral leaves in contrast to the opaque cells further in from them.
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Looking at the top of the shoots, C. integristipula could be mistaken for the <a href="/taxa/Calypogeia muelleriana">C. muelleriana</a>, <a href="/taxa/Calypogeia suecica">C. suecica</a> or <a href="/taxa/Calypogeia azurea">C. azurea</a>, but all of those species will show a clearly divided and lobed underleaf on the undersides of the shoot. Only <a href="/taxa/Calypogeia neesiana">C. neesiana</a> has an underleaf that is undivided like that of C. integristipula. To distinguish between the two species, microscopic examination is neccessary to makeout the presence of oil bodies in the underleaves of C. integristipula, a feature lacking in <a href="/taxa/Calypogeia neesiana">C. neesiana</a>.
+ An infrequent species of creek and drainage banks, C. integristipula forms linear shoots >2 mm wide composed of two rows of round, opaque green leaves overlapping in a shingle-like arrangement. The key distinguishing feature of this species is the underleaves, which are typically undivided, though sometimes with a very shallow sinus. While inspecting the underleaves with a hand lens, note the presence of transparent cells at the margins of the lateral leaves in contrast to the opaque cells further in from them.
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Wet to mesic humus, decayed wood, rock outcrops, and swamps in the lowland, montane, and subalpine (rare) zones; rare in coastal and southeast BC.
+ Looking at the top of the shoots, C. integristipula could be mistaken for the <a href="/taxa/Calypogeia muelleriana">C. muelleriana</a>, <a href="/taxa/Calypogeia suecica">C. suecica</a> or <a href="/taxa/Calypogeia azurea">C. azurea</a>, but all of those species will show a clearly divided and lobed underleaf on the undersides of the shoot. Only <a href="/taxa/Calypogeia neesiana">C. neesiana</a> has an underleaf that is undivided like that of C. integristipula. To distinguish between the two species, microscopic examination is neccessary to makeout the presence of oil bodies in the underleaves of C. integristipula, a feature lacking in <a href="/taxa/Calypogeia neesiana">C. neesiana</a>.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Wet to mesic humus, decayed wood, rock outcrops, and swamps in the lowland, montane, and subalpine (rare) zones; rare in coastal and southeast BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -255,6 +259,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

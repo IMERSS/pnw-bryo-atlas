@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -263,22 +266,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Typically green or yellow-green, <a href="/taxa/Lepidozia">Lepidozia</a> reptans is a dominant component of the decaying understories in coniferous forests, where it forms creeping and regularly-branched shoots about 1 mm wide and up to 3 cm long. The lateral leaves are wider than the stem and composed of 3 or 4 triangular lobes that are divided to less than 1/2 the leaf's length. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-In its habitat on decaying wood and tree trunks, it could be mistaken for species of <a href="/taxa/Cephalozia">Cephalozia</a> and <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a>, but those all have 2-lobed leaves, whereas in L. reptans, the leaves are 3-to-4 lobed. Within the family <a href="/taxa/Lepidoziaceae">Lepidoziaceae</a>, species of <a href="/taxa/Bazzania">Bazzania</a> can have lateral leaves that are also 3-lobed, but the lobes are very shallow and constrained to the tips of the leaves, while in <a href="/taxa/Lepidozia">Lepidozia</a> reptans, the lobes descend to about 1/2 the leaf's length. Species of <a href="/taxa/Kurzia">Kurzia</a> have fuzzy-looking shoots about 1/4 mm in width and 3-to-4 linear leaf lobes descending to about 3/4ths of the way down. In L. reptans, the leaves are also 3-to-4 lobed, but the lobes are triangular, not linear, and descent to about 1/2 of the leaf's length. It is most likely to be confused with the two other regional species of <a href="/taxa/Lepidozia">Lepidozia</a>. <a href="/taxa/Lepidozia sandvicensis">L. sandvicensis</a> has identical leaf shape, but the leaves themselves are narrower than the shoot and arranged very distantly from one another; leaves of L. reptans are wider than the shoot and are closely spaced to one another. It is most similair to <a href="/taxa/Lepidozia filamentosa">Lepidozia filamentosa</a>, but that XXXXXX
+ Typically green or yellow-green, <a href="/taxa/Lepidozia">Lepidozia</a> reptans is a dominant component of the decaying understories in coniferous forests, where it forms creeping and regularly-branched shoots about 1 mm wide and up to 3 cm long. The lateral leaves are wider than the stem and composed of 3 or 4 triangular lobes that are divided to less than 1/2 the leaf's length. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Well-decayed wood, humus, tree trunks, and streambanks in the lowland and montane zones
+ In its habitat on decaying wood and tree trunks, it could be mistaken for species of <a href="/taxa/Cephalozia">Cephalozia</a> and <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a>, but those all have 2-lobed leaves, whereas in L. reptans, the leaves are 3-to-4 lobed. Within the family <a href="/taxa/Lepidoziaceae">Lepidoziaceae</a>, species of <a href="/taxa/Bazzania">Bazzania</a> can have lateral leaves that are also 3-lobed, but the lobes are very shallow and constrained to the tips of the leaves, while in <a href="/taxa/Lepidozia">Lepidozia</a> reptans, the lobes descend to about 1/2 the leaf's length. Species of <a href="/taxa/Kurzia">Kurzia</a> have fuzzy-looking shoots about 1/4 mm in width and 3-to-4 linear leaf lobes descending to about 3/4ths of the way down. In L. reptans, the leaves are also 3-to-4 lobed, but the lobes are triangular, not linear, and descent to about 1/2 of the leaf's length. It is most likely to be confused with the two other regional species of <a href="/taxa/Lepidozia">Lepidozia</a>. <a href="/taxa/Lepidozia sandvicensis">L. sandvicensis</a> has identical leaf shape, but the leaves themselves are narrower than the shoot and arranged very distantly from one another; leaves of L. reptans are wider than the shoot and are closely spaced to one another. It is most similair to <a href="/taxa/Lepidozia filamentosa">Lepidozia filamentosa</a>, but that XXXXXX
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Well-decayed wood, humus, tree trunks, and streambanks in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -317,6 +321,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

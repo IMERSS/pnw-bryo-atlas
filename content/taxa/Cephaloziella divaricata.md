@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -201,22 +204,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Small enough to evade notice (<.5 mm wide) but ambient enough to be found in almost any habitat, C. divaricata varies from green to black in colour and solitary threads to dense tufts in growth habit. The vegetative leaves are smaller than the shoot diameter and are sharply two-lobed to about 1/2 or 3/4 leave length and fairly smooth along their edges. Microscopic examination should be used to confirm this latter character as well as the presence of oil bodies.
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Sphenolobopsis, <a href="/taxa/Marsupella">Marsupella</a>, <a href="/taxa/Cephalozia">Cephalozia</a> and <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> can be of similair size and leaf form, but the leaves in those genera are wider than the stems and have oil bodies, while in C. divaricata oil bodies are lacking and the leaves are narrower than the stem. <a href="/taxa/Eremonotus myriocarpus">Eremonotus myriocarpus</a> is very similar in size, leaf shape and threadlike growth habit. It grows in the very specific habitat of damp vertical rock, but otherwise requires granular examination of the shoots to compare leaf shapes and reproductive structures- see photos under that species. Other species of <a href="/taxa/Cephaloziella">Cephaloziella</a> (<a href="/taxa/Cephaloziella phyllacantha">C. phyllacantha</a>, <a href="/taxa/Cephaloziella spinigera">C. spinigera</a>, <a href="/taxa/Cephaloziella turneri">C. turneri</a>, <a href="/taxa/Cephaloziella elachista">C. elachista</a>) in this region have leaves divided almost to their bases in addition to prominent teeth along the leaf margins. Vegetative leaves of C. divaricata are divided to about half their length and typically without teeth.  The remaining species will need to be parsed based on the arrngement of their reproductive organs. In <a href="/taxa/Cephaloziella">Cephaloziella</a> divaricata, the modified leafy structures that bear the archegonia ("gynoecia") and antheridia ("androecia"), while in C. rubellum, <a href="/taxa/Cephaloziella varians">C. varians</a> and <a href="/taxa/Cephaloziella hampeana">C. hampeana</a>, they can be found on the same shoots. 
+ Small enough to evade notice (<.5 mm wide) but ambient enough to be found in almost any habitat, C. divaricata varies from green to black in colour and solitary threads to dense tufts in growth habit. The vegetative leaves are smaller than the shoot diameter and are sharply two-lobed to about 1/2 or 3/4 leave length and fairly smooth along their edges. Microscopic examination should be used to confirm this latter character as well as the presence of oil bodies.
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Dry to wet humus, mineral soil, decayed wood, rock outcrops, boulders, cliffs, ledges, crevices, streambanks, waterfall spray zones, bogs, disturbed areas, and occasionally tree trunks in the lowland, steppe, montane, and subalpine zones; common in coastal BC, infrequent in sc BC, rare in se and n BC.
+ Sphenolobopsis, <a href="/taxa/Marsupella">Marsupella</a>, <a href="/taxa/Cephalozia">Cephalozia</a> and <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> can be of similair size and leaf form, but the leaves in those genera are wider than the stems and have oil bodies, while in C. divaricata oil bodies are lacking and the leaves are narrower than the stem. <a href="/taxa/Eremonotus myriocarpus">Eremonotus myriocarpus</a> is very similar in size, leaf shape and threadlike growth habit. It grows in the very specific habitat of damp vertical rock, but otherwise requires granular examination of the shoots to compare leaf shapes and reproductive structures- see photos under that species. Other species of <a href="/taxa/Cephaloziella">Cephaloziella</a> (<a href="/taxa/Cephaloziella phyllacantha">C. phyllacantha</a>, <a href="/taxa/Cephaloziella spinigera">C. spinigera</a>, <a href="/taxa/Cephaloziella turneri">C. turneri</a>, <a href="/taxa/Cephaloziella elachista">C. elachista</a>) in this region have leaves divided almost to their bases in addition to prominent teeth along the leaf margins. Vegetative leaves of C. divaricata are divided to about half their length and typically without teeth.  The remaining species will need to be parsed based on the arrngement of their reproductive organs. In <a href="/taxa/Cephaloziella">Cephaloziella</a> divaricata, the modified leafy structures that bear the archegonia ("gynoecia") and antheridia ("androecia"), while in C. rubellum, <a href="/taxa/Cephaloziella varians">C. varians</a> and <a href="/taxa/Cephaloziella hampeana">C. hampeana</a>, they can be found on the same shoots. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Dry to wet humus, mineral soil, decayed wood, rock outcrops, boulders, cliffs, ledges, crevices, streambanks, waterfall spray zones, bogs, disturbed areas, and occasionally tree trunks in the lowland, steppe, montane, and subalpine zones; common in coastal BC, infrequent in sc BC, rare in se and n BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -255,6 +259,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

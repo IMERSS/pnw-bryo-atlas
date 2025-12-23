@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -140,22 +143,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A small and easily-overlooked species of decaying wood, <a href="/taxa/Lophocolea">Lophocolea</a> minor is a creeping species with pale yellow-green shoots roughly 1 mm wide to about 1 cm long. Like other members of its genus, L. minor has shallowly-bilobed leaves, but the lobes are rounded and typically covered in globs of asexual spores ("gemmae") that give the leaf a scuzzy look (see photo). This in combination with the narrow, bilobed underleaf make this species possible to recognize in the field with the aide of a hand lens. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Because of its bilobed leaves, small size and wood-borne lifestyle, L. minor bears some semblance to species of <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> and Lophozia. Lophozia longidens is also a species of decaying wood with asexual spores ("gemmae") on the leaves, but those spores are typically red and held in clusters at the tips of the leaf lobes. Furthermore, species of Lophozia lack underleaves. L. minor has narrow, bilobed underleaves and its gemmae are light green and arrayed all along the margins of the leaf. Species of <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> are common on rotting wood and have longitudinal leaf insertion, but they lack the gemmae and bilobed underleaves found in L. minor.  Within its genus, L. minor is the smallest and has rounded lobes covered in gemmae, while <a href="/taxa/Lophocolea heterophylla">L. heterophylla</a> has leaves that vary in form as you move along the stem, with some unlobed and those that are lobed varying between sharp and rounded lobe tips, all of which lack gemmae. . <a href="/taxa/Lophocolea bidentata">L. bidentata</a> is consistently sharply-lobed and gemmae on not present. 
+ A small and easily-overlooked species of decaying wood, <a href="/taxa/Lophocolea">Lophocolea</a> minor is a creeping species with pale yellow-green shoots roughly 1 mm wide to about 1 cm long. Like other members of its genus, L. minor has shallowly-bilobed leaves, but the lobes are rounded and typically covered in globs of asexual spores ("gemmae") that give the leaf a scuzzy look (see photo). This in combination with the narrow, bilobed underleaf make this species possible to recognize in the field with the aide of a hand lens. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, shady humus, rock outcrops, cliffs, tree trunks (esp. deciduous trees), and decayed wood in the steppe and montane zones
+ Because of its bilobed leaves, small size and wood-borne lifestyle, L. minor bears some semblance to species of <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> and Lophozia. Lophozia longidens is also a species of decaying wood with asexual spores ("gemmae") on the leaves, but those spores are typically red and held in clusters at the tips of the leaf lobes. Furthermore, species of Lophozia lack underleaves. L. minor has narrow, bilobed underleaves and its gemmae are light green and arrayed all along the margins of the leaf. Species of <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> are common on rotting wood and have longitudinal leaf insertion, but they lack the gemmae and bilobed underleaves found in L. minor.  Within its genus, L. minor is the smallest and has rounded lobes covered in gemmae, while <a href="/taxa/Lophocolea heterophylla">L. heterophylla</a> has leaves that vary in form as you move along the stem, with some unlobed and those that are lobed varying between sharp and rounded lobe tips, all of which lack gemmae. . <a href="/taxa/Lophocolea bidentata">L. bidentata</a> is consistently sharply-lobed and gemmae on not present. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet, shady humus, rock outcrops, cliffs, tree trunks (esp. deciduous trees), and decayed wood in the steppe and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -194,6 +198,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

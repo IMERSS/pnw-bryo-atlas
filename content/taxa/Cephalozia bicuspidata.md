@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A very common species, <a href="/taxa/Cephalozia">Cephalozia</a> bicuspidata forms bright, creeping, translucent green shoots 1-2 mm wide on decaying wood and peat in wet forests and bogs. Inspection with a hand lens shows two rows of sharply bilobed leaves, the leaves themselves slightly wider than the stem and attaching at their bases nearly at a right angle across the stem and very close to its midline. Sporophytes are frequently present and can be found developing in or extruding from elongate, ridged, whitish-green and erect pouches.  
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-This species frequently coocurs with a number of lookalikes. <a href="/taxa/Lepidozia reptans">Lepidozia reptans</a> is of similar size, colour and habitat, but has clearly 3-4 lobed leaves, whereas C. bicuspidata leaves are 2-lobed. Species of <a href="/taxa/Cephaloziella">Cephaloziella</a> are typically a little smaller, but can be clearly seperated out by leaves narrower than the shoot as opposed C. bicuspidata, where the leaves are wider than the shoot. Species in the genus <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> are similar in scale, habitat and the presence of bilobed leaves, but those leaves are attached along the length of the stem, whereas in C. bicuspidata, the leaves are attached obliquely across the stem. <a href="/taxa/Cephalozia ambigua">Cephalozia ambigua</a> is treated often as a subspecies of C. bicuspidata, the former differing in its smaller size (~ .5 mm wide) and the presence of underleaves which are absent in the latter. <a href="/taxa/Cololejeunea macounii">C. macounii</a> is somehow much smaller (<< .5 mm wide) very similar, but microscope inspection of the leaf should show very oblique attachment to the stem, whereas in C.  bicuspidata leaves verge on attaching at a right angle across the stem axis.  
+ A very common species, <a href="/taxa/Cephalozia">Cephalozia</a> bicuspidata forms bright, creeping, translucent green shoots 1-2 mm wide on decaying wood and peat in wet forests and bogs. Inspection with a hand lens shows two rows of sharply bilobed leaves, the leaves themselves slightly wider than the stem and attaching at their bases nearly at a right angle across the stem and very close to its midline. Sporophytes are frequently present and can be found developing in or extruding from elongate, ridged, whitish-green and erect pouches.  
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Decaying wood and peat
+ This species frequently coocurs with a number of lookalikes. <a href="/taxa/Lepidozia reptans">Lepidozia reptans</a> is of similar size, colour and habitat, but has clearly 3-4 lobed leaves, whereas C. bicuspidata leaves are 2-lobed. Species of <a href="/taxa/Cephaloziella">Cephaloziella</a> are typically a little smaller, but can be clearly seperated out by leaves narrower than the shoot as opposed C. bicuspidata, where the leaves are wider than the shoot. Species in the genus <a href="/taxa/Fuscocephaloziopsis">Fuscocephaloziopsis</a> are similar in scale, habitat and the presence of bilobed leaves, but those leaves are attached along the length of the stem, whereas in C. bicuspidata, the leaves are attached obliquely across the stem. <a href="/taxa/Cephalozia ambigua">Cephalozia ambigua</a> is treated often as a subspecies of C. bicuspidata, the former differing in its smaller size (~ .5 mm wide) and the presence of underleaves which are absent in the latter. <a href="/taxa/Cololejeunea macounii">C. macounii</a> is somehow much smaller (<< .5 mm wide) very similar, but microscope inspection of the leaf should show very oblique attachment to the stem, whereas in C.  bicuspidata leaves verge on attaching at a right angle across the stem axis.  
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Lepizodia reptans, <a href="/taxa/Tetraphis pellucida">Tetraphis pellucida</a>, <a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, <a href="/taxa/Riccardia latifrons">Riccardia latifrons</a>
+ Decaying wood and peat
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Lepizodia reptans, <a href="/taxa/Tetraphis pellucida">Tetraphis pellucida</a>, <a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, <a href="/taxa/Riccardia latifrons">Riccardia latifrons</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Lepizodia reptans, <a href="/taxa/Tetraphis pellucida">Tetraphis pellucida</a>, 
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

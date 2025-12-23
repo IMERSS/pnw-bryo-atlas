@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-An infrequent colonizer of mineral soils, especially around forest margins, D. obtusifolium if a small plant with shoots < 1cm long, often in yellow-green or even bright red hues that accentuate the  rounded tips of its unequal and elongate leaf lobes. In this species, the smaller upper lobe points towards the tip of the stem, forming nearly a right angle with the larger lower lobe. A fecund plant, it will often be found with developing sporophytes surrounded by an enveloping layer of ridged leaves. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-D. obtusifolium lacks the patch of clear cells present in the lower lobes of <a href="/taxa/Diplophyllum albicans">D. albicans</a>. <a href="/taxa/Diplophyllum taxifolium">D. taxifolium</a> can have similair colouration and leaf shape, but the upper lobe in that species is oriented obliquely and points away from the stem tip. 
+ An infrequent colonizer of mineral soils, especially around forest margins, D. obtusifolium if a small plant with shoots < 1cm long, often in yellow-green or even bright red hues that accentuate the  rounded tips of its unequal and elongate leaf lobes. In this species, the smaller upper lobe points towards the tip of the stem, forming nearly a right angle with the larger lower lobe. A fecund plant, it will often be found with developing sporophytes surrounded by an enveloping layer of ridged leaves. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist, shady rock outcrops, boulders, cliffs, and cutbanks in the lowland, montane, andsubalpine zones; infrequent in sw BC.
+ D. obtusifolium lacks the patch of clear cells present in the lower lobes of <a href="/taxa/Diplophyllum albicans">D. albicans</a>. <a href="/taxa/Diplophyllum taxifolium">D. taxifolium</a> can have similair colouration and leaf shape, but the upper lobe in that species is oriented obliquely and points away from the stem tip. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Jungermannia">Jungermannia</a> rubra, Ditrichum heteromallum, <a href="/taxa/Dicranum">Dicranum</a> sp. 
+ Moist, shady rock outcrops, boulders, cliffs, and cutbanks in the lowland, montane, andsubalpine zones; infrequent in sw BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Jungermannia">Jungermannia</a> rubra, Ditrichum heteromallum, <a href="/taxa/Dicranum">Dicranum</a> sp. 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Moist, shady rock outcrops, boulders, cliffs, and cutbanks in the lowland, monta
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

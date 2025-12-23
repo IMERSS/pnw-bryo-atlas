@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-This tidy green-to-brown <a href="/taxa/Bazzania">Bazzania</a> species forms loose patches on peaty substrates in wet coastal bogscapes. Leafy shoots are less than 1.5 mm wide and 4-8 cm long, with lateral leaves showing 2-3 teeth at their tips. The diagnostic feature for this species is on the underside of the shoot, where the underleaf sits undivided. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The combination of toothed apices on the lateral leaves and presence of an underleaf is found in only two regional genera of liverworts. Some species of <a href="/taxa/Calypogeia">Calypogeia</a> can occasionally have 2 teeth on the tips of their lateral leaves. Of those, only <a href="/taxa/Calypogeia neesiana">C. neesiana</a> has an underleaf that is undivided, however that underleaf is laden with small rhizoids at its base which are absent in <a href="/taxa/Bazzania">Bazzania</a> pearsonii. B. pearsonii is the only species in its genus with an unlobed underleaf. 
+ This tidy green-to-brown <a href="/taxa/Bazzania">Bazzania</a> species forms loose patches on peaty substrates in wet coastal bogscapes. Leafy shoots are less than 1.5 mm wide and 4-8 cm long, with lateral leaves showing 2-3 teeth at their tips. The diagnostic feature for this species is on the underside of the shoot, where the underleaf sits undivided. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, often shady rock outcrops, cliffs, ledges, boulders, humus, decayed wood, tree bases, bogs, streambanks, and tundra in the lowland, montane, and subalpine zones
+ The combination of toothed apices on the lateral leaves and presence of an underleaf is found in only two regional genera of liverworts. Some species of <a href="/taxa/Calypogeia">Calypogeia</a> can occasionally have 2 teeth on the tips of their lateral leaves. Of those, only <a href="/taxa/Calypogeia neesiana">C. neesiana</a> has an underleaf that is undivided, however that underleaf is laden with small rhizoids at its base which are absent in <a href="/taxa/Bazzania">Bazzania</a> pearsonii. B. pearsonii is the only species in its genus with an unlobed underleaf. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet, often shady rock outcrops, cliffs, ledges, boulders, humus, decayed wood, tree bases, bogs, streambanks, and tundra in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

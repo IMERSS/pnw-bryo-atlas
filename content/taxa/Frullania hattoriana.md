@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A seemingly rare species of montane old growth forest near the coast, you could be forgiven for overlooking this tiny, appressed yellow-red epiphyte that forms cm-scale patches of distantly-spaced stems on fir and alder bark. Up close, the leaves do not overlap, and on the underside with a good hand lens in good light, you should be able to make out a relatively large round "lobule" (see photo) that is almost the same size as the overlying upper leaf lobe. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-On account of its small size and pinkish hues, this is unlikely to be mistaken for another genus or species, though <a href="/taxa/Radula bolanderi">Radula bolanderi</a> can grow in similar habitats and can present itself as a small epiphyte with distantly spaced leaves. <a href="/taxa/Radula bolanderi">R. bolanderi</a>, however, is always pale green and lacks the elaborate lobule and underleaf arrangement of F. hattoriana. F. hattoriana is a plant of montane old-growth forests and as such does not overlap in habitat with other <a href="/taxa/Frullania">Frullania</a> species in the region. None of those other species have a "lobule" that approaches the size of its overlying upper leaf lobe.  
+ A seemingly rare species of montane old growth forest near the coast, you could be forgiven for overlooking this tiny, appressed yellow-red epiphyte that forms cm-scale patches of distantly-spaced stems on fir and alder bark. Up close, the leaves do not overlap, and on the underside with a good hand lens in good light, you should be able to make out a relatively large round "lobule" (see photo) that is almost the same size as the overlying upper leaf lobe. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Tree trunks (esp. Mountain Hemlock, Yellow-cedar, alder) and branches in the montane and subalpine zones; rare in coastal and se [Mica Creek] BC.
+ On account of its small size and pinkish hues, this is unlikely to be mistaken for another genus or species, though <a href="/taxa/Radula bolanderi">Radula bolanderi</a> can grow in similar habitats and can present itself as a small epiphyte with distantly spaced leaves. <a href="/taxa/Radula bolanderi">R. bolanderi</a>, however, is always pale green and lacks the elaborate lobule and underleaf arrangement of F. hattoriana. F. hattoriana is a plant of montane old-growth forests and as such does not overlap in habitat with other <a href="/taxa/Frullania">Frullania</a> species in the region. None of those other species have a "lobule" that approaches the size of its overlying upper leaf lobe.  
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Ulota obtusiloba, Hypnum circinale
+ Tree trunks (esp. Mountain Hemlock, Yellow-cedar, alder) and branches in the montane and subalpine zones; rare in coastal and se [Mica Creek] BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Ulota obtusiloba, Hypnum circinale
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Ulota obtusiloba, Hypnum circinale
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The name of this equally bilobed leafy liverwort betrays two important things: it is tied to water (“hygro”) and it is very small (“ella”). The tiny dark-green leafy shoots are about ½ mm wide and up to 2 cm long, the leaves themselves distantly spaced, inserted across the stem and bilobed with a sinus descending to about ⅓ of the leaf’s length. Underleaves are present and often hard to distinguish from lateral leaves. This is an infrequent species, found on rocks along creeks and waterfalls where coldwater reliably flows. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The distantly-spaced, bilobed leaves that are attached at their base across the stem help distinguish this species from others that show superficial similarity. <a href="/taxa/Cephalozia">Cephalozia</a> species can show small, distantly spaced, transversely inserted lateral leaves like those of <a href="/taxa/Hygrobiella">Hygrobiella</a>, but they lack the well developed underleaves of the latter. Gymnocolea inflata and Cladopodiella fluitans both have small, distantly arranged bilobed leaves and both likewise can grow on irrigated rock surfaces, but they also lack underleaves and their lateral leaves show dirty brown hues and lack the transparent quality of H. laxifolia. Eremenotus and <a href="/taxa/Cephaloziella">Cephaloziella</a> have species that are tiny and bilobed  that creep along irrigated rock faces, but those too lack prominent underleaves. 
+ The name of this equally bilobed leafy liverwort betrays two important things: it is tied to water (“hygro”) and it is very small (“ella”). The tiny dark-green leafy shoots are about ½ mm wide and up to 2 cm long, the leaves themselves distantly spaced, inserted across the stem and bilobed with a sinus descending to about ⅓ of the leaf’s length. Underleaves are present and often hard to distinguish from lateral leaves. This is an infrequent species, found on rocks along creeks and waterfalls where coldwater reliably flows. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, often shady mineral soil (esp. gravel), cliffs, boulders, rocky seepage areas, streambanks, and waterfall spray zones in the lowland, montane, and subalpine zones
+ The distantly-spaced, bilobed leaves that are attached at their base across the stem help distinguish this species from others that show superficial similarity. <a href="/taxa/Cephalozia">Cephalozia</a> species can show small, distantly spaced, transversely inserted lateral leaves like those of <a href="/taxa/Hygrobiella">Hygrobiella</a>, but they lack the well developed underleaves of the latter. Gymnocolea inflata and Cladopodiella fluitans both have small, distantly arranged bilobed leaves and both likewise can grow on irrigated rock surfaces, but they also lack underleaves and their lateral leaves show dirty brown hues and lack the transparent quality of H. laxifolia. Eremenotus and <a href="/taxa/Cephaloziella">Cephaloziella</a> have species that are tiny and bilobed  that creep along irrigated rock faces, but those too lack prominent underleaves. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet, often shady mineral soil (esp. gravel), cliffs, boulders, rocky seepage areas, streambanks, and waterfall spray zones in the lowland, montane, and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

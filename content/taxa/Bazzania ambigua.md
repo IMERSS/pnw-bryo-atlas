@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A cryptic species of decaying wood and organic matter, <a href="/taxa/Bazzania">Bazzania</a> ambigua typically presents as green-to-brown horizontal shoots (~2 mm wide) that fork evenly. The arched lateral leaves have two very shallow tooth-like lobes (<1/10th leaf length) at their tips, while the underleaves are about as wide as long and bear 3-4 shallow lobes with rounded tips. The lateral leaves of fresh material should be looked at under the microscope; there should be 2-4 oil bodies in the cells if the identification is correct. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-See notes under <a href="/taxa/Bazzania denudata">Bazzania denudata</a>, a lookalike that dominates in the same habitat. That species has 3-lobed lateral leaves, underleaves wider than long and oil bodies 8-12 in the leaf cells. B. ambigua typically has 2-lobed lateral leaves, underleaves about as wide as long and oil bodies 2-4 in the leaf cells. 
+ A cryptic species of decaying wood and organic matter, <a href="/taxa/Bazzania">Bazzania</a> ambigua typically presents as green-to-brown horizontal shoots (~2 mm wide) that fork evenly. The arched lateral leaves have two very shallow tooth-like lobes (<1/10th leaf length) at their tips, while the underleaves are about as wide as long and bear 3-4 shallow lobes with rounded tips. The lateral leaves of fresh material should be looked at under the microscope; there should be 2-4 oil bodies in the cells if the identification is correct. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to mesic humus, rock outcrops, cliffs, boulders, tree trunks, branches, and decayed wood in the lowland and montane zones
+ See notes under <a href="/taxa/Bazzania denudata">Bazzania denudata</a>, a lookalike that dominates in the same habitat. That species has 3-lobed lateral leaves, underleaves wider than long and oil bodies 8-12 in the leaf cells. B. ambigua typically has 2-lobed lateral leaves, underleaves about as wide as long and oil bodies 2-4 in the leaf cells. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to mesic humus, rock outcrops, cliffs, boulders, tree trunks, branches, and decayed wood in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

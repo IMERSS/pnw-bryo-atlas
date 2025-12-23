@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Scapania">Scapania</a> curta is a small and easily overlooked montane member of the genus, its green-brown shoots never exceeding 15 mm in length nor 3 mm in width. While highly variable, three macroscopic characters should help identify this species: 1) both the upper and lower lobeshave smooth margins and are attached across the axis of the stem ("transversely") 2) there is a prominent point on the tip of the upper lobe, but not the lower lobe and both lobes point away from the stem axis  3) the keel where the two lobes converge is highly variable, from linear to arched along a fold that can be angular to rounded. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Amongst untoothed species of <a href="/taxa/Scapania">Scapania</a> with a pointed upper lobe, it could be confused with <a href="/taxa/Scapania apiculata">S. apiculata</a>, <a href="/taxa/Scapania mucronata">S. mucronata</a> and <a href="/taxa/Scapania scandica">S. scandica</a>, but those taxa have acute tips on their lower lobes, while the tips on the lower lobes of S. curta are rounded. <a href="/taxa/Scapania glaucocephala">S. glaucocephala</a> is similair in form but predominantly a species of wood with lower leaf lobes that are about 1/2-2/3rds as wide as they are long. In the soil and rock-dwelling S. curta, the lower lobes are at least 3/4ths as wide as they are long. 
+ <a href="/taxa/Scapania">Scapania</a> curta is a small and easily overlooked montane member of the genus, its green-brown shoots never exceeding 15 mm in length nor 3 mm in width. While highly variable, three macroscopic characters should help identify this species: 1) both the upper and lower lobeshave smooth margins and are attached across the axis of the stem ("transversely") 2) there is a prominent point on the tip of the upper lobe, but not the lower lobe and both lobes point away from the stem axis  3) the keel where the two lobes converge is highly variable, from linear to arched along a fold that can be angular to rounded. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist mineral soil, rock outcrops, boulders, and cutbanks in the montane and subalpine zones
+ Amongst untoothed species of <a href="/taxa/Scapania">Scapania</a> with a pointed upper lobe, it could be confused with <a href="/taxa/Scapania apiculata">S. apiculata</a>, <a href="/taxa/Scapania mucronata">S. mucronata</a> and <a href="/taxa/Scapania scandica">S. scandica</a>, but those taxa have acute tips on their lower lobes, while the tips on the lower lobes of S. curta are rounded. <a href="/taxa/Scapania glaucocephala">S. glaucocephala</a> is similair in form but predominantly a species of wood with lower leaf lobes that are about 1/2-2/3rds as wide as they are long. In the soil and rock-dwelling S. curta, the lower lobes are at least 3/4ths as wide as they are long. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Uncertain
+ Moist mineral soil, rock outcrops, boulders, and cutbanks in the montane and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Uncertain
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ Uncertain
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -72,7 +72,7 @@ const joinTaxa = function (bryo, gbif) {
     const joined = [...allTaxa].map(taxon => {
         const gbifRow = gbifMap.get(taxon) ?? {};
         const guideRow = bryoMap.get(taxon) ?? {};
-        return { taxon, ...guideRow, ...gbifRow };
+        return {taxon, ...guideRow, ...gbifRow};
     });
     return joined;
 };
@@ -189,11 +189,11 @@ const tokenizeTaxa = text => {
     let m;
     while ((m = tokenRe.exec(text))) {
         if (m[1]) {
-            tokens.push({ text: m[1], type: "word" });
+            tokens.push({text: m[1], type: "word"});
         } else if (m[2]) {
             tokens.push({text: m[2], type: "word"});
         } else {
-            tokens.push({ text: m[3], type: "nonword" });
+            tokens.push({text: m[3], type: "nonword"});
         }
     }
     return tokens;
@@ -256,6 +256,46 @@ const makeTaxonLookup = allRendered => {
     return lookup;
 };
 
+const keyInstruction = `<p className="key-instruction">
+    <strong>How to use:</strong> Click on <span
+    style="color:var(--key-link-color); border-bottom:1px dashed var(--key-link-color);">underlined features</span> to view
+    character images. 
+</p>\n`;
+
+const renderKey = function (keyData, genus) {
+    let pairs = [];
+    for (let i = 0; i < keyData.length - 1; i += 2) {
+        pairs.push({first: keyData[i], second: keyData[i + 1]});
+    }
+
+    const expandGenus = function (text) {
+        return text.replace(genus.charAt(0) + ". ", genus + " ");
+    };
+
+    const renderDestination = result => {
+        if (isFinite(result)) {
+            return result;
+        } else {
+            const taxon = expandGenus(result);
+            return `<a href="/taxa/${taxon}" class="key-species-link">${result}</a>`;
+        }
+    };
+    const renderKeyRow = row =>
+        `<div class="key-option">
+            <span class="key-option-text">
+                <strong>${row.Key}.</strong> <a href="/keyImages/${row.CharacterImage}" class="key-feature-link"
+                                        onClick="return imerss.openKeyImage(this)">${row.Character}</a>
+            </span>
+            <span class="key-option-destination">
+                ${renderDestination(row.Result)}
+            </span>
+        </div>`;
+    return keyInstruction + pairs.map(pair => `<div class="key-couplet">
+        ${renderKeyRow(pair.first)}
+        ${renderKeyRow(pair.second)}
+    </div>`).join("\n");
+};
+
 async function main() {
     const bryo = await readCSV("tabular_data/BC_Bryo_Guide.csv");
     const gbif = await readCSV("tabular_data/GBIF-taxa.csv");
@@ -293,9 +333,9 @@ async function main() {
     const taxonLookup = makeTaxonLookup(allRendered);
 
     const hoistImage = (key, src, drive, meta, iNat, label) =>
-        drive ? { key, src, drive, meta, iNat, label } : null;
+        drive ? {key, src, drive, meta, iNat, label} : null;
 
-    const renderPages = function (rows, decorate) {
+    const renderPages = async function (rows, decorate) {
         for (const row of rows) {
             const driveLinks = {
                 plateDrive: mapImage(row.plate, row.taxon, "plate", badImages),
@@ -318,8 +358,9 @@ async function main() {
             };
 
             linkifyText(row, taxonLookup, ["distinguishingFeatures", "similarSpecies", "habitat", "associatedSpecies"]);
+            const decorated = await decorate(row);
 
-            const output = mustache.render(template, {...row, ...images, ...decorate(row)}, {modal});
+            const output = mustache.render(template, {...row, ...images, ...decorated}, {modal});
             const outFilename = `content/taxa/${row.taxon}.md`;
             fs.writeFileSync(outFilename, output, "utf8");
             const stats = fs.statSync(outFilename);
@@ -327,19 +368,31 @@ async function main() {
         }
     };
 
-    fs.mkdirSync("content/taxa", { recursive: true });
+    fs.mkdirSync("content/taxa", {recursive: true});
 
     console.log("Generating species pages");
-    renderPages(filtered, () => ({leaf: true}));
+    await renderPages(filtered, () => ({leaf: true}));
 
     console.log("Generating genus pages");
-    renderPages(genusPages, row => ({
-        taxonLinksHeading: "Species in this genus",
-        taxonLinks: row.species.map(taxon => `<a href="${taxonLink(taxon)}">${taxon}</a><br/>`).join("\n")
-    }));
+    await renderPages(genusPages, async row => {
+        const keyPath = `tabular_data/Keys/${row.taxon}.csv`;
+        const hasKey = fs.existsSync(keyPath);
+        let key = null;
+        if (hasKey) {
+            console.log("Got key for ", row.taxon);
+            const keyData = await readCSV(keyPath);
+            key = renderKey(keyData, row.taxon);
+            console.log("Rendering key: \n", key);
+        }
+        return {
+            key,
+            taxonLinksHeading: "Species in this genus",
+            taxonLinks: row.species.map(taxon => `<a href="${taxonLink(taxon)}">${taxon}</a><br/>`).join("\n")
+        };
+    });
 
     console.log("Generating family pages");
-    renderPages(familyPages, row => ({
+    await renderPages(familyPages, row => ({
         taxonLinksHeading: "Genera in this family",
         taxonLinks: row.genera.map(taxon => `<a href="${taxonLink(taxon)}">${taxon}</a><br/>`).join("\n")
     }));

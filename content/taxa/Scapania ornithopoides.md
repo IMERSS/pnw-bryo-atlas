@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The rare <a href="/taxa/Scapania">Scapania</a> ornithopoides is the largest species in the genus, its red-yellow leafy shoots measuring 5+ cm long and up to 5 mm wide as they arch off of peaty slopes in very wet open coastal regions. The leaves have toothed, ellipsoidal and unequal lobes that are unique in showing no obvious point of convergence ("keel"), thus almost appearing as seperate leaves. The lobe tips are gently rounded, not pointed. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Diagnostic Characters
+ The rare <a href="/taxa/Scapania">Scapania</a> ornithopoides is the largest species in the genus, its red-yellow leafy shoots measuring 5+ cm long and up to 5 mm wide as they arch off of peaty slopes in very wet open coastal regions. The leaves have toothed, ellipsoidal and unequal lobes that are unique in showing no obvious point of convergence ("keel"), thus almost appearing as seperate leaves. The lobe tips are gently rounded, not pointed. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, often shady humus, rock outcrops, boulders, cliffs, bogs, fens, streambanks, seepage areas, and heath in the lowland and montane zones
+ Diagnostic Characters
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Herbertus aduncus, <a href="/taxa/Mylia taylorii">Mylia taylorii</a>, <a href="/taxa/Pleurozia purpurea">Pleurozia purpurea</a>, <a href="/taxa/Dicranum">Dicranum</a> majus, Dicranodontium denudatum
+ Moist to wet, often shady humus, rock outcrops, boulders, cliffs, bogs, fens, streambanks, seepage areas, and heath in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Herbertus aduncus, <a href="/taxa/Mylia taylorii">Mylia taylorii</a>, <a href="/taxa/Pleurozia purpurea">Pleurozia purpurea</a>, <a href="/taxa/Dicranum">Dicranum</a> majus, Dicranodontium denudatum
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Herbertus aduncus, <a href="/taxa/Mylia taylorii">Mylia taylorii</a>, <a href="/
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

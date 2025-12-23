@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -202,22 +205,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-Hidden in calcareous crevices at high elevations, the rare <a href="/taxa/Asterella">Asterella</a> lindenbergiana is a complex thalloid liverwort with overlapping green thalli (to 3 cm long and about 5 mm wide) with darkened, upturned fringes. Unmistakeable in its fertile state, the carpocephalum is found at the tips of the dichotomizing thallus and is 3-4 lobed with purple strips of tissue surrounding the capsules, which have purple spores. The antheridia can be found on a pad level with the thallus just behind the stalk of the carpocephalum. 
-
-<h2 id="similar-species">Similar species</h2>
-
-Alpine rock crevices and bases are also home to other complex thalloid liverworts in the region. <a href="/taxa/Peltolepis quadrata">Peltolepis quadrata</a>, <a href="/taxa/Marchantia romanica">Marchantia romanica</a>, <a href="/taxa/Reboulia hemisphaerica">Reboulia hemisphaerica</a> and <a href="/taxa/Sauteria alpina">Sauteria alpina</a> can occur in similair habitats as A. lindenbergiana, but the purple skirt that surrounds the developing sporophyte on the carpocephalum as well as the purple spores are unique to the later taxon. 
-
-<h2 id="habitat">Habitat</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<h2 id="associated-species">Associated species</h2>
+ Hidden in calcareous crevices at high elevations, the rare <a href="/taxa/Asterella">Asterella</a> lindenbergiana is a complex thalloid liverwort with overlapping green thalli (to 3 cm long and about 5 mm wide) with darkened, upturned fringes. Unmistakeable in its fertile state, the carpocephalum is found at the tips of the dichotomizing thallus and is 3-4 lobed with purple strips of tissue surrounding the capsules, which have purple spores. The antheridia can be found on a pad level with the thallus just behind the stalk of the carpocephalum. 
 
+ <h2 id="similar-species">Similar species</h2>
 
+ Alpine rock crevices and bases are also home to other complex thalloid liverworts in the region. <a href="/taxa/Peltolepis quadrata">Peltolepis quadrata</a>, <a href="/taxa/Marchantia romanica">Marchantia romanica</a>, <a href="/taxa/Reboulia hemisphaerica">Reboulia hemisphaerica</a> and <a href="/taxa/Sauteria alpina">Sauteria alpina</a> can occur in similair habitats as A. lindenbergiana, but the purple skirt that surrounds the developing sporophyte on the carpocephalum as well as the purple spores are unique to the later taxon. 
 
+ <h2 id="habitat">Habitat</h2>
+
+ 
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -256,6 +260,13 @@ Alpine rock crevices and bases are also home to other complex thalloid liverwort
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

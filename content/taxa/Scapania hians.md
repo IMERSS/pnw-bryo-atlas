@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -109,22 +112,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Regionally known from only 2 collections north of Whistler, BC, <a href="/taxa/Scapania">Scapania</a> hians is a small brownish green plant with leafy shoots up to 2 cm long and 1.5 mm wide. It has two-subequal and toothless lobes that spread away from one another with acute apices and a linear and sharply folded keel. The lower lobe attaches to the shoot with a long decurrency that runs down the stem axis. Under the microscope, this species has rounded globules of wax on the external surfaces of its leaf cells, as well as triangular thickenings in the corners where adjacent cells abut one another. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-In macro view, this species has similarities to <a href="/taxa/Sphenolobus minutus">Sphenolobus minutus</a> and <a href="/taxa/Marsupella">Marsupella</a> emarginat, both species with small shoots with alternating and seemingly evenly 2-lobed leaves. In those species, however, the leaves always attach across the axis of the stem, not down along it as is the case for the lower (and slightly smaller!) lobe of S. hians. Among species of Pacific Northwest <a href="/taxa/Scapania">Scapania</a>, only <a href="/taxa/Scapania simmonsii">S. simmonsii</a>, <a href="/taxa/Scapania obscura">S. obscura</a> and <a href="/taxa/Scapania subalpina">S. subalpina</a> can have subequal lobes with a decurrent base on the lower lobe and an acute, linear keel as in S. hians. Of the found, only <a href="/taxa/Scapania simmonsii">S. simmonsii</a> has the large globular wax thickenings visible on the outer walls of leaf cells under the micrscope as can be seen in S. hians. <a href="/taxa/Scapania simmonsii">S. simmonsii</a>, however is a much larger northern species of calcareous soils and its leaf lobes turn down along their free edges, while S. hians in our region is a species of silt over rocks in subalpine streams and has lobes that are divergent with upwards facing margins. 
+ Regionally known from only 2 collections north of Whistler, BC, <a href="/taxa/Scapania">Scapania</a> hians is a small brownish green plant with leafy shoots up to 2 cm long and 1.5 mm wide. It has two-subequal and toothless lobes that spread away from one another with acute apices and a linear and sharply folded keel. The lower lobe attaches to the shoot with a long decurrency that runs down the stem axis. Under the microscope, this species has rounded globules of wax on the external surfaces of its leaf cells, as well as triangular thickenings in the corners where adjacent cells abut one another. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet rock outcrops, boulders, cliffs, humus, and streambanks, sometimes submerged in flowing water, in the montane and subalpine zones
+ In macro view, this species has similarities to <a href="/taxa/Sphenolobus minutus">Sphenolobus minutus</a> and <a href="/taxa/Marsupella">Marsupella</a> emarginat, both species with small shoots with alternating and seemingly evenly 2-lobed leaves. In those species, however, the leaves always attach across the axis of the stem, not down along it as is the case for the lower (and slightly smaller!) lobe of S. hians. Among species of Pacific Northwest <a href="/taxa/Scapania">Scapania</a>, only <a href="/taxa/Scapania simmonsii">S. simmonsii</a>, <a href="/taxa/Scapania obscura">S. obscura</a> and <a href="/taxa/Scapania subalpina">S. subalpina</a> can have subequal lobes with a decurrent base on the lower lobe and an acute, linear keel as in S. hians. Of the found, only <a href="/taxa/Scapania simmonsii">S. simmonsii</a> has the large globular wax thickenings visible on the outer walls of leaf cells under the micrscope as can be seen in S. hians. <a href="/taxa/Scapania simmonsii">S. simmonsii</a>, however is a much larger northern species of calcareous soils and its leaf lobes turn down along their free edges, while S. hians in our region is a species of silt over rocks in subalpine streams and has lobes that are divergent with upwards facing margins. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Uncertain
+ Moist to wet rock outcrops, boulders, cliffs, humus, and streambanks, sometimes submerged in flowing water, in the montane and subalpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Uncertain
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -163,6 +167,13 @@ Uncertain
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

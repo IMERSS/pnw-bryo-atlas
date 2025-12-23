@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Running a gamut of colours from dark green to bright yellows and radiant reds, the wide-spreading leafy shoots (up to 5 mm wide) of <a href="/taxa/Mylia">Mylia</a> taylorii are a common sight on decaying organic matter in high-precipitation regions. The simple round leaves appear in nearly an opposite arrangement, evenly spaced down the shoot but tightly converging near the tip so as to appear like a set of nested lips. Asexual reproductive bodies ("gemmae") are frequent and brightly coloured yellow and red, while underleaves are simple and elongate. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-In the pantheon of unlobed leafy liverworts, M. taylorii is distinguished from species of Cryptocolea, Syzygiella, <a href="/taxa/Jungermannia">Jungermannia</a> and Solenostoma by its prominent underleaf, a feature absent or minute in those genera. Gyrothyra underwoodiana has the same widespreading and subopposite leave arrangement, but its underleaf is two-lobed and the undersides of the stem have recurrent purple patches in contrast to the to M. taylorii where such patches are absent and the underleaves are unlobed. <a href="/taxa/Odontoschisma">Odontoschisma</a> species can have a similair leaf form and arrangement, but they are usually less than 1 mm wide and 1 cm long and the leaves themselves are very concave. M. taylorii is a much bigger plant and its leaves are plane, not concave. <a href="/taxa/Nardia">Nardia</a> has shoots that can show the nested lip arrangement of rounded leaves seen in M. taylorii, but it never has gemmae and its underleaf, while similair in shape, is attached to the base of the lateral leaves. In M. taylorii, the underleaves are free from the lateral leaves and gemmae are very common. <a href="/taxa/Mylia">Mylia</a> taylorii has leaves wider than long with rounded leaf tips topped by bright yellow-red gemmae, while those of <a href="/taxa/Mylia anomala">M. anomala</a> are longer than wide, with somewhat pointed leaf tips topped by light green gemmae. 
+ Running a gamut of colours from dark green to bright yellows and radiant reds, the wide-spreading leafy shoots (up to 5 mm wide) of <a href="/taxa/Mylia">Mylia</a> taylorii are a common sight on decaying organic matter in high-precipitation regions. The simple round leaves appear in nearly an opposite arrangement, evenly spaced down the shoot but tightly converging near the tip so as to appear like a set of nested lips. Asexual reproductive bodies ("gemmae") are frequent and brightly coloured yellow and red, while underleaves are simple and elongate. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet humus, rock outcrops, boulders, bogs, peatlands, seepage areas, decayed wood, waterfall spray zones, and rarely tree bases in the lowland and montane zones
+ In the pantheon of unlobed leafy liverworts, M. taylorii is distinguished from species of Cryptocolea, Syzygiella, <a href="/taxa/Jungermannia">Jungermannia</a> and Solenostoma by its prominent underleaf, a feature absent or minute in those genera. Gyrothyra underwoodiana has the same widespreading and subopposite leave arrangement, but its underleaf is two-lobed and the undersides of the stem have recurrent purple patches in contrast to the to M. taylorii where such patches are absent and the underleaves are unlobed. <a href="/taxa/Odontoschisma">Odontoschisma</a> species can have a similair leaf form and arrangement, but they are usually less than 1 mm wide and 1 cm long and the leaves themselves are very concave. M. taylorii is a much bigger plant and its leaves are plane, not concave. <a href="/taxa/Nardia">Nardia</a> has shoots that can show the nested lip arrangement of rounded leaves seen in M. taylorii, but it never has gemmae and its underleaf, while similair in shape, is attached to the base of the lateral leaves. In M. taylorii, the underleaves are free from the lateral leaves and gemmae are very common. <a href="/taxa/Mylia">Mylia</a> taylorii has leaves wider than long with rounded leaf tips topped by bright yellow-red gemmae, while those of <a href="/taxa/Mylia anomala">M. anomala</a> are longer than wide, with somewhat pointed leaf tips topped by light green gemmae. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet humus, rock outcrops, boulders, bogs, peatlands, seepage areas, decayed wood, waterfall spray zones, and rarely tree bases in the lowland and montane zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

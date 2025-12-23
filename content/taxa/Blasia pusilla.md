@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A simple thalloid liverwort with a birght green palour and thallus segments to 1cm wide and more than 1cm long, <a href="/taxa/Blasia">Blasia</a> pusilla thrives in water-saturated environments where it is often found growing over fine sediments and decaying organic matter. The common name belies its diagnostic feature: bottle or kettle-shaped asexual structures that are reliably present in most plants, as are naked clusters of yellow gemmae on the upper surface. On the occasion that these are absent, the combination of a round-lobed margin, black-dotted thallus and simple linear scales on the upper surface are also unque to this species amongst regional thalloid taxa.
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-When asexual structures are present, this species in unmistakeable. Absent the bottles and gemmae, it might be mistaken for species of <a href="/taxa/Aneura">Aneura</a>, <a href="/taxa/Pellia">Pellia</a>, <a href="/taxa/Moerckia">Moerckia</a> or <a href="/taxa/Calycularia">Calycularia</a>, none of which have the dark dots of Nostoc clusters in their thallus. <a href="/taxa/Aneura">Aneura</a> and <a href="/taxa/Pellia">Pellia</a> have smooth upper surfaces, but in <a href="/taxa/Blasia">Blasia</a>, the upper surface is marked by the presence of narrow, linear scales. Scales of <a href="/taxa/Moerckia">Moerckia</a> and <a href="/taxa/Calycularia">Calycularia</a> are typically broad, not linear.
+ A simple thalloid liverwort with a birght green palour and thallus segments to 1cm wide and more than 1cm long, <a href="/taxa/Blasia">Blasia</a> pusilla thrives in water-saturated environments where it is often found growing over fine sediments and decaying organic matter. The common name belies its diagnostic feature: bottle or kettle-shaped asexual structures that are reliably present in most plants, as are naked clusters of yellow gemmae on the upper surface. On the occasion that these are absent, the combination of a round-lobed margin, black-dotted thallus and simple linear scales on the upper surface are also unque to this species amongst regional thalloid taxa.
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist mineral soils, often disturbed
+ When asexual structures are present, this species in unmistakeable. Absent the bottles and gemmae, it might be mistaken for species of <a href="/taxa/Aneura">Aneura</a>, <a href="/taxa/Pellia">Pellia</a>, <a href="/taxa/Moerckia">Moerckia</a> or <a href="/taxa/Calycularia">Calycularia</a>, none of which have the dark dots of Nostoc clusters in their thallus. <a href="/taxa/Aneura">Aneura</a> and <a href="/taxa/Pellia">Pellia</a> have smooth upper surfaces, but in <a href="/taxa/Blasia">Blasia</a>, the upper surface is marked by the presence of narrow, linear scales. Scales of <a href="/taxa/Moerckia">Moerckia</a> and <a href="/taxa/Calycularia">Calycularia</a> are typically broad, not linear.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Anthoceros">Anthoceros</a>, Ephemerum, tiny mosses in the <a href="/taxa/Bryaceae">Bryaceae</a> and <a href="/taxa/Pottiaceae">Pottiaceae</a>
+ Moist mineral soils, often disturbed
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Anthoceros">Anthoceros</a>, Ephemerum, tiny mosses in the <a href="/taxa/Bryaceae">Bryaceae</a> and <a href="/taxa/Pottiaceae">Pottiaceae</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ Moist mineral soils, often disturbed
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -55,9 +56,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -75,22 +78,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Reported from only a handful of low elevation wet sites along the coast, <a href="/taxa/Pellia">Pellia</a> columbiana is a large simple thalloid liverwort (to 10+ cm long, > 1cm wide) that appears in most respects like the other local species of the genus. Typically a dark, mottled green, it has a thickened vein-like region running down the middle of the thallus that gradulally tapers into the thin, undulating margins that are one cell thick. The diagnostic features of this species are somewhat hard to come by and must be looked for on female plants: when fertile, the ring of tissue surrounding the developing archegonia and sporophytes ("pseudoperianth") is incised, tattered & toothed (see image). 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Species of <a href="/taxa/Moerckia">Moerckia</a> have large, simple thalli, but are typically adorned with abundant scales on the upper surface. Such scales are absent in <a href="/taxa/Pellia">Pellia</a>. <a href="/taxa/Calycularia">Calycularia</a> is similair, but has prominent pink-purple scales that can be seen with a hand lens on the underside of the thallus; these are likewise absent in P. columbiana. <a href="/taxa/Apopellia alpicola">Apopellia alpicola</a> is a subalpine and alpine species that has a similarly dissected tube surrounding its developing sporophyte, but is unlikely to be found in the same low-elevation environments of P. columbiana. <a href="/taxa/Pellia epiphylla">P. epiphylla</a> has antheridia and archegonia on the same plant (monoicous); in P. columbiana they are on seperate plants (dioicous). It is most likely to be confused with similairly dioicous <a href="/taxa/Pellia neesiana">P. neesiana</a>, but in that species, the flap of tissue surrounding the developing archegonia and sporophytes has a smooth outer margin compared to the incised, tattered & toothed margin of this structure in P. columbiana. 
+ Reported from only a handful of low elevation wet sites along the coast, <a href="/taxa/Pellia">Pellia</a> columbiana is a large simple thalloid liverwort (to 10+ cm long, > 1cm wide) that appears in most respects like the other local species of the genus. Typically a dark, mottled green, it has a thickened vein-like region running down the middle of the thallus that gradulally tapers into the thin, undulating margins that are one cell thick. The diagnostic features of this species are somewhat hard to come by and must be looked for on female plants: when fertile, the ring of tissue surrounding the developing archegonia and sporophytes ("pseudoperianth") is incised, tattered & toothed (see image). 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, shady mineral soil, streambanks, and ditches in the lowland zone
+ Species of <a href="/taxa/Moerckia">Moerckia</a> have large, simple thalli, but are typically adorned with abundant scales on the upper surface. Such scales are absent in <a href="/taxa/Pellia">Pellia</a>. <a href="/taxa/Calycularia">Calycularia</a> is similair, but has prominent pink-purple scales that can be seen with a hand lens on the underside of the thallus; these are likewise absent in P. columbiana. <a href="/taxa/Apopellia alpicola">Apopellia alpicola</a> is a subalpine and alpine species that has a similarly dissected tube surrounding its developing sporophyte, but is unlikely to be found in the same low-elevation environments of P. columbiana. <a href="/taxa/Pellia epiphylla">P. epiphylla</a> has antheridia and archegonia on the same plant (monoicous); in P. columbiana they are on seperate plants (dioicous). It is most likely to be confused with similairly dioicous <a href="/taxa/Pellia neesiana">P. neesiana</a>, but in that species, the flap of tissue surrounding the developing archegonia and sporophytes has a smooth outer margin compared to the incised, tattered & toothed margin of this structure in P. columbiana. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, <a href="/taxa/Rhizomnium">Rhizomnium</a> magnifolium, <a href="/taxa/Kindbergia">Kindbergia</a> praelonga, Hookeria lucens
+ Moist to wet, shady mineral soil, streambanks, and ditches in the lowland zone
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, <a href="/taxa/Rhizomnium">Rhizomnium</a> magnifolium, <a href="/taxa/Kindbergia">Kindbergia</a> praelonga, Hookeria lucens
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -129,6 +133,13 @@ Moist to wet, shady mineral soil, streambanks, and ditches in the lowland zone
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

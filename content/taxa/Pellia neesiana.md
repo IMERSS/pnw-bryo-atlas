@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -55,9 +56,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -137,22 +140,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-P. neesiana is the dominant <a href="/taxa/Pellia">Pellia</a> in the region, inhabiting moist to wet soils, mineral banks and decaying organic matter with an irregularly-branched, light-green to dark purple-green thallus up to 10 cm long and often more than 1 cm wide. The center of the thallus is thickened and and often darker than the margins, which tend to undulate. The antheridia appear as aggregates of small bumps on thallus segments of male plants, while the archegonia and sporophytes develop within a smooth-margined tubular flap of tissue on a seperate female plant. In the spring, mature sporophytes can rise to an impressive height of 10 cm or more. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Species of <a href="/taxa/Moerckia">Moerckia</a> have large, simple thalli, but are typically adorned with abundant scales on the upper surface. Such scales are absent in <a href="/taxa/Pellia">Pellia</a>. <a href="/taxa/Calycularia">Calycularia</a> is similair, but has prominent pink-purple scales that can be seen with a hand lens on the underside of the thallus; these are likewise absent in P. neesiana. <a href="/taxa/Apopellia alpicola">Apopellia alpicola</a> is a subalpine and alpine species that has a very dissected tube ("pseudoperianth") surrounding its developing sporophyte. P. neesiana can occur at higher elevations, but the pseudoperianth is stubbier and its margins are mostly smooth. <a href="/taxa/Pellia epiphylla">P. epiphylla</a> has antheridia and archegonia on the same plant (monoicous); in P. neesiana they are on seperate plants (dioicous). It is most likely to be confused with similairly dioicous <a href="/taxa/Pellia columbiana">P. columbiana</a>, but in that species, the flap of tissue surrounding the developing archegonia and sporophytes has an incised, tattered & toothed margin relative to the smooth outer margin of this structure in P. neesiana.
+ P. neesiana is the dominant <a href="/taxa/Pellia">Pellia</a> in the region, inhabiting moist to wet soils, mineral banks and decaying organic matter with an irregularly-branched, light-green to dark purple-green thallus up to 10 cm long and often more than 1 cm wide. The center of the thallus is thickened and and often darker than the margins, which tend to undulate. The antheridia appear as aggregates of small bumps on thallus segments of male plants, while the archegonia and sporophytes develop within a smooth-margined tubular flap of tissue on a seperate female plant. In the spring, mature sporophytes can rise to an impressive height of 10 cm or more. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, shady mineral soil, forested depressions, rock outcrops, boulders, ledges, cliffs,  streambanks, shorelines, seepage areas, marshes, ditches, and disturbed areas, often   submerged in shallow water, in the lowland, montane, and subalpine zones 
+ Species of <a href="/taxa/Moerckia">Moerckia</a> have large, simple thalli, but are typically adorned with abundant scales on the upper surface. Such scales are absent in <a href="/taxa/Pellia">Pellia</a>. <a href="/taxa/Calycularia">Calycularia</a> is similair, but has prominent pink-purple scales that can be seen with a hand lens on the underside of the thallus; these are likewise absent in P. neesiana. <a href="/taxa/Apopellia alpicola">Apopellia alpicola</a> is a subalpine and alpine species that has a very dissected tube ("pseudoperianth") surrounding its developing sporophyte. P. neesiana can occur at higher elevations, but the pseudoperianth is stubbier and its margins are mostly smooth. <a href="/taxa/Pellia epiphylla">P. epiphylla</a> has antheridia and archegonia on the same plant (monoicous); in P. neesiana they are on seperate plants (dioicous). It is most likely to be confused with similairly dioicous <a href="/taxa/Pellia columbiana">P. columbiana</a>, but in that species, the flap of tissue surrounding the developing archegonia and sporophytes has an incised, tattered & toothed margin relative to the smooth outer margin of this structure in P. neesiana.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, <a href="/taxa/Rhizomnium">Rhizomnium</a> magnifolium, <a href="/taxa/Kindbergia">Kindbergia</a> praelonga, Hookeria lucens
+ Moist to wet, shady mineral soil, forested depressions, rock outcrops, boulders, ledges, cliffs,  streambanks, shorelines, seepage areas, marshes, ditches, and disturbed areas, often   submerged in shallow water, in the lowland, montane, and subalpine zones 
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Rhizomnium glabrescens">Rhizomnium glabrescens</a>, <a href="/taxa/Rhizomnium">Rhizomnium</a> magnifolium, <a href="/taxa/Kindbergia">Kindbergia</a> praelonga, Hookeria lucens
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -191,6 +195,13 @@ Moist to wet, shady mineral soil, forested depressions, rock outcrops, boulders,
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

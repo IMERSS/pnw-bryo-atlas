@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A large, seemingly filamentous plant, <a href="/taxa/Lepidozia">Lepidozia</a> sandvicensis presents as a minature transluscent green tumbleweed, its shoots up to 5 cm long with numerous long branches completely free from their substrate. While its lateral leaves have the genus' characteristic 3-4 triangular lobes down to about 1/2 their length, they are narrower than the shoot width and very widely spaced along the stems. As the Latin name suggests, this is a plant with an interesting distribution, known predominantly from the Hawaiian Islands and wet-coastal British Columbia. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Because of its large size and shoots growing free from their substrate, it is unlikely to be mistaken for other liverworts with leaves narrower than their stems (eg. species of <a href="/taxa/Cephalozia">Cephalozia</a> and <a href="/taxa/Cephaloziella">Cephaloziella</a>, both of which have 2-lobed leaves).  Species of the genus <a href="/taxa/Kurzia">Kurzia</a> have 3-4 lobed leaves as in L. sandvicensis, but they have shoots that only grow to less than 1 cm in length. Amongst the two other regional species of <a href="/taxa/Lepidozia">Lepidozia</a>, L. sandvicensis is the only one with leaves narrow than the shoots on which they grow and it lacks the regular and even branching of <a href="/taxa/Lepidozia filamentosa">L. filamentosa</a> as well as the very close arrangement of leaves seen in <a href="/taxa/Lepidozia reptans">L. reptans</a>. 
+ A large, seemingly filamentous plant, <a href="/taxa/Lepidozia">Lepidozia</a> sandvicensis presents as a minature transluscent green tumbleweed, its shoots up to 5 cm long with numerous long branches completely free from their substrate. While its lateral leaves have the genus' characteristic 3-4 triangular lobes down to about 1/2 their length, they are narrower than the shoot width and very widely spaced along the stems. As the Latin name suggests, this is a plant with an interesting distribution, known predominantly from the Hawaiian Islands and wet-coastal British Columbia. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist, usually shady humus, boggy slopes, and streambanks in the lowland zone
+ Because of its large size and shoots growing free from their substrate, it is unlikely to be mistaken for other liverworts with leaves narrower than their stems (eg. species of <a href="/taxa/Cephalozia">Cephalozia</a> and <a href="/taxa/Cephaloziella">Cephaloziella</a>, both of which have 2-lobed leaves).  Species of the genus <a href="/taxa/Kurzia">Kurzia</a> have 3-4 lobed leaves as in L. sandvicensis, but they have shoots that only grow to less than 1 cm in length. Amongst the two other regional species of <a href="/taxa/Lepidozia">Lepidozia</a>, L. sandvicensis is the only one with leaves narrow than the shoots on which they grow and it lacks the regular and even branching of <a href="/taxa/Lepidozia filamentosa">L. filamentosa</a> as well as the very close arrangement of leaves seen in <a href="/taxa/Lepidozia reptans">L. reptans</a>. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist, usually shady humus, boggy slopes, and streambanks in the lowland zone
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

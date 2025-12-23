@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Forming tiny (< 1mm wide), translucent shoots in peaty areas, F. pleniceps is an often overlooked and ergo uncommon bilobed leafy liverwort species. Hand lens inspection of the leaf should show them attached along the length of stem, with the bottom edge running down the shoot ("decurrent") and the lobe tips sharp before descending into a rounded sinus. Confident identification requires microscopy to count the number of cells across the leafs' width (12-25) and note the even thickness of terminal lobe cells. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Species of <a href="/taxa/Cephaloziella">Cephaloziella</a> can occur in peaty habitats, but they have leaves narrower than the stems they are borne on, whilst in F. pleniceps, the leaves are wider than the stems. In the family <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>, only <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> and <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> exhibit leaves that attach down the length of the stem as in F. pleniceps. <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> tends to have lobe tips that converge on one another like a crab's pincher, whereas those of F. pleniceps seldomly converge and tend to point upwards. <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> is very similar to F. pleniceps, but under the microscope it has outer walls of the terminal lobe cells much thicker than the inner wall, whilst in the latter the wall is evenly thickened all around. 
+ Forming tiny (< 1mm wide), translucent shoots in peaty areas, F. pleniceps is an often overlooked and ergo uncommon bilobed leafy liverwort species. Hand lens inspection of the leaf should show them attached along the length of stem, with the bottom edge running down the shoot ("decurrent") and the lobe tips sharp before descending into a rounded sinus. Confident identification requires microscopy to count the number of cells across the leafs' width (12-25) and note the even thickness of terminal lobe cells. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet humus, streambanks, and bogs in the montane zone; infrequent in southeast BC, rare in coastal, south-central, and northeast [Kotcho Lake] BC.
+ Species of <a href="/taxa/Cephaloziella">Cephaloziella</a> can occur in peaty habitats, but they have leaves narrower than the stems they are borne on, whilst in F. pleniceps, the leaves are wider than the stems. In the family <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>, only <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> and <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> exhibit leaves that attach down the length of the stem as in F. pleniceps. <a href="/taxa/Fuscocephaloziopsis connivens">F. connivens</a> tends to have lobe tips that converge on one another like a crab's pincher, whereas those of F. pleniceps seldomly converge and tend to point upwards. <a href="/taxa/Fuscocephaloziopsis lunulifolia">F. lunulifolia</a> is very similar to F. pleniceps, but under the microscope it has outer walls of the terminal lobe cells much thicker than the inner wall, whilst in the latter the wall is evenly thickened all around. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet humus, streambanks, and bogs in the montane zone; infrequent in southeast BC, rare in coastal, south-central, and northeast [Kotcho Lake] BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

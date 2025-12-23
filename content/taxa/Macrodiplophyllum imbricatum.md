@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-An infrequent species of higher elevation, M. imbricatum is a yellow or yellow brown robust rock and tundra dweller with smooth lobe margins and an upper lobe oriented at ~ 45 degrees to the stem. It is distinct in having nearly equal upper and lower leaf lobes and a reduced, obscured keel connecting them along their lower margin.  
-
-<h2 id="similar-species">Similar species</h2>
-
-In the montane to alpine habitat where this species thrives, it is unlikely to be mistaken for many other species on account of its girth and closely overlapping leaves. Some species of <a href="/taxa/Scapania">Scapania</a> (eg. <a href="/taxa/Scapania subalpina">Scapania subalpina</a>) occuring in the same habitats also have smooth, nearly equal lobes, but in M. imbricatum the lobes are elongate and lack the obvious "keel" that connect the upper and lober lobes at their base. <a href="/taxa/Macrodiplophyllum">Macrodiplophyllum</a> microdontium could concievably occur in similair habitats, but that species has elongate, greatly unequal leaf lobes. 
-
-<h2 id="habitat">Habitat</h2>
-
-Moist, often shady rock outcrops, boulders, cliffs, heath, and tundra in the montane, subalpine, and alpine zones; infrequent in wc BC [esp. Haida Gwaii], rare in sw, c [Hudson Bay Mtn.], and nw [Haines Triangle] BC.
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ An infrequent species of higher elevation, M. imbricatum is a yellow or yellow brown robust rock and tundra dweller with smooth lobe margins and an upper lobe oriented at ~ 45 degrees to the stem. It is distinct in having nearly equal upper and lower leaf lobes and a reduced, obscured keel connecting them along their lower margin.  
+
+ <h2 id="similar-species">Similar species</h2>
+
+ In the montane to alpine habitat where this species thrives, it is unlikely to be mistaken for many other species on account of its girth and closely overlapping leaves. Some species of <a href="/taxa/Scapania">Scapania</a> (eg. <a href="/taxa/Scapania subalpina">Scapania subalpina</a>) occuring in the same habitats also have smooth, nearly equal lobes, but in M. imbricatum the lobes are elongate and lack the obvious "keel" that connect the upper and lober lobes at their base. <a href="/taxa/Macrodiplophyllum">Macrodiplophyllum</a> microdontium could concievably occur in similair habitats, but that species has elongate, greatly unequal leaf lobes. 
+
+ <h2 id="habitat">Habitat</h2>
+
+ Moist, often shady rock outcrops, boulders, cliffs, heath, and tundra in the montane, subalpine, and alpine zones; infrequent in wc BC [esp. Haida Gwaii], rare in sw, c [Hudson Bay Mtn.], and nw [Haines Triangle] BC.
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ Moist, often shady rock outcrops, boulders, cliffs, heath, and tundra in the mon
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-An occasional species of exposed rocks, P. roelli is typically a yellow-brownish and glossy plant that has branches few and far between. From the underside with a hand lens, the underlobes are narrower than the underleaf (see photo). Many describe this species as having a "peppery" taste compared to other <a href="/taxa/Porella">Porella</a> species, though it should not be consumed. 
-
-<h2 id="similar-species">Similar species</h2>
-
-The typical rock habitat, glossy, little-branched shoots and narrow underleaves distinguish P. roellii from <a href="/taxa/Porella navicularis">P. navicularis</a>, with its wide underleaf, and <a href="/taxa/Porella cordaeana">P. cordaeana</a>, with its matte shoots. 
-
-<h2 id="habitat">Habitat</h2>
-
-Dry to mesic, shady rock outcrops, boulders, cliffs, tree trunks (esp. deciduous trees), and occasionally decayed wood, humus, and mineral soil in the lowland and montane zones; frequent in coastal BC, rare in c [Smithers area] and se BC.
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ An occasional species of exposed rocks, P. roelli is typically a yellow-brownish and glossy plant that has branches few and far between. From the underside with a hand lens, the underlobes are narrower than the underleaf (see photo). Many describe this species as having a "peppery" taste compared to other <a href="/taxa/Porella">Porella</a> species, though it should not be consumed. 
+
+ <h2 id="similar-species">Similar species</h2>
+
+ The typical rock habitat, glossy, little-branched shoots and narrow underleaves distinguish P. roellii from <a href="/taxa/Porella navicularis">P. navicularis</a>, with its wide underleaf, and <a href="/taxa/Porella cordaeana">P. cordaeana</a>, with its matte shoots. 
+
+ <h2 id="habitat">Habitat</h2>
+
+ Dry to mesic, shady rock outcrops, boulders, cliffs, tree trunks (esp. deciduous trees), and occasionally decayed wood, humus, and mineral soil in the lowland and montane zones; frequent in coastal BC, rare in c [Smithers area] and se BC.
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ Dry to mesic, shady rock outcrops, boulders, cliffs, tree trunks (esp. deciduous
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

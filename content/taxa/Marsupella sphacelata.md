@@ -1,7 +1,7 @@
 ---
 title: Marsupella sphacelata
 url: /taxa/Marsupella sphacelata
-image: "../img/XXXXXX"
+image: "../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_sphacelata&#x2F;macro_pics&#x2F;Marsupella_sphacelata-JR1.jpg"
 type: taxon
 categories:
   - Marchantiophyta
@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -70,30 +73,217 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_sphacelata&#x2F;macro_pics&#x2F;Marsupella_sphacelata-JR1.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;308436405" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Marsupella sphacelata photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1jj84ojjpBuryTFwCglo7r-g2DIO_QzGI" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_sphacelata&#x2F;macro_pics&#x2F;Marsupella_sphacelata-JR2.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;308436405" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Marsupella sphacelata photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1ArrzS8tkHUvkIR6KoZ9jRUgwvZBYSMPg" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_sphacelata&#x2F;macro_pics&#x2F;Marsupella_sphacelata-JR3.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;308436405" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Marsupella sphacelata photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1boRlQ0l4Cjz3CFX4dIMCJgJG4XbPihKf" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_sphacelata&#x2F;macro_pics&#x2F;Marsupella_sphacelata-CW1.jpg)">
+    <div class="imerss-image-copy"> © Connor Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;325140640" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Marsupella sphacelata photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;13neTaqeVi7oc3g8I5iguGAe7pongvB0t" title="Connor Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_sphacelata&#x2F;macro_pics&#x2F;Marsupella_sphacelata-CW2.jpg)">
+    <div class="imerss-image-copy"> © Connor Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;249433325" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Marsupella sphacelata photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1gt6XE6-tD0N8RbvBJdPrpYgd_QcN9xtG" title="Connor Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Gymnomitriaceae&#x2F;Marsupella_sphacelata&#x2F;macro_pics&#x2F;Marsupella_sphacelata-CW3.jpg)">
+    <div class="imerss-image-copy"> © Connor Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;127053691" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Marsupella sphacelata photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1VBi0Rjw8KHJnW0QFPl-cGIzZOp6FP6ER" title="Connor Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A reliable presence along subalpine drainages, M sphacelata is notable for its large, scorched purple leaves that are loosely arranged on long shoots that grow up to 7 cm long and 3 mm wide. The leaves are equally bilobed, the lobes rounded, sinus acute and margins plane. When fertile, antheridia and archegonia are found on separate plants (“dioicous”), not along the same shoot. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-There are other dark purple liverworts that can be found around subalpine drainage and on wet rock surfaces, but none of them have the large size and bilobed leaves of M. sphacelata. <a href="/taxa/Jungermannia exsertifolia">Jungermannia exsertifolia</a> is large and dark but typically aquatic in subalpine drainage and its leaves are simple, not bilobed as in <a href="/taxa/Marsupella sparsifolia">M. sparsifolia</a>. The similarly scorched <a href="/taxa/Marsupella sparsifolia">M. sparsifolia</a> can grow in the same habitat, but its shoots are smaller (~ 1mm wide) and it has antheridia and archegonia along the same shoots “paraoicous”), not on separate plants (“dioicous”) as they are in M. sphacelata. <a href="/taxa/Marsupella emarginata">M. emarginata</a> and <a href="/taxa/Marsupella aquatica">M. aquatica</a> can be similar in size, but have paler leaves firmly held at right angles to the stem with margins that curve downwards, whereas the margins in M. sphacelata are plane and are found on leaves that are held laxly.
+ A reliable presence along subalpine drainages, M sphacelata is notable for its large, scorched purple leaves that are loosely arranged on long shoots that grow up to 7 cm long and 3 mm wide. The leaves are equally bilobed, the lobes rounded, sinus acute and margins plane. When fertile, antheridia and archegonia are found on separate plants (“dioicous”), not along the same shoot. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet rock outcrops, cliffs, ledges, crevices, boulders, humus, snowbed sites, bogs, peatlands, and tundra in the montane, subalpine, and alpine zones
+ There are other dark purple liverworts that can be found around subalpine drainage and on wet rock surfaces, but none of them have the large size and bilobed leaves of M. sphacelata. <a href="/taxa/Jungermannia exsertifolia">Jungermannia exsertifolia</a> is large and dark but typically aquatic in subalpine drainage and its leaves are simple, not bilobed as in <a href="/taxa/Marsupella sparsifolia">M. sparsifolia</a>. The similarly scorched <a href="/taxa/Marsupella sparsifolia">M. sparsifolia</a> can grow in the same habitat, but its shoots are smaller (~ 1mm wide) and it has antheridia and archegonia along the same shoots “paraoicous”), not on separate plants (“dioicous”) as they are in M. sphacelata. <a href="/taxa/Marsupella emarginata">M. emarginata</a> and <a href="/taxa/Marsupella aquatica">M. aquatica</a> can be similar in size, but have paler leaves firmly held at right angles to the stem with margins that curve downwards, whereas the margins in M. sphacelata are plane and are found on leaves that are held laxly.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-Harpanthus flotovianus, <a href="/taxa/Scapania undulata">Scapania undulata</a>, SPhagnum sp. 
+ Moist to wet rock outcrops, cliffs, ledges, crevices, boulders, humus, snowbed sites, bogs, peatlands, and tundra in the montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ Harpanthus flotovianus, <a href="/taxa/Scapania undulata">Scapania undulata</a>, SPhagnum sp. 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -132,6 +322,13 @@ Harpanthus flotovianus, <a href="/taxa/Scapania undulata">Scapania undulata</a>,
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

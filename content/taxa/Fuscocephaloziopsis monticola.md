@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -264,22 +267,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-F. monticola is an infrequent species forming relatively dense albeit small turfs of stiff, compressed dark green shoots up to 3 mm wide along slopes in the high subalpine. Upclose, it has a succulent stem, leaves that are shallowly two-lobed or occasionally even three-lobed and underleaves can be present, though they are typically obscured by a dense set of hairs ("rhizoids"). Under the microscope, this species lacks oil bodies and can exhibit green, two-celled gemmae produced along young leaf tips at the shoot apex. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-On account of its large size and very compressed shoots, it is unlikely to be mistaken for any other member of <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>. In its habitat, however, it can coocur with species of Lophozia and Tritomaria that are superficially similair. Neither of these genera exhibit the dark green colour and deeply, symmetrically compressed shoots of F. monticola. 
+ F. monticola is an infrequent species forming relatively dense albeit small turfs of stiff, compressed dark green shoots up to 3 mm wide along slopes in the high subalpine. Upclose, it has a succulent stem, leaves that are shallowly two-lobed or occasionally even three-lobed and underleaves can be present, though they are typically obscured by a dense set of hairs ("rhizoids"). Under the microscope, this species lacks oil bodies and can exhibit green, two-celled gemmae produced along young leaf tips at the shoot apex. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet humus, seepage sites, streambanks, pool margins, snowbed sites, heath, and tundra in the subalpine and alpine zones; infrequent in southwest BC, rare elsewhere in coastal BC.
+ On account of its large size and very compressed shoots, it is unlikely to be mistaken for any other member of <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>. In its habitat, however, it can coocur with species of Lophozia and Tritomaria that are superficially similair. Neither of these genera exhibit the dark green colour and deeply, symmetrically compressed shoots of F. monticola. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet humus, seepage sites, streambanks, pool margins, snowbed sites, heath, and tundra in the subalpine and alpine zones; infrequent in southwest BC, rare elsewhere in coastal BC.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -318,6 +322,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

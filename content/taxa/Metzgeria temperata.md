@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-Typically tightly appressed to bark (especially vine maple), M. temperata is frequent in moist coastal microhabitats. The narrow, dull green thallus tapers towards its tip and is frequently fringed by tiny flaps of asexual gemmae. On the underside of the thallus, you should be able to make out solitary hairs along the margin.
-
-<h2 id="similar-species">Similar species</h2>
-
-When gemmae are present (almost always-- be sure to look around at the whole population), this is a distinct species. Young shoots can occasionally ape <a href="/taxa/Metzgeria conjugata">M. conjugata</a>, which can cooccur in the same habitat. With a hand lens inspection of the underside, the two can be seperated based on the hairs along the margins, which are solitary in M. temperata and paired in <a href="/taxa/Metzgeria conjugata">M. conjugata</a>.  
-
-<h2 id="habitat">Habitat</h2>
-
-Tree trunks (esp. alder, maple), shrub bases, and occasionally cliffs  in the lowland zone; rare in coastal BC.
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ Typically tightly appressed to bark (especially vine maple), M. temperata is frequent in moist coastal microhabitats. The narrow, dull green thallus tapers towards its tip and is frequently fringed by tiny flaps of asexual gemmae. On the underside of the thallus, you should be able to make out solitary hairs along the margin.
+
+ <h2 id="similar-species">Similar species</h2>
+
+ When gemmae are present (almost always-- be sure to look around at the whole population), this is a distinct species. Young shoots can occasionally ape <a href="/taxa/Metzgeria conjugata">M. conjugata</a>, which can cooccur in the same habitat. With a hand lens inspection of the underside, the two can be seperated based on the hairs along the margins, which are solitary in M. temperata and paired in <a href="/taxa/Metzgeria conjugata">M. conjugata</a>.  
+
+ <h2 id="habitat">Habitat</h2>
+
+ Tree trunks (esp. alder, maple), shrub bases, and occasionally cliffs  in the lowland zone; rare in coastal BC.
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Tree trunks (esp. alder, maple), shrub bases, and occasionally cliffs  in the lo
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

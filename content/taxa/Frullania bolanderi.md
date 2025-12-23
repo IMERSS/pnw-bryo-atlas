@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
-
-In seasonally water saturated environments, this infrequent, tiny but fiesty <a href="/taxa/Frullania">Frullania</a> is likely to be noticed on account of frilly little mm-scale shoots shooting out from light purple plants that are otherwise closely appressed to bark. Up close, the upper leaf segments are distantly spaced on extremely narrow shoots. These stand in contrast to the free shoots branching away from the substrate, which are modified into a whip-like appendage. 
-
-<h2 id="similar-species">Similar species</h2>
-
-No other species in the region has the whip-like "flagellate" shoots growing away from the substrate. The only <a href="/taxa/Frullania">Frullania</a> species approaching the size of F. bolanderi is <a href="/taxa/Frullania hattoriana">F. hattoriana</a>, which is a montane species that, again, lacks the specialized branchlets. 
-
-<h2 id="habitat">Habitat</h2>
-
-Tree trunks (esp. deciduous trees, Douglas-fir), branches, decayed wood, and occasionally rocks, humus, and mineral soil in the lowland zone; frequent in sw BC, rare in wc BC [Skeena R.].
-
-<h2 id="associated-species">Associated species</h2>
 
 
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
+ In seasonally water saturated environments, this infrequent, tiny but fiesty <a href="/taxa/Frullania">Frullania</a> is likely to be noticed on account of frilly little mm-scale shoots shooting out from light purple plants that are otherwise closely appressed to bark. Up close, the upper leaf segments are distantly spaced on extremely narrow shoots. These stand in contrast to the free shoots branching away from the substrate, which are modified into a whip-like appendage. 
+
+ <h2 id="similar-species">Similar species</h2>
+
+ No other species in the region has the whip-like "flagellate" shoots growing away from the substrate. The only <a href="/taxa/Frullania">Frullania</a> species approaching the size of F. bolanderi is <a href="/taxa/Frullania hattoriana">F. hattoriana</a>, which is a montane species that, again, lacks the specialized branchlets. 
+
+ <h2 id="habitat">Habitat</h2>
+
+ Tree trunks (esp. deciduous trees, Douglas-fir), branches, decayed wood, and occasionally rocks, humus, and mineral soil in the lowland zone; frequent in sw BC, rare in wc BC [Skeena R.].
+
+ <h2 id="associated-species">Associated species</h2>
+
+ 
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ Tree trunks (esp. deciduous trees, Douglas-fir), branches, decayed wood, and occ
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

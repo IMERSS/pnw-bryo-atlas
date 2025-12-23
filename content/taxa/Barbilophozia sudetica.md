@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -233,22 +236,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-With typically 2-3 lobed lateral leaves on green shoots that are often tinged with rusty pigments at their tips, B. sudecita is an anomalous member of the genus known from montane habitats where it tends to dwell in rock crevices and ledges in squat patches of horizontal leafy shoots up to 2 cm long and 2 mm wide. Close inspection with a hand lens reveals no underleaves, which in combination with the 2-to-3 shallow lobes with dull tips makes this unique among regional species in its genus. Brownish, angular and two-celled gemmae are often present at the lobe tips. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-The obliquely to subtransversely-inserted bilobed leaves put B. sudetica in league with a number of species of Lophozia, a genus into which it has been frequently lumped. Species of Lophozia (and Lophoziopsis) lack the reddish pigmentation and those that occur in the same subalpine habitats (L. wenzelii, Lophozia ventricosa) tend to dwell on organic substrates and/or bear green gemmae. B. sudetica has brown gemmae and grows amongst rocks. Harpanthus flotovianus and species of <a href="/taxa/Mesoptychia">Mesoptychia</a> can be similair in size and leaf form but again lack the reddish pigmentation and also possess underleaves that are absent in B. sudetica. <a href="/taxa/Schljakovia kunzeana">Schljakovia kunzeana</a> has very similair pigmentation to B. sudetica and inhabits the same montane rocky substrates, but it also has prominent underleaves that are visible with a hand lens. 
+ With typically 2-3 lobed lateral leaves on green shoots that are often tinged with rusty pigments at their tips, B. sudecita is an anomalous member of the genus known from montane habitats where it tends to dwell in rock crevices and ledges in squat patches of horizontal leafy shoots up to 2 cm long and 2 mm wide. Close inspection with a hand lens reveals no underleaves, which in combination with the 2-to-3 shallow lobes with dull tips makes this unique among regional species in its genus. Brownish, angular and two-celled gemmae are often present at the lobe tips. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Moist to wet, often shady humus, rock outcrops, boulders, cliffs, streambanks, waterfall spray zones, seepage sites, heath, and tundra in the upper montane, subalpine, and alpine zones
+ The obliquely to subtransversely-inserted bilobed leaves put B. sudetica in league with a number of species of Lophozia, a genus into which it has been frequently lumped. Species of Lophozia (and Lophoziopsis) lack the reddish pigmentation and those that occur in the same subalpine habitats (L. wenzelii, Lophozia ventricosa) tend to dwell on organic substrates and/or bear green gemmae. B. sudetica has brown gemmae and grows amongst rocks. Harpanthus flotovianus and species of <a href="/taxa/Mesoptychia">Mesoptychia</a> can be similair in size and leaf form but again lack the reddish pigmentation and also possess underleaves that are absent in B. sudetica. <a href="/taxa/Schljakovia kunzeana">Schljakovia kunzeana</a> has very similair pigmentation to B. sudetica and inhabits the same montane rocky substrates, but it also has prominent underleaves that are visible with a hand lens. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Moist to wet, often shady humus, rock outcrops, boulders, cliffs, streambanks, waterfall spray zones, seepage sites, heath, and tundra in the upper montane, subalpine, and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -287,6 +291,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

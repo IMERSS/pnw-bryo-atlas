@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -171,22 +174,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A miniscule red alpine plant that present as a flattened turf of dark red to purple wormy shoots about half of a millimeter wide, G. brevissimum requires a hand lens to make out any detail beyond colour. The leaves under a micrscope should show blunt to rounded apices and a rounded sinus, as well as plane margins. Plants are "paroicous", having antheridia and archegonia in seperate regions along the same shoots. The leaves are somewhat free from the stem, but they overlap closely with one another, giving the shoots the aforementioned wormy appearance. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-Red-hued species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a> are most likely to be mistaken for <a href="/taxa/Marsupella">Marsupella</a>. There are no cut and dried vegetative characters to distinguish between these two genera and reproductive structures used to traditionally seperate them are rarely present. Red species <a href="/taxa/Gymnomitrion">Gymnomitrion</a> should be checked against small red species of <a href="/taxa/Marsupella">Marsupella</a>. See table for comparison to other regional species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a>. 
+ A miniscule red alpine plant that present as a flattened turf of dark red to purple wormy shoots about half of a millimeter wide, G. brevissimum requires a hand lens to make out any detail beyond colour. The leaves under a micrscope should show blunt to rounded apices and a rounded sinus, as well as plane margins. Plants are "paroicous", having antheridia and archegonia in seperate regions along the same shoots. The leaves are somewhat free from the stem, but they overlap closely with one another, giving the shoots the aforementioned wormy appearance. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Dry to moist mineral soil, cliffs, rock outcrops, ledges, crevices, boulders, streambanks, snowbed sites, and tundra in the upper montane, subalpine and alpine zones
+ Red-hued species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a> are most likely to be mistaken for <a href="/taxa/Marsupella">Marsupella</a>. There are no cut and dried vegetative characters to distinguish between these two genera and reproductive structures used to traditionally seperate them are rarely present. Red species <a href="/taxa/Gymnomitrion">Gymnomitrion</a> should be checked against small red species of <a href="/taxa/Marsupella">Marsupella</a>. See table for comparison to other regional species of <a href="/taxa/Gymnomitrion">Gymnomitrion</a>. 
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-XXXXXX
+ Dry to moist mineral soil, cliffs, rock outcrops, ledges, crevices, boulders, streambanks, snowbed sites, and tundra in the upper montane, subalpine and alpine zones
 
+ <h2 id="associated-species">Associated species</h2>
+
+ XXXXXX
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -225,6 +229,13 @@ XXXXXX
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">

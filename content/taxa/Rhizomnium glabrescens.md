@@ -15,6 +15,7 @@ categories:
 <script defer src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
 <script defer src="../../js/records-map.js"></script>
 <script defer src="../../js/image-nav.js"></script>
+<script defer src="../../js/key-lightbox.js"></script>
 
 <link href="../../css/style-taxon.css" rel="stylesheet">
 
@@ -58,9 +59,11 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
+
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
+
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
@@ -168,22 +171,23 @@ categories:
 </div>
 
 
-<h2 id="distinguishing-features">Distinguishing Features</h2>
 
-A common yellowish-green to more often green moss that may grow in large clumps. When fresh with large, oval to near rounded leaves, shiny with a strong mid-vein and smooth margins. Has smooth red stems, and where present drooping sporophytes. When dry the leaves take on a darker green, more translucent habit. 
 
-<h2 id="similar-species">Similar species</h2>
+ <h2 id="distinguishing-features">Distinguishing Features</h2>
 
-<a href="/taxa/Plagiomnium">Plagiomnium</a> and Mnium are similar but they have toothed leaves. <a href="/taxa/Rhizomnium">Rhizomnium</a> magnifolium is the most similar but has hairy stems and bigger leaves.
+ A common yellowish-green to more often green moss that may grow in large clumps. When fresh with large, oval to near rounded leaves, shiny with a strong mid-vein and smooth margins. Has smooth red stems, and where present drooping sporophytes. When dry the leaves take on a darker green, more translucent habit. 
 
-<h2 id="habitat">Habitat</h2>
+ <h2 id="similar-species">Similar species</h2>
 
-Rotting wood, soil, and rock with thin soil, in coniferous forests, most frequently at low elevations but extending to near alpine. Common especially in coastal areas and also in wet interior regions.
+ <a href="/taxa/Plagiomnium">Plagiomnium</a> and Mnium are similar but they have toothed leaves. <a href="/taxa/Rhizomnium">Rhizomnium</a> magnifolium is the most similar but has hairy stems and bigger leaves.
 
-<h2 id="associated-species">Associated species</h2>
+ <h2 id="habitat">Habitat</h2>
 
-<a href="/taxa/Tetraphis pellucida">Tetraphis pellucida</a>, <a href="/taxa/Scapania bolanderi">Scapania bolanderi</a>, Pseudotaxaphyllum elegans, Plagiothecium undulatum
+ Rotting wood, soil, and rock with thin soil, in coniferous forests, most frequently at low elevations but extending to near alpine. Common especially in coastal areas and also in wet interior regions.
 
+ <h2 id="associated-species">Associated species</h2>
+
+ <a href="/taxa/Tetraphis pellucida">Tetraphis pellucida</a>, <a href="/taxa/Scapania bolanderi">Scapania bolanderi</a>, Pseudotaxaphyllum elegans, Plagiothecium undulatum
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -222,6 +226,13 @@ Rotting wood, soil, and rock with thin soil, in coniferous forests, most frequen
 </li>
 </ul>
 </div>
+</div>
+
+<!-- Modal for displaying character images from key -->
+<div id="imerss-key-imageModal" class="imerss-lightbox" style="display: none;">
+    <span class="close" onclick="imerss.closeKeyImage()">×</span>
+    <img class="lightbox-content">
+    <div class="caption">Oil bodies distinctly deep blue</div>
 </div>
 
 <script type="module">
