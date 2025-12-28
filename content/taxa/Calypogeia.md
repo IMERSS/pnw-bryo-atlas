@@ -83,7 +83,7 @@ categories:
 </div>
 
 <h2 id="key">Key</h2>
-<p className="key-instruction">
+<p class="key-instruction">
     <strong>How to use:</strong> Click on <span
     style="color:var(--key-link-color); border-bottom:1px dashed var(--key-link-color);">underlined features</span> to view
     character images. 

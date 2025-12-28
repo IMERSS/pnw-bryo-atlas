@@ -8340,7 +8340,7 @@
 &lt;a href=&#34;../../taxa/Calypogeia suecica&#34;&gt;Calypogeia suecica&lt;/a&gt;&lt;br/&gt;
 &lt;/div&gt;
 &lt;h2 id=&#34;key&#34;&gt;Key&lt;/h2&gt;
-&lt;p className=&#34;key-instruction&#34;&gt;
+&lt;p class=&#34;key-instruction&#34;&gt;
     &lt;strong&gt;How to use:&lt;/strong&gt; Click on &lt;span
     style=&#34;color:var(--key-link-color); border-bottom:1px dashed var(--key-link-color);&#34;&gt;underlined features&lt;/span&gt; to view
     character images. 

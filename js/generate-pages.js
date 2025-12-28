@@ -256,7 +256,7 @@ const makeTaxonLookup = allRendered => {
     return lookup;
 };
 
-const keyInstruction = `<p className="key-instruction">
+const keyInstruction = `<p class="key-instruction">
     <strong>How to use:</strong> Click on <span
     style="color:var(--key-link-color); border-bottom:1px dashed var(--key-link-color);">underlined features</span> to view
     character images. 
