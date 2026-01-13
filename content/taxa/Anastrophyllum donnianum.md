@@ -209,15 +209,15 @@ categories:
 
  <h2 id="distinguishing-features">Distinguishing Features</h2>
 
- XXXXXX
+ A dark, red-brown, carpet forming liverwort, A. donnianum is regionally anomalous on account of having long, wide-spreading leaves that are only shallowly notched; the two lobes are seperated by a sinus that is less than 1/8th of the leaf's length. Leafy shoots are up to 10 cm long and 4 mm wide, the leaves appearing as though attached across the width of the stem. Close inspection with a hand lens shows leaf tissues running down the length of the stem on the upper surface ("decurrent") and attaching at a slightly oblique angle on the lower surface. Underleaves and gemmae are absent and the concave leaves have a tendency to orient themselves to one side of the stem ("secund"). 
 
  <h2 id="similar-species">Similar species</h2>
 
- XXXXXX
+ No other regional species of <a href="/taxa/Anastrophyllum">Anastrophyllum</a> has such shallowly lobed leaves. <a href="/taxa/Barbilophozia">Barbilophozia</a> kunzeana can grow in the same habitats and has short lobes, but underleaves are present in that species and absent in <a href="/taxa/Anastrophyllum">Anastrophyllum</a> donnianum. 
 
  <h2 id="habitat">Habitat</h2>
 
- XXXXXX
+ Moist to wet humus, rock outcrops, cliffs, seepage sites, bogs, fens, heath, and tundra in the lowland, montane, subalpine, and alpine zones; infrequent in coastal BC [Haida Gwaii, north coast].
 
  <h2 id="associated-species">Associated species</h2>
 
@@ -234,7 +234,7 @@ categories:
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>XXXXXX</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 30, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

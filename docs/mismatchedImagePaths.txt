@@ -1,4 +1,4 @@
-There were 16 images in the spreadsheet whose paths mismatched the Drive:
+There were 60 images in the spreadsheet whose paths mismatched the Drive:
 [
   {
     "file": "Liverworts/Scapaniaceae/Barbilophozia_lycopodioides/macro_pics/Barbilophozia_lycopodioides_CF_01.jpg",
@@ -19,6 +19,21 @@ There were 16 images in the spreadsheet whose paths mismatched the Drive:
     "file": "Liverworts/Cephaloziellaceae/Cephaloziella_turneri/FertileShootsCFCephTurn.jpg'",
     "taxon": "Cephaloziella turneri",
     "column": "insetPhoto4"
+  },
+  {
+    "file": "Liverworts/Lejeuneaceae/Cololejenea_macounii/macro_pics/Cololejeunea_macounii_JR_02.jpg",
+    "taxon": "Cololejeunea macounii",
+    "column": "insetPhoto4"
+  },
+  {
+    "file": "Liverworts/Lejeuneaceae/Cololejenea_macounii/macro_pics/Cololejeunea_macounii_AH_01.jpg",
+    "taxon": "Cololejeunea macounii",
+    "column": "insetPhoto5"
+  },
+  {
+    "file": "Liverworts/Lejeuneaceae/Cololejenea_macounii/macro_pics/Cololejeunea_macounii_DT_03.jpg",
+    "taxon": "Cololejeunea macounii",
+    "column": "insetPhoto6"
   },
   {
     "file": "Liverworts/Scapaniaceae/Diplophyllum_albicans/macro_pics/Diplophyllum_albicans_DT_01.jpeg'",
@@ -79,5 +94,210 @@ There were 16 images in the spreadsheet whose paths mismatched the Drive:
     "file": "Liverworts/Scapaniaceae/scapania_apiculata_stature_ventral_side.ome.jpeg",
     "taxon": "Scapania apiculata",
     "column": "insetPhoto4"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Trilophozia_quinquedentata/macro_pics/Trilophozia_quinquedentata-JR1.jpg",
+    "taxon": "Trilophozia quinquedentata",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Trilophozia_quinquedentata/macro_pics/Trilophozia_quinquedentata-JR2.jpg",
+    "taxon": "Trilophozia quinquedentata",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Trilophozia_quinquedentata/macro_pics/Trilophozia_quinquedentata-JR3.jpg",
+    "taxon": "Trilophozia quinquedentata",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Trilophozia_quinquedentata/macro_pics/Trilophozia_quinquedentata-DBLT1jpg.jpg",
+    "taxon": "Trilophozia quinquedentata",
+    "column": "insetPhoto4"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Trilophozia_quinquedentata/macro_pics/Trilophozia_quinquedentata-DBLT2jpg.jpg",
+    "taxon": "Trilophozia quinquedentata",
+    "column": "insetPhoto5"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Trilophozia_quinquedentata/macro_pics/Trilophozia_quinquedentata-AS1.jpg",
+    "taxon": "Trilophozia quinquedentata",
+    "column": "insetPhoto6"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsecta/macro_pics/Tritomaria_exsecta-JR1.jpg",
+    "taxon": "Tritomaria exsecta",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsecta/macro_pics/Tritomaria_exsecta-JR3.jpg",
+    "taxon": "Tritomaria exsecta",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsecta/macro_pics/Tritomaria_exsecta-AH1.jpg",
+    "taxon": "Tritomaria exsecta",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsecta/macro_pics/Tritomaria_exsecta-AH2.jpg",
+    "taxon": "Tritomaria exsecta",
+    "column": "insetPhoto4"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsecta/macro_pics/Tritomaria_exsecta-CW1.jpg",
+    "taxon": "Tritomaria exsecta",
+    "column": "insetPhoto5"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsecta/macro_pics/Tritomaria_exsecta-JR2.jpg",
+    "taxon": "Tritomaria exsecta",
+    "column": "insetPhoto6"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsectiformis/macro_pics/Tritomaria_exsectiformis-JC1.jpeg",
+    "taxon": "Tritomaria exsectiformis",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsectiformis/macro_pics/Tritomaria_exsectiformis-JC2.jpeg",
+    "taxon": "Tritomaria exsectiformis",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsectiformis/macro_pics/Tritomaria_exsectiformis-RM1jpeg.jpeg",
+    "taxon": "Tritomaria exsectiformis",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsectiformis/macro_pics/Tritomaria_exsectiformis-CW1jpeg.jpeg",
+    "taxon": "Tritomaria exsectiformis",
+    "column": "insetPhoto4"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_exsectiformis/macro_pics/Tritomaria_exsectiformis-JC3.jpeg",
+    "taxon": "Tritomaria exsectiformis",
+    "column": "insetPhoto5"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_polita/macro_pics/Tritomaria_polita-MR1.jpg",
+    "taxon": "Tritomaria polita",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_polita/macro_pics/Tritomaria_polita-MR3.jpg",
+    "taxon": "Tritomaria polita",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_polita/macro_pics/Tritomaria_polita-MR2.jpg",
+    "taxon": "Tritomaria polita",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_scitula/macro_pics/Tritomaria_scitula-CW1.jpeg",
+    "taxon": "Tritomaria scitula",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_scitula/macro_pics/Tritomaria_scitula-CW2.jpeg",
+    "taxon": "Tritomaria scitula",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_scitula/macro_pics/Tritomaria_scitula-CW3.jpeg",
+    "taxon": "Tritomaria scitula",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_scitula/macro_pics/Tritomaria_scitula-FM1.jpeg",
+    "taxon": "Tritomaria scitula",
+    "column": "insetPhoto4"
+  },
+  {
+    "file": "Liverworts/Scapaniaceae/Tritomaria_scitula/macro_pics/Tritomaria_scitula-FM2.jpeg",
+    "taxon": "Tritomaria scitula",
+    "column": "insetPhoto5"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Paraphymatoceros_pearsonii/macro_pics/Paraphymatoceros_pearsonii-CW1.jpeg",
+    "taxon": "Paraphymatoceros pearsonii",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Paraphymatoceros_pearsonii/macro_pics/Paraphymatoceros_pearsonii-CW2.jpeg",
+    "taxon": "Paraphymatoceros pearsonii",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Paraphymatoceros_pearsonii/macro_pics/Paraphymatoceros_pearsonii-CW3.jpeg",
+    "taxon": "Paraphymatoceros pearsonii",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Paraphymatoceros_pearsonii/macro_pics/Paraphymatoceros_pearsonii-RM1.jpeg",
+    "taxon": "Paraphymatoceros pearsonii",
+    "column": "insetPhoto4"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Paraphymatoceros_pearsonii/macro_pics/Paraphymatoceros_pearsonii-DBLT1.jpeg",
+    "taxon": "Paraphymatoceros pearsonii",
+    "column": "insetPhoto5"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Paraphymatoceros_pearsonii/macro_pics/Paraphymatoceros_pearsonii-BMS1.jpeg",
+    "taxon": "Paraphymatoceros pearsonii",
+    "column": "insetPhoto6"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Phaeoceros_oreganus/macro_pics/Phaeoceros_oreganus-BMS1.jpeg",
+    "taxon": "Phaeoceros oreganus",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Phaeoceros_oreganus/macro_pics/Phaeoceros_oreganus-BMS2.jpeg",
+    "taxon": "Phaeoceros oreganus",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Phaeoceros_oreganus/macro_pics/Phaeoceros_oreganus-DBLT1.jpeg",
+    "taxon": "Phaeoceros oreganus",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Phaeoceros_oreganus/macro_pics/Phaeoceros_oreganus-BJ1.jpeg",
+    "taxon": "Phaeoceros oreganus",
+    "column": "insetPhoto4"
+  },
+  {
+    "file": "Hornworts/Notothyladaceae/Phaeoceros_oreganus/macro_pics/Phaeoceros_oreganus-RM5.jpeg",
+    "taxon": "Phaeoceros oreganus",
+    "column": "insetPhoto5"
+  },
+  {
+    "file": "Hornworts/Phymatocerotaceae/Phymatoceros_bulbiculosus/macro_pics/Phymatoceros_bulbiculosus-AS1.jpeg",
+    "taxon": "Phymatoceros bulbiculosus",
+    "column": "insetPhoto1"
+  },
+  {
+    "file": "Hornworts/Phymatocerotaceae/Phymatoceros_bulbiculosus/macro_pics/Phymatoceros_bulbiculosus-AS2.jpeg",
+    "taxon": "Phymatoceros bulbiculosus",
+    "column": "insetPhoto2"
+  },
+  {
+    "file": "Hornworts/Phymatocerotaceae/Phymatoceros_bulbiculosus/macro_pics/Phymatoceros_bulbiculosus-FM1.jpeg",
+    "taxon": "Phymatoceros bulbiculosus",
+    "column": "insetPhoto3"
+  },
+  {
+    "file": "Hornworts/Phymatocerotaceae/Phymatoceros_bulbiculosus/macro_pics/Phymatoceros_bulbiculosus-RM1.jpeg",
+    "taxon": "Phymatoceros bulbiculosus",
+    "column": "insetPhoto4"
+  },
+  {
+    "file": "Hornworts/Phymatocerotaceae/Phymatoceros_bulbiculosus/macro_pics/Phymatoceros_bulbiculosus-DBLT1.jpeg",
+    "taxon": "Phymatoceros bulbiculosus",
+    "column": "insetPhoto5"
   }
 ]

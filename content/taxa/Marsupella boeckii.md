@@ -85,11 +85,11 @@ categories:
 
  <h2 id="distinguishing-features">Distinguishing Features</h2>
 
- XXXXXX
+ A thread-like alpine plant that grows in tiny, loose and horizontal mats over rock ledges and bases, M. boeckii has pale green to reddish brown leafy shoots roughly .5 mm wide and up to 1 or 2 cm long. Up close, the leaves are distantly spaced, symmetrically bilobed, the lobe tips variably sharp or blunt and divided by a V-shaped sinus that descends about 1/4-to-1/3 of the leaf's length. These plants are "dioicous", so fertile shoots bearing antheridia are on seperate plants than those that bear archegonia and developing sporophytes. Fertile plants are frequent and show leaves increasing in size towards the shoot tips.
 
  <h2 id="similar-species">Similar species</h2>
 
- XXXXXX
+ The tiny thread-like shoots could be mistaken for <a href="/taxa/Cephaloziella">Cephaloziella</a> species. Confident distinction of M. boeckii requires examination of fresh leaves under the microscope to see the oil bodies. In M. boeckii, the oil bodies are large and few, while in <a href="/taxa/Cephaloziella">Cephaloziella</a> species, they are numerous and small. Within the genus <a href="/taxa/Marsupella">Marsupella</a>, only <a href="/taxa/Marsupella stableri">M. stableri</a> has distant leaves on tiny shoots as in M. boeckii. The two can be found in the same habitat, but leaves on the former are tightly pressed against the stem, while in the latter they are free from the stem.
 
  <h2 id="habitat">Habitat</h2>
 

@@ -273,7 +273,7 @@ categories:
 
  <h2 id="similar-species">Similar species</h2>
 
- 
+ No other complex thallose liverwort has sporophytes produced in seed-like structures that emerge from the underside at the tip of the thallus. 
 
  <h2 id="habitat">Habitat</h2>
 

@@ -1,7 +1,7 @@
 ---
 title: Phymatoceros bulbiculosus
 url: /taxa/Phymatoceros bulbiculosus
-image: "../img/xxxxxx"
+image: "../img/Hornworts&#x2F;Phymatocerotaceae&#x2F;Phymatoceros_bulbiculosus&#x2F;macro_pics&#x2F;Phymatoceros_bulbiculosus-AS1.jpeg"
 type: taxon
 categories:
   - Anthocerotophyta

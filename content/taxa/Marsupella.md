@@ -72,7 +72,6 @@ categories:
 
 <h2 id="taxon-links">Species in this genus</h2>
 <div class="taxon-links">
-<a href="/taxa/Marsupella apiculata">Marsupella apiculata</a><br/>
 <a href="/taxa/Marsupella aquatica">Marsupella aquatica</a><br/>
 <a href="/taxa/Marsupella boeckii">Marsupella boeckii</a><br/>
 <a href="/taxa/Marsupella condensata">Marsupella condensata</a><br/>

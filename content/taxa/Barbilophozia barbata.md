@@ -243,7 +243,7 @@ categories:
 
  <h2 id="similar-species">Similar species</h2>
 
- Species of Tritomaria typically have 3 lobes that are not symmetrical and the shoots are reclined. In <a href="/taxa/Barbilophozia">Barbilophozia</a> barbata, leaves are symmetrical with occasionally 3 but predominantly 4 lobes and the shoots are upright. <a href="/taxa/Neoorthocaulis">Neoorthocaulis</a> floerkii can have 4 symmetrical lobes, but it also has a prominent underleaf that is absent in B. barbata. Within the genus <a href="/taxa/Barbilophozia">Barbilophozia</a>, <a href="/taxa/Barbilophozia hatcheri">B. hatcheri</a> is laden with red gemmae gemmae that are absent in B. barbata. <a href="/taxa/Barbilophozia lycopodioides">B. lycopodioides</a> is similair in stature to B. barbata, but its leaf lobes are tipped by a little spine, whereas the leaf lobes in B. barbata lack said spine. 
+ Species of <a href="/taxa/Tritomaria">Tritomaria</a> typically have 3 lobes that are not symmetrical and the shoots are reclined. In <a href="/taxa/Barbilophozia">Barbilophozia</a> barbata, leaves are symmetrical with occasionally 3 but predominantly 4 lobes and the shoots are upright. <a href="/taxa/Neoorthocaulis">Neoorthocaulis</a> floerkii can have 4 symmetrical lobes, but it also has a prominent underleaf that is absent in B. barbata. Within the genus <a href="/taxa/Barbilophozia">Barbilophozia</a>, <a href="/taxa/Barbilophozia hatcheri">B. hatcheri</a> is laden with red gemmae gemmae that are absent in B. barbata. <a href="/taxa/Barbilophozia lycopodioides">B. lycopodioides</a> is similair in stature to B. barbata, but its leaf lobes are tipped by a little spine, whereas the leaf lobes in B. barbata lack said spine. 
 
  <h2 id="habitat">Habitat</h2>
 

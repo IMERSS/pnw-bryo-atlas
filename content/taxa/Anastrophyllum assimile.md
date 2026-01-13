@@ -209,19 +209,19 @@ categories:
 
  <h2 id="distinguishing-features">Distinguishing Features</h2>
 
- XXXXXX
+ A dark blackish two-lobed species of wet rocks, where it weaves through other bryophytes (especially around falls), A. assimile shows has leafy shoots up to 3 cm long and less than 1.5 mm wide. The distantly-spaced leaves are attached obliquely along the stem and have symmetrical lobes that are seperated by a sinus that descends down to about 1/2 the leaf's length or less. Like most members of its genus, A. assimile has leaves that tend to orient themselves to one side of the shoot ("secund").
 
  <h2 id="similar-species">Similar species</h2>
 
- XXXXXX
+ Species of <a href="/taxa/Marsupella">Marsupella</a> can grow in the same habitat and show the same dark colours on equally two-lobed leaves, but in n that genus, the leaves are attached across the stem and point upwards, while in A. assimilei, the leaves are attached obliquely (at least on the back of the stem) and point to one side of the stem. <a href="/taxa/Sphenolobus minutus">Sphenolobus minutus</a>, which can grow in the same habitat, has yellow or green shoots, never blackish as in A. assimile. <a href="/taxa/Anastrophyllum michauxii">A. michauxii</a> is very similair and can only be distinguished based on the length of the cells at the base of the leaves. In that species, they are less than twice as long as they are wide, while in A. assimile, they are more than twice as long as wide. 
 
  <h2 id="habitat">Habitat</h2>
 
- XXXXXX
+ Moist to wet rock outcrops, boulders, cliffs, and talus slopes in the lowland, montane, subalpine, and alpine zones; locally frequent in coastal BC [including Haida Gwaii], infrequent in northwest and southwest BC, rare in southeast BC [Rocky Mountains.].
 
  <h2 id="associated-species">Associated species</h2>
 
- XXXXXX
+ Blindia acuta, <a href="/taxa/Scapania undulata">Scapania undulata</a>, <a href="/taxa/Marsupella emarginata">Marsupella emarginata</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -234,7 +234,7 @@ categories:
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>June 17, 2025</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>December 30, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

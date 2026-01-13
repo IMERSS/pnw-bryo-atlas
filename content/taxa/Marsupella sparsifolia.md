@@ -213,7 +213,7 @@ categories:
 
  <h2 id="similar-species">Similar species</h2>
 
- XXXXXX
+ The dark, scorched, bilobed leaves that are free from the stem puts this species in league with <a href="/taxa/Marsupella sphacelata">Marsupella sphacelata</a>. That species, however, has leaf lobe apices that are rounded, whereas in M. sparsifolia, the leaf lobe apices are acute. 
 
  <h2 id="habitat">Habitat</h2>
 

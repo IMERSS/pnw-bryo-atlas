@@ -209,19 +209,19 @@ categories:
 
  <h2 id="distinguishing-features">Distinguishing Features</h2>
 
- XXXXXX
+ Under dwarf conifers, this erect, two lobed leafy liverwort is unmistakeable when adorned with its characteristic red gemmae. Shoots stand erect to 5 cm tall bearing golden yellow-green leaves that are distantly spaced, wider than long and with slightly asymmetrical lobes that are blunt at their tips. Underleaves are absent and under the microscope, gemmae are angular and two-celled.
 
  <h2 id="similar-species">Similar species</h2>
 
- XXXXXX
+ The erect stature, red gemmae and broad, two-lobed leaves set <a href="/taxa/Anastrepta">Anastrepta</a> orcadensis apart from almost all other regional leafy liverwort species. Species of <a href="/taxa/Tritomaria">Tritomaria</a> have red gemmae but are three-lobed. Red-gemmaed species of Lophozia grow horizontally, not erect as in A. orcadensis. 
 
  <h2 id="habitat">Habitat</h2>
 
- XXXXXX
+ Moist to wet humus, rock outcrops, ledges, cliffs, depressions, seepage sites, bogs, waterfall spray zones, streambanks, and tundra in the lowland, montane, and subalpine zones; infrequent of open coast of BC [Haida Gwaii, north coast].
 
  <h2 id="associated-species">Associated species</h2>
 
- XXXXXX
+ Macrodiplophylum plicatum, <a href="/taxa/Scapania bolanderi">Scapania bolanderi</a>, <a href="/taxa/Rhytidiadelphus loreus">Rhytidiadelphus loreus</a>, <a href="/taxa/Metzgeria leptoneura">Metzgeria leptoneura</a>
 
  <h2 id="distribution-map">Distribution Map</h2>
 
@@ -234,7 +234,7 @@ categories:
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>June 17, 2025</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>December 28, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>

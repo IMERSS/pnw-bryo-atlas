@@ -178,7 +178,7 @@ categories:
 
  <h2 id="distinguishing-features">Distinguishing Features</h2>
 
- XXXXXX
+ 
 
  <h2 id="similar-species">Similar species</h2>
 

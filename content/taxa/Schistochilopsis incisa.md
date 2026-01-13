@@ -190,7 +190,7 @@ categories:
 
  <h2 id="associated-species">Associated species</h2>
 
- XXXXXX
+ <a href="/taxa/Cephalozia bicuspidata">Cephalozia bicuspidata</a>, <a href="/taxa/Scapania">Scapania</a> sp., Lophozia sp. 
 
  <h2 id="distribution-map">Distribution Map</h2>
 

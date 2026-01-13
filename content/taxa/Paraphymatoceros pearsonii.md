@@ -1,7 +1,7 @@
 ---
 title: Paraphymatoceros pearsonii
 url: /taxa/Paraphymatoceros pearsonii
-image: "../img/XXXXX"
+image: "../img/Hornworts&#x2F;Notothyladaceae&#x2F;Paraphymatoceros_pearsonii&#x2F;macro_pics&#x2F;Paraphymatoceros_pearsonii-CW1.jpeg"
 type: taxon
 categories:
   - Anthocerotophyta

@@ -275,7 +275,7 @@ categories:
 
  <h2 id="similar-species">Similar species</h2>
 
- Species of Tritomaria typically have 3 lobes that are not symmetrical and the shoots are reclined. In <a href="/taxa/Barbilophozia">Barbilophozia</a> hatcheri, leaves are symmetrical with occasionally 3 but predominantly 4 lobes and the shoots are upright. <a href="/taxa/Neoorthocaulis">Neoorthocaulis</a> floerkii can have 4 symmetrical lobes, but it also has a prominent underleaf that is absent in B. hatcheri. Within the genus <a href="/taxa/Barbilophozia">Barbilophozia</a>, there is no other species so reliably laden with red gemmae. 
+ Species of <a href="/taxa/Tritomaria">Tritomaria</a> typically have 3 lobes that are not symmetrical and the shoots are reclined. In <a href="/taxa/Barbilophozia">Barbilophozia</a> hatcheri, leaves are symmetrical with occasionally 3 but predominantly 4 lobes and the shoots are upright. <a href="/taxa/Neoorthocaulis">Neoorthocaulis</a> floerkii can have 4 symmetrical lobes, but it also has a prominent underleaf that is absent in B. hatcheri. Within the genus <a href="/taxa/Barbilophozia">Barbilophozia</a>, there is no other species so reliably laden with red gemmae. 
 
  <h2 id="habitat">Habitat</h2>
 

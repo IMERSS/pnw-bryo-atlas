@@ -275,7 +275,7 @@ categories:
 
  <h2 id="similar-species">Similar species</h2>
 
- On account of its large size and very compressed shoots, it is unlikely to be mistaken for any other member of <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>. In its habitat, however, it can coocur with species of Lophozia and Tritomaria that are superficially similair. Neither of these genera exhibit the dark green colour and deeply, symmetrically compressed shoots of F. monticola. 
+ On account of its large size and very compressed shoots, it is unlikely to be mistaken for any other member of <a href="/taxa/Cephaloziaceae">Cephaloziaceae</a>. In its habitat, however, it can coocur with species of Lophozia and <a href="/taxa/Tritomaria">Tritomaria</a> that are superficially similair. Neither of these genera exhibit the dark green colour and deeply, symmetrically compressed shoots of F. monticola. 
 
  <h2 id="habitat">Habitat</h2>
 

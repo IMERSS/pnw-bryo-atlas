@@ -1,7 +1,7 @@
 ---
 title: Phaeoceros oreganus
 url: /taxa/Phaeoceros oreganus
-image: "../img/XXXXX"
+image: "../img/Hornworts&#x2F;Notothyladaceae&#x2F;Phaeoceros_oreganus&#x2F;macro_pics&#x2F;Phaeoceros_oreganus-BMS1.jpeg"
 type: taxon
 categories:
   - Anthocerotophyta

@@ -50,12 +50,21 @@ downloadGdriveFolder <- function (id, file_path, skip_if_exists = TRUE, type = "
         # i_dir = drive_ls(files[i, ])
       }
       else {
-        
+        driveDownloadArgs <- list(
+          file = as_id(files$id[i]),
+          path = target,
+          overwrite = !skip_if_exists
+        )
+        if (resource$mimeType == "application/vnd.google-apps.spreadsheet") {
+          driveDownloadArgs$type <- type
+          target <- str_c(target, ".csv")
+        }
+        wg("Got resource with type {resource$mimeType}")
         try({
           if (file.exists(target)) {
             wg("File {target} already exists, skipping download")
           } else {
-            drive_download(as_id(files$id[i]), path = target, type = type, overwrite = !skip_if_exists)
+            do.call(drive_download, driveDownloadArgs)
           } 
         })
       }

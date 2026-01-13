@@ -221,7 +221,7 @@ categories:
 
  <h2 id="associated-species">Associated species</h2>
 
- <a href="/taxa/Barbilophozia hatcheri">Barbilophozia hatcheri</a>, <a href="/taxa/Schljakovia kunzeana">Schljakovia kunzeana</a>, <a href="/taxa/Schljakovianthus quadrilobus">Schljakovianthus quadrilobus</a>, <a href="/taxa/Dicranum">Dicranum</a> spp., <a href="/taxa/Cephalozia bicuspidata">Cephalozia bicuspidata</a>, <a href="/taxa/Gymnomitrion obtusum">Gymnomitrion obtusum</a>, <a href="/taxa/Mylia taylorii">Mylia taylorii</a>, Sphagnum spp., Ptilidium ciliare, <a href="/taxa/Scapania americana">Scapania americana</a>, Tritomaria quinquedentata
+ <a href="/taxa/Barbilophozia hatcheri">Barbilophozia hatcheri</a>, <a href="/taxa/Schljakovia kunzeana">Schljakovia kunzeana</a>, <a href="/taxa/Schljakovianthus quadrilobus">Schljakovianthus quadrilobus</a>, <a href="/taxa/Dicranum">Dicranum</a> spp., <a href="/taxa/Cephalozia bicuspidata">Cephalozia bicuspidata</a>, <a href="/taxa/Gymnomitrion obtusum">Gymnomitrion obtusum</a>, <a href="/taxa/Mylia taylorii">Mylia taylorii</a>, Sphagnum spp., Ptilidium ciliare, <a href="/taxa/Scapania americana">Scapania americana</a>, <a href="/taxa/Tritomaria">Tritomaria</a> quinquedentata
 
  <h2 id="distribution-map">Distribution Map</h2>
 

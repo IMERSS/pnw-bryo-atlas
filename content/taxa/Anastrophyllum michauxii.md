@@ -178,15 +178,15 @@ categories:
 
  <h2 id="distinguishing-features">Distinguishing Features</h2>
 
- XXXXXX
+ The brown-purple, equally two-lobed leaves of A. michauxii sweep to one side of the stem but appear to be attached across the width of the shoots. A plant of wet, northern parts of the Pacific Northwest, it has carpet-forming shoots up to 5 cm long and 2 mm wide, the leaves with two equal lobes seperated by a sinus that descends up to one-half of the leaf's length . Underleaves are absent, gemmae are occasionally present and sporophytes are unknown in the region. Confident identification requires microscopic examination of the leaves to measure the cells at their base-- they should be less than two times longer than wide. 
 
  <h2 id="similar-species">Similar species</h2>
 
- XXXXXX
+ Species of <a href="/taxa/Marsupella">Marsupella</a> can grow in the same habitat and show the same dark colours on equally two-lobed leaves, but in n that genus, the leaves are attached across the stem and point upwards, while in A. michauxii, the leaves are attached obliquely (at least on the back of the stem) and point to one side of the stem. <a href="/taxa/Sphenolobus minutus">Sphenolobus minutus</a>, which can grow in the same habitat, has yellow or green shoots, never blackish as in A. michauxii. <a href="/taxa/Anastrophyllum assimile">A. assimile</a> is very similair and can only be distinguished based on the length of the cells at the base of the leaves. In that species, they are more than twice as long as they are wide, while in A. michauxii, they are less than twice as long as wide. 
 
  <h2 id="habitat">Habitat</h2>
 
- XXXXXX
+ Moist to mesic humus, rock outcrops, boulders, cliffs, decayed wood, heath, and tundra in the montane, subalpine, and alpine zones; rare in northwest and southeast BC. 
 
  <h2 id="associated-species">Associated species</h2>
 
@@ -203,7 +203,7 @@ categories:
 
 <div class="taxon-footer">
  <div class="taxon-authors"><b>Authors:</b> <span></span></div>
- <div class="taxon-update"><b>Last updated:</b> <span>XXXXXX</span></div>
+ <div class="taxon-update"><b>Last updated:</b> <span>Dec 30, 2025</span></div>
 </div>
 
 <h2 id="relevant-literature">Relevant Literature</h2>
