@@ -72,11 +72,197 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Trilophozia_quinquedentata&#x2F;macro_pics&#x2F;Trilophozia_quinquedentata-JR1.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;177347075" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Trilophozia quinquedentata photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1mjK4jZYIzzIJCwiScWr-qd0sycBLMyda" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Trilophozia_quinquedentata&#x2F;macro_pics&#x2F;Trilophozia_quinquedentata-JR2.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;177347075" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Trilophozia quinquedentata photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;11h9w0oBFZMfF712ektUO46J5obJxAVn4" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Trilophozia_quinquedentata&#x2F;macro_pics&#x2F;Trilophozia_quinquedentata-JR3.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;177347075" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Trilophozia quinquedentata photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1ruvbnff5HcJ21NhqKKq5gtlj-yg5ZeHR" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Trilophozia_quinquedentata&#x2F;macro_pics&#x2F;Trilophozia_quinquedentata-DBLT1jpg.jpg)">
+    <div class="imerss-image-copy"> © Dan Tucker</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;216457357" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Trilophozia quinquedentata photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1rNx9R70FL9007Ab63fjSvw-z1iNpkpuc" title="Dan Tucker" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Trilophozia_quinquedentata&#x2F;macro_pics&#x2F;Trilophozia_quinquedentata-DBLT2jpg.jpg)">
+    <div class="imerss-image-copy"> © Dan Tucker</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;216457357" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Trilophozia quinquedentata photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Ydgn3Lo6KSFZmPk4OzeXkh6Z069fxwyb" title="Dan Tucker" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Trilophozia_quinquedentata&#x2F;macro_pics&#x2F;Trilophozia_quinquedentata-AS1.jpg)">
+    <div class="imerss-image-copy"> © Adam Storey</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;228762380" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Trilophozia quinquedentata photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1K2vBqr8Q8DYfM_d8499pZu9Q7YxFsRre" title="Adam Storey" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 

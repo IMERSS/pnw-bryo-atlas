@@ -138,8 +138,101 @@ categories:
       </div>
   </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Lejeuneaceae&#x2F;Cololejenea_macounii&#x2F;macro_pics&#x2F;Cololejeunea_macounii_JR_02.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;288681527" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Cololejeunea macounii photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1_ROR0aTzhQVz_j42r50bZEj1Ojkd1IJm" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Lejeuneaceae&#x2F;Cololejenea_macounii&#x2F;macro_pics&#x2F;Cololejeunea_macounii_AH_01.jpg)">
+    <div class="imerss-image-copy"> © Abby Hyde</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;289592784" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Cololejeunea macounii photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1AdVpqvv6ncs1M0BKc1csudhgrYvNsC9c" title="Abby Hyde" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Lejeuneaceae&#x2F;Cololejenea_macounii&#x2F;macro_pics&#x2F;Cololejeunea_macounii_DT_03.jpg)">
+    <div class="imerss-image-copy"> © Dan Tucker</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;184639164" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Cololejeunea macounii photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1afzu_30OQEudCj-7yfIafTyrw6hk9OZQ" title="Dan Tucker" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 

@@ -1,5 +1,5 @@
 "gbifID","species","basisOfRecord","date","year","decimalLatitude","decimalLongitude"
-"1987891671","Syntrichia papillosa","Herbarium record",2010-04-20,"2010","49.23","-123.05"
-"4413972770","Syntrichia papillosa","iNat record",2023-05-07,"2023","49.442051","-124.17086"
 "4112206117","Syntrichia papillosa","iNat record",2023-05-06,"2023","49.459351","-124.295418"
+"4413972770","Syntrichia papillosa","iNat record",2023-05-07,"2023","49.442051","-124.17086"
 "4465512104","Syntrichia papillosa","iNat record",2023-05-06,"2023","49.459534","-124.294212"
+"1987891671","Syntrichia papillosa","Herbarium record",2010-04-20,"2010","49.23","-123.05"

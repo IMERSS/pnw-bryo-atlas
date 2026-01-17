@@ -71,11 +71,197 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Tritomaria_exsecta&#x2F;macro_pics&#x2F;Tritomaria_exsecta-JR1.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;264677644" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Tritomaria exsecta photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1ld_pGAr1qqRrWcYjA1cv41cEjAjbdpRq" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Tritomaria_exsecta&#x2F;macro_pics&#x2F;Tritomaria_exsecta-JR3.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;264677644" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Tritomaria exsecta photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;17HCtjTOpFb551qxcqk_-0ZAN-Y2M8JPY" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Tritomaria_exsecta&#x2F;macro_pics&#x2F;Tritomaria_exsecta-AH1.jpg)">
+    <div class="imerss-image-copy"> © Abby Hyde</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242817064" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Tritomaria exsecta photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1k9w5KfhTav4CKZbDdg7ZGOtHCvJTSJHL" title="Abby Hyde" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Tritomaria_exsecta&#x2F;macro_pics&#x2F;Tritomaria_exsecta-AH2.jpg)">
+    <div class="imerss-image-copy"> © Abby Hyde</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;242817064" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Tritomaria exsecta photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1Q7LYTjOwTlk5Bwg5YFXh-eOJ52R08lTM" title="Abby Hyde" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Tritomaria_exsecta&#x2F;macro_pics&#x2F;Tritomaria_exsecta-CW1.jpg)">
+    <div class="imerss-image-copy"> © Connor Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;264604296" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Tritomaria exsecta photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1f0fSL_SnMbbqNWkQClOC8WcQQiDeNbEt" title="Connor Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Liverworts&#x2F;Scapaniaceae&#x2F;Tritomaria_exsecta&#x2F;macro_pics&#x2F;Tritomaria_exsecta-JR2.jpg)">
+    <div class="imerss-image-copy"> © John Reynolds</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;264677644" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Tritomaria exsecta photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1P6YBnq7iaqy5iy-zCuXGqqLag9Eenxmu" title="John Reynolds" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 

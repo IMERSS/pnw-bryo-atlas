@@ -73,10 +73,165 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Hornworts&#x2F;Phymatocerotaceae&#x2F;Phymatoceros_bulbiculosus&#x2F;macro_pics&#x2F;Phymatoceros_bulbiculosus-AS1.jpeg)">
+    <div class="imerss-image-copy"> © Andrew Simon</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;75436795" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Phymatoceros bulbiculosus photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1MnEpX0anbHlNXaMY51-p6IcVgtYfeIhW" title="Andrew Simon" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Hornworts&#x2F;Phymatocerotaceae&#x2F;Phymatoceros_bulbiculosus&#x2F;macro_pics&#x2F;Phymatoceros_bulbiculosus-AS2.jpeg)">
+    <div class="imerss-image-copy"> © Andrew Simon</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;75436795" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Phymatoceros bulbiculosus photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1wdS_fnChryh3TDmR7mlNxEnUDz2XlWV8" title="Andrew Simon" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Hornworts&#x2F;Phymatocerotaceae&#x2F;Phymatoceros_bulbiculosus&#x2F;macro_pics&#x2F;Phymatoceros_bulbiculosus-FM1.jpeg)">
+    <div class="imerss-image-copy"> © Finn McGhee</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;110641407" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Phymatoceros bulbiculosus photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1g8qfN7T5MXkmmP5SCUEQbs-lC6C8K8lm" title="Finn McGhee" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Hornworts&#x2F;Phymatocerotaceae&#x2F;Phymatoceros_bulbiculosus&#x2F;macro_pics&#x2F;Phymatoceros_bulbiculosus-RM1.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;110931599" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Phymatoceros bulbiculosus photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1u_3eK-Y-RgBA6qx76Z3AbQDH6DfONkDg" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Hornworts&#x2F;Phymatocerotaceae&#x2F;Phymatoceros_bulbiculosus&#x2F;macro_pics&#x2F;Phymatoceros_bulbiculosus-DBLT1.jpeg)">
+    <div class="imerss-image-copy"> © Dan Tucker</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;77560995" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Phymatoceros bulbiculosus photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1p6JWDumD9xLgn-IfJsQDgavj8eT3l5JD" title="Dan Tucker" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
 </div>
 

@@ -73,11 +73,197 @@ categories:
 </h2>
 
 <div class="imerss-image-header">
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo1"
+       style="background-image: url(../../img/Hornworts&#x2F;Notothyladaceae&#x2F;Paraphymatoceros_pearsonii&#x2F;macro_pics&#x2F;Paraphymatoceros_pearsonii-CW1.jpeg)">
+    <div class="imerss-image-copy"> © Connor Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;272889234" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo1" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo1">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo1">
+                      Paraphymatoceros pearsonii photo 1
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo1">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1QUv7qTU6q9kmJ6iqO--D1WymQqQCYJL5" title="Connor Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo2"
+       style="background-image: url(../../img/Hornworts&#x2F;Notothyladaceae&#x2F;Paraphymatoceros_pearsonii&#x2F;macro_pics&#x2F;Paraphymatoceros_pearsonii-CW2.jpeg)">
+    <div class="imerss-image-copy"> © Connor Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;272889234" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo2" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo2">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo2">
+                      Paraphymatoceros pearsonii photo 2
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo2">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1h4_mzZ3kuJGO9D1GGmUrBZNeGOOd2R1H" title="Connor Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo3"
+       style="background-image: url(../../img/Hornworts&#x2F;Notothyladaceae&#x2F;Paraphymatoceros_pearsonii&#x2F;macro_pics&#x2F;Paraphymatoceros_pearsonii-CW3.jpeg)">
+    <div class="imerss-image-copy"> © Connor Wardrop</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;272889234" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo3" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo3">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo3">
+                      Paraphymatoceros pearsonii photo 3
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo3">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1my4i7MVegSw4k9xNUQYmzGulPm6_T0DJ" title="Connor Wardrop" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo4"
+       style="background-image: url(../../img/Hornworts&#x2F;Notothyladaceae&#x2F;Paraphymatoceros_pearsonii&#x2F;macro_pics&#x2F;Paraphymatoceros_pearsonii-RM1.jpeg)">
+    <div class="imerss-image-copy"> © Randal Mindell</div>
+      <a href="https:&#x2F;&#x2F;www.inaturalist.org&#x2F;observations&#x2F;162305149" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo4" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo4">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo4">
+                      Paraphymatoceros pearsonii photo 4
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo4">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1lPKfnnFeTlW4CLMozf_GTC4PRXFmzovy" title="Randal Mindell" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo5"
+       style="background-image: url(../../img/Hornworts&#x2F;Notothyladaceae&#x2F;Paraphymatoceros_pearsonii&#x2F;macro_pics&#x2F;Paraphymatoceros_pearsonii-DBLT1.jpeg)">
+    <div class="imerss-image-copy"> © Dan Tucker</div>
+      <a href="https:&#x2F;&#x2F;inaturalist.ca&#x2F;observations&#x2F;74688613" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo5" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo5">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo5">
+                      Paraphymatoceros pearsonii photo 5
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo5">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1ku3AVW_Uy2erkCi3eIdhejeKwCgOXi-S" title="Dan Tucker" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 
+  <div class="imerss-image-holder"
+       data-micromodal-trigger="modal-plate-photo6"
+       style="background-image: url(../../img/Hornworts&#x2F;Notothyladaceae&#x2F;Paraphymatoceros_pearsonii&#x2F;macro_pics&#x2F;Paraphymatoceros_pearsonii-BMS1.jpeg)">
+    <div class="imerss-image-copy"> © Brian Starzomski</div>
+      <a href="https:&#x2F;&#x2F;inaturalist.ca&#x2F;observations&#x2F;71748240" target="_blank" class="imerss-iNat-extern">iNaturalist<span class="external-link"></span></a>
+  </div>
+  <div class="modal micromodal-slide" id="modal-plate-photo6" aria-hidden="true">
+      <div class="modal__overlay" tabindex="-1" data-micromodal-close>
+          <div class="modal__container" role="dialog" aria-modal="true" aria-labelledby="modal-plate-title-photo6">
+              <header class="modal__header">
+                  <div class="modal__title" id="modal-plate-title-photo6">
+                      Paraphymatoceros pearsonii photo 6
+                  </div>
+                  <button class="modal__close" aria-label="Close" data-micromodal-close></button>
+              </header>
+              <div class="modal__content" id="modal-plate-content-photo6">
+                  <div class="imerss-image-nav imerss-image-left">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-left" />
+                      </svg>
+                  </div>
+                  <div class="imerss-image-nav imerss-image-right">
+                      <svg width="20" height="20" >
+                          <use href="#arrow-right" />
+                      </svg>
+                  </div>
+                  <img src="https:&#x2F;&#x2F;lh3.googleusercontent.com&#x2F;d&#x2F;1MkKjviK4SIMx-TtMZI6-ORRioDYHk5jq" title="Brian Starzomski" referrerpolicy="no-referrer"/>
+              </div>
+          </div>
+      </div>
+  </div>
 </div>
 
 
