@@ -1,0 +1,1 @@
+From https://unpkg.com/micromodal@0.4.10/dist/micromodal.min.js
