@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Metzgeria">Metzgeria</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Metzgeria leptoneura (Schrank) Raddi</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Metzgeria leptoneura (Schrank) Raddi</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185635">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Metgeriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185635">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Metgeriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia furcata</i> var. <i>elongata</i> Hook., <i>Metzgeria allanii</i> Steph., <i>Metzgeria atrichoneura</i> Spruce, <i>Metzgeria australis</i> Steph., <i>Metzgeria borneensis</i> Kuwah., <i>Metzgeria camerunensis</i> Steph., <i>Metzgeria colensoi</i> Steph., <i>Metzgeria concavula</i> Pearson, <i>Metzgeria curviseta</i> Steph., <i>Metzgeria ecuadorensis</i> Kuwah., <i>Metzgeria furcata</i> fo. <i>extensa</i> Nees, <i>Metzgeria furcata</i> fo. <i>major</i> Nees, <i>Metzgeria furcata</i> var. <i>elongata</i> (Hook.) Cogn., <i>Metzgeria fuscescens</i> Mitt. ex Steph., <i>Metzgeria hamata</i> fo. <i>transitoria</i> Schiffn., <i>Metzgeria hamata</i> Lindb., <i>Metzgeria hamatiformis</i> Schiffn., <i>Metzgeria iwatsukii</i> Kuwah., <i>Metzgeria linearis</i> (Sw.) Austin, <i>Metzgeria longipila</i> Steph., <i>Metzgeria luzonensis</i> Kuwah., <i>Metzgeria nana</i> Kuwah., <i>Metzgeria nitida</i> Mitt., <i>Metzgeria nudicosta</i> Steph., <i>Metzgeria papulosa</i> Steph., <i>Metzgeria parvipapulosa</i> Kuwah., <i>Metzgeria pilosa</i> Steph., <i>Metzgeria recurva</i> Steph., <i>Metzgeria renauldii</i> Steph., <i>Metzgeria sandei</i> Schiffn., <i>Metzgeria sharpii</i> Kuwah., <i>Metzgeria subhamata</i> S. Hatt., <i>Metzgeria thomeensis</i> Steph., <i>Metzgeria tuerckheimii</i> Steph., <i>Metzgeria tusui</i> Gola, <i>Metzgeria wallisiana</i> Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

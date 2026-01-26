@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Schljakovia">Schljakovia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Schljakovia kunzeana (Huebener) Konstant. &amp; Vilnet</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Schljakovia kunzeana (Huebener) Konstant. &amp; Vilnet</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100355659">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100355659">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Barbilophozia kunzeana</i> (Huebener) Müll. Frib., <i>Barbilophozia kunzeana</i> fo. <i>rotundiloba</i> (R.M. Schust.) Potemkin, <i>Jungermannia kunzei</i> var. <i>plicata</i> (Hartm.) Lindb., <i>Jungermannia plicata</i> Hartm., <i>Jungermannia plicata</i> var. <i>gracilis</i> Berggr., <i>Jungermannia plicata</i> var. <i>gracilis</i> Gottsche, Lindenb. & Nees, <i>Lophozia kunzeana</i> (Huebener) A. Evans, <i>Lophozia kunzeana</i> fo. <i>rotundiloba</i> (R.M. Schust.) R.M. Schust.
+  </div>
 </div>
  <div class="info-right">
 <table>

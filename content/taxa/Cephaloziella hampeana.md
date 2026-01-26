@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephaloziella">Cephaloziella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Cephaloziella hampeana (Nees) Schiffn. ex Loeske</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Cephaloziella hampeana (Nees) Schiffn. ex Loeske</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184950">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184950">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia bryhnii</i> var. <i>elongata</i> Bryhn, <i>Cephalozia byssacea</i> (Roth) Dumort., <i>Cephalozia erosa</i> (Limpr. ex Warnst.) C. Massal., <i>Cephalozia hagenii</i> Bryhn, <i>Cephalozia subtilis</i> Velen., <i>Cephaloziella biloba</i> (Lindb.) Müll. Frib., <i>Cephaloziella byssacea</i> (Roth) Warnst., <i>Cephaloziella curnowii</i> Macvicar ex Douin, <i>Cephaloziella erosa</i> Limpr. ex Warnst., <i>Cephaloziella gallica</i> Douin, <i>Cephaloziella hampeana</i> var. <i>erosa</i> (Limpr. ex Warnst.) Müll. Frib., <i>Cephaloziella hampeana</i> var. <i>subtilis</i> (Velen.) Macvicar, <i>Cephaloziella trivialis</i> Schiffn., <i>Dichiton gallicus</i> Douin, <i>Jungermannia byssacea</i> Roth, <i>Jungermannia dentata</i> Raddi, <i>Jungermannia hampeana</i> Nees
+  </div>
 </div>
  <div class="info-right">
 <table>

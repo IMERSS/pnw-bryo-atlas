@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Ricciocarpos">Ricciocarpos</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Ricciocarpos natans (L.) Corda</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Ricciocarpos natans (L.) Corda</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185937">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185937">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Lemna dimidiata</i> Raf., <i>Riccia capillata</i> Schmidel, <i>Riccia lutescens</i> Schwein., <i>Riccia natans</i> L., <i>Riccia natans</i> var. <i>brasiliensis</i> Mont., <i>Riccia velutina</i> Wilson ex Hook., <i>Ricciocarpos natans</i> fo. <i>terricola</i> Steph., <i>Ricciocarpos velutinus</i> (Wilson ex Hook.) Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

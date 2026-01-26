@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccardia">Riccardia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Riccardia chamedryfolia (With.) Grolle</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Riccardia chamedryfolia (With.) Grolle</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185926">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185926">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aneura crenulata</i> Steph., <i>Aneura koyaensis</i> Steph. ex Nakanish., <i>Aneura koyensis</i> Steph., <i>Aneura major</i> (Nees) A. Evans, <i>Aneura multifida</i> fo. <i>major</i> Nees, <i>Aneura multifida</i> var. <i>major</i> (Nees) Debat, <i>Aneura multifida</i> var. <i>rivularis</i> Rabenh., <i>Aneura pinnatifida</i> (F. Weber) Dumort., <i>Aneura pinnatifida</i> (F. Weber) Nees, <i>Aneura pinnatifida</i> fo. <i>composita</i> Nees, <i>Aneura pinnatifida</i> fo. <i>denticulata</i> Nees, <i>Aneura pinnatifida</i> var. <i>sinuata</i> (Hook.) S. Hatt., <i>Aneura sinuata</i> (Hook.) Dumort., <i>Aneura sinuata</i> var. <i>major</i> (Nees) Macvicar, <i>Jungermannia chamedryfolia</i> With., <i>Jungermannia multifida</i> var. <i>pinnatifida</i> F. Weber, <i>Jungermannia multifida</i> var. <i>sinuata</i> Hook., <i>Jungermannia pinnatifida</i> (F. Weber) Nees, <i>Jungermannia sinuata</i> Dicks., <i>Riccardia chamedryfolia</i> var. <i>major</i> (Nees) R.M. Schust. ex Damsh., <i>Riccardia chamedryfolia</i> var. <i>submersa</i> (C.E.O. Jensen ex Müll. Frib.) Damsh., <i>Riccardia crenulata</i> (Steph.) Yasuda, <i>Riccardia foliacea</i> Meenks & C. De Jong, <i>Riccardia koyensis</i> (Steph.) Yasuda, <i>Riccardia latifrons</i> var. <i>sinuata</i> (Hook.) Lindb., <i>Riccardia major</i> (Nees) Lindb., <i>Riccardia micronesica</i> H.A. Mill. & Bonner, <i>Riccardia pinnatifida</i> (F. Weber) Carruth., <i>Riccardia sinuata</i> (Hook.) Trevis., <i>Riccardia sinuata</i> fo. <i>submersa</i> (C.E.O. Jensen ex Müll. Frib.) Schiffn., <i>Riccardia sinuata</i> var. <i>major</i> (Nees) Arnell, <i>Riccardia stephanii</i> S. Hatt., <i>Sarcomitrium pinnatifidum</i> (F. Weber) Mitt.
+  </div>
 </div>
  <div class="info-right">
 <table>

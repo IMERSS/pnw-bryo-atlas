@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Gymnomitrion">Gymnomitrion</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Gymnomitrion corallioides Nees</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Gymnomitrion corallioides Nees</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185184">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185184">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Acolea corallioides</i> (Nees) Dumort., <i>Acolea corallioides</i> fo. <i>brevis</i> Bernet, <i>Acolea corallioides</i> fo. <i>elongata</i> Bernet, <i>Acolea corallioides</i> var. <i>intermedia</i> (Lindb.) Bom. & Broth., <i>Acolea faurieana</i> Steph., <i>Cesius corallioides</i> var. <i>intermedius</i> Lindb., <i>Gymnomitrion corallioides</i> var. <i>asperulum</i> S. Hatt., <i>Gymnomitrion corallioides</i> var. <i>faurieanum</i> (Steph.) S. Hatt., <i>Gymnomitrion faurieanum</i> (Steph.) Horik., <i>Jungermannia concinnata</i> var. <i>clavuligera</i> Nees ex Huebener, <i>Lophozia ubayensis</i> Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

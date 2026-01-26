@@ -35,16 +35,19 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Tritomaria">Tritomaria</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Tritomaria laxa (Lindb.) Stotler &amp; Crand.-Stotl.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Tritomaria laxa (Lindb.) Stotler &amp; Crand.-Stotl.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100471003">Tropicos</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100471003">Tropicos</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Heterogemma laxa</i> (Lindb.) Konstant. & Vilnet, <i>Lophozia laxa</i> (Lindb.) Grolle, <i>Schistochilopsis laxa</i> (Lindb.) Konstant.
+  </div>
 </div>
  <div class="info-right">
 <table>

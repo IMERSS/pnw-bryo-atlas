@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Scapania">Scapania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Scapania cuspiduligera (Nees) Müll.Frib.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Scapania cuspiduligera (Nees) Müll.Frib.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185981">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185981">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia bartlingii</i> Hampe ex Nees, <i>Jungermannia cuspiduligera</i> Nees, <i>Martinellia bartlingii</i> (Hampe ex Nees) Trevis., <i>Martinellia carestiae</i> (De Not.) Trevis., <i>Plagiochila bartlingii</i> (Hampe ex Nees) Mont. & Nees, <i>Scapania bartlingii</i> (Hampe ex Nees) Nees, <i>Scapania bartlingii</i> var. <i>elongata</i> Lindb., <i>Scapania bartlingii</i> var. <i>obtusata</i> Lindb., <i>Scapania carestiae</i> De Not.
+  </div>
 </div>
  <div class="info-right">
 <table>

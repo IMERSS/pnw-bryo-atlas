@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Targionia">Targionia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Targionia hypophylla L. </span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Targionia hypophylla L. </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185994">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Targioniaceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185994">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Targioniaceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Targionia bifurca</i> Nees & Mont., <i>Targionia capensis</i> Huebener, <i>Targionia convoluta</i> Lindenb. & Gottsche, <i>Targionia germanica</i> Corda, <i>Targionia hypophylla</i> var. <i>capensis</i> (Huebener) Bisch., <i>Targionia hypophylla</i> var. <i>fimbriata</i> (Müll. Frib.) Müll. Frib., <i>Targionia lorbeeriana</i> Müll. Frib., <i>Targionia mexicana</i> Lehm. & Lindenb., <i>Targionia michelii</i> Corda, <i>Targionia robusta</i> Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

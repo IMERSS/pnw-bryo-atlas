@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Moerckia">Moerckia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Moerckia hibernica (Hook.) Gottsche</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Moerckia hibernica (Hook.) Gottsche</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185640">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;PallMoerckia.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185640">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;PallMoerckia.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Blytia lyellii</i> var. <i>hibernica</i> (Hook.) Nees, <i>Calycularia hibernica</i> (Hook.) Steph., <i>Cordaea flotoviana</i> Nees, <i>Dilaena hibernica</i> (Hook.) Dumort., <i>Diplolaena hibernica</i> (Hook.) Dumort., <i>Diplolaena lyellii</i> fo. <i>hibernica</i> (Hook.) Nees, <i>Diplomitrion hibernicum</i> (Hook.) Corda, <i>Jungermannia hibernica</i> Hook., <i>Moerckia flotoviana</i> (Nees) Schiffn., <i>Moerckia hibernica</i> var. <i>hookeriana</i> Gottsche, <i>Pallavicinia flotoviana</i> (Nees) A. Evans, <i>Pallavicinia flotowii</i> var. <i>hibernica</i> (Hook.) Lindb., <i>Pallavicinia hibernica</i> (Hook.) Lindb.
+  </div>
 </div>
  <div class="info-right">
 <table>

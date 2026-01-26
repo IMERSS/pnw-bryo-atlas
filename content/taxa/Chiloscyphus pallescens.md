@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Chiloscyphus">Chiloscyphus</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Chiloscyphus pallescens (Ehrh. ex Hoffm.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Chiloscyphus pallescens (Ehrh. ex Hoffm.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185046">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185046">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Chiloscyphus ascendens</i> (Wilson & Hook.) Sull., <i>Chiloscyphus fragilis</i> (Roth) Schiffn., <i>Chiloscyphus himalayensis</i> Steph., <i>Chiloscyphus labiatus</i> Taylor, <i>Chiloscyphus lophocoleoides</i> Nees, <i>Chiloscyphus nordstedtii</i> Schiffn. ex Müll. Frib., <i>Chiloscyphus pallescens</i> var. <i>fontanus</i> (Schiffn.) Müll. Frib., <i>Chiloscyphus pallescens</i> var. <i>fragilis</i> (Roth) Müll. Frib. ex R.M. Schust., <i>Chiloscyphus polyanthos</i> var. <i>erectus</i> Boulay, <i>Chiloscyphus polyanthos</i> var. <i>fragilis</i> (Roth) Müll. Frib., <i>Chiloscyphus polyanthos</i> var. <i>heterophylloides</i> Schiffn., <i>Chiloscyphus polyanthos</i> var. <i>pallescens</i> (Ehrh. ex Hoffm.) C. Hartm., <i>Chiloscyphus viticulosus</i> (L.) Lindb., <i>Chiloscyphus webberianus</i> Steph., <i>Jungermannia adscendens</i> Hook. & Wilson ex Steph., <i>Jungermannia ascendens</i> Wilson & Hook., <i>Jungermannia fragilis</i> Roth, <i>Jungermannia pallescens</i> Ehrh. ex Hoffm., <i>Jungermannia polyanthos</i> var. <i>pallescens</i> (Ehrh. ex Hoffm.) Lindenb., <i>Lophocolea heterophylla</i> var. <i>paludosa</i> Warnst.
+  </div>
 </div>
  <div class="info-right">
 <table>

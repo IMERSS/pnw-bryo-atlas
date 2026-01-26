@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Radula">Radula</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Radula complanata (L.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Radula complanata (L.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185912">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Radulaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185912">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Radulaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jubula complanata</i> (L.) Corda, <i>Jungermannia cinerea</i> Dicks., <i>Jungermannia complanata</i> L., <i>Radula alpestris</i> Lindb. ex Berggr., <i>Radula complanata</i> var. <i>alpestris</i> (Lindb. ex Berggr.) Lindb., <i>Radula hallii</i> Austin, <i>Radula hyalina</i> Steph., <i>Radula krausei</i> Steph., <i>Radula notarisii</i> Steph., <i>Stephanina alpestris</i> (Lindb. ex Berggr.) Kuntze, <i>Stephanina complanata</i> (L.) Kuntze
+  </div>
 </div>
  <div class="info-right">
 <table>

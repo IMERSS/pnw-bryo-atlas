@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Douinia">Douinia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Douinia ovata (Dicks.) H.Buch</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Douinia ovata (Dicks.) H.Buch</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185095">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapDouinia.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185095">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapDouinia.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Diplophyllum argenteum</i> Taylor ex Spruce, <i>Diplophyllum dicksonii</i> (Hook.) Dumort., <i>Harpalejeunea ovata</i> (Dicks.) Schiffn., <i>Jungermannia dicksonii</i> Hook., <i>Jungermannia ovata</i> Dicks., <i>Lejeunea ovata</i> (Dicks.) Taylor ex Gottsche, Lindenb. & Nees, <i>Sphenolobus ovatus</i> (Dicks.) Schiffn.
+  </div>
 </div>
  <div class="info-right">
 <table>

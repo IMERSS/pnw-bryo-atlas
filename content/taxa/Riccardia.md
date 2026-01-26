@@ -36,15 +36,15 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccardia">Riccardia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/2689531" target="_blank">
-<span class="scientific-name">Riccardia </span>
+    <a href="https://www.gbif.org/species/2689531" target="_blank">
+      <span class="scientific-name">Riccardia </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+    </div>
+  </div>
 </div>
  <div class="info-right">
 <table>

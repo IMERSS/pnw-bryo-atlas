@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Tritomaria">Tritomaria</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Tritomaria polita (Nees) Jørg.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Tritomaria polita (Nees) Jørg.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185997">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeTritomaria.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185997">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeTritomaria.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Diplophyllum politum</i> (Nees) Dumort., <i>Jungermannia medelpadica</i> Arnell, <i>Jungermannia polita</i> Nees, <i>Lophozia polita</i> (Nees) Macoun, <i>Saccobasis polita</i> (Nees) H. Buch, <i>Sphenolobus medelpadicus</i> (Arnell) Steph., <i>Sphenolobus politus</i> (Nees) Steph., <i>Sphenolobus politus</i> var. <i>medelpadicus</i> (Arnell) Schiffn., <i>Tritomaria polymorpha</i> (R.M. Schust.) Grolle
+  </div>
 </div>
  <div class="info-right">
 <table>

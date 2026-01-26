@@ -44,24 +44,29 @@ categories:
    </div>
   {{/genus}}
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/{{gbifTaxonId}}" target="_blank">
-<span class="scientific-name">{{taxon}} {{authority}}</span>
+    <a href="https://www.gbif.org/species/{{gbifTaxonId}}" target="_blank">
+      <span class="scientific-name">{{taxon}} {{authority}}</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-{{#tropicosURL}}
-<a href="{{tropicosURL}}">Tropicos</a>
-{{/tropicosURL}}
-{{#bfnaURL}}
-<a href="{{bfnaURL}}">BFNA</a>
-{{/bfnaURL}}
-{{#cbhURL}}
-<a href="{{cbhURL}}">CBH</a>
-{{/cbhURL}}
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      {{#tropicosURL}}
+      <a href="{{tropicosURL}}">Tropicos</a>
+      {{/tropicosURL}}
+      {{#bfnaURL}}
+      <a href="{{bfnaURL}}">BFNA</a>
+      {{/bfnaURL}}
+      {{#cbhURL}}
+      <a href="{{cbhURL}}">CBH</a>
+      {{/cbhURL}}
+    </div>
+  </div>
+  {{#synonyms}}
+  <div class="taxon-synonyms">
+  Synonyms: {{{synonyms}}}
+  </div>
+  {{/synonyms}}
 </div>
  <div class="info-right">
 <table>

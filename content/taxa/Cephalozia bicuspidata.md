@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephalozia">Cephalozia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Cephalozia bicuspidata (L.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Cephalozia bicuspidata (L.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184890">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184890">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia bicuspidata</i> fo. <i>setulosa</i> Spruce, <i>Cephalozia bicuspidata</i> subsp. <i>lammersiana</i> (Huebener) Boulay, <i>Cephalozia bicuspidata</i> var. <i>lammersiana</i> (Huebener) Breidl., <i>Cephalozia caffra</i> J.B. Jack ex Bonner, <i>Cephalozia cavifolia</i> S.W. Arnell, <i>Cephalozia colombica</i> S.W. Arnell ex Fulford, <i>Cephalozia extensa</i> (Taylor) Trevis., <i>Cephalozia grandifolia</i> Steph., <i>Cephalozia lammersiana</i> (Huebener) Carrington, <i>Cephalozia randii</i> S.W. Arnell, <i>Cephalozia robusta</i> Steph., <i>Cephalozia skottsbergii</i> Steph., <i>Cephalozia vallis-gratiae</i> Steph., <i>Cephalozia vulcanicola</i> Steph., <i>Eucephalozia bicuspidata</i> (L.) Schiffn., <i>Jungermannia bicalyculata</i> Raddi, <i>Jungermannia bicuspidata</i> fo. <i>lammersiana</i> (Huebener) Nees, <i>Jungermannia bicuspidata</i> L., <i>Jungermannia cylindrica</i> Wallr., <i>Jungermannia extensa</i> Taylor, <i>Jungermannia lammersiana</i> Huebener, <i>Jungermannia menzelii</i> Corda, <i>Jungermannia multiflora</i> Huds., <i>Jungermannia rigidula</i> Huebener, <i>Jungermannia setacea</i> Sw., <i>Jungermannia vallis-gratiae</i> Gottsche ex Steph., <i>Trigonanthus bicuspidatus</i> (L.) Mitt.
+  </div>
 </div>
  <div class="info-right">
 <table>

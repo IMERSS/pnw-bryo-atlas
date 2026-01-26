@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Marchantia">Marchantia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Marchantia polymorpha L.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Marchantia polymorpha L.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185595">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Marchantiaceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185595">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Marchantiaceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Marchantia alpestris</i> (Nees) Burgeff, <i>Marchantia aquatica</i> (Nees) Burgeff, <i>Marchantia berteroana</i> var. <i>antarctica</i> Steph. ex Lamothe, <i>Marchantia coarctata</i> Corda, <i>Marchantia elliptica</i> Corda, <i>Marchantia faurieana</i> Steph., <i>Marchantia kablikiana</i> Corda, <i>Marchantia latifolia</i> Gray, <i>Marchantia macrocephala</i> Corda, <i>Marchantia microcephala</i> Corda, <i>Marchantia minor</i> Gray, <i>Marchantia monoica</i> Grognot, <i>Marchantia oregonensis</i> Steph., <i>Marchantia polymorpha</i> fo. <i>aquatica</i> Nees, <i>Marchantia polymorpha</i> fo. <i>denticulata</i> Nees, <i>Marchantia polymorpha</i> var. <i>aquatica</i> (Nees) Nees, <i>Marchantia stellata</i> (Weiss) Scop., <i>Marchantia syckorae</i> Corda ex Nees, <i>Marchantia umbellata</i> (Weiss) Scop., <i>Marchantia vaginata</i> Steph., <i>Marchantia vaginata</i> Steph. ex Besch., <i>Marchantia vittata</i> Raddi
+  </div>
 </div>
  <div class="info-right">
 <table>

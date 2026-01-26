@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Lophocolea">Lophocolea</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Lophocolea heterophylla (Schrad.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Lophocolea heterophylla (Schrad.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185379">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185379">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Chiloscyphus profundus</i> (Nees) J.J. Engel & R.M. Schust., <i>Jungermannia heterophylla</i> Schrad., <i>Lophocolea aequitexta</i> Steph. ex N. Kitag., <i>Lophocolea angustiflora</i> Steph., <i>Lophocolea austinii</i> Lindb., <i>Lophocolea fissicalyx</i> Steph., <i>Lophocolea hallii</i> Austin, <i>Lophocolea heterophylla</i> fo. <i>gemmifera</i> Andres ex Düll, <i>Lophocolea heterophylla</i> fo. <i>propagulifera</i> Feld, <i>Lophocolea incisa</i> Lindb., <i>Lophocolea kurzii</i> Sande Lac., <i>Lophocolea macounii</i> Austin, <i>Lophocolea minor</i> Nees, <i>Lophocolea profunda</i> Nees, <i>Lophocolea reflexula</i> Lindb.
+  </div>
 </div>
  <div class="info-right">
 <table>

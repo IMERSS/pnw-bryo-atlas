@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Chiloscyphus">Chiloscyphus</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Chiloscyphus polyanthos (L.) Corda</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Chiloscyphus polyanthos (L.) Corda</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185049">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185049">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Chiloscyphus japonicus</i> Steph., <i>Chiloscyphus microstipulus</i> Steph., <i>Chiloscyphus mororanus</i> Steph., <i>Chiloscyphus pallescens</i> (Ehrh. ex Hoffm.) Dumort., <i>Chiloscyphus polyanthos</i> fo. <i>gracilescens</i> Boulay, <i>Chiloscyphus polyanthos</i> var. <i>rivularis</i> (Schrad.) Grønlund, <i>Chiloscyphus rivularis</i> (Schrad.) Hazsl., <i>Chiloscyphus submersus</i> Warnst., <i>Jungermannia pallescens</i> var. <i>rivularis</i> Schrad., <i>Jungermannia polyanthos</i> L., <i>Marsupella polyanthos</i> (L.) Dumort., <i>Plagiochila wakawana</i> Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

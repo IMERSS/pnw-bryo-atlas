@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Marsupella">Marsupella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Marsupella emarginata (Ehrh.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Marsupella emarginata (Ehrh.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185603">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185603">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia emarginata</i> Ehrh., <i>Jungermannia fusca</i> Nees ex Huebener, <i>Jungermannia macrorhiza</i> Dicks., <i>Jungermannia pulvinata</i> Raddi, <i>Lophozia canariensis</i> Bryhn, <i>Marsupella andina</i> J.B. Jack & Steph., <i>Marsupella aquatica</i> (Lindenb.) Schiffn., <i>Marsupella densifolia</i> (Nees) Dumort., <i>Marsupella emarginata</i> fo. <i>densifolia</i> (Nees) Jørg., <i>Marsupella emarginata</i> subsp. <i>aquatica</i> (Lindenb.) Boulay, <i>Marsupella emarginata</i> subsp. <i>tubulosa</i> (Steph.) N. Kitag., <i>Marsupella emarginata</i> var. <i>aquatica</i> (Lindenb.) Dumort., <i>Marsupella emarginata</i> var. <i>densifolia</i> (Nees) Müll. Frib., <i>Marsupella emarginata</i> var. <i>minor</i> C. Massal. ex Schiffn., <i>Marsupella emarginata</i> var. <i>pearsonii</i> (Schiffn. ex Macvicar) Husn., <i>Marsupella mexicana</i> (Lindenb. & Gottsche) Steph., <i>Marsupella pearsonii</i> Schiffn. ex Macvicar, <i>Marsupella robusta</i> (De Not.) A. Evans, <i>Marsupella sumatrana</i> Schiffn., <i>Marsupella ustulata</i> (Huebener) Spruce ex Pearson, <i>Nardia densifolia</i> (Nees) Trevis., <i>Nardia emarginata</i> (Ehrh.) Gray, <i>Nardia emarginata</i> var. <i>aquatica</i> (Lindenb.) Carrington, <i>Nardia emarginata</i> var. <i>picea</i> Carrington, <i>Nardia picea</i> (Carrington) Carrington, <i>Nardia robusta</i> (De Not.) Trevis., <i>Nardius emarginatus</i> (Ehrh.) Gray, <i>Sarcocyphos densifolius</i> Nees, <i>Sarcocyphos ehrhardtii</i> Corda, <i>Sarcocyphos ehrhardtii</i> var. <i>aquaticus</i> (Lindenb.) Nees, <i>Sarcocyphos ehrhardtii</i> var. <i>robustus</i> De Not., <i>Sarcocyphos emarginatus</i> (Ehrh.) Spruce, <i>Sarcoscyphus densifolius</i> Nees, <i>Sarcoscyphus ehrhartii</i> Corda ex Gottsche, Lindenb. & Nees
+  </div>
 </div>
  <div class="info-right">
 <table>

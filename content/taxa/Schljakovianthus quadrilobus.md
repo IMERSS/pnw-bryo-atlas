@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Schljakovianthus">Schljakovianthus</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Schljakovianthus quadrilobus (Lindb.) Konstant. &amp; Vilnet</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Schljakovianthus quadrilobus (Lindb.) Konstant. &amp; Vilnet</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100355661">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100355661">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Barbilophozia quadriloba</i> (Lindb.) Loeske, <i>Barbilophozia quadriloba</i> var. <i>glareosa</i> (Jørg.) Lammes, <i>Jungermannia floerkei</i> fo. <i>gemmipara</i> Lindb., <i>Lophozia quadriloba</i> (Lindb.) A. Evans, <i>Lophozia quadriloba</i> fo. <i>glareosa</i> (Jørg.) R.M. Schust., <i>Lophozia quadriloba</i> var. <i>glareosa</i> (Jørg.) Bryhn & Kaal., <i>Lophozia quadriloba</i> var. <i>heterophylla</i> Bryhn & Kaal., <i>Orthocaulis quadrilobus</i> var. <i>glareosus</i> (Jørg.) S.W. Arnell, <i>Orthocaulis quadrilobus</i> var. <i>heterophyllus</i> (Bryhn & Kaal.) S.W. Arnell, <i>Schljakovianthus quadrilobus</i> var. <i>glareosus</i> (Jørg.) Konstant. & Vilnet
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cololejeunea">Cololejeunea</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Cololejeunea macounii (Spruce) A. Evans</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Cololejeunea macounii (Spruce) A. Evans</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185065">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lejeuneaceae.htm">BFNA</a>
-<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Cololejeunea+macounii&amp;formsubmit&#x3D;Search+Terms">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185065">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lejeuneaceae.htm">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Cololejeunea+macounii&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aphanolejeunea magnilobula</i> Horik., <i>Cololejeunea handelii</i> (Herzog) S. Hatt., <i>Cololejeunea kinabalensis</i> Mizut., <i>Cololejeunea rupicola</i> (Steph.) S. Hatt., <i>Cololejeunea rupicola</i> var. <i>dentata</i> Kamim., <i>Lejeunea macounii</i> Spruce, <i>Physocolea handelii</i> Herzog, <i>Physocolea macounii</i> (Spruce) Steph., <i>Physocolea papillosa</i> Horik., <i>Physocolea rupicola</i> Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

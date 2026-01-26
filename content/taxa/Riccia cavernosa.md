@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccia">Riccia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Riccia cavernosa Hoffm.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Riccia cavernosa Hoffm.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185953">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185953">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Riccia bahiensis</i> Steph., <i>Riccia brandegeei</i> Underw., <i>Riccia catalinae</i> Underw., <i>Riccia cavernosa</i> var. <i>angustior</i> (Lindenb. ex Nees) Damsh., <i>Riccia crystallina</i> fo. <i>angustior</i> Lindenb. ex Nees, <i>Riccia minoriformis</i> Hoffm., <i>Riccia montagnei</i> Steph., <i>Riccia multilamellata</i> (Steph.) Steph., <i>Riccia rautanenii</i> (Steph.) Steph., <i>Riccia robusta</i> Kashyap, <i>Riccia suntica</i> Pettet, <i>Riccia tellinii</i> Gola, <i>Riccia teneriffae</i> S.W. Arnell, <i>Riccia terracianoi</i> Gola, <i>Ricciella huebeneriana</i> var. <i>cavernosa</i> Casares-Gil, <i>Ricciella multilamellata</i> Steph., <i>Ricciella rautanenii</i> Steph., <i>Ricciella tellinii</i> (Gola) Cufod., <i>Ricciella terracianoi</i> (Gola) Cufod.
+  </div>
 </div>
  <div class="info-right">
 <table>

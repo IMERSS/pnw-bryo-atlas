@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Scapania">Scapania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Scapania undulata (L.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Scapania undulata (L.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35186050">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35186050">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia cochleariformis</i> Weiss, <i>Jungermannia nemorosa</i> var. <i>purpurascens</i> Hook., <i>Jungermannia purpurea</i> Scop., <i>Jungermannia resupinata</i> L., <i>Jungermannia undulata</i> fo. <i>purpurea</i> Nees, <i>Jungermannia undulata</i> fo. <i>speciosa</i> Nees, <i>Jungermannia undulata</i> L., <i>Martinellia dentata</i> (Dumort.) Arnell, <i>Martinellia nemorosa</i> var. <i>purpurea</i> Lindb., <i>Martinellia purpurascens</i> (Hook.) Arnell & C.E.O. Jensen, <i>Martinellia purpurascens</i> var. <i>ambigua</i> (De Not.) C.E.O. Jensen, <i>Martinellia undulata</i> var. <i>purpurea</i> (Nees) Lindb., <i>Martinellius resupinatus</i> (L.) Gray, <i>Martinellius undulatus</i> (L.) Gray, <i>Mnium jungermannia</i> L., <i>Plagiochila undulata</i> (L.) Mont. & Nees, <i>Pleurozia cochleariformis</i> (Weiss) Dumort., <i>Radula cochleariformis</i> (Weiss) Dumort., <i>Radula dentata</i> Dumort., <i>Radula undulata</i> Dumort., <i>Scapania alata</i> Steph., <i>Scapania atrata</i> Warnst., <i>Scapania dentata</i> (Dumort.) Dumort., <i>Scapania dentata</i> var. <i>ambigua</i> (De Not.) C. Massal., <i>Scapania dentata</i> var. <i>heterophylla</i> Müll. Frib., <i>Scapania dentata</i> var. <i>speciosa</i> (Nees) Cogn., <i>Scapania dentata</i> var. <i>taeniiformis</i> Müll. Frib., <i>Scapania douinii</i> Schiffn., <i>Scapania falcata</i> Steph. ex Müll. Frib., <i>Scapania gigantea</i> Horik., <i>Scapania groenlandica</i> Steph., <i>Scapania informis</i> Steph., <i>Scapania intermedia</i> (Husn.) Lamy, <i>Scapania intermedia</i> (Husn.) Pearson, <i>Scapania komagadakensis</i> Amakawa, <i>Scapania nemorosa</i> var. <i>intermedia</i> Husn., <i>Scapania nemorosa</i> var. <i>purpurascens</i> (Hook.) Gottsche, Lindenb. & Nees, <i>Scapania nuda</i> Steph., <i>Scapania oakesii</i> Austin, <i>Scapania oseensis</i> Warnst., <i>Scapania paludosa</i> var. <i>aquatica</i> Schiffn., <i>Scapania paludosa</i> var. <i>natans</i> Schiffn., <i>Scapania purpurascens</i> (Hook.) Taylor ex Pearson, <i>Scapania purpurea</i> Kashyap & R.S. Chopra, <i>Scapania resupinata</i> (L.) Dumort., <i>Scapania speciosa</i> (Nees) Lett, <i>Scapania splendens</i> Steph., <i>Scapania squarrosula</i> Lindenb., <i>Scapania suecica</i> Warnst., <i>Scapania undulata</i> var. <i>aequatiformis</i> (De Not.) Müll. Frib., <i>Scapania undulata</i> var. <i>alata</i> Schiffn., <i>Scapania undulata</i> var. <i>ambigua</i> De Not., <i>Scapania undulata</i> var. <i>densa</i> Müll. Frib., <i>Scapania undulata</i> var. <i>dentata</i> (Dumort.) McArdle, <i>Scapania undulata</i> var. <i>flagellaris</i> Loeske, <i>Scapania undulata</i> var. <i>integrifolia</i> Lindb., <i>Scapania undulata</i> var. <i>lepida</i> Warnst., <i>Scapania undulata</i> var. <i>oakesii</i> (Austin) H. Buch, <i>Scapania undulata</i> var. <i>purpurascens</i> (Huebener) Cogn., <i>Scapania undulata</i> var. <i>purpurea</i> (Nees) Nees, <i>Scapania undulata</i> var. <i>speciosa</i> (Nees) Nees, <i>Scapania undulata</i> var. <i>subdenticulata</i> Warnst., <i>Scapania undulata</i> var. <i>subglacialis</i> Schiffn.
+  </div>
 </div>
  <div class="info-right">
 <table>

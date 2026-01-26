@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephaloziella">Cephaloziella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Cephaloziella elachista (Nees) Schiffn. ex Loeske</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Cephaloziella elachista (Nees) Schiffn. ex Loeske</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184945">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184945">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia divaricata</i> var. <i>confervoides</i> Austin, <i>Cephalozia elachista</i> (J.B. Jack ex Gottsche & Rabenh.) Lindb., <i>Cephaloziella angustiloba</i> Douin, <i>Cephaloziella grimsulana</i> var. <i>angustiloba</i> (Douin) Jørg., <i>Jungermannia elachista</i> J.B. Jack ex Gottsche & Rabenh.
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephaloziella">Cephaloziella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Cephaloziella varians (Gottsche) Steph.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Cephaloziella varians (Gottsche) Steph.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35207655">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35207655">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia divaricata</i> var. <i>incurva</i> (Lindb.) C.E.O. Jensen, <i>Cephalozia divaricata</i> var. <i>verrucosa</i> C.E.O. Jensen, <i>Cephalozia verrucosa</i> (C.E.O. Jensen) Bryhn & Kaal., <i>Cephaloziella alpina</i> Douin, <i>Cephaloziella alpina</i> var. <i>kaalaasii</i> Douin, <i>Cephaloziella antarctica</i> Douin, <i>Cephaloziella arctica</i> Bryhn & Douin ex Müll. Frib., <i>Cephaloziella arctica</i> subsp. <i>arctica</i> , <i>Cephaloziella arctica</i> var. <i>alpina</i> (Douin) R.M. Schust., <i>Cephaloziella glacialis</i> Douin, <i>Cephaloziella hampeana</i> var. <i>amphigastriata</i> Douin, <i>Cephaloziella lorenziana</i> Douin, <i>Cephaloziella tristaniana</i> S.W. Arnell, <i>Cephaloziella varians</i> fo. <i>minor</i> Grolle, <i>Cephaloziella varians</i> var. <i>arctica</i> (Bryhn & Douin ex Müll. Frib.) Damsh., <i>Cephaloziella varians</i> var. <i>scabra</i> (S.W. Arnell) Damsh., <i>Cephaloziella verrucosa</i> (C.E.O. Jensen) Bryhn & Kaal., <i>Jungermannia divaricata</i> var. <i>incurva</i> Lindb., <i>Jungermannia varians</i> Gottsche
+  </div>
 </div>
  <div class="info-right">
 <table>

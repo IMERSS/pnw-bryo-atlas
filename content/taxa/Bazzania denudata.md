@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Bazzania">Bazzania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Bazzania denudata (Lindenb. &amp; Gottsche) Trevis.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Bazzania denudata (Lindenb. &amp; Gottsche) Trevis.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184722">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lepidoziaceae.htm">BFNA</a>
-<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Bazzania+denudata&amp;formsubmit&#x3D;Search+Terms">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184722">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lepidoziaceae.htm">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Bazzania+denudata&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Bazzania ambigua</i> (Lindenb.) Trevis., <i>Bazzania ambigua</i> subsp. <i>ovifolia</i> (Steph.) S. Hatt., <i>Bazzania denudata</i> subsp. <i>ovifolia</i> (Steph.) S. Hatt., <i>Bazzania gibbifolia</i> (Steph.) S. Hatt., <i>Bazzania ovifolia</i> (Steph.) S. Hatt., <i>Bazzania ovifolia</i> fo. <i>connata</i> Kamim., <i>Bazzania ovifolia</i> var. <i>shikokumontana</i> Kamim., <i>Bazzania ovifolia</i> var. <i>vastifolia</i> (Steph.) S. Hatt., <i>Bazzania patulistipula</i> S. Hatt., <i>Bazzania vastifolia</i> (Steph.) S. Hatt., <i>Herpetium deflexum</i> fo. <i>implexum</i> Nees, <i>Mastigobryum ambiguum</i> Lindenb., <i>Mastigobryum denudatum</i> Torr. ex Gottsche, <i>Mastigobryum gibbifolium</i> Steph., <i>Mastigobryum ovifolium</i> Steph., <i>Mastigobryum vastifolium</i> Steph., <i>Pleuroschisma implexum</i> (Nees) Meyl.
+  </div>
 </div>
  <div class="info-right">
 <table>

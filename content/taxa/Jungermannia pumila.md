@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Jungermannia">Jungermannia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Jungermannia pumila With.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Jungermannia pumila With.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185308">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungJungermannia.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185308">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungJungermannia.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aplozia oblongifolia</i> Müll. Frib., <i>Aplozia pumila</i> (With.) Dumort., <i>Aplozia pumila</i> var. <i>rivularis</i> Schiffn., <i>Aplozia rivularis</i> Schiffn., <i>Haplozia oblongifolia</i> Müll. Frib., <i>Jamesoniella ruttneri</i> Schiffn., <i>Jungermannia cordifolia</i> fo. <i>vahliana</i> (Gottsche, Lindenb. & Nees) Gottsche ex Müll. Frib., <i>Jungermannia cordifolia</i> var. <i>vahliana</i> Gottsche, Lindenb. & Nees, <i>Jungermannia karl-muelleri</i> Grolle, <i>Jungermannia karl-muelleri</i> subsp. <i>heteroica</i> (R.M. Schust. & Damsh.) Stotler & Crand.-Stotl., <i>Jungermannia oblongifolia</i> (Müll. Frib.) H. Buch, A. Evans & Verd., <i>Jungermannia pumila</i> var. <i>alpestris</i> Gottsche & Rabenh., <i>Jungermannia pumila</i> var. <i>rivularis</i> (Schiffn.) Frye & L. Clark, <i>Jungermannia rostellata</i> Huebener, <i>Jungermannia subapicalis</i> var. <i>minor</i> Moug., Nestl. & Schimp., <i>Jungermannia zeyheri</i> Huebener, <i>Solenostoma oblongifolium</i> (Müll. Frib.) Müll. Frib., <i>Solenostoma oblongifolium</i> subsp. <i>heteroicum</i> R.M. Schust. & Damsh., <i>Solenostoma pumilum</i> (With.) Müll. Frib., <i>Solenostoma pumilum</i> subsp. <i>anomalum</i> R.M. Schust. & Damsh.
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Nardia">Nardia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Nardia scalaris Gray</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Nardia scalaris Gray</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185650">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185650">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Alicularia rotaeana</i> De Not., <i>Alicularia scalaris</i> var. <i>distans</i> (Carrington) Müll. Frib., <i>Alicularia scalaris</i> var. <i>procerior</i> (Schiffn.) Macvicar, <i>Alicularia scalaris</i> var. <i>rivularis</i> (Lindb.) Macvicar, <i>Jungermannia conferta</i> Zeyh. ex Váňa, <i>Jungermannia immersa</i> Ångstr. ex Hartm., <i>Jungermannia rotaeana</i> (De Not.) Bertol., <i>Jungermannia scalaris</i> Hook., <i>Jungermannia wallrothiana</i> Huebener, <i>Mesophylla rotaeana</i> (De Not.) Dumort., <i>Mesophylla scalaris</i> (Gray) Dumort. ex Cogn., <i>Nardia cavana</i> L. Clark, <i>Nardia harae</i> Amakawa, <i>Nardia macrostipa</i> Kaal. ex Jørg., <i>Nardia nepalensis</i> Amakawa, <i>Nardia repanda</i> (Huebener) Lindb., <i>Nardia rotaeana</i> (De Not.) Trevis.
+  </div>
 </div>
  <div class="info-right">
 <table>

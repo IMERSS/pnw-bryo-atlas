@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Lophocolea">Lophocolea</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Lophocolea bidentata (L.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Lophocolea bidentata (L.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185375">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185375">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Chiloscyphus coadunatus</i> (Sw.) J.J. Engel & R.M. Schust., <i>Chiloscyphus coadunatus</i> var. <i>rivularis</i> (Raddi) Frisvoll, Elvebakk, Flatberg & Økland, <i>Chiloscyphus cuspidatus</i> (Nees) J.J. Engel & R.M. Schust., <i>Chiloscyphus humifusus</i> (Hook. f. & Taylor) J.J. Engel & R.M. Schust., <i>Chiloscyphus jelinekii</i> (Reichardt) J.J. Engel & R.M. Schust., <i>Chiloscyphus latifolius</i> (Nees) J.J. Engel & R.M. Schust., <i>Jungermannia alternifolia</i> Hook. f. & Taylor, <i>Jungermannia bidentata</i> L., <i>Jungermannia bidentata</i> var. <i>obtusata</i> Hook., <i>Jungermannia bidentata</i> var. <i>rivularis</i> Raddi, <i>Jungermannia humifusa</i> Hook. f. & Taylor, <i>Jungermannia recurvifolia</i> Hook. f. & Taylor, <i>Leptoscyphus stephensiae</i> Sim, <i>Lophocolea alata</i> Mitt., <i>Lophocolea alternifolia</i> (Hook. f. & Taylor) Hook. f. & Taylor ex Gottsche, Lindenb. & Nees, <i>Lophocolea bidentata</i> fo. <i>cuspidata</i> Nees, <i>Lophocolea bidentata</i> var. <i>alata</i> Gottsche, Lindenb. & Nees, <i>Lophocolea bidentata</i> var. <i>cuspidata</i> (Nees) Debat, <i>Lophocolea bidentata</i> var. <i>fluitans</i> F.A. Camus ex Husn., <i>Lophocolea bidentata</i> var. <i>latifolia</i> Huebener ex T. Jensen, <i>Lophocolea bidentata</i> var. <i>obtusata</i> (Hook.) Dumort., <i>Lophocolea bidentata</i> var. <i>rivularis</i> (Raddi) Schiffn., <i>Lophocolea coadunata</i> (Sw.) Mont., <i>Lophocolea cuspidata</i> (Nees) Limpr., <i>Lophocolea cuspidata</i> var. <i>alata</i> (Mitt.) Müll. Frib., <i>Lophocolea fusca</i> Steph., <i>Lophocolea hookeriana</i> Nees, <i>Lophocolea humifusa</i> (Hook. f. & Taylor) Taylor & Hook. f. ex Gottsche, Lindenb. & Nees, <i>Lophocolea jelinekii</i> Reichardt, <i>Lophocolea lateralis</i> Dumort., <i>Lophocolea latifolia</i> Nees, <i>Lophocolea longiflora</i> Hampe ex Gottsche, <i>Lophocolea longiseta</i> Steph., <i>Lophocolea longispica</i> Steph., <i>Lophocolea mascula</i> Gottsche, <i>Lophocolea recurvifolia</i> Hook. f. & Taylor ex Gottsche, Lindenb. & Nees, <i>Lophocolea scorpionifolia</i> Steph., <i>Lophocolea scott-elliottii</i> Steph., <i>Lophocolea setacea</i> Steph., <i>Lophocolea subtrilobata</i> Herzog
+  </div>
 </div>
  <div class="info-right">
 <table>

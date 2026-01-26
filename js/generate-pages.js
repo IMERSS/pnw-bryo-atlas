@@ -61,6 +61,14 @@ const buildTaxonomy = function (rows, gbifLookup) {
     return tree;
 };
 
+const buildSynonyms = function (synonyms) {
+    const togo = {};
+    synonyms
+        .filter(synonym => synonym !== "NA")
+        .forEach(synonym => fluid.pushArray(togo, synonym.searched_name, synonym.scientificnamewithauthors));
+    return togo;
+};
+
 const joinTaxa = function (bryo, gbif) {
     const gbifMap = new Map(gbif.map(row => [row.taxon, row]));
     const bryoMap = new Map(bryo.map(row => [row.taxon, row]));
@@ -296,10 +304,25 @@ const renderKey = function (keyData, genus) {
     </div>`).join("\n");
 };
 
+const renderSynonym = function (synonym) {
+    const words = synonym.split(" ");
+    const sp = `<i>${words[0]} ${words[1]}</i>`;
+
+    if (words.length <= 2) {
+        return sp;
+    } else if (/[a-z]/.test(words[2].charAt(0))) { // There's a qualifier, put it in roman
+        return `${sp} ${words[2]} <i>${words[3]}</i> ${words.slice(4).join(" ")}`;
+    } else {
+        return `${sp} ${words.slice(2).join(" ")}`;
+    }
+};
+
 async function main() {
     const bryo = await readCSV("tabular_data/BC_Bryo_Guide.csv");
     const gbif = await readCSV("tabular_data/GBIF-taxa.csv");
+    const synonyms = await readCSV("tabular_data/Bryo_species_synonyms.csv");
     const gbifLookup = Object.fromEntries(gbif.map(row => [row.taxon, row]));
+    const synonymLookup = buildSynonyms(synonyms);
 
     const template = fs.readFileSync("templates/taxon.md", "utf8");
 
@@ -371,12 +394,23 @@ async function main() {
     fs.mkdirSync("content/taxa", {recursive: true});
 
     console.log("Generating species pages");
-    await renderPages(filtered, () => ({leaf: true}));
+    await renderPages(filtered, row => {
+        if (row.taxon === "Lophocolea heterophylla") {
+            debugger;
+        }
+        const synonymList = synonymLookup[row.taxon];
+        const synonyms = synonymList ? synonymList.map(synonym => renderSynonym(synonym)).join(", ") : null;
+        return {
+            synonyms,
+            leaf: true
+        };
+    });
 
     console.log("Generating genus pages");
     await renderPages(genusPages, async row => {
         const keyPath = `tabular_data/Keys/${row.taxon}.csv`;
         const hasKey = fs.existsSync(keyPath);
+
         let key = null;
         if (hasKey) {
             console.log("Got key for ", row.taxon);

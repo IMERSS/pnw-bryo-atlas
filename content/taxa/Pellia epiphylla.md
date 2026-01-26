@@ -35,16 +35,19 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Pellia">Pellia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Pellia epiphylla (L.) Corda</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Pellia epiphylla (L.) Corda</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185694">Tropicos</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185694">Tropicos</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Blasia epiphylla</i> (L.) Fr., <i>Gymnomitrion epiphyllon</i> (L.) Huebener, <i>Jungermannia epiphylla</i> L., <i>Marsilea epiphylla</i> (L.) Lindb., <i>Pellia borealis</i> Lorb., <i>Pellia epiphylla</i> subsp. <i>borealis</i> (Lorb.) Messe, <i>Pellia epiphylla</i> var. <i>borealis</i> (Lorb.) Schljakov, <i>Scopulina epiphylla</i> Dumort.
+  </div>
 </div>
  <div class="info-right">
 <table>

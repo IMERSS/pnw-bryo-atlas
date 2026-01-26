@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Peltolepis">Peltolepis</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Peltolepis quadrata (Saut.) Müll.Frib.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Peltolepis quadrata (Saut.) Müll.Frib.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185696">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cleveaceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185696">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cleveaceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Peltolepis grandis</i> (Lindb.) Lindb., <i>Peltolepis grandis</i> var. <i>angustifrons</i> Lindb., <i>Peltolepis grandis</i> var. <i>sibirica</i> (Lindb.) Lindb., <i>Peltolepis japonica</i> (Shimizu & S. Hatt.) S. Hatt., <i>Peltolepis quadrata</i> var. <i>japonica</i> Shimizu & S. Hatt., <i>Peltolepis quadrata</i> var. <i>sibirica</i> (Lindb.) Damsh., <i>Peltolepis sibirica</i> Lindb., <i>Sauteria grandis</i> Lindb., <i>Sauteria quadrata</i> Saut.
+  </div>
 </div>
  <div class="info-right">
 <table>

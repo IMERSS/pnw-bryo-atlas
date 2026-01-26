@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Aneura">Aneura</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Aneura pinguis (L.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Aneura pinguis (L.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184440">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
-<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Aneura+pinguis&amp;formsubmit&#x3D;Search+Terms">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184440">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Aneura+pinguis&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aneura fuscovirens</i> (Lindb.) Steph., <i>Aneura indica</i> Steph., <i>Aneura latissima</i> Spruce, <i>Aneura laurentiana</i> Steph., <i>Aneura pinguis</i> fo. <i>tenuis</i> Nees, <i>Aneura pinguis</i> var. <i>angustior</i> (Hook.) Dumort., <i>Aneura pinguis</i> var. <i>angustior</i> (Hook.) R.M. Schust., <i>Aneura pinguis</i> var. <i>denticulata</i> (Nees) Debat, <i>Aneura pinguis</i> var. <i>fuscovirens</i> (Lindb.) Damsh., <i>Aneura pinguis</i> var. <i>minor</i> Gottsche, Lindenb. & Nees, <i>Aneura pinnatifida</i> (F. Weber) Nees, <i>Aneura sessilis</i> (Spreng.) Gottsche, Lindenb. & Nees, <i>Aneura submarginata</i> S.W. Arnell ex M. Wigginton & Grolle, <i>Aneura viridissima</i> (Schiffn.) Steph., <i>Gymnomitrion pingue</i> (L.) Huebener, <i>Gymnomitrion pingue</i> var. <i>angustum</i> Huebener, <i>Jungermannia pinguis</i> L., <i>Jungermannia rigida</i> Wallr., <i>Jungermannia sessilis</i> Spreng., <i>Metzgeria pinguis</i> (L.) Corda, <i>Riccardia blasioides</i> Horik., <i>Riccardia fuscovirens</i> Lindb., <i>Riccardia indica</i> (Steph.) Pandé & K.P. Srivast., <i>Riccardia laurentiana</i> (Steph.) Demaret, <i>Riccardia pinguis</i> (L.) Gray, <i>Riccardia pinguis</i> fo. <i>angustior</i> (Hook.) Nis Jensen, <i>Riccardia pinguis</i> fo. <i>submersa</i> Loeske ex Jaap, <i>Riccardia pinguis</i> var. <i>fuscovirens</i> (Lindb.) C.E.O. Jensen, <i>Riccardia pinguis</i> var. <i>tenuis</i> Nees ex Schiffn., <i>Riccardia submarginata</i> S.W. Arnell, <i>Riccardia viridissima</i> Schiffn., <i>Roemeria pinguis</i> var. <i>major</i> Raddi, <i>Roemeria pinguis</i> var. <i>media</i> Raddi, <i>Roemeria pinguis</i> var. <i>minor</i> Raddi, <i>Trichostylium affine</i> Corda, <i>Trichostylium arenarium</i> Meyen, <i>Trichostylium pingue</i> (L.) R.M. Schust.
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephaloziella">Cephaloziella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Cephaloziella spinigera (Lindb.) Warnst.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Cephaloziella spinigera (Lindb.) Warnst.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35186121">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35186121">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia spinifolia</i> (Jørg.) Steph., <i>Cephalozia spinigera</i> Lindb., <i>Cephalozia striatula</i> C.E.O. Jensen, <i>Cephalozia striatula</i> var. <i>spinigera</i> (Lindb.) Arnell & C.E.O. Jensen, <i>Cephalozia subdentata</i> (Warnst.) Steph., <i>Cephaloziella elachista</i> var. <i>spinigera</i> (Lindb.) Müll. Frib., <i>Cephaloziella spinigera</i> fo. <i>striatula</i> (C.E.O. Jensen) Damsh., <i>Cephaloziella spinosa</i> Douin, <i>Cephaloziella striatula</i> (C.E.O. Jensen) Douin, <i>Cephaloziella striatula</i> var. <i>subdentata</i> (Warnst.) Müll. Frib., <i>Cephaloziella subdentata</i> Warnst., <i>Cephaloziella turfacea</i> Douin, <i>Prionolobus striatulus</i> (C.E.O. Jensen) Schiffn. ex Douin
+  </div>
 </div>
  <div class="info-right">
 <table>

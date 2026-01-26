@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Pleurozia">Pleurozia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Pleurozia purpurea Lindb.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Pleurozia purpurea Lindb.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185775">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;PleuPleuroziaceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185775">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;PleuPleuroziaceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia cochleariformis</i> Hook. ex Nees, <i>Jungermannia purpurea</i> Lightf., <i>Mnium jungermannia</i> L., <i>Physiotium cochleariforme</i> Nees, <i>Pleurozia arcuata</i> Horik., <i>Pleurozia cochleariformis</i> (Nees) A. Evans, <i>Pleurozia purpurea</i> var. <i>arcuata</i> (Horik.) Ikegami, <i>Radula cochleariformis</i> (Weiss) Dumort.
+  </div>
 </div>
  <div class="info-right">
 <table>

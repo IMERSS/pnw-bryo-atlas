@@ -36,15 +36,15 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Aneura">Aneura</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/2689523" target="_blank">
-<span class="scientific-name">Aneura </span>
+    <a href="https://www.gbif.org/species/2689523" target="_blank">
+      <span class="scientific-name">Aneura </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+    </div>
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephaloziella">Cephaloziella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Cephaloziella divaricata (Sm.) Schiffn.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Cephaloziella divaricata (Sm.) Schiffn.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184942">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184942">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia aequitexta</i> Steph. ex Bonner, <i>Cephalozia asperifolia</i> (Taylor) Trevis., <i>Cephalozia asperifolia</i> fo. <i>belsensis</i> Douin, <i>Cephalozia divaricata</i> (Sm.) Dumort., <i>Cephalozia divaricata</i> var. <i>scabra</i> M. Howe, <i>Cephalozia notarisiana</i> C. Massal., <i>Cephalozia papillosa</i> Douin, <i>Cephaloziella aequitexta</i> Steph. ex Fulford, <i>Cephaloziella andina</i> Herzog, <i>Cephaloziella brasiliensis</i> S.W. Arnell, <i>Cephaloziella byssacea</i> (Roth) Warnst., <i>Cephaloziella byssacea</i> var. <i>asperifolia</i> Macvicar, <i>Cephaloziella carnutensis</i> Douin, <i>Cephaloziella divaricata</i> var. <i>asperifolia</i> (Taylor) Damsh., <i>Cephaloziella divaricata</i> var. <i>incurva</i> (Lindb.) C.E.O. Jensen, <i>Cephaloziella divaricata</i> var. <i>polystratosa</i> (R.M. Schust. & Damsh.) Potemkin, <i>Cephaloziella divaricata</i> var. <i>rupestris</i> (C.E.O. Jensen ex Arnell) Damsh., <i>Cephaloziella divaricata</i> var. <i>scabra</i> (M. Howe) Haynes, <i>Cephaloziella latzeliana</i> Schiffn., <i>Cephaloziella limprichtii</i> var. <i>stellulifera</i> (Taylor ex Carrington & Pearson) Müll. Frib., <i>Cephaloziella nigrimonasteriensis</i> Douin, <i>Cephaloziella papillosa</i> (Douin) Schiffn., <i>Cephaloziella rupestris</i> (C.E.O. Jensen ex Arnell) Schumack. & Váňa, <i>Cephaloziella starkei</i> Schiffn., <i>Cephaloziella starkei</i> var. <i>asperifolia</i> Macvicar, <i>Cephaloziella starkei</i> var. <i>examphigastriata</i> Douin ex Müll. Frib., <i>Cephaloziella starkei</i> var. <i>papillosa</i> (Douin) Casares-Gil, <i>Cephaloziella starkei</i> var. <i>scabra</i> (M. Howe) L. Clark & Frye, <i>Cephaloziella starkei</i> var. <i>serriflora</i> Douin, <i>Jungermannia asperifolia</i> Taylor, <i>Jungermannia byssacea</i> Roth, <i>Jungermannia confervoides</i> Raddi, <i>Jungermannia divaricata</i> fo. <i>laxa</i> Nees, <i>Jungermannia divaricata</i> Sm., <i>Jungermannia intricata</i> Huebener, <i>Jungermannia starkei</i> fo. <i>procerior</i> Nees, <i>Jungermannia starkei</i> Funck ex Nees, <i>Jungermannia stellulifera</i> Taylor ex Carrington & Pearson
+  </div>
 </div>
  <div class="info-right">
 <table>

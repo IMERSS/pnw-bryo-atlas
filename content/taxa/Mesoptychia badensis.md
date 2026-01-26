@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Mesoptychia">Mesoptychia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Mesoptychia badensis (Gottsche ex Rabenh.) L.Söderstr. &amp; Váňa</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Mesoptychia badensis (Gottsche ex Rabenh.) L.Söderstr. &amp; Váňa</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100383528">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungMesoptychia.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100383528">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungMesoptychia.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Leiocolea badensis</i> (Gottsche ex Rabenh.) Jørg., <i>Leiocolea badensis</i> var. <i>apiculata</i> (R.M. Schust.) Konstant. & A.N. Savchenko, <i>Lophozia badensis</i> (Gottsche ex Rabenh.) Schiffn., <i>Lophozia badensis</i> var. <i>apiculata</i> R.M. Schust., <i>Lophozia badensis</i> var. <i>obtusiloba</i> (Bernet) Schiffn., <i>Mesoptychia badensis</i> var. <i>apiculata</i> (R.M. Schust.) Potemkin
+  </div>
 </div>
  <div class="info-right">
 <table>

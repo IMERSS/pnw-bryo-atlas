@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Anastrepta">Anastrepta</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Anastrepta orcadensis (Hook.) Schiffn.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Anastrepta orcadensis (Hook.) Schiffn.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184429">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapAnastrepta.htm">BFNA</a>
-<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Anastrepta+orcadensis&amp;formsubmit&#x3D;Search+Terms">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184429">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapAnastrepta.htm">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Anastrepta+orcadensis&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Anastrepta sikkimensis</i> Steph., <i>Anastrophyllum erectifolium</i> (Steph.) Steph., <i>Jungermannia erectifolia</i> Steph., <i>Jungermannia orcadensis</i> Hook., <i>Lophozia decurrentia</i> Horik., <i>Lophozia rotundifolia</i> Horik.
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Moerckia">Moerckia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Moerckia blyttii (MÅ¸rch) Brockm.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Moerckia blyttii (MÅ¸rch) Brockm.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185639">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;PallMoerckia.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185639">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;PallMoerckia.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Blytia moerkii</i> Nees, <i>Blytia moerkii</i> var. <i>contorta</i> (Nees ex Flot.) Nees, <i>Calycularia blyttii</i> (Mørch) Steph., <i>Cordaea blyttii</i> (Mørch) Corda, <i>Cordaea contorta</i> Nees ex Flot., <i>Dilaena blyttii</i> (Mørch) Dumort., <i>Diplolaena blyttii</i> (Mørch) Nees, <i>Diplolaena blyttii</i> fo. <i>contorta</i> (Nees ex Flot.) Nees, <i>Diplomitrium blyttii</i> (Mørch) Corda ex Nees, <i>Gymnomitrion blyttii</i> (Mørch) Huebener, <i>Jungermannia blyttii</i> Mørch, <i>Moerckia norvegica</i> Gottsche, <i>Pallavicinia blyttii</i> (Mørch) Lindb., <i>Pallavicinia blyttii</i> var. <i>contorta</i> (Nees ex Flot.) Lindb., <i>Thedenia blyttii</i> (Mørch) Hartm.
+  </div>
 </div>
  <div class="info-right">
 <table>

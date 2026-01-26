@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Reboulia">Reboulia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Reboulia hemisphaerica (L.) Raddi</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Reboulia hemisphaerica (L.) Raddi</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35188345">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aytoniaceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35188345">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aytoniaceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Achiton quadratus</i> (Scop.) Corda, <i>Asterella fasciata</i> (Myrin ex Hartm.) Trevis., <i>Asterella hemisphaerica</i> (L.) P. Beauv., <i>Asterella hemisphaerica</i> var. <i>fasciata</i> (Myrin ex Hartm.) Lindb., <i>Asterella javanica</i> (Nees) Trevis., <i>Asterella latifrons</i> (Steph.) H.A. Mill., <i>Asterella longipes</i> (Sande Lac.) Mitt., <i>Asterella microcephala</i> (Taylor) Trevis., <i>Fegatella hemisphaerica</i> (L.) Taylor, <i>Fegatella microcephala</i> Taylor, <i>Fimbraria latifrons</i> Steph., <i>Fimbraria valida</i> Steph., <i>Grimaldia hemisphaerica</i> (L.) D. Dietr., <i>Grimaldia japonica</i> Steph., <i>Grimaldia madeirensis</i> Lindenb., <i>Grimaldia ventricosa</i> Wallr., <i>Mannia japonica</i> (Steph.) Horik., <i>Marchantia barbata</i> Link ex F. Weber, <i>Marchantia crinita</i> Michx., <i>Marchantia fasciata</i> Myrin ex Hartm., <i>Marchantia hemisphaerica</i> L., <i>Marchantia triceps</i> Schwein. ex E. Hitchc., <i>Otiona crinita</i> (Michx.) Corda, <i>Plagiochasma bisetulum</i> Steph., <i>Plagiochasma queenslandicum</i> Steph., <i>Reboulia charrieri</i> Douin & R.C.V. Douin, <i>Reboulia hemisphaerica</i> fo. <i>macrocephala</i> C. Massal., <i>Reboulia hemisphaerica</i> fo. <i>paroica</i> C. Massal. & Carestia, <i>Reboulia hemisphaerica</i> subsp. <i>paradoxa</i> R.M. Schust., <i>Reboulia hemisphaerica</i> var. <i>javanica</i> (Nees) Schiffn., <i>Reboulia hemisphaerica</i> var. <i>longilanata</i> Lindb., <i>Reboulia hemisphaerica</i> var. <i>macrocephala</i> (C. Massal.) Çetin, <i>Reboulia hemisphaerica</i> var. <i>microspora</i> Schiffn., <i>Reboulia hemisphaerica</i> var. <i>pangiensis</i> (Kashyap) Kashyap ex Kachroo, <i>Reboulia javanica</i> Nees, <i>Reboulia longipes</i> Sande Lac., <i>Reboulia microcephala</i> (Taylor) Nees, <i>Reboulia occidentalis</i> Douin & R.C.V. Douin, <i>Reboulia sullivantii</i> Lehm., <i>Rhakiocarpon conspersum</i> Corda, <i>Strozzius hemisphaericus</i> (L.) Gray
+  </div>
 </div>
  <div class="info-right">
 <table>

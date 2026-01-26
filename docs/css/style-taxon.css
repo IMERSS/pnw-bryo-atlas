@@ -42,6 +42,10 @@
     font-size: 16px;
 }
 
+.taxon-synonyms {
+    font-size: 16px;
+}
+
 .taxon-name {
     font-style: italic;
     font-size: 36px;
@@ -65,6 +69,8 @@
 .taxon-scientific {
     margin-top: 1rem;
 }
+
+
 
 .external-taxa {
     display: inline-block;

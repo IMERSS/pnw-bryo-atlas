@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Barbilophozia">Barbilophozia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Barbilophozia hatcheri (A.Evans) Loeske</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Barbilophozia hatcheri (A.Evans) Loeske</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184832">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
-<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Barbilophozia+hatcheri&amp;formsubmit&#x3D;Search+Terms">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184832">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Barbilophozia+hatcheri&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Barbilophozia baueriana</i> (Schiffn.) Loeske, <i>Barbilophozia lycopodioides</i> var. <i>parvifolia</i> (Schiffn.) Müll. Frib., <i>Jungermannia baueriana</i> (Schiffn.) Arnell, <i>Jungermannia lycopodioides</i> var. <i>cavifolia</i> Berggr., <i>Lophozia baueriana</i> (Schiffn.) Schiffn., <i>Lophozia hatcheri</i> (A. Evans) Steph., <i>Lophozia lycopodioides</i> var. <i>parvifolia</i> Schiffn.
+  </div>
 </div>
  <div class="info-right">
 <table>

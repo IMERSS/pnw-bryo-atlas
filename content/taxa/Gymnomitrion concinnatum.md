@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Gymnomitrion">Gymnomitrion</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Gymnomitrion concinnatum (Lightf.) Corda</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Gymnomitrion concinnatum (Lightf.) Corda</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185183">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185183">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Acolea breviloba</i> Steph., <i>Acolea concinnata</i> (Lightf.) Dumort., <i>Acolea concinnata</i> fo. <i>procumbens</i> (Nees) Bernet, <i>Acolea concinnata</i> fo. <i>rufa</i> (Limpr.) Bernet, <i>Acolea concinnata</i> fo. <i>viridis</i> (Limpr.) Bernet, <i>Acolea concinnata</i> var. <i>intermedia</i> (Limpr.) Bernet, <i>Acolea concinnata</i> var. <i>procumbens</i> (Nees) C. Massal., <i>Cesia concinnata</i> (Lightf.) Lindb., <i>Cesius concinnatus</i> (Lightf.) Gray, <i>Cesius concinnatus</i> var. <i>ambiguus</i> Kaal., <i>Cesius concinnatus</i> var. <i>argenteus</i> Jørg., <i>Cesius concinnatus</i> var. <i>bryhnii</i> Kaal., <i>Cesius concinnatus</i> var. <i>intermedius</i> (Limpr.) Jørg., <i>Cesius concinnatus</i> var. <i>rufescens</i> Kaal., <i>Cesius concinnatus</i> var. <i>rufus</i> (Limpr.) Jørg., <i>Gymnomitrion brevilobum</i> (Steph.) Horik., <i>Gymnomitrion concinnatum</i> fo. <i>elongatum</i> Schiffn., <i>Gymnomitrion concinnatum</i> fo. <i>laxum</i> Meyl., <i>Gymnomitrion concinnatum</i> fo. <i>procumbens</i> Nees, <i>Gymnomitrion concinnatum</i> fo. <i>rufum</i> Limpr., <i>Gymnomitrion concinnatum</i> fo. <i>viride</i> Limpr., <i>Gymnomitrion concinnatum</i> var. <i>ambiguum</i> (Kaal.) S.W. Arnell, <i>Gymnomitrion concinnatum</i> var. <i>argenteum</i> (Jørg.) Müll. Frib., <i>Gymnomitrion concinnatum</i> var. <i>bryhnii</i> (Kaal.) Müll. Frib., <i>Gymnomitrion concinnatum</i> var. <i>intermedium</i> Limpr., <i>Gymnomitrion concinnatum</i> var. <i>reflexum</i> Müll. Frib., <i>Gymnomitrion concinnatum</i> var. <i>rufescens</i> (Kaal.) Müll. Frib., <i>Jungermannia concinnata</i> Lightf., <i>Jungermannia gymnomitrioides</i> Nees, <i>Schisma concinnatum</i> (Lightf.) Dumort., <i>Schisma concinnatum</i> Dumort.
+  </div>
 </div>
  <div class="info-right">
 <table>

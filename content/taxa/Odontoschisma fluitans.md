@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Odontoschisma">Odontoschisma</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Odontoschisma fluitans (Nees) L.Söderstr. &amp; Váňa</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Odontoschisma fluitans (Nees) L.Söderstr. &amp; Váňa</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100389753">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;CephaloziaceaeOdontoschisma.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100389753">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;CephaloziaceaeOdontoschisma.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia fluitans</i> (Nees) Spruce, <i>Cephalozia fluitans</i> var. <i>gigantea</i> Lindb. ex Breidl., <i>Cephalozia francisci</i> var. <i>fluitans</i> (Nees) Austin, <i>Cephalozia obtusiloba</i> Lindb., <i>Cladopodiella fluitans</i> (Nees) H. Buch, <i>Cladopodiella fluitans</i> (Nees) Jørg., <i>Cladopodiella fluitans</i> fo. <i>gigantea</i> (Lindb. ex Breidl.) Müll. Frib., <i>Cladopodiella fluitans</i> var. <i>gigantea</i> (Lindb. ex Breidl.) S.W. Arnell ex Mårtensson, <i>Eucephalozia fluitans</i> (Nees) Schiffn., <i>Jungermannia fluitans</i> Nees, <i>Jungermannia inflata</i> fo. <i>fluitans</i> (Nees) Nees, <i>Jungermannia inflata</i> var. <i>fluitans</i> (Nees) Nees, <i>Lophozia fluitans</i> (Nees) Boulay ex Douin
+  </div>
 </div>
  <div class="info-right">
 <table>

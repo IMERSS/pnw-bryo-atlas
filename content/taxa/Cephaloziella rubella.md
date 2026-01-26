@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Cephaloziella">Cephaloziella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Cephaloziella rubella (Nees) Warnst.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Cephaloziella rubella (Nees) Warnst.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184958">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184958">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Cephaloziellaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia bifida</i> (Schmidel ex Hoffm.) Lindb., <i>Cephalozia bryhnii</i> Kaal., <i>Cephalozia jackii</i> Limpr. ex Spruce, <i>Cephalozia myriantha</i> Lindb., <i>Cephalozia pulchella</i> C.E.O. Jensen, <i>Cephalozia raddiana</i> (C. Massal.) C. Massal., <i>Cephalozia rubriflora</i> (Nees) C.E.O. Jensen, <i>Cephalozia subsimplex</i> Lindb. ex Kaal., <i>Cephaloziella bifida</i> (Schmidel ex Hoffm.) Schiffn., <i>Cephaloziella bifida</i> var. <i>erosa</i> Summerh. & Elton, <i>Cephaloziella bifidoides</i> Douin, <i>Cephaloziella bryhnii</i> (Kaal.) Schiffn., <i>Cephaloziella hampeana</i> var. <i>pulchella</i> (C.E.O. Jensen) C.E.O. Jensen ex Müll. Frib., <i>Cephaloziella jackii</i> (Limpr. ex Spruce) Schiffn., <i>Cephaloziella myriantha</i> (Lindb.) Schiffn., <i>Cephaloziella pulchella</i> (C.E.O. Jensen) Douin, <i>Cephaloziella raddiana</i> (C. Massal.) Schiffn., <i>Cephaloziella rubella</i> fo. <i>subsimplex</i> (Lindb. ex Kaal.) Müll. Frib., <i>Cephaloziella rubella</i> var. <i>bifida</i> (Schmidel ex Hoffm.) Douin, <i>Cephaloziella rubella</i> var. <i>bryhnii</i> (Kaal.) Douin, <i>Cephaloziella rubella</i> var. <i>pulchella</i> (C.E.O. Jensen) R.M. Schust., <i>Cephaloziella rubella</i> var. <i>pyrenaica</i> Douin, <i>Cephaloziella rubella</i> var. <i>sullivantii</i> (Austin) Müll. Frib., <i>Cephaloziella turfacea</i> Douin, <i>Jungermannia bifida</i> Schmidel ex Hoffm., <i>Jungermannia raddiana</i> C. Massal., <i>Jungermannia rubella</i> Nees, <i>Jungermannia sullivantii</i> Austin
+  </div>
 </div>
  <div class="info-right">
 <table>

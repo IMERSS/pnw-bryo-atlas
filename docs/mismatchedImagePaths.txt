@@ -1,10 +1,5 @@
-There were 20 images in the spreadsheet whose paths mismatched the Drive:
+There were 16 images in the spreadsheet whose paths mismatched the Drive:
 [
-  {
-    "file": "/Liverworts/Anastrophyllaceae/Barbilophozia_barbata/macro_pics/Barbilophozia_barbata_Iris_Bitterlich_01.jpg'",
-    "taxon": "Barbilophozia barbata",
-    "column": "insetPhoto5"
-  },
   {
     "file": "Liverworts/Scapaniaceae/Barbilophozia_lycopodioides/macro_pics/Barbilophozia_lycopodioides_CF_01.jpg",
     "taxon": "Barbilophozia lycopodioides",
@@ -14,21 +9,6 @@ There were 20 images in the spreadsheet whose paths mismatched the Drive:
     "file": "Liverworts/Scapaniaceae/Barbilophozia_lycopodioides/macro_pics/Barbilophozia_lycopodioides_JH_01.jpg",
     "taxon": "Barbilophozia lycopodioides",
     "column": "insetPhoto3"
-  },
-  {
-    "file": "Liverworts/Anastrophyllaceae/Barbilophozia_sudetica/macro_pics/Barbilophozia_sudetica_MR_01.jpg'",
-    "taxon": "Barbilophozia sudetica",
-    "column": "insetPhoto6"
-  },
-  {
-    "file": "Liverworts/Lepidoziaceae/Bazzania_tricrenata/macro_pics/Bazzania_tricrenata_DT_01.jpeg'",
-    "taxon": "Bazzania tricrenata",
-    "column": "insetPhoto4"
-  },
-  {
-    "file": "Liverworts/Lepidoziaceae/Bazzania_tricrenata/macro_pics/Bazzania_tricrenata_RM_02.jpg'",
-    "taxon": "Bazzania tricrenata",
-    "column": "insetPhoto5"
   },
   {
     "file": " ",

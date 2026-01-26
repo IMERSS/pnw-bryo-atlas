@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccia">Riccia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Riccia beyrichiana Hampe</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Riccia beyrichiana Hampe</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185935">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185935">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Riccia glaucescens</i> Carrington, <i>Riccia lescuriana</i> Austin, <i>Riccia lescuriana</i> var. <i>cruciata</i> Austin, <i>Riccia lescuriana</i> var. <i>glaucescens</i> (Carrington) Müll. Frib., <i>Riccia lescuriana</i> var. <i>trichotoma</i> Austin, <i>Riccia lesquereuxii</i> Lindb., <i>Riccia levieri</i> Schiffn., <i>Riccia levieri</i> var. <i>algarvica</i> Schiffn. ex W.E. Nicholson, <i>Riccia marginata</i> Lindb., <i>Riccia subinermis</i> var. <i>crassa</i> Warnst., <i>Riccia wichurae</i> Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

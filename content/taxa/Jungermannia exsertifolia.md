@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Jungermannia">Jungermannia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Jungermannia exsertifolia Steph.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Jungermannia exsertifolia Steph.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185294">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungJungermannia.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185294">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungJungermannia.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aplozia nipponica</i> Sakurai & G. Takah., <i>Jungermannia cordifolia</i> subsp. <i>exsertifolia</i> (Steph.) Amakawa, <i>Jungermannia exsertifolia</i> subsp. <i>cordifolia</i> (Dumort.) Váňa, <i>Jungermannia nipponica</i> (Sakurai & G. Takah.) S. Hatt., <i>Solenostoma cordifolium</i> (Dumort.) Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

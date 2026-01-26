@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Tetralophozia">Tetralophozia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Tetralophozia setiformis (Ehrh.) Schljakov</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Tetralophozia setiformis (Ehrh.) Schljakov</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35206405">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungTetralophozia.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35206405">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungTetralophozia.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Chandonanthus setiformis</i> (Ehrh.) Lindb., <i>Chandonanthus setiformis</i> var. <i>alpinus</i> (Hook.) Kaal., <i>Chandonanthus setiformis</i> var. <i>nemoides</i> Kaal., <i>Jungermannia filum</i> Dumort., <i>Jungermannia setiformis</i> Ehrh., <i>Jungermannia setiformis</i> var. <i>alpina</i> Hook., <i>Temnoma setiforme</i> (Ehrh.) M. Howe
+  </div>
 </div>
  <div class="info-right">
 <table>

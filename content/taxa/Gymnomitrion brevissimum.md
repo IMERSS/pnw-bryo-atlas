@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Gymnomitrion">Gymnomitrion</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Gymnomitrion brevissimum (Dumort.) Warnst.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Gymnomitrion brevissimum (Dumort.) Warnst.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100385116">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100385116">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Acolea cochlearis</i> (Lindb.) Steph., <i>Acolea conferta</i> (Limpr.) C. Massal. & Carestia, <i>Acolea crassifolia</i> (Carrington) Steph., <i>Acolea varians</i> (Lindb.) Steph., <i>Cesius cochlearis</i> (Lindb.) Lindb. ex Kaal., <i>Cesius confertus</i> (Limpr.) Pearson, <i>Cesius crassifolius</i> (Carrington) Lindb., <i>Cesius minor</i> Kuntze, <i>Cesius varians</i> (Lindb.) Lindb. ex Kaal., <i>Cesius varians</i> var. <i>cochlearis</i> (Lindb.) Jørg., <i>Cesius varians</i> var. <i>crassifolius</i> (Carrington) Jørg., <i>Gymnomitrion ambiguum</i> Limpr. ex C. Massal. & Carestia, <i>Gymnomitrion cochleare</i> Müll. Frib., <i>Gymnomitrion confertum</i> (Limpr.) Limpr., <i>Gymnomitrion crassifolium</i> Carrington, <i>Gymnomitrion ochraceum</i> Limpr. ex Müll. Frib., <i>Gymnomitrion varians</i> (Lindb.) Schiffn., <i>Gymnomitrion varians</i> var. <i>majus</i> Schiffn., <i>Jungermannia concinnata</i> var. <i>minor</i> Schleich., <i>Marsupella brevissima</i> (Dumort.) Grolle, <i>Marsupella cochlearis</i> (Lindb.) Spruce, <i>Marsupella conferta</i> (Limpr.) Spruce, <i>Marsupella crassifolia</i> (Carrington) Spruce, <i>Marsupella varians</i> (Lindb.) Müll. Frib., <i>Marsupella varians</i> var. <i>crassifolia</i> (Carrington) Jørg. ex S.W. Arnell, <i>Nardia cochlearis</i> Lindb., <i>Nardia sparsifolia</i> var. <i>minor</i> Lindb., <i>Nardia varians</i> Lindb., <i>Sarcocyphos confertus</i> Limpr., <i>Sarcocyphos sparsifolius</i> fo. <i>minor</i> (Lindb.) Gottsche & Rabenh.
+  </div>
 </div>
  <div class="info-right">
 <table>

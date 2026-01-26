@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccardia">Riccardia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Riccardia multifida (L.) Gray</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Riccardia multifida (L.) Gray</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185929">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185929">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aneura ambrosioides</i> (Nees) Pearson, <i>Aneura bipinnata</i> (Sw.) Nees, <i>Aneura crenulata</i> Steph., <i>Aneura decrescens</i> Steph., <i>Aneura foreauana</i> Steph., <i>Aneura luetzelburgii</i> Steph., <i>Aneura makinoana</i> Steph., <i>Aneura multifida</i> (L.) Dumort., <i>Aneura sinuata</i> fo. <i>stenoclada</i> (Schiffn.) Kavina, <i>Anthoceros multifidus</i> L., <i>Gymnomitrion multifidum</i> (L.) Huebener, <i>Jungermannia bipinnata</i> Sw., <i>Jungermannia multifida</i> L., <i>Jungermannia rigida</i> Huebener, <i>Riccardia bipinnata</i> (Sw.) Trevir., <i>Riccardia decrescens</i> (Steph.) S. Hatt., <i>Riccardia foreauana</i> (Steph.) Pandé & K.P. Srivast., <i>Riccardia makinoana</i> (Steph.) Yasuda, <i>Riccardia shimizuana</i> S. Hatt., <i>Roemeria multifida</i> (L.) Raddi, <i>Sarcomitrium multifidum</i> (L.) Mitt.
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Barbilophozia">Barbilophozia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Barbilophozia sudetica (Nees ex Huebener) L.Söderstr., De Roo &amp; Hedd.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Barbilophozia sudetica (Nees ex Huebener) L.Söderstr., De Roo &amp; Hedd.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100356301">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
-<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Barbilophozia+sudetica&amp;formsubmit&#x3D;Search+Terms">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100356301">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Barbilophozia+sudetica&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Lophozia debiliformis</i> R.M. Schust. & Damsh., <i>Lophozia debiliformis</i> var. <i>concolor</i> R.M. Schust. & Damsh., <i>Lophozia rufescens</i> Schljakov, <i>Lophozia sudetica</i> (Nees ex Huebener) Grolle, <i>Lophozia sudetica</i> var. <i>anomala</i> (Schljakov) Schljakov, <i>Protolophozia debiliformis</i> (R.M. Schust. & Damsh.) Konstant. & Czernjad., <i>Pseudolophozia debiliformis</i> (R.M. Schust. & Damsh.) Konstant. & Vilnet, <i>Pseudolophozia sudetica</i> (Nees ex Huebener) Konstant. & Vilnet
+  </div>
 </div>
  <div class="info-right">
 <table>

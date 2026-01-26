@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Lophocolea">Lophocolea</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Lophocolea minor Nees</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Lophocolea minor Nees</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185381">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185381">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lophocoleaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Chiloscyphus minor</i> (Nees) J.J. Engel & R.M. Schust., <i>Jungermannia crocata</i> De Not., <i>Jungermannia perpusilla</i> Hook. f. & Taylor, <i>Lophocolea calcarea</i> Steph., <i>Lophocolea crocata</i> (De Not.) Nees, <i>Lophocolea faurieana</i> Steph., <i>Lophocolea heterophylla</i> var. <i>minor</i> (Nees) Douin, <i>Lophocolea hirafusa</i> Steph., <i>Lophocolea perpusilla</i> (Hook. f. & Taylor) Taylor ex Gottsche, Lindenb. & Nees, <i>Lophocolea setistipa</i> Steph., <i>Lophocolea wairoae</i> Herzog
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Mylia">Mylia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Mylia anomala (Hook.) Gray</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Mylia anomala (Hook.) Gray</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185641">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungMylia.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185641">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungMylia.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aplozia anomala</i> (Hook.) Warnst., <i>Jungermannia anomala</i> Hook., <i>Jungermannia taylorii</i> fo. <i>anomala</i> (Hook.) Nees, <i>Leiomylia anomala</i> (Hook.) J.J. Engel & Braggins, <i>Leioscyphus anomalus</i> (Hook.) Steph., <i>Leptoscyphus anomalus</i> (Hook.) Lindb., <i>Mylia taylorii</i> subsp. <i>anomala</i> (Hook.) Carrington
+  </div>
 </div>
  <div class="info-right">
 <table>

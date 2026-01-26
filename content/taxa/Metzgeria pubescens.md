@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Metzgeria">Metzgeria</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Metzgeria pubescens Schiffn.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Metzgeria pubescens Schiffn.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35187041">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Metgeriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35187041">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Metgeriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Apometzgeria pubescens</i> (Schrank) Kuwah., <i>Echinogyna pubescens</i> (Schrank) Dumort., <i>Echinomitrion furcatum</i> var. <i>pubescens</i> (Schrank) Corda, <i>Echinomitrion pubescens</i> (Schrank) Huebener, <i>Fasciola pubescens</i> (Schrank) Dumort., <i>Herverus pubescens</i> (Schrank) Gray, <i>Jungermannia pubescens</i> Schrank, <i>Jungermannia tomentosa</i> Hoffm., <i>Metzgeria duricosta</i> Steph., <i>Metzgeria longifrondis</i> C. Gao
+  </div>
 </div>
  <div class="info-right">
 <table>

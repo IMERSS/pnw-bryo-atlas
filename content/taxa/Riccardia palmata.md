@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccardia">Riccardia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Riccardia palmata (Hedw.) Carruth.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Riccardia palmata (Hedw.) Carruth.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185932">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185932">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aneuraceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aneura palmata</i> (Hedw.) Dumort., <i>Aneura palmata</i> fo. <i>laxa</i> Nees, <i>Aneura palmata</i> fo. <i>polyblasta</i> Nees, <i>Aneura tosana</i> Steph., <i>Gymnomitrion palmatum</i> (Hedw.) Huebener, <i>Jungermannia fruticulosa</i> (O.F. Müll.) Sm., <i>Jungermannia multifida</i> var. <i>palmata</i> (Hedw.) Hartm., <i>Jungermannia palmata</i> Hedw., <i>Jungermannia palmata</i> var. <i>polyphylla</i> (Sw.) Steud., <i>Jungermannia polyphylla</i> Sw., <i>Metzgeria fruticulosa</i> (O.F. Müll.) A. Evans, <i>Riccardia tosana</i> (Steph.) S. Hatt., <i>Riccia fruticulosa</i> O.F. Müll., <i>Roemeria palmata</i> (Hedw.) Raddi, <i>Sarcomitrium palmatum</i> (Hedw.) Corda
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -11,6 +11,9 @@ downloadGdrive("1MG7C7GX1Tl2RO_vHuMwUo8quhzYZd_mElWRnPuNbpj8", "tabular_data/BC_
 # Fetch from Keys at https://drive.google.com/drive/folders/1bhfv1nTHFP69qpzaoa6W3NK1-gHcvniB
 downloadGdriveFolder("1bhfv1nTHFP69qpzaoa6W3NK1-gHcvniB", "tabular_data/Keys", skip_if_exists = FALSE)
 
+# Fetch from Bryo_species_synonyms at https://docs.google.com/spreadsheets/d/16vcd4-TXyVqGvsZpyHGrNQMmn3d0yFrZpDCEkEonPi0/edit
+downloadGdrive("16vcd4-TXyVqGvsZpyHGrNQMmn3d0yFrZpDCEkEonPi0", "tabular_data/Bryo_species_synonyms.csv", TRUE)
+
 moveKeyImages <- function (src, dst) {
   dirs <- list.dirs(src, full.names = TRUE, recursive = FALSE)
   

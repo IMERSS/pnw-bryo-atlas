@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Mannia">Mannia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Mannia fragrans (Balb.) Frye &amp; L.Clark</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Mannia fragrans (Balb.) Frye &amp; L.Clark</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185589">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aytoniaceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185589">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aytoniaceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Duvalia fragrans</i> (Balb.) Lindb., <i>Fimbraria fragrans</i> (Balb.) Nees, <i>Grimaldia barbifrons</i> Bisch., <i>Grimaldia controversa</i> Meyl., <i>Grimaldia fragrans</i> (Balb.) Corda ex Nees, <i>Grimaldia fragrans</i> fo. <i>convoluta</i> Nees, <i>Grimaldia fragrans</i> fo. <i>fimbriata</i> Nees, <i>Grimaldia fragrans</i> var. <i>alpina</i> Meyl., <i>Grimaldia fragrans</i> var. <i>brevipes</i> Kaal., <i>Grimaldia inodora</i> Wallr., <i>Grimaldia sessilis</i> Sull., <i>Mannia barbifrons</i> Shimizu & S. Hatt., <i>Mannia brachypoda</i> Shimizu & S. Hatt., <i>Mannia fragrans</i> fo. <i>inodorata</i> S. Hatt., <i>Mannia fragrans</i> subsp. <i>orientalis</i> R.M. Schust., <i>Mannia fragrans</i> var. <i>brevipes</i> (Kaal.) Damsh., <i>Marchantia fragrans</i> Balb., <i>Pleurochiton balbisianum</i> Corda ex Nees, <i>Sindonisce fragrans</i> (Balb.) Corda
+  </div>
 </div>
  <div class="info-right">
 <table>

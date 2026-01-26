@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Scapania">Scapania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Scapania uliginosa (Lindenb.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Scapania uliginosa (Lindenb.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35186048">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35186048">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia renifolia</i> Lehm. ex Nees, <i>Jungermannia undulata</i> var. <i>uliginosa</i> Lindenb., <i>Martinellia obliqua</i> Arnell, <i>Martinellia uliginosa</i> (Lindenb.) Trevis., <i>Plagiochila uliginosa</i> (Lindenb.) Mont. & Nees, <i>Radula uliginosa</i> (Lindenb.) Dumort., <i>Scapania limprichtii</i> Warnst., <i>Scapania obliqua</i> (Arnell) Schiffn., <i>Scapania paludosa</i> (Müll. Frib.) Müll. Frib., <i>Scapania uliginosa</i> var. <i>obliqua</i> (Arnell) Jørg., <i>Scapania undulata</i> var. <i>paludosa</i> Müll. Frib., <i>Scapania vahliana</i> Lehm.
+  </div>
 </div>
  <div class="info-right">
 <table>

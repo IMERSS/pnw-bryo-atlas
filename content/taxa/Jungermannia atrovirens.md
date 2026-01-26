@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Jungermannia">Jungermannia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Jungermannia atrovirens Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Jungermannia atrovirens Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185289">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungJungermannia.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185289">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungJungermannia.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Aplozia atrovirens</i> (Dumort.) Dumort., <i>Aplozia atrovirens</i> var. <i>sphaerocarpoidea</i> (De Not.) Macvicar, <i>Aplozia lanceolata</i> (L.) Dumort., <i>Aplozia riparia</i> (Taylor) Dumort., <i>Aplozia riparia</i> var. <i>potamophila</i> (Müll. Arg. ex Moug., Nestl. & Schimp.) Bernet, <i>Aplozia riparia</i> var. <i>rivularis</i> Bernet, <i>Aplozia sphaerocarpoidea</i> (De Not.) Dumort., <i>Aplozia towadaensis</i> S. Okamura, <i>Aplozia tristis</i> (Nees) Dumort., <i>Jungermannia atrovirens</i> fo. <i>tristis</i> (Nees) Schljakov, <i>Jungermannia atrovirens</i> subsp. <i>claviflora</i> Furuki, <i>Jungermannia cordifolia</i> var. <i>nudiflora</i> (Nees) Váňa, <i>Jungermannia lanceolata</i> L., <i>Jungermannia lanceolata</i> var. <i>atrovirens</i> (Dumort.) Damsh., <i>Jungermannia potamophila</i> Müll. Arg. ex Moug., Nestl. & Schimp., <i>Jungermannia pumila</i> var. <i>sauteriana</i> Gottsche, <i>Jungermannia riparia</i> Taylor, <i>Jungermannia riparia</i> var. <i>rotundifolia</i> Samp., <i>Jungermannia shimizuana</i> S. Hatt. ex Amakawa, <i>Jungermannia sphaerocarpoidea</i> De Not., <i>Jungermannia towadaensis</i> (S. Okamura) S. Hatt., <i>Jungermannia tristis</i> Nees, <i>Jungermannia tristis</i> var. <i>rivularis</i> S. Hatt., <i>Solenostoma atrovirens</i> (Dumort.) Müll. Frib., <i>Solenostoma lanceolatum</i> (L.) Steph., <i>Solenostoma sphaerocarpoideum</i> (De Not.) Paton & E.F. Warb., <i>Solenostoma triste</i> (Nees) Müll. Frib.
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Bazzania">Bazzania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Bazzania trilobata (L.) Gray</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Bazzania trilobata (L.) Gray</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184724">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lepidoziaceae.htm">BFNA</a>
-<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;bazzania+trilobata&amp;formsubmit&#x3D;Search+Terms">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184724">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lepidoziaceae.htm">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;bazzania+trilobata&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Bazzania hattoriana</i> Kamim., <i>Bazzania pompeana</i> var. <i>uedae</i> (Ihsiba) S. Hatt., <i>Bazzania tridenticulata</i> (Michx.) Trevis., <i>Bazzania tridentoides</i> W.E. Nicholson, <i>Herpetium trilobatum</i> (L.) Nees, <i>Jungermannia bilobata</i> F. Weber ex Zenker & D. Dietr., <i>Jungermannia tridenticulata</i> Michx., <i>Jungermannia trilobata</i> L., <i>Mastigobryum pompeanum</i> var. <i>uedae</i> Ihsiba, <i>Mastigobryum tridenticulatum</i> (Michx.) Lindenb., <i>Mastigobryum trilobatum</i> (L.) Nees, <i>Pleuroschisma trilobatum</i> (L.) Dumort., <i>Pleurozia trilobata</i> (L.) Ekstr., <i>Radula corniculata</i> Dumort.
+  </div>
 </div>
  <div class="info-right">
 <table>

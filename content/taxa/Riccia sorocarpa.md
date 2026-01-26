@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccia">Riccia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Riccia sorocarpa Bisch.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Riccia sorocarpa Bisch.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185966">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185966">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Riccia acuminata</i> Taylor, <i>Riccia antarctica</i> Steph., <i>Riccia bullosa</i> var. <i>vesiculosa</i> Carrington & Pearson, <i>Riccia chilensis</i> Steph., <i>Riccia epicarpa</i> Wallr. ex Gottsche, Lindenb. & Nees, <i>Riccia heegii</i> Schiffn., <i>Riccia insularis</i> Levier ex Steph., <i>Riccia lindenbergiana</i> Saut., <i>Riccia minima</i> L., <i>Riccia munita</i> Trab., <i>Riccia panormitana</i> Levier & J.B. Jack ex Lojac., <i>Riccia raddiana</i> J.B. Jack & Levier ex Steph., <i>Riccia rauhii</i> Buchloh, <i>Riccia sorocarpa</i> fo. <i>raddiana</i> (J.B. Jack & Levier ex Steph.) Chevassut & Quézel, <i>Riccia sorocarpa</i> var. <i>heegii</i> Schiffn., <i>Riccia sorocarpa</i> var. <i>raddiana</i> (J.B. Jack & Levier ex Steph.) Croz. ex Casares-Gil, <i>Riccia vesiculosa</i> (Carrington & Pearson) Prantl
+  </div>
 </div>
  <div class="info-right">
 <table>

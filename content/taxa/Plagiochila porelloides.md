@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Plagiochila">Plagiochila</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Plagiochila porelloides (Torr. ex Nees) Lindenb.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Plagiochila porelloides (Torr. ex Nees) Lindenb.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185753">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Plagiochilaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185753">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Plagiochilaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia aquatica</i> Schrank, <i>Jungermannia odorata</i> With., <i>Jungermannia porelloides</i> Torr. ex Nees, <i>Plagiochila asplenioides</i> subsp. <i>porelloides</i> (Torr. ex Nees) Lindb. ex Kaal., <i>Plagiochila asplenioides</i> var. <i>grandiretis</i> R.M. Schust., <i>Plagiochila asplenioides</i> var. <i>humilis</i> (Nees) Lindenb., <i>Plagiochila asplenioides</i> var. <i>minor</i> Lindenb., <i>Plagiochila asplenioides</i> var. <i>obcampanulata</i> R.M. Schust., <i>Plagiochila asplenioides</i> var. <i>riparia</i> Breidl., <i>Plagiochila dentosa</i> (S. Hatt.) S. Hatt., <i>Plagiochila hakkodensis</i> var. <i>dentosa</i> S. Hatt., <i>Plagiochila japonomontana</i> S. Hatt., <i>Plagiochila satoi</i> fo. <i>japonomontana</i> (S. Hatt.) Inoue, <i>Plagiochila satoi</i> S. Hatt., <i>Plagiochila satoi</i> var. <i>integerrima</i> S. Hatt., <i>Plagiochila satoi</i> var. <i>magna</i> W.B. Schofield & W.S. Hong
+  </div>
 </div>
  <div class="info-right">
 <table>

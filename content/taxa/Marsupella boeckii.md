@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Marsupella">Marsupella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Marsupella boeckii (Austin) Lindb. ex Kaal.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Marsupella boeckii (Austin) Lindb. ex Kaal.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185598">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185598">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia divaricata</i> var. <i>latifolia</i> (Lindb.) Müll. Frib., <i>Cephalozia nevicensis</i> (Carrington) C. Massal., <i>Hygrobiella nevicensis</i> (Carrington) Spruce, <i>Jungermannia divaricata</i> var. <i>latifolia</i> Lindb., <i>Jungermannia nevicensis</i> Carrington, <i>Marsupella boeckii</i> var. <i>incrassata</i> Arnell & C.E.O. Jensen, <i>Marsupella boeckii</i> var. <i>intricata</i> (Lindb.) Arnell & C.E.O. Jensen, <i>Marsupella boeckii</i> var. <i>latifolia</i> (Lindb.) Kaal., <i>Marsupella boeckii</i> var. <i>nevicensis</i> (Carrington) Kaal., <i>Marsupella capillaris</i> (Limpr.) Bernet, <i>Marsupella filiformis</i> (Lindb.) Lindb., <i>Marsupella filiformis</i> (Lindb.) Lindb. ex Kaal., <i>Marsupella intricata</i> (Lindb.) Steph., <i>Marsupella lapponica</i> Limpr. ex Loitl., <i>Marsupella latifolia</i> Lindb., <i>Marsupella nevicensis</i> (Carrington) Pearson, <i>Marsupella nevicensis</i> fo. <i>irrigua</i> (Limpr.) Müll. Frib., <i>Marsupella stableri</i> Spruce, <i>Nardia boeckii</i> (Austin) Lindb., <i>Nardia capillaris</i> (Limpr.) C. Massal. & Carestia, <i>Nardia filiformis</i> Lindb., <i>Nardia intricata</i> Lindb., <i>Nardia latifolia</i> Lindb., <i>Nardia nevicensis</i> (Carrington) C. Massal. & Carestia, <i>Sarcocyphos capillaris</i> Limpr., <i>Sarcocyphos capillaris</i> var. <i>irriguus</i> Limpr., <i>Sarcocyphos filiformis</i> (Lindb.) Warnst., <i>Sarcocyphos intricatus</i> (Lindb.) Warnst., <i>Sarcocyphos lapponicus</i> Limpr. ex Loitl., <i>Sarcoscyphus boeckii</i> Austin, <i>Sarcoscyphus capillaris</i> Limpr.
+  </div>
 </div>
  <div class="info-right">
 <table>

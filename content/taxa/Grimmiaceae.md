@@ -32,15 +32,15 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Grimmiaceae">Grimmiaceae</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/8747" target="_blank">
-<span class="scientific-name">Grimmiaceae </span>
+    <a href="https://www.gbif.org/species/8747" target="_blank">
+      <span class="scientific-name">Grimmiaceae </span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+    </div>
+  </div>
 </div>
  <div class="info-right">
 <table>

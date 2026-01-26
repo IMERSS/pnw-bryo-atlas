@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Odontoschisma">Odontoschisma</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Odontoschisma denudatum (Mart.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Odontoschisma denudatum (Mart.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185664">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;CephaloziaceaeOdontoschisma.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185664">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;CephaloziaceaeOdontoschisma.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Cephalozia denudata</i> (Mart.) Spruce, <i>Cephalozia denudata</i> var. <i>andina</i> Spruce, <i>Jamesoniella navicularis</i> Steph., <i>Jungermannia denudata</i> (Mart.) Nees, <i>Jungermannia scalaris</i> var. <i>denudata</i> Mart., <i>Odontoschisma atropurpureum</i> Steph., <i>Odontoschisma cavifolium</i> Steph., <i>Odontoschisma denudatum</i> var. <i>cavifolium</i> (Steph.) S. Hatt., <i>Odontoschisma denudatum</i> var. <i>laevissimum</i> R.M. Schust., <i>Odontoschisma excipulatum</i> Steph., <i>Odontoschisma gibbsiae</i> A. Evans, <i>Odontoschisma guadalupense</i> Steph., <i>Odontoschisma huebnerianum</i> (Rabenh.) Austin, <i>Odontoschisma naviculare</i> (Steph.) Grolle, <i>Odontoschisma sphagni</i> var. <i>denudatum</i> (Mart.) C. Massal. & Carestia, <i>Odontoschisma sphagni</i> var. <i>macrior</i> Bernet, <i>Odontoschisma subrotundifolium</i> Steph., <i>Pleuroschisma denudatum</i> (Mart.) Dumort., <i>Sphagnoecetis communis</i> var. <i>macrior</i> (Hartm.) C. Hartm., <i>Sphagnoecetis communis</i> var. <i>macrior</i> Gottsche, <i>Sphagnoecetis huebneriana</i> Rabenh.
+  </div>
 </div>
  <div class="info-right">
 <table>

@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Tritomaria">Tritomaria</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Tritomaria scitula (Taylor) Jørg.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Tritomaria scitula (Taylor) Jørg.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35186004">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeTritomaria.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35186004">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeTritomaria.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Diplophylleia exsectiformis</i> var. <i>aequiloba</i> Culm., <i>Jungermannia scitula</i> Taylor, <i>Lophozia exsecta</i> var. <i>scitula</i> (Taylor) Pearson ex Macoun, <i>Sphenolobus exsectiformis</i> var. <i>aequilobus</i> (Culm.) Müll. Frib., <i>Sphenolobus politus</i> var. <i>acutus</i> (Kaal. ex Schiffn.) Müll. Frib., <i>Sphenolobus scitulus</i> (Taylor) Steph., <i>Tritomaria scitula</i> var. <i>savoica</i> Müll. Frib.
+  </div>
 </div>
  <div class="info-right">
 <table>

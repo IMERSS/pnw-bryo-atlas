@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Bazzania">Bazzania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Bazzania tricrenata (Wahlenb.) Lindb.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Bazzania tricrenata (Wahlenb.) Lindb.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184723">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lepidoziaceae.htm">BFNA</a>
-<a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Bazzania+tricrenata&amp;formsubmit&#x3D;Search+Terms">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184723">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Lepidoziaceae.htm">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Bazzania+tricrenata&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Bazzania alpina</i> (Steph.) P. Syd., <i>Bazzania cordifolia</i> (Steph.) P. Syd., <i>Bazzania deflexa</i> (Mart.) Carruth., <i>Bazzania fissifolia</i> (Steph.) Yasuda, <i>Bazzania fissifolia</i> fo. <i>hamata</i> (Steph.) S. Hatt., <i>Bazzania fissifolia</i> var. <i>subsimplex</i> S. Hatt., <i>Bazzania imbricata</i> (Mitt.) S. Hatt., <i>Bazzania jishibae</i> (Steph.) S. Hatt., <i>Bazzania nudicaulis</i> A. Evans, <i>Bazzania remotifolia</i> Horik., <i>Bazzania triangularis</i> Lindb., <i>Bazzania triangularis</i> var. <i>prolifera</i> Röll, <i>Herpetium deflexum</i> (Mart.) Nees, <i>Herpetium deflexum</i> fo. <i>pygmaeum</i> Nees, <i>Jungermannia cyrtophylla</i> Ångstr. ex Hartm., <i>Jungermannia deflexa</i> Mart., <i>Jungermannia triangularis</i> Schleich. ex Steud., <i>Jungermannia tricrenata</i> Wahlenb., <i>Jungermannia trilobata</i> var. <i>minima</i> Hook., <i>Jungermannia trilobata</i> var. <i>minor</i> F. Weber & D. Mohr, <i>Mastigobryum alpinum</i> (Steph.) Steph., <i>Mastigobryum deflexum</i> (Mart.) Nees, <i>Mastigobryum deflexum</i> var. <i>pygmaeum</i> (Nees) Nees, <i>Mastigobryum fissifolium</i> Steph., <i>Mastigobryum hamatum</i> Steph., <i>Mastigobryum imbricatum</i> Mitt., <i>Mastigobryum jishibae</i> Steph., <i>Mastigobryum longanum</i> Steph., <i>Mastigobryum parvulum</i> (Dumort.) P. Syd., <i>Mastigobryum perrottetii</i> Steph., <i>Mastigobryum subhamatum</i> Beauverd, <i>Mastigobryum subsimplex</i> Steph. ex Yoshin., <i>Mastigobryum triangulare</i> (Schleich. ex Steud.) Steph., <i>Mastigobryum tricrenatum</i> var. <i>deflexum</i> (Mart.) C. Massal., <i>Pleuroschisma alpinum</i> Steph., <i>Pleuroschisma cordifolium</i> Steph., <i>Pleuroschisma deflexum</i> (Mart.) Dumort., <i>Pleuroschisma flaccidum</i> Dumort., <i>Pleuroschisma parvulum</i> Dumort., <i>Pleuroschisma triangulare</i> Schleich. ex Loeske, <i>Pleuroschisma tricrenatum</i> (Wahlenb.) Dumort., <i>Pleuroschisma tricrenatum</i> var. <i>deflexum</i> (Mart.) Levier
+  </div>
 </div>
  <div class="info-right">
 <table>

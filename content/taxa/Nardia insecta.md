@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Nardia">Nardia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Nardia insecta Lindb.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Nardia insecta Lindb.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185648">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185648">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Alicularia geoscyphus</i> fo. <i>insecta</i> (Lindb.) Müll. Frib., <i>Alicularia geoscyphus</i> var. <i>insecta</i> (Lindb.) Macvicar, <i>Nardia crassula</i> Lorb. ex H. Buch, A. Evans & Verd., <i>Nardia crassula</i> Lorb. ex R.M. Schust., <i>Nardia geoscyphus</i> fo. <i>insecta</i> (Lindb.) Arnell, <i>Nardia geoscyphus</i> subsp. <i>insecta</i> (Lindb.) Jørg., <i>Nardia geoscyphus</i> var. <i>insecta</i> (Lindb.) Schiffn., <i>Nardia silvrettae</i> (Gottsche ex Dumort.) Trevis.
+  </div>
 </div>
  <div class="info-right">
 <table>

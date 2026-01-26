@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Riccia">Riccia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Riccia glauca Lindenb.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Riccia glauca Lindenb.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185960">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185960">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Ricciaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Riccia glauca</i> fo. <i>major</i> (Roth) Lindenb., <i>Riccia glauca</i> var. <i>ciliaris</i> Warnst., <i>Riccia glauca</i> var. <i>japonica</i> (Steph.) S. Hatt., <i>Riccia glauca</i> var. <i>major</i> (Roth) Bisch., <i>Riccia glauca</i> var. <i>minor</i> Lindenb., <i>Riccia glauca</i> var. <i>subinermis</i> (Lindb.) Warnst., <i>Riccia japonica</i> Steph., <i>Riccia major</i> Roth, <i>Riccia ruppinensis</i> Warnst., <i>Riccia subinermis</i> Lindb., <i>Riccia venosa</i> Roth
+  </div>
 </div>
  <div class="info-right">
 <table>

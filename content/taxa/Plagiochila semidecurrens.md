@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Plagiochila">Plagiochila</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Plagiochila semidecurrens (Lehm. &amp; Lindenb.) Lindenb.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Plagiochila semidecurrens (Lehm. &amp; Lindenb.) Lindenb.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185756">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Plagiochilaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185756">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Plagiochilaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia semidecurrens</i> Lehm. & Lindenb., <i>Plagiochila asymmetrica</i> Steph., <i>Plagiochila grossevittata</i> Steph., <i>Plagiochila hirsuta</i> Nees, <i>Plagiochila inermis</i> Schiffn. ex Steph., <i>Plagiochila kamounensis</i> Taylor, <i>Plagiochila kaumonensis</i> Taylor ex Herzog, <i>Plagiochila longicalyx</i> Steph., <i>Plagiochila nidulans</i> Herzog, <i>Plagiochila nidulans</i> Herzog ex Carl, <i>Plagiochila nilgherriensis</i> Steph., <i>Plagiochila ornata</i> Dugas, <i>Plagiochila robustissima</i> Horik., <i>Plagiochila schauliana</i> Schiffn. ex Steph., <i>Plagiochila semidecurrens</i> fo. <i>parva</i> S. Hatt., <i>Plagiochila semidecurrens</i> fo. <i>undulata</i> (Carl) Inoue, <i>Plagiochila semidecurrens</i> var. <i>grossidens</i> Herzog, <i>Plagiochila semidecurrens</i> var. <i>longifolia</i> Inoue, <i>Plagiochila semidecurrens</i> var. <i>shimizuana</i> S. Hatt. ex Inoue, <i>Plagiochila semidecurrens</i> var. <i>undulata</i> Carl, <i>Plagiochila semidecurrens</i> var. <i>yakusimensis</i> S. Hatt., <i>Plagiochila sharpii</i> subsp. <i>yakusimensis</i> (S. Hatt.) R.M. Schust., <i>Plagiochila shimizuana</i> S. Hatt., <i>Plagiochila spinosissima</i> Steph., <i>Plagiochila yunnanensis</i> Steph.
+  </div>
 </div>
  <div class="info-right">
 <table>

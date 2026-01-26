@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Marsupella">Marsupella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Marsupella aquatica (Lindenb.) Schiffn.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Marsupella aquatica (Lindenb.) Schiffn.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35201776">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35201776">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia emarginata</i> var. <i>aquatica</i> Lindenb., <i>Jungermannia emarginata</i> var. <i>patens</i> Nees ex Hassk., <i>Jungermannia emarginata</i> var. <i>rivularis</i> Steud., <i>Jungermannia rivularis</i> Sw. ex F. Weber & D. Mohr, <i>Marsupella aquatica</i> fo. <i>nigra</i> Arnell & C.E.O. Jensen, <i>Marsupella aquatica</i> fo. <i>obscura</i> Arnell & C.E.O. Jensen, <i>Marsupella aquatica</i> fo. <i>rubescens</i> Arnell & C.E.O. Jensen, <i>Marsupella aquatica</i> fo. <i>viridis</i> Arnell & C.E.O. Jensen, <i>Marsupella aquatica</i> var. <i>gracilis</i> C.E.O. Jensen, <i>Marsupella aquatica</i> var. <i>submersa</i> Arnell ex Schiffn., <i>Marsupella emarginata</i> fo. <i>mutabilis</i> Jørg., <i>Marsupella emarginata</i> var. <i>aquatica</i> (Lindenb.) Dumort., <i>Marsupella pearsonii</i> var. <i>revoluta</i> Schiffn., <i>Nardia emarginata</i> var. <i>elongata</i> C. Massal. & Carestia, <i>Nardia emarginata</i> var. <i>major</i> Carrington, <i>Sarcocyphos ehrhardtii</i> fo. <i>fuscopurpureus</i> Nees ex Limpr., <i>Sarcocyphos ehrhardtii</i> fo. <i>purpureobrunneus</i> Nees ex Limpr., <i>Sarcocyphos ehrhardtii</i> var. <i>procerus</i> Gottsche ex Limpr., <i>Sarcocyphos ehrhardtii</i> var. <i>rivularis</i> (Steud.) De Not., <i>Sarcocyphos emarginatus</i> var. <i>gracilis</i> Payot, <i>Sarcocyphos emarginatus</i> var. <i>major</i> (Carrington) Husn.
+  </div>
 </div>
  <div class="info-right">
 <table>

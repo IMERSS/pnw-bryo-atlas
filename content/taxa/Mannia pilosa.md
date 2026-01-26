@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Mannia">Mannia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Mannia pilosa (Hornem.) Frye &amp; L.Clark</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Mannia pilosa (Hornem.) Frye &amp; L.Clark</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185590">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aytoniaceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185590">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aytoniaceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Asterella fasciata</i> (Myrin ex Hartm.) Trevis., <i>Duvalia pilosa</i> (Hornem.) Lindb., <i>Grimaldia carnica</i> C. Massal., <i>Grimaldia pilosa</i> (Hornem.) Lindb., <i>Marchantia fasciata</i> Myrin ex Hartm., <i>Marchantia pilosa</i> Hornem., <i>Neesiella carnica</i> (C. Massal.) Schiffn., <i>Neesiella pilosa</i> (Hornem.) Schiffn., <i>Reboulia fasciata</i> (Myrin ex Hartm.) Ångstr.
+  </div>
 </div>
  <div class="info-right">
 <table>

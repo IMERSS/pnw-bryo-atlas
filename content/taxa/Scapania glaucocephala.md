@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Scapania">Scapania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Scapania glaucocephala (Taylor) Austin</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Scapania glaucocephala (Taylor) Austin</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185987">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185987">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia glaucocephala</i> Taylor, <i>Jungermannia glaucophylla</i> Hook. f. & Taylor, <i>Jungermannia scapanioides</i> C. Massal., <i>Scapania calciphila</i> R.M. Schust., <i>Scapania holostoma</i> H. Buch ex Meyl., <i>Scapania peckii</i> Austin, <i>Scapania saxicola</i> R.M. Schust., <i>Scapania scapanioides</i> (C. Massal.) Grolle, <i>Scapania vexata</i> C. Massal., <i>Scapaniella glaucocephala</i> (Taylor) Verd., <i>Scapaniella vexata</i> H. Buch
+  </div>
 </div>
  <div class="info-right">
 <table>

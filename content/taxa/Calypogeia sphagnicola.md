@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Calypogeia">Calypogeia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Calypogeia sphagnicola (Arnell &amp; J.Perss.) Warnst. &amp; Loeske</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Calypogeia sphagnicola (Arnell &amp; J.Perss.) Warnst. &amp; Loeske</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184884">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Eckel-Calypogeiaceae-FNA%20Provisional%20Publication%202024.pdf">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35184884">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Eckel-Calypogeiaceae-FNA%20Provisional%20Publication%202024.pdf">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Calypogeia paludosa</i> Warnst., <i>Calypogeia submersa</i> (Arnell) Warnst., <i>Calypogeia tasmanica</i> Rodway, <i>Calypogeia tenuis</i> (Austin) A. Evans, <i>Calypogeia trichomanis</i> var. <i>tenuis</i> Austin, <i>Cincinnulus trichomanis</i> var. <i>sphagnicola</i> (Arnell & J. Perss.) Meyl., <i>Kantia sphagnicola</i> Arnell & J. Perss., <i>Kantius sphagnicola</i> Arnell & J. Perss., <i>Kantius submersus</i> Arnell, <i>Kantius trichomanis</i> var. <i>tenuis</i> (Austin) Rau
+  </div>
 </div>
  <div class="info-right">
 <table>

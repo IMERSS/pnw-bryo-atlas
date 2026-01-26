@@ -35,17 +35,20 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Mannia">Mannia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Mannia gracilis (F.Weber) D.B.Schill &amp; D.G.Long</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Mannia gracilis (F.Weber) D.B.Schill &amp; D.G.Long</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100355217">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aytoniaceae.htm">BFNA</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100355217">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Aytoniaceae.htm">BFNA</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Asterella gracilis</i> (F. Weber) Underw., <i>Asterella ludwigii</i> (Schwägr.) Underw. ex A. Evans, <i>Marchantia gracilis</i> F. Weber
+  </div>
 </div>
  <div class="info-right">
 <table>

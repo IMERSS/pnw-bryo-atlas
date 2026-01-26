@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Scapania">Scapania</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Scapania curta (Mart.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Scapania curta (Mart.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185977">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185977">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Scapania_R2.pdf">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Jungermannia affinis</i> Huebener, <i>Jungermannia curta</i> Mart., <i>Jungermannia montana</i> Mart., <i>Jungermannia rosacea</i> Corda, <i>Martinellia curta</i> subsp. <i>rosacea</i> Arnell, <i>Martinellius curtus</i> (Mart.) Lindb., <i>Martinellius rosaceus</i> (Corda) Lindb., <i>Plagiochila curta</i> (Mart.) Mont. & Nees, <i>Plagiochila rosacea</i> (Corda) Mont. & Nees, <i>Radula curta</i> (Mart.) Dumort., <i>Scapania curta</i> var. <i>geniculata</i> (C. Massal.) Müll. Frib., <i>Scapania curta</i> var. <i>rosacea</i> (Corda) Carrington, <i>Scapania diplophylloides</i> Amakawa & S. Hatt., <i>Scapania nana</i> Amakawa & S. Hatt., <i>Scapania perssonii</i> R.M. Schust., <i>Scapania pusilla</i> Amakawa & S. Hatt., <i>Scapania rosacea</i> (Corda) Nees
+  </div>
 </div>
  <div class="info-right">
 <table>

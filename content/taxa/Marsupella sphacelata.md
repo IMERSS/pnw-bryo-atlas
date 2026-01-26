@@ -35,18 +35,21 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Marsupella">Marsupella</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-<a href="https://www.gbif.org/species/" target="_blank">
-<span class="scientific-name">Marsupella sphacelata (Giesecke ex Lindenb.) Dumort.</span>
+    <a href="https://www.gbif.org/species/" target="_blank">
+      <span class="scientific-name">Marsupella sphacelata (Giesecke ex Lindenb.) Dumort.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
-</a>
-<div class="external-taxa">
-<a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185612">Tropicos</a>
-<a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-<a href="XXXXX">CBH</a>
-</div>
-</div>
+    </a>
+    <div class="external-taxa">
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185612">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
+      <a href="XXXXX">CBH</a>
+    </div>
+  </div>
+  <div class="taxon-synonyms">
+  Synonyms: <i>Hygrobiella japonica</i> Steph., <i>Jungermannia emarginata</i> var. <i>saccata</i> (Nees) Moug., Nestl. & Schimp., <i>Jungermannia sphacelata</i> Giesecke ex Lindenb., <i>Marsupella aequiloba</i> Steph., <i>Marsupella affinis</i> Kaal., <i>Marsupella emarginata</i> var. <i>saccata</i> (Nees) Pearson, <i>Marsupella erythrorhiza</i> (Limpr.) Schiffn., <i>Marsupella erythrorhiza</i> fo. <i>brevicaulis</i> Schiffn., <i>Marsupella erythrorhiza</i> fo. <i>erythrorhiza</i> , <i>Marsupella erythrorhiza</i> fo. <i>gracilescens</i> Schiffn., <i>Marsupella erythrorhiza</i> fo. <i>nana</i> Schiffn., <i>Marsupella erythrorhiza</i> var. <i>brevicaulis</i> (Schiffn.) Schiffn., <i>Marsupella erythrorhiza</i> var. <i>erythrorhiza</i> , <i>Marsupella jackii</i> (Limpr.) Loeske, <i>Marsupella joergensenii</i> fo. <i>densiretis</i> Kaal., <i>Marsupella joergensenii</i> fo. <i>gracilior</i> Kaal., <i>Marsupella joergensenii</i> fo. <i>gracilis</i> Bryhn ex Jørg., <i>Marsupella joergensenii</i> fo. <i>joergensenii</i> , <i>Marsupella joergensenii</i> fo. <i>nivalis</i> Jørg., <i>Marsupella joergensenii</i> Schiffn., <i>Marsupella media</i> (Gottsche) Schiffn., <i>Marsupella sphacelata</i> fo. <i>bifida</i> R.M. Schust., <i>Marsupella sphacelata</i> fo. <i>densiretis</i> Kaal. ex S.W. Arnell, <i>Marsupella sphacelata</i> fo. <i>inaequalis</i> H. Buch, <i>Marsupella sphacelata</i> fo. <i>joergensenii</i> (Schiffn.) R.M. Schust., <i>Marsupella sphacelata</i> fo. <i>media</i> (Gottsche) R.M. Schust., <i>Marsupella sphacelata</i> fo. <i>minor</i> Bernet, <i>Marsupella sphacelata</i> fo. <i>robustior</i> Bernet, <i>Marsupella sphacelata</i> var. <i>arduennensis</i> Boulay, <i>Marsupella sphacelata</i> var. <i>erythrorhiza</i> (Limpr.) Loitl., <i>Marsupella sphacelata</i> var. <i>eusphacelata</i> Schiffn., <i>Marsupella sphacelata</i> var. <i>inundata</i> Müll. Frib., <i>Marsupella sphacelata</i> var. <i>joergensenii</i> (Schiffn.) Schiffn., <i>Marsupella sphacelata</i> var. <i>media</i> (Gottsche) Trevis., <i>Marsupella sphacelata</i> var. <i>minor</i> (Bernet) Boulay, <i>Marsupella sphacelata</i> var. <i>rosea</i> Kaal., <i>Marsupella sphacelata</i> var. <i>saccata</i> (Nees) Jørg., <i>Marsupella sphacelata</i> var. <i>sullivantii</i> (De Not.) C. Massal., <i>Marsupella sullivantii</i> (De Not.) A. Evans, <i>Marsupella sullivantii</i> fo. <i>brevicaulis</i> Schiffn., <i>Marsupella sullivantii</i> fo. <i>gracilescens</i> Schiffn., <i>Nardia sphacelata</i> (Giesecke ex Lindenb.) Carrington, <i>Nardia sphacelata</i> var. <i>media</i> (Gottsche) C. Massal., <i>Nardia sullivantii</i> (De Not.) Trevis., <i>Sarcocyphos ehrhardtii</i> fo. <i>obtusus</i> Carrington, <i>Sarcocyphos ehrhardtii</i> fo. <i>saccatus</i> Nees, <i>Sarcocyphos ehrhardtii</i> var. <i>erythrorhizus</i> Limpr., <i>Sarcocyphos grandiretis</i> Warnst., <i>Sarcocyphos jackii</i> Limpr., <i>Sarcocyphos piceus</i> De Not. ex Carrington, <i>Sarcocyphos sphacelatus</i> (Giesecke ex Lindenb.) Nees, <i>Sarcocyphos sphacelatus</i> fo. <i>pusillus</i> Steph. ex Hérib., <i>Sarcocyphos sphacelatus</i> var. <i>erythrorhizus</i> (Limpr.) Limpr., <i>Sarcocyphos sphacelatus</i> var. <i>medius</i> Gottsche, <i>Sarcocyphos sullivantii</i> De Not., <i>Sarcoscyphus sullivantii</i> De Not.
+  </div>
 </div>
  <div class="info-right">
 <table>
