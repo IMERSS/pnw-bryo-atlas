@@ -62,11 +62,9 @@ categories:
 <div class="section-nav">
   <a href="#image-gallery">Image Gallery</a>
   <a href="#distinguishing-features">Distinguishing Features</a>
-
   <a href="#similar-species">Similar Species</a>
   <a href="#habitats">Habitats</a>
   <a href="#associated-species">Associated Species</a>
-
   <a href="#distribution-map">Distribution Map</a>
   <a href="#relevant-literature">Relevant Literature</a>
 </div>
