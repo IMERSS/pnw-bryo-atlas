@@ -35,16 +35,17 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Crumia">Crumia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/5280930" target="_blank">
       <span class="scientific-name">Crumia latifolia (Kindb.) W.B.Schofield</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="http:&#x2F;&#x2F;legacy.tropicos.org&#x2F;Name&#x2F;35168650">Tropicos</a>
-      <a href="https:&#x2F;&#x2F;floranorthamerica.org&#x2F;Crumia_latifolia">BFNA</a>
-      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxauthid&#x3D;1&amp;taxon&#x3D;158628&amp;clid&#x3D;171">CBH</a>
+      <a href="http:&#x2F;&#x2F;legacy.tropicos.org&#x2F;Name&#x2F;35168650" target="_blank">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;floranorthamerica.org&#x2F;Crumia_latifolia" target="_blank">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxauthid&#x3D;1&amp;taxon&#x3D;158628&amp;clid&#x3D;171" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/161177" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

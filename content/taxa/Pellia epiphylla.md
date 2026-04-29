@@ -35,14 +35,15 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Pellia">Pellia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/2689550" target="_blank">
       <span class="scientific-name">Pellia epiphylla (L.) Corda</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185694">Tropicos</a>
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185694" target="_blank">Tropicos</a>
+      <a href="https://inaturalist.org/taxa/166296" target="_blank">iNaturalist</a>
     </div>
   </div>
   <div class="taxon-synonyms">

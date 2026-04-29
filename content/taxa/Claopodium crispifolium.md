@@ -35,16 +35,17 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Claopodium">Claopodium</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/2679539" target="_blank">
       <span class="scientific-name">Claopodium crispifolium (Hooker) Renauld &amp; Cardot</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="https:&#x2F;&#x2F;www.tropicos.org&#x2F;name&#x2F;35157725">Tropicos</a>
-      <a href="http:&#x2F;&#x2F;floranorthamerica.org&#x2F;Claopodium_crispifolium">BFNA</a>
-      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Claopodium+crispifolium&amp;formsubmit&#x3D;Search+Terms">CBH</a>
+      <a href="https:&#x2F;&#x2F;www.tropicos.org&#x2F;name&#x2F;35157725" target="_blank">Tropicos</a>
+      <a href="http:&#x2F;&#x2F;floranorthamerica.org&#x2F;Claopodium_crispifolium" target="_blank">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxon&#x3D;Claopodium+crispifolium&amp;formsubmit&#x3D;Search+Terms" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/128661" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

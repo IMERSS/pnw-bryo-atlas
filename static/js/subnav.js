@@ -20,12 +20,15 @@ document.addEventListener("DOMContentLoaded", () => {
         });
     });
 
-    // Close when clicking outside
-    document.addEventListener("click", () => {
-        qsa(".dropdown-button.active").forEach((btn) => {
-            btn.classList.remove("active");
-            window.dropdownPortal.hideAllMenus();
-        });
+    // Close when clicking outside items
+    document.addEventListener("click", (e) => {
+        const item = e.target.closest(".dropdown-item");
+        if (!item) {
+            qsa(".dropdown-button.active").forEach((btn) => {
+                btn.classList.remove("active");
+                window.dropdownPortal.hideAllMenus();
+            });
+        }
     });
 });
 

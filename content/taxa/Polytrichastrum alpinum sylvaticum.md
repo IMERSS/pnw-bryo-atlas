@@ -35,13 +35,14 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Polytrichastrum">Polytrichastrum</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/8156750" target="_blank">
       <span class="scientific-name">Polytrichastrum alpinum sylvaticum (Menzies) G.L.Merr.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
+      <a href="https://inaturalist.org/taxa/" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

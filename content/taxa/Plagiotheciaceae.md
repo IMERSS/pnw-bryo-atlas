@@ -39,6 +39,7 @@ categories:
                 </svg>
     </a>
     <div class="external-taxa">
+      <a href="https://inaturalist.org/taxa/" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

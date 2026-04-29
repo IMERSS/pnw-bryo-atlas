@@ -35,14 +35,15 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Pellia">Pellia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/2689549" target="_blank">
       <span class="scientific-name">Pellia neesiana (Gottsche) Limpr.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185695">Tropicos</a>
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185695" target="_blank">Tropicos</a>
+      <a href="https://inaturalist.org/taxa/56461" target="_blank">iNaturalist</a>
     </div>
   </div>
   <div class="taxon-synonyms">

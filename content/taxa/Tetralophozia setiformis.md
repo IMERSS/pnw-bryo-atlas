@@ -35,16 +35,17 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Tetralophozia">Tetralophozia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/2689449" target="_blank">
       <span class="scientific-name">Tetralophozia setiformis (Ehrh.) Schljakov</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35206405">Tropicos</a>
-      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungTetralophozia.htm">BFNA</a>
-      <a href="XXXXX">CBH</a>
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35206405" target="_blank">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;JungTetralophozia.htm" target="_blank">BFNA</a>
+      <a href="XXXXX" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/481846" target="_blank">iNaturalist</a>
     </div>
   </div>
   <div class="taxon-synonyms">

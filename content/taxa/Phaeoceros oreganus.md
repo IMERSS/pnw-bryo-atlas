@@ -35,16 +35,17 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Phaeoceros">Phaeoceros</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/4277781" target="_blank">
       <span class="scientific-name">Phaeoceros oreganus (Austin) Hässel</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="XXXXX">Tropicos</a>
-      <a href="XXXXX">BFNA</a>
-      <a href="XXXXX">CBH</a>
+      <a href="XXXXX" target="_blank">Tropicos</a>
+      <a href="XXXXX" target="_blank">BFNA</a>
+      <a href="XXXXX" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/166618" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

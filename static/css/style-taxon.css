@@ -1,11 +1,15 @@
 
 .info-panel {
-    /* background-color: #c8d583; */
-    /* font-family: Arial; */
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     font-size: larger;
+}
+
+@media (max-width: 518px) {
+    .info-panel {
+        flex-direction: column;
+    }
 }
 
 .info-left, .info-right {
@@ -113,7 +117,8 @@
 }
 
 .section-nav {
-    display: flex;
+    // display: flex;
+    display: none; /* Hidden pending confirmation */
     column-gap: 1.5rem;
     border-top-width: 1px;
     border-bottom-width: 1px;

@@ -35,16 +35,17 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Vinealobryum">Vinealobryum</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/12214528" target="_blank">
       <span class="scientific-name">Vinealobryum norrisii (R.H. Zander) J.A. Jiménez &amp; M.J. Cano</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="https:&#x2F;&#x2F;www.tropicos.org&#x2F;name&#x2F;100515525">Tropicos</a>
-      <a href="https:&#x2F;&#x2F;floranorthamerica.org&#x2F;Didymodon_norrisii">BFNA</a>
-      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxauthid&#x3D;1&amp;taxon&#x3D;158806&amp;clid&#x3D;122">CBH</a>
+      <a href="https:&#x2F;&#x2F;www.tropicos.org&#x2F;name&#x2F;100515525" target="_blank">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;floranorthamerica.org&#x2F;Didymodon_norrisii" target="_blank">BFNA</a>
+      <a href="https:&#x2F;&#x2F;bryophyteportal.org&#x2F;portal&#x2F;taxa&#x2F;index.php?taxauthid&#x3D;1&amp;taxon&#x3D;158806&amp;clid&#x3D;122" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/1282316" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

@@ -35,16 +35,17 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Paraphymatoceros">Paraphymatoceros</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/9625162" target="_blank">
       <span class="scientific-name">Paraphymatoceros pearsonii (M.Howe) J.C.Villarreal &amp; Cargill</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="XXXXX">Tropicos</a>
-      <a href="XXXXX">BFNA</a>
-      <a href="XXXXX">CBH</a>
+      <a href="XXXXX" target="_blank">Tropicos</a>
+      <a href="XXXXX" target="_blank">BFNA</a>
+      <a href="XXXXX" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/1262572" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

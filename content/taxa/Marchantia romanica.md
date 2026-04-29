@@ -35,15 +35,16 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Marchantia">Marchantia</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/9547189" target="_blank">
       <span class="scientific-name">Marchantia romanica (Radian) D.G.Long, Crand.-Stotl., L.L.Forrest &amp; J.C.Villarreal</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100442499">Tropicos</a>
-      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Marchantiaceae.htm">BFNA</a>
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100442499" target="_blank">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Marchantiaceae.htm" target="_blank">BFNA</a>
+      <a href="https://inaturalist.org/taxa/1115327" target="_blank">iNaturalist</a>
     </div>
   </div>
   <div class="taxon-synonyms">

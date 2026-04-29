@@ -52,14 +52,15 @@ categories:
     </a>
     <div class="external-taxa">
       {{#tropicosURL}}
-      <a href="{{tropicosURL}}">Tropicos</a>
+      <a href="{{tropicosURL}}" target="_blank">Tropicos</a>
       {{/tropicosURL}}
       {{#bfnaURL}}
-      <a href="{{bfnaURL}}">BFNA</a>
+      <a href="{{bfnaURL}}" target="_blank">BFNA</a>
       {{/bfnaURL}}
       {{#cbhURL}}
-      <a href="{{cbhURL}}">CBH</a>
+      <a href="{{cbhURL}}" target="_blank">CBH</a>
       {{/cbhURL}}
+      <a href="https://inaturalist.org/taxa/{{iNatTaxonID}}" target="_blank">iNaturalist</a>
     </div>
   </div>
   {{#synonyms}}

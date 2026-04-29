@@ -43,9 +43,10 @@ categories:
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185643">Tropicos</a>
-      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm">BFNA</a>
-      <a href="XXXXX">CBH</a>
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;35185643" target="_blank">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;Gymnomitriaceae.htm" target="_blank">BFNA</a>
+      <a href="XXXXX" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/156718" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

@@ -35,16 +35,17 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Phymatoceros">Phymatoceros</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/8357609" target="_blank">
       <span class="scientific-name">Phymatoceros bulbiculosus (Brot.) Stotler, W.T.Doyle &amp; Crand.-Stotl.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="XXXXX">Tropicos</a>
-      <a href="XXXXX">BFNA</a>
-      <a href="XXXXX">CBH</a>
+      <a href="XXXXX" target="_blank">Tropicos</a>
+      <a href="XXXXX" target="_blank">BFNA</a>
+      <a href="XXXXX" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/56334" target="_blank">iNaturalist</a>
     </div>
   </div>
 </div>

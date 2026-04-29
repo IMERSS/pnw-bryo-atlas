@@ -64,7 +64,7 @@ const buildTaxonomy = function (rows, gbifLookup) {
 const buildSynonyms = function (synonyms) {
     const togo = {};
     synonyms
-        .filter(synonym => synonym !== "NA")
+        .filter(synonym => synonym.scientificnamewithauthors !== "NA")
         .forEach(synonym => fluid.pushArray(togo, synonym.searched_name, synonym.scientificnamewithauthors));
     return togo;
 };
@@ -149,8 +149,7 @@ const renderTaxonMenu = function (node) {
         if (typeof value === "object") {
             html += `
         <div class="dropdown-item">
-          <a href="${taxonLink(key)}">${key}</a>
-          <svg width="12" height="12"><use href="#right-arrow"/></svg>
+          <a href="${taxonLink(key)}">${key} <svg width="12" height="12"><use href="#right-arrow"/></svg></a>
           ${renderTaxonMenu(value)}
         </div>`;
         } else {
@@ -382,6 +381,7 @@ async function main() {
 
             linkifyText(row, taxonLookup, ["distinguishingFeatures", "similarSpecies", "habitat", "associatedSpecies"]);
             const decorated = await decorate(row);
+            decorated.gbifTaxonId = gbifLookup[row.taxon]?.gbifTaxonId;
 
             const output = mustache.render(template, {...row, ...images, ...decorated}, {modal});
             const outFilename = `content/taxa/${row.taxon}.md`;
@@ -395,7 +395,7 @@ async function main() {
 
     console.log("Generating species pages");
     await renderPages(filtered, row => {
-        if (row.taxon === "Lophocolea heterophylla") {
+        if (row.taxon === "Calycularia laxa") {
             debugger;
         }
         const synonymList = synonymLookup[row.taxon];

@@ -35,16 +35,17 @@ categories:
      <span class="taxon-rank-value"><a href="/taxa/Neoorthocaulis">Neoorthocaulis</a></span>
    </div>
   <div class="taxon-scientific"><span class="scientific-label">Scientific Name: </span>
-    <a href="https://www.gbif.org/species/" target="_blank">
+    <a href="https://www.gbif.org/species/8089310" target="_blank">
       <span class="scientific-name">Neoorthocaulis binsteadii (Kaal.) L.Söderstr., De Roo &amp; Hedd.</span>
                 <svg width="20" height="20">
                     <use href="#green-dot"/>
                 </svg>
     </a>
     <div class="external-taxa">
-      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100356298">Tropicos</a>
-      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm">BFNA</a>
-      <a href="XXXXX">CBH</a>
+      <a href="http:&#x2F;&#x2F;tropicos.org&#x2F;Name&#x2F;100356298" target="_blank">Tropicos</a>
+      <a href="https:&#x2F;&#x2F;www.mobot.org&#x2F;plantscience&#x2F;BFNA&#x2F;V3&#x2F;ScapaniaceaeBarbilophozia.htm" target="_blank">BFNA</a>
+      <a href="XXXXX" target="_blank">CBH</a>
+      <a href="https://inaturalist.org/taxa/1006858" target="_blank">iNaturalist</a>
     </div>
   </div>
   <div class="taxon-synonyms">
